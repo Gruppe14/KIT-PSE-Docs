@@ -34,7 +34,7 @@ Continuous integration
 	Travis
 
 	
-Dokuments
+Documents
 	LaTeX
 
 	
@@ -54,19 +54,19 @@ RDBMS
 
 
 
->> phase supervisors
+>> phase supervisors/scapegoats
 
 Functional Specification:	Alex
 Design:				Jonathan
 Implementation:		Anas
-QA / Testing:		Nikko
+QA / Testing:		Niko
 Final:				Lukas
 
 >> specialists, first contact person
 
 Latex:			Jo
-Git:			Nikko
-English:		Alex, Nikko
+Git:			Niko
+English:		Alex, Niko
 Databases:		Anas
 (please expand)
 
@@ -90,11 +90,11 @@ Databases:		Anas
 
 >> to be done within the research phase
 
-search for libraries
-get familiar with Maven
-decide when to decide which schemata will be supported/used
-set up a project in GitHub for better task managing than with this document?
+search for libraries []
+get familiar with Maven []
+decide when to decide which schemata will be supported/used []
+set up a project in GitHub for better task managing than with this document? [x]
+Replace this document by github "issues" (custom labels are allowed, this includes bugs as well as new features.)
 
 
-
-feel free to edit, correct and edit
+feel free to edit, correct and edit[x][][][]
