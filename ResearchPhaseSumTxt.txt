@@ -1,0 +1,100 @@
+-- Research phase --
+
+>> Choice of weapons
+
+Categories
+	Chosen
+		Why?
+
+Programming language
+	Java
+		
+
+GUI widget toolkit
+	Swing
+
+	
+IDE
+	Eclipse
+
+	
+Build system
+	Maven
+
+	
+Version control
+	Git
+
+	
+Ticket + bug management
+	GitHub
+
+	
+Continuous integration
+	Travis
+
+	
+Dokuments
+	LaTeX
+
+	
+Graphics
+	MS Visio
+
+	
+Communication
+	Mailinglist, Skype
+
+	
+RDBMS
+	MySQL
+
+
+
+
+
+
+>> phase supervisors
+
+Functional Specification:	Alex
+Design:				Jonathan
+Implementation:		Anas
+QA / Testing:		Nikko
+Final:				Lukas
+
+>> specialists, first contact person
+
+Latex:			Jo
+Git:			Nikko
+English:		Alex, Nikko
+Databases:		Anas
+(please expand)
+
+
+>> the task
+
+1) Queries from SkyServer Database ---convert---> tabular format in database/warehouse
+	- therefor develop method for analyzing the WHERE parts
+	- find library assisting the parsing process (TBD)
+	- ...
+
+2) Database/warehouse ---multidimensional analysis--> visualization
+	- find library helping with the diagrams (TBD)
+	- decide which schemata and measures are allowed
+	- build GUI
+	- develop analysis methods
+	- ...
+
+(please extend and/or specify)
+
+
+>> to be done within the research phase
+
+search for libraries
+get familiar with Maven
+decide when to decide which schemata will be supported/used
+set up a project in GitHub for better task managing than with this document?
+
+
+
+feel free to edit, correct and edit
