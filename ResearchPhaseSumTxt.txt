@@ -23,12 +23,12 @@ GUI widget toolkit
 	
 IDE
 	Eclipse
-	 	  Glukas
+	 	  Lukas
 
 	
 Build system
-	Maven
-		 Glukas
+	Gradle
+		 Lukas
 
 	
 Version control
