@@ -5,50 +5,66 @@
 Categories
 	Chosen
 		Why?
+		      Who? (will present)
 
+	
+Communication
+	Mailinglist, Skype
+			   Alex
 Programming language
 	Java
+	      Alex
 		
 
 GUI widget toolkit
 	Swing
+	      Alex
 
 	
 IDE
 	Eclipse
+	 	  Glukas
 
 	
 Build system
 	Maven
+		 Glukas
 
 	
 Version control
 	Git
+				Niko
 
 	
 Ticket + bug management
 	GitHub
+				Niko
 
 	
 Continuous integration
 	Travis
+				Niko
 
 	
 Documents
 	LaTeX
+		Jo?
 
 	
 Graphics
 	MS Visio
 
-	
-Communication
-	Mailinglist, Skype
+
 
 	
 RDBMS
 	MySQL
 
+Java Visualization Library
+	???
+
+Sql parser
+	???
 
 
 
