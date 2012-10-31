@@ -97,4 +97,4 @@ set up a project in GitHub for better task managing than with this document? [x]
 Replace this document by github "issues" (custom labels are allowed, this includes bugs as well as new features.)
 
 
-feel free to edit, correct and edit[x][][][]
+feel free to edit, correct and edit[x][x][][]
