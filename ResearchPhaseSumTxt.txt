@@ -64,6 +64,7 @@ RDBMS
 
 Graphics Visualization Library
 	http://d3js.org/
+	wow does http://www.highcharts.com/ look good
 	
 		
 
