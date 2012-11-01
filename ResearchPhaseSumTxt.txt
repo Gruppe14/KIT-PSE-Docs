@@ -61,9 +61,10 @@ RDBMS
 	MySQL
 
 Java Visualization Library
-	useful link: http://stackoverflow.com/questions/8526820/free-java-data-visualization-library
-	Processing looks reaaally powerful, but might have a learning curve. http://processing.org/
-	
+	useful links: http://stackoverflow.com/questions/8526820/free-java-data-visualization-library
+	http://java-source.net/open-source/charting-and-reporting
+	Can you find something better than http://www.jfree.org/jfreechart/samples.html ?
+		
 
 Sql parser
 	??? [x], we will probably write one.
