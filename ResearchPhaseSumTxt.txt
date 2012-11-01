@@ -11,6 +11,7 @@ Categories
 Communication
 	Mailinglist, Skype
 			   Alex
+
 Programming language
 	Java
 	      Alex
@@ -91,7 +92,8 @@ Final:				Lukas
 >> specialists, first contact person
 
 Latex:			Jo
-Git:			Niko
+MS Visio:		Jo (not yet, but I will get myself into that)
+Git + GitHub:		Niko
 English:		Alex, Niko
 Databases:		Anas
 (please expand)
@@ -116,12 +118,11 @@ Databases:		Anas
 
 >> to be done within the research phase
 
-search for libraries []
-get familiar with Maven []
+search for libraries [x ]
 decide when to decide which schemata will be supported/used []
 set up a project in GitHub for better task managing than with this document? [x]
 Replace this document by github "issues" (custom labels are allowed, this includes bugs as well as new features.)
-making a short präsentation with latex [] (jo: i'll do that know...)
+making a short präsentation with latex [x]
 
 
 feel free to edit, correct and edit[x][x][x][][]
