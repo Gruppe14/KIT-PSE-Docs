@@ -62,13 +62,8 @@ RDBMS
 	MySQL
 		Anas
 
-Java Visualization Library
-	useful links: http://stackoverflow.com/questions/8526820/free-java-data-visualization-library
-	http://java-source.net/open-source/charting-and-reporting
-	Can you find something better than http://www.jfree.org/jfreechart/samples.html ?
-	
-	edit again: processing is reaaally cool, if someone has interest we can write our own library with it.
-	Trying to decide if that someone is me. (Niko)
+Graphics Visualization Library
+	http://d3js.org/
 	
 		
 
