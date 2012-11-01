@@ -48,17 +48,18 @@ Continuous integration
 	
 Documents
 	LaTeX
-		Jo?
+		Jo
 
 	
 Graphics
 	MS Visio
-
+		Jo
 
 
 	
 RDBMS
 	MySQL
+		Anas?
 
 Java Visualization Library
 	useful links: http://stackoverflow.com/questions/8526820/free-java-data-visualization-library
@@ -66,11 +67,13 @@ Java Visualization Library
 	Can you find something better than http://www.jfree.org/jfreechart/samples.html ?
 	
 	edit again: processing is reaaally cool, if someone has interest we can write our own library with it.
-	Trying to decide if that someone is me.
+	Trying to decide if that someone is me. (Who is me?)
 		
 
 Sql parser
 	??? [x], we will probably write one.
+	As we have to write a parser and analyzer for the WHERE-parts,
+		we may just write one for the whole queeries?! [+][][][][]
 
 
 
@@ -80,8 +83,8 @@ Sql parser
 
 Functional Specification:	Alex
 Design:				Jonathan
-Implementation:		Anas
-QA / Testing:		Niko
+Implementation:			Anas
+QA / Testing:			Niko
 Final:				Lukas
 
 >> specialists, first contact person
@@ -97,11 +100,11 @@ Databases:		Anas
 
 1) Queries from SkyServer Database ---convert---> tabular format in database/warehouse
 	- therefor develop method for analyzing the WHERE parts
-	- find library assisting the parsing process (TBD)
+	- find library assisting the parsing process (rejected)
 	- ...
 
 2) Database/warehouse ---multidimensional analysis--> visualization
-	- find library helping with the diagrams (TBD)
+	- find library helping with the diagrams [x]
 	- decide which schemata and measures are allowed
 	- build GUI
 	- develop analysis methods
@@ -117,6 +120,7 @@ get familiar with Maven []
 decide when to decide which schemata will be supported/used []
 set up a project in GitHub for better task managing than with this document? [x]
 Replace this document by github "issues" (custom labels are allowed, this includes bugs as well as new features.)
+making a short präsentation with latex [] (jo: i'll do that know...)
 
 
-feel free to edit, correct and edit[x][x][][]
+feel free to edit, correct and edit[x][x][x][][]
