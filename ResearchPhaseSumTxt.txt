@@ -61,10 +61,12 @@ RDBMS
 	MySQL
 
 Java Visualization Library
-	???
+	useful link: http://stackoverflow.com/questions/8526820/free-java-data-visualization-library
+	Processing looks reaaally powerful, but might have a learning curve. http://processing.org/
+	
 
 Sql parser
-	???
+	??? [x], we will probably write one.
 
 
 
