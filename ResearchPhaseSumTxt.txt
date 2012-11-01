@@ -36,7 +36,7 @@ Version control
 				Niko
 
 	
-Ticket + bug management
+Ticket + bug management  + Hosting of the version control repository
 	GitHub
 				Niko
 
@@ -59,7 +59,7 @@ Graphics
 	
 RDBMS
 	MySQL
-		Anas?
+		Anas
 
 Java Visualization Library
 	useful links: http://stackoverflow.com/questions/8526820/free-java-data-visualization-library
@@ -67,7 +67,8 @@ Java Visualization Library
 	Can you find something better than http://www.jfree.org/jfreechart/samples.html ?
 	
 	edit again: processing is reaaally cool, if someone has interest we can write our own library with it.
-	Trying to decide if that someone is me. (Who is me?)
+	Trying to decide if that someone is me. (Niko)
+	
 		
 
 Sql parser
