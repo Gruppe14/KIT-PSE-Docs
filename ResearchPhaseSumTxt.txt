@@ -64,7 +64,7 @@ RDBMS
 
 Graphics Visualization Library
 	http://d3js.org/
-	wow does http://www.highcharts.com/ look good
+	http://code.shutterstock.com/rickshaw/ looks much(much much) easier, possibly less customizable
 	
 		
 
