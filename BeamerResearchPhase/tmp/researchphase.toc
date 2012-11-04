@@ -1,5 +1,0 @@
-\beamer@endinputifotherversion {3.22pt}
-\select@language {ngerman}
-\beamer@sectionintoc {1}{Weapons}{5}{0}{1}
-\beamer@sectionintoc {2}{Phase supervisors}{19}{0}{2}
-\beamer@sectionintoc {3}{Specialists}{25}{0}{3}
