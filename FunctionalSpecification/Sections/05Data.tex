@@ -1,2 +1,19 @@
 \section{Data}
-\ldots
+
+% Enumeration changed
+\renewcommand{\theenumi}{/D\arabic{enumi}0/}
+\renewcommand{\labelenumi}{\theenumi}
+
+\subsection{First Whatever}
+
+\begin{enumerate}
+  \item blabla %<- 10
+  \item tadaa % <- 20
+\end{enumerate}
+
+\subsection{Next Whatever}
+
+\begin{enumerate}[resume] % <- resume goes on with old counter
+  \item 30!
+  \item 40!
+\end{enumerate}

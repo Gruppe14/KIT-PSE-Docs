@@ -9,13 +9,21 @@
 \BOOKMARK [1][-]{section.3}{Operating environment}{}% 9
 \BOOKMARK [2][-]{subsection.3.1}{Software}{section.3}% 10
 \BOOKMARK [2][-]{subsection.3.2}{Hardware}{section.3}% 11
-\BOOKMARK [1][-]{section.4}{Functional requirements}{}% 12
-\BOOKMARK [1][-]{section.5}{Data}{}% 13
-\BOOKMARK [1][-]{section.6}{Nonfunctional requirements}{}% 14
-\BOOKMARK [1][-]{section.7}{Global test cases}{}% 15
-\BOOKMARK [1][-]{section.8}{Models}{}% 16
-\BOOKMARK [2][-]{subsection.8.1}{User stories}{section.8}% 17
-\BOOKMARK [2][-]{subsection.8.2}{Object models}{section.8}% 18
-\BOOKMARK [2][-]{subsection.8.3}{Dynamic models}{section.8}% 19
-\BOOKMARK [2][-]{subsection.8.4}{User interfaces}{section.8}% 20
-\BOOKMARK [1][-]{section.9}{Glossary}{}% 21
+\BOOKMARK [2][-]{subsection.3.3}{Orgware}{section.3}% 12
+\BOOKMARK [2][-]{subsection.3.4}{Product interfaces}{section.3}% 13
+\BOOKMARK [1][-]{section.4}{Functional requirements}{}% 14
+\BOOKMARK [2][-]{subsection.4.1}{First Whatever}{section.4}% 15
+\BOOKMARK [2][-]{subsection.4.2}{Next Whatever}{section.4}% 16
+\BOOKMARK [1][-]{section.5}{Data}{}% 17
+\BOOKMARK [2][-]{subsection.5.1}{First Whatever}{section.5}% 18
+\BOOKMARK [2][-]{subsection.5.2}{Next Whatever}{section.5}% 19
+\BOOKMARK [1][-]{section.6}{Nonfunctional requirements}{}% 20
+\BOOKMARK [2][-]{subsection.6.1}{First Whatever}{section.6}% 21
+\BOOKMARK [2][-]{subsection.6.2}{Next Whatever}{section.6}% 22
+\BOOKMARK [1][-]{section.7}{Global test cases}{}% 23
+\BOOKMARK [1][-]{section.8}{Models}{}% 24
+\BOOKMARK [2][-]{subsection.8.1}{User stories}{section.8}% 25
+\BOOKMARK [2][-]{subsection.8.2}{Object models}{section.8}% 26
+\BOOKMARK [2][-]{subsection.8.3}{Dynamic models}{section.8}% 27
+\BOOKMARK [2][-]{subsection.8.4}{Web interfaces}{section.8}% 28
+\BOOKMARK [1][-]{section.9}{Glossary}{}% 29

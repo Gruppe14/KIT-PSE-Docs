@@ -38,9 +38,10 @@
 % Customized headlines
 % TBD if wanted
 
-% Enumeration changed
-\renewcommand{\theenumi}{(\arabic{enumi}0)}
-\renewcommand{\labelenumi}{\theenumi}
+% If you want enumartions to go on with last one do this:
+% \begin{enumarte}[resume]
+\usepackage{enumitem}
+
 
 % Including pictures
 \usepackage{graphicx}
@@ -66,7 +67,7 @@
 
 \tableofcontents
 \newpage
-\include{Sections/00Introduction}
+\include{Sections/00Introduction} 
 \newpage
 \include{Sections/01Goals}
 \newpage 
