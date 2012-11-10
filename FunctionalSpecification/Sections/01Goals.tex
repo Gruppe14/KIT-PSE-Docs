@@ -1,6 +1,32 @@
 \section{Goals}
 \subsection{Criteria} % Musskriterien
+\subsubsection(Server Log Parser (SLP))
+\begin{itemize}
+\item The SLP can read a CSV-formatted log file from sdss.skyserver.org and fill a data-warehouse with multi-dimensional user information.
+The dimensions of this data are location of the user, location of the database and time of the server-access. 
+\item SLP will recognise invalid logs and won't add them to the data-warehouse. Every log with a mistake won't be accepted, because
+an error-message is not as bad as a corrupted data-warehouse. 
+\end{itemize}
+\subsubsection(Warehouse Analyzing Tool (WHAT))
+\begin{itemize}
+\item WHAT can use the data-warehouse which is filled with user data from sdss.skyverser.org to create various charts. 
+Those charts are created by user command and are visible on a javascript-webpage.
+\item WHAT can create scatterplots and histograms from data in the warehouse.
+\end{itemize}
 
 \subsection{Optional criteria}
 
 \subsection{Exclusion criteria}
+\subsubsection(Server Log Parser (SLP))
+\begin{itemize}
+\item The SLP can only use CSV-formatted logs from sdss.skyserver.org. It can neither read logs in another format nor logs
+from another source.
+\item There is no way to avoid using SLP when adding data to the warehouse. This can stop corrupting the warehouse to guarantee 
+correct data in the warehouse.
+\item SLP doesn't correct mistakes in the log file.
+\end{itemize}
+\subsubsection(Warehouse Analyzing Tool (WHAT))
+\begin{itemize}
+\item WHAT takes correct data in the warehouse for granted. It doesn't check the data because it already checked by
+SLP. 
+\end{itemize}
