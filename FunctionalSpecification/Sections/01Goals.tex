@@ -1,9 +1,9 @@
 \section{Goals}
 
 %=======================================================================
-\subsection{Criteria} % Musskriterien
+\subsection{Server Log Parser (SLP)}
 
-\subsubsection{Server Log Parser (SLP)}
+\subsubsection{Criteria} % Musskriterien
 \begin{itemize}
 \item The SLP can read a CSV-formatted log file from sdss.skyserver.org
  and fill a data-warehouse with multi-dimensional user information.
@@ -14,21 +14,11 @@
  as bad as a corrupted data-warehouse. 
 \end{itemize}
 
-\subsubsection{Warehouse Analyzing Tool (WHAT)}
-\begin{itemize}
-\item WHAT can use the data-warehouse which is filled with user data 
-from sdss.skyverser.org to create various charts. 
-Those charts are created by user command and are visible on a javascript-webpage.
-\item WHAT can create scatterplots and histograms from data in the warehouse.
-\end{itemize}
+%----------------------------------------------------------------------
+\subsubsection{Optional criteria}
 
-%=======================================================================
-\subsection{Optional criteria}
-
-
-%=======================================================================
-\subsection{Exclusion criteria}
-\subsubsection{Server Log Parser (SLP)}
+%----------------------------------------------------------------------
+\subsubsection{Exclusion criteria}
 \begin{itemize}
 \item The SLP can only use CSV-formatted logs from sdss.skyserver.org. 
 It can neither read logs in another format nor logs
@@ -38,7 +28,24 @@ This can stop corrupting the warehouse to guarantee correct data in the warehous
 \item SLP doesn't correct mistakes in the log file.
 \end{itemize}
 
-\subsubsection{Warehouse Analyzing Tool (WHAT)}
+
+
+%=======================================================================
+\subsection{Warehouse Analyzing Tool (WHAT)}
+
+\subsubsection{Criteria}
+\begin{itemize}
+\item WHAT can use the data-warehouse which is filled with user data  
+from sdss.skyverser.org to create various charts. 
+Those charts are created by user command and are visible on a javascript-webpage.
+\item WHAT can create scatterplots and histograms from data in the warehouse.
+\end{itemize}
+
+%----------------------------------------------------------------------
+\subsubsection{Optional criteria}
+
+%----------------------------------------------------------------------
+\subsubsection{Exclusion criteria}
 \begin{itemize}
 \item WHAT takes correct data in the warehouse for granted. It doesn't check the
  data because it already checked by SLP. 
