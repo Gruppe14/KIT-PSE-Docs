@@ -1,6 +1,10 @@
 \section{Goals}
 
 %=======================================================================
+\subsection{NOT YET FOUND, EDIT!!!}
+
+The whole project code and documentation, as well as the website for WHAT, will be in English. 
+
 \subsection{Server Log Parser (SLP)}
 
 % TODO generell goal specification
@@ -18,6 +22,9 @@
 
 %----------------------------------------------------------------------
 \subsubsection{Optional criteria}
+\begin{itemize}
+\item SLP will contain a small manual which is designed for experienced users.
+\end{itemize}
 
 %----------------------------------------------------------------------
 \subsubsection{Exclusion criteria}
@@ -28,6 +35,8 @@ from another source.
 \item There is no way to avoid using SLP when adding data to the warehouse. 
 This can stop corrupting the warehouse to guarantee correct data in the warehouse.
 \item SLP doesn't correct mistakes in the log file.
+\item Due to being only a tool for the persons who wrote it, SLP doesn't need to be easy to use for first-time users.
+It will be a console program or maybe contain a simple GUI.
 \end{itemize}
 
 
@@ -40,11 +49,20 @@ This can stop corrupting the warehouse to guarantee correct data in the warehous
 \item WHAT can use the data-warehouse which is filled with user data  
 from sdss.skyverser.org to create various charts. 
 Those charts are created by user command and are visible on a javascript-webpage.
-\item WHAT can create scatterplots and histograms from data in the warehouse.
+\begin{itemize}
+\item scatterplots
+\item histograms
+\end{itemize}
+\item The website contains small guides for experienced users on how to create a specific chart. 
+(similar to the guides at skyserver.sdss.org)
 \end{itemize}
 
 %----------------------------------------------------------------------
 \subsubsection{Optional criteria}
+\begin{itemize}
+\item The language of the website can be changed into different languages. (e.g. German)
+\item WHAT will support different chart-types.
+\end{itemize}
 
 %----------------------------------------------------------------------
 \subsubsection{Exclusion criteria}
