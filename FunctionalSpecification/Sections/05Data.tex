@@ -1,19 +1,35 @@
 \section{Data}
-
+The product data are divided in two groups, static data, 
+which are delivered with the program and Data-Warehouse data, 
+which come from the Skyserver server logs, are parsed 
+and loaded into the Data-Warehouse by the SLP. They can be replaced 
+by clearing the Data-Warehouse and loading new data into it with the SLP.
 % Enumeration changed
 \renewcommand{\theenumi}{/D\arabic{enumi}0/}
 \renewcommand{\labelenumi}{\theenumi}
 
-\subsection{First Whatever}
+\subsection{Static Data}
 
 \begin{enumerate}
-  \item blabla %<- 10
-  \item tadaa % <- 20
+  \item Language files
+  \item Manual
+  \item Source Code
+  \item Documentation
+  \item Graphics for GUI
+  \item HTML backbone
+  \item Javascript files
+  \item Stylesheet files
 \end{enumerate}
 
-\subsection{Next Whatever}
+\subsection{Data-Warehouse data}
 
 \begin{enumerate}[resume] % <- resume goes on with old counter
-  \item 30!
-  \item 40!
+  \item Database accessed by Users
+  \item Server accessed by Users
+  \item City of Users
+  \item Country of Users
+  \item Time of Skyserver Access
+  \item Number of rows accessed
+  \item Elapsed time of access
+  \item CPU busy time of access
 \end{enumerate}
