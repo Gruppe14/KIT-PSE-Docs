@@ -2,13 +2,19 @@
 This is the functional specification for Group 14 in the PSE assignment 10 in winter semester 2012/13. 
 In this project we have to analyze and visualize the serverlog of the 
 \href{http://skyserver.sdss.org/public/en/}{Skyserver}, 
-which is a database for astronomical data. For this assignment we are going to write 
-two separate applications. The first application is called Server Log Parser (SLP)
-and is going to convert the CSV-formatted serverlog from Skyserver into a data-warehouse.
-The second application works on this data-warehouse and allows it's users to create various charts,
-for example scatterplots and histograms. Due to the fact that we split the assignment
-into two separate applications, many parts of this specification are going to be 
-splitted in two parts, one for each of those. 
+which is a database for astronomical data. This assignment is one of two PSE assignments which will be handled in English.
+Because none of us speaks English as his first language, we have to apologize that our documentation may contain simple 
+or maybe in some parts incorrectly used language. We focus more on having easy-to-understand and correct documentation 
+than on perfect English, which sounds like written by a native speaker.
+\newline\newline
+We are going to write a web-frontend in javascript which allows users to access the finished application from everywhere
+with recent browsers. The actual application can be spliited into two different parts. The first part get the internal name
+Server Log Parser (SLP) and is going to convert the CSV-formatted serverlog from Skyserver into a data-warehouse. It will
+be accessible via admin-login to the webpage where we can enter a logfile which will be parsed into our warehouse.
+The second part - which got the internal name Warehouse Analyzing Tool (WHAT) works on this data-warehouse 
+and allows every user of our webpage to create various charts, for example scatterplots and histograms.
+Due to the fact that we split our project in two smaller parts, many parts of this specification 
+are going to be splitted in two.
 \newline
 \newline
 We have to state that no one of us has much experience in working with databases and javascript.
