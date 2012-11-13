@@ -51,6 +51,13 @@
 % For links of the chapters and out of the pdf + boxes around links deleted
 \usepackage[colorlinks=true, linkcolor=black, urlcolor=blue]{hyperref} 
 
+
+% Glossary
+\usepackage[makeindex]{glossaries}
+\include{Sections/0XGlossaryEntries} 
+\makeglossaries   
+ 
+
 %\author{Lukas Ehnle, 
 %Jo Klawitter, Nikos Moraitakis, Alexander Noe, Anas Saber}
 
@@ -62,12 +69,12 @@
 \newgeometry{a4paper,top=19mm,bottom=10mm,left=15mm, right=15mm, heightrounded,headsep=15mm, includeheadfoot}
 \include{titlepage} 
 \restoregeometry
+\newpage 
 
-
-\tableofcontents
-\newpage
 \include{Sections/00Introduction} 
-\newpage
+\tableofcontents
+  
+\newpage 
 \include{Sections/01Goals}
 \newpage 
 \include{Sections/02Usage}
@@ -85,9 +92,9 @@
 \include{Sections/08Models} 
 \newpage 
 \include{Sections/09Glossary}
-\newpage 
+\newpage  
  
-  
+   
 %!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%
 \end{document}  % END END END END END END END END END END END END END END 
 %!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%

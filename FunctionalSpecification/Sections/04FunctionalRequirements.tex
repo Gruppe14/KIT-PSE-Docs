@@ -5,48 +5,113 @@
 \renewcommand{\labelenumi}{\theenumi}
  
 % TODO solve the F90 to F100 problem
+\subsection{Main functions}
 
-\subsection{SLP}
+This functions are required to fulfill the obligatory criteria.
 
+\subsubsection*{General} 
 \begin{enumerate}
   
-  \item Show up with a GUI, when started
+  \item Provide access via web page
+    
+  \item Provide options for chart types
   
-  \item Provide an option for the user to determine the program 
-  	in a clean way
-  	
-  \item Extract all specified data from a given .csv log file
-  % TODO link specified to the specification of this xD
+  \item Show diagrams
   
-  \item Transform data to fit specified data warehouse dimensions
-  	and measures
+  \item Show histograms % add to glossary
   
-  \item Loading the data into a specified data warehouse
-  	
-  \item \ldots?
-   
+  \item Provide option for the two variables of the histrogram
+  
+  \item Provide option for the interval or selection of the x-axis variable % ref to privious
+  
+  \item Show scattered plots % add to glossary
+  
+  \item Provide option for the two variables of the scattered plot
+  
+  \item Provide option for the intervals or selections of the two variables % ref to privious
+  
+  \item Show bubble charts % add to glossary
+  
+  \item Provide option for the three variables of the scattered plot
+  
+  \item Provide option for the intervals or selections of the two variables % ref to privious
+  
+  \item Show information about chart types
+  
+  \item Show information about selectable variables
+  
 \end{enumerate}
 
-\subsection{WHAT} 
+
+
+\subsubsection*{Adminstrator specific} 
+This functions are required for the adminstrative business.
 
 \begin{enumerate}[resume]
   
-  \item Online analytical processing (OLAP) against data warehouse
-     
-  \item Show histograms
+  \item Provide access via web page with administrator rights
+   
+  \item Provide the oppertunity to initialize the data warehouse * % may get kicked out
+   
+  \item Provide the oppertunity to pass log-files to the parser
   
-  \item Show scattered plots
-  
-  \item Show whatever-grams.. (not yet specified) % TODO specify
-  
-  \item Scroll in and out of diagrams
-  
-  \item Other diagram options (not yet specified)
-  
-  \item Provide selection 
-  
-  \item Provide selection via filters
-  
-  \item \ldots
+  \item Provide the oppertunity to clean the data warehouse
+   
+\end{enumerate}
 
+
+\subsubsection*{Parser specific} 
+ 
+ The following functions specify the parses functionality. Thereby /FXU/* to /FXZ/* specify
+ the function /FXT/.
+ 
+\begin{enumerate}[resume]
+  
+  \item Extract specific data from the log-files
+  
+  \item Extract access database, access time and user information (dimensions) % add to glossary: first
+  
+  \item Extract number of rows, elapsed time, busy time (measures) % add to glossary: all 3
+  
+  \item Extract type of data requested from the \texttt{where} part % add to glossary: where
+  
+  \item Transform the data to fit into the data warehouse schema
+  
+  \item Load the data into the data warehouse
+
+\end{enumerate}
+
+\subsubsection*{Analyzer specific} 
+ 
+\begin{enumerate}[resume]
+  
+  \item Run specific queries against data warehouse  
+  
+  \item Build up diagrams with received data  % ref to selection /FXY/
+  
+  \item Build up histrograms
+  
+  \item Build up scattered plots
+  
+  \item Build up bubble charts
+
+\end{enumerate}
+
+
+\subsection{Optional functions}
+
+To fulfill the optional goals the following functions are required.
+
+\begin{enumerate}[resume]
+  
+  \item Select language on web page
+  
+  \item Switch language to German or other
+  
+  \item Build up and show bubble map % add to glossary
+  
+  \item Build up and show other chart types
+  
+  \item \ldots 
+ 
 \end{enumerate}

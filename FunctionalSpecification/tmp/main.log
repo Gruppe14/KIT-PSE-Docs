@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  12 NOV 2012 00:34
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  13 NOV 2012 22:39
 entering extended mode
 **main.tex
 
@@ -1056,6 +1056,112 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip60
 )
+(C:\Users\Jonathan\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries\base\glossar
+ies.sty
+Package: glossaries 2012/09/21 v3.03 (NLCT)
+
+("C:\Program Files\Programmieren\Latex\MiKTeX\tex\latex\xkeyval\xkeyval.sty"
+Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
+
+("C:\Program Files\Programmieren\Latex\MiKTeX\tex\generic\xkeyval\xkeyval.tex"
+\XKV@toks=\toks22
+\XKV@tempa@toks=\toks23
+\XKV@depth=\count106
+File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
+))
+(C:\Users\Jonathan\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries\base\mfirstu
+c.sty
+Package: mfirstuc 2012/05/21 v1.06 (NLCT)
+\@glsmfirst=\toks24
+\@glsmrest=\toks25
+) (C:\Users\Jonathan\AppData\Roaming\MiKTeX\2.9\tex\latex\xfor\xfor.sty
+Package: xfor 2009/02/05 v1.05 (NLCT)
+)
+("C:\Program Files\Programmieren\Latex\MiKTeX\tex\latex\ams\math\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks26
+\ex@=\dimen120
+)
+\gls@level=\count107
+\@gls@tmpb=\toks27
+\gls@tmplen=\skip61
+\glswrite=\write3
+\glskeylisttok=\toks28
+\glslabeltok=\toks29
+\glsshorttok=\toks30
+\glslongtok=\toks31
+
+(C:\Users\Jonathan\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries\styles\gloss
+ary-hypernav.sty
+Package: glossary-hypernav 2007/07/04 v1.01 (NLCT)
+)
+(C:\Users\Jonathan\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries\styles\gloss
+ary-list.sty
+Package: glossary-list 2012/09/21 v3.03 (NLCT)
+\glslistdottedwidth=\skip62
+)
+(C:\Users\Jonathan\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries\styles\gloss
+ary-long.sty
+Package: glossary-long 2012/09/21 v3.03 (NLCT)
+
+("C:\Program Files\Programmieren\Latex\MiKTeX\tex\latex\tools\longtable.sty"
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip63
+\LTright=\skip64
+\LTpre=\skip65
+\LTpost=\skip66
+\LTchunksize=\count108
+\LTcapwidth=\dimen121
+\LT@head=\box28
+\LT@firsthead=\box29
+\LT@foot=\box30
+\LT@lastfoot=\box31
+\LT@cols=\count109
+\LT@rows=\count110
+\c@LT@tables=\count111
+\c@LT@chunks=\count112
+\LT@p@ftn=\toks32
+)
+Class scrartcl Info: longtable captions redefined on input line 43.
+\glsdescwidth=\skip67
+\glspagelistwidth=\skip68
+)
+(C:\Users\Jonathan\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries\styles\gloss
+ary-super.sty
+Package: glossary-super 2012/09/21 v3.03 (NLCT)
+
+(C:\Users\Jonathan\AppData\Roaming\MiKTeX\2.9\tex\latex\supertabular\supertabul
+ar.sty
+Package: supertabular 2004/02/20 v4.1e the supertabular environment
+\c@tracingst=\count113
+\ST@wd=\dimen122
+\ST@rightskip=\skip69
+\ST@leftskip=\skip70
+\ST@parfillskip=\skip71
+\ST@pageleft=\dimen123
+\ST@headht=\dimen124
+\ST@tailht=\dimen125
+\ST@pagesofar=\dimen126
+\ST@pboxht=\dimen127
+\ST@lineht=\dimen128
+\ST@stretchht=\dimen129
+\ST@prevht=\dimen130
+\ST@toadd=\dimen131
+\ST@dimen=\dimen132
+\ST@pbox=\box32
+))
+(C:\Users\Jonathan\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries\styles\gloss
+ary-tree.sty
+Package: glossary-tree 2012/09/21 v3.03 (NLCT)
+\glstreeindent=\skip72
+))
+\@input{Sections/0XGlossaryEntries.aux}
+
+("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
+onalSpecification\Sections/0XGlossaryEntries.tex")
+\glo@main@file=\write4
+Package glossaries Info: Writing glossary file main.glo on input line 58.
+
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\main.aux"
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
@@ -1080,35 +1186,35 @@ onalSpecification\Sections/07GlobalTestCases.aux")
 onalSpecification\Sections/08Models.aux")
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\Sections/09Glossary.aux"))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 58.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 65.
 
 ("C:\Program Files\Programmieren\Latex\MiKTeX\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 58.
-LaTeX Font Info:    Try loading font information for MDA+cmr on input line 58.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 65.
+LaTeX Font Info:    Try loading font information for MDA+cmr on input line 65.
 
 (C:\Users\Jonathan\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdacmr.fd
 File: mdacmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Try loading font information for T1+fav on input line 58.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Try loading font information for T1+fav on input line 65.
 
 (C:\Users\Jonathan\AppData\Roaming\MiKTeX\2.9\tex\latex\arev\t1fav.fd
 File: t1fav.fd 2006/05/30 Fontinst v1.929 font definitions for T1/fav.
@@ -1150,20 +1256,20 @@ File: t1fav.fd 2006/05/30 Fontinst v1.929 font definitions for T1/fav.
 
 (C:\Users\Jonathan\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count106
-\scratchdimen=\dimen120
-\scratchbox=\box28
-\nofMPsegments=\count107
-\nofMParguments=\count108
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count109
-\MPscratchDim=\dimen121
-\MPnumerator=\count110
-\makeMPintoPDFobject=\count111
-\everyMPtoPDFconversion=\toks23
+\scratchcounter=\count114
+\scratchdimen=\dimen133
+\scratchbox=\box33
+\nofMPsegments=\count115
+\nofMParguments=\count116
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count117
+\MPscratchDim=\dimen134
+\MPnumerator=\count118
+\makeMPintoPDFobject=\count119
+\everyMPtoPDFconversion=\toks34
 )
-\AtBeginShipoutBox=\box29
-Package hyperref Info: Link coloring ON on input line 58.
+\AtBeginShipoutBox=\box34
+Package hyperref Info: Link coloring ON on input line 65.
  ("C:\Program Files\Programmieren\Latex\MiKTeX\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/07/31 v2.42 Cross-referencing by name of section
 
@@ -1171,17 +1277,17 @@ Package: nameref 2012/07/31 v2.42 Cross-referencing by name of section
 ng.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count112
+\c@section@level=\count120
 )
-LaTeX Info: Redefining \ref on input line 58.
-LaTeX Info: Redefining \pageref on input line 58.
-LaTeX Info: Redefining \nameref on input line 58.
+LaTeX Info: Redefining \ref on input line 65.
+LaTeX Info: Redefining \pageref on input line 65.
+LaTeX Info: Redefining \nameref on input line 65.
 
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\main.out")
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\main.out")
-\@outlinefile=\write3
+\@outlinefile=\write5
 
 
 Package geometry Warning: `a4paper': not available in `\newgeometry'; skipped.
@@ -1277,15 +1383,24 @@ LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <10.95> not available
 
 
 
+
+
 {C:/Users/Jonathan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <F:/Eigen
 e Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/FunctionalSpecif
 ication/Pictures/KIT-Logo.png>])
-LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/fav/b/n' tried instead on input line 67.
-
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\main.toc")
-\tf@toc=\write4
+onalSpecification\Sections/00Introduction.tex"
+LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/fav/b/n' tried instead on input line 1.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 2--74
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--74
+
+ []
 
 
 Package Fancyhdr Warning: \headheight is too small (17.0pt): 
@@ -1296,80 +1411,87 @@ Package Fancyhdr Warning: \headheight is too small (17.0pt):
 [2
 
 
+
 ]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\Sections/00Introduction.tex")
-Underfull \hbox (badness 10000) in paragraph at lines 2--69
-
- []
-
-[3
+onalSpecification\main.toc")
+\tf@toc=\write6
+ [3
 
 ]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\Sections/01Goals.tex"
 LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <12> not available
-(Font)              Font shape `T1/fav/b/n' tried instead on input line 4.
-LaTeX Font Info:    Try loading font information for TS1+fav on input line 10.
-LaTeX Font Info:    No file TS1fav.fd. on input line 10.
+(Font)              Font shape `T1/fav/b/n' tried instead on input line 5.
+LaTeX Font Info:    Try loading font information for TS1+fav on input line 11.
+LaTeX Font Info:    No file TS1fav.fd. on input line 11.
 
 
 LaTeX Font Warning: Font shape `TS1/fav/m/n' undefined
 (Font)              using `TS1/cmr/m/n' instead
-(Font)              for symbol `textbullet' on input line 10.
+(Font)              for symbol `textbullet' on input line 11.
 
 
-Overfull \hbox (3.66214pt too wide) in paragraph at lines 40--43
+Overfull \hbox (3.66214pt too wide) in paragraph at lines 47--51
 [][]\T1/fav/m/n/10.95 WHAT can use the data-warehouse which is filled with user
  data from sdss.skyverser.org
  []
 
-) [4
+[4
+
+]) [5]
+("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
+onalSpecification\Sections/02Usage.tex") [6
 
 
 ]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\Sections/02Usage.tex") [5
+onalSpecification\Sections/03OperatingEnvironment.tex") [7
 
 
 ]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\Sections/03OperatingEnvironment.tex") [6
+onalSpecification\Sections/04FunctionalRequirements.tex" [8
+
+
+]
+LaTeX Font Info:    Try loading font information for T1+fvm on input line 76.
+
+(C:\Users\Jonathan\AppData\Roaming\MiKTeX\2.9\tex\latex\bera\t1fvm.fd
+File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
+))
+[9]
+("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
+onalSpecification\Sections/05Data.tex") [10
 
 
 ]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\Sections/04FunctionalRequirements.tex") [7
+onalSpecification\Sections/06NonfunctionalRequirements.tex") [11
 
 
 ]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\Sections/05Data.tex") [8
+onalSpecification\Sections/07GlobalTestCases.tex") [12
 
 
 ]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\Sections/06NonfunctionalRequirements.tex") [9
+onalSpecification\Sections/08Models.tex") [13
 
 
 ]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\Sections/07GlobalTestCases.tex") [10
+onalSpecification\Sections/09Glossary.tex") [14
 
 
 ]
-("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\Sections/08Models.tex") [11
 
+Package glossaries Warning: No \printglossary or \printglossaries found.
+This document will not have a glossary.
 
-]
-("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\Sections/09Glossary.tex") [12
-
-
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 92.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 92.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 99.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 99.
 
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\main.aux"
@@ -1395,31 +1517,41 @@ onalSpecification\Sections/07GlobalTestCases.aux")
 onalSpecification\Sections/08Models.aux")
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\Sections/09Glossary.aux"))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 92.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 92.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 8D4757AB8EA91160B39483D8449913BA;2168.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 99.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 99.
 
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 5BABC61470BB3C74AB8FA7C4A2189E10;2243
+(rerunfilecheck)             After:  67CF792964CBDC58D926E9CFFDA5322D;2165.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 9795 strings out of 493921
- 153390 string characters out of 3140856
- 253954 words of memory out of 3000000
- 12752 multiletter control sequences out of 15000+200000
- 35899 words of font info for 58 fonts, out of 3000000 for 9000
+ 11733 strings out of 493921
+ 183967 string characters out of 3140856
+ 300195 words of memory out of 3000000
+ 14610 multiletter control sequences out of 15000+200000
+ 36519 words of font info for 60 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 45i,14n,47p,769b,361s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Jonathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi6
-00\tcrm1095.pk>{C:/Program Files/Programmieren/Latex/MiKTeX/fonts/enc/dvips/fon
-tname/8r.enc}<C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/a
-rev/ArevSans-Bold.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1
-/public/arev/ArevSans-Roman.pfb>
-Output written on main.pdf (12 pages, 83921 bytes).
+ 45i,14n,47p,1476b,465s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{subsubsection.4.1.1} has been referenced but does
+ not exist, replaced by a fixed one
+
+{C:/Program Files/Programmieren/Latex/MiKTeX/fonts/enc/dvips/fontname/8r.enc} <
+C:\Users\Jonathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\t
+crm1095.pk><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/are
+v/ArevSans-Bold.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1/p
+ublic/arev/ArevSans-Roman.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fon
+ts/type1/bera/fvmr8a.pfb>
+Output written on main.pdf (14 pages, 97654 bytes).
 PDF statistics:
- 289 PDF objects out of 1000 (max. 8388607)
- 72 named destinations out of 1000 (max. 500000)
+ 335 PDF objects out of 1000 (max. 8388607)
+ 98 named destinations out of 1000 (max. 500000)
  286 words of extra memory for PDF output out of 10000 (max. 10000000)
 
