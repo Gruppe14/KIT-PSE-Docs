@@ -20,15 +20,16 @@
 \BOOKMARK [2][-]{subsection.4.1}{Main functions}{section.4}% 20
 \BOOKMARK [2][-]{subsection.4.2}{Optional functions}{section.4}% 21
 \BOOKMARK [1][-]{section.5}{Data}{}% 22
-\BOOKMARK [2][-]{subsection.5.1}{First Whatever}{section.5}% 23
-\BOOKMARK [2][-]{subsection.5.2}{Next Whatever}{section.5}% 24
+\BOOKMARK [2][-]{subsection.5.1}{Static Data}{section.5}% 23
+\BOOKMARK [2][-]{subsection.5.2}{Data-Warehouse data}{section.5}% 24
 \BOOKMARK [1][-]{section.6}{Nonfunctional requirements}{}% 25
 \BOOKMARK [2][-]{subsection.6.1}{First Whatever}{section.6}% 26
 \BOOKMARK [2][-]{subsection.6.2}{Next Whatever}{section.6}% 27
 \BOOKMARK [1][-]{section.7}{Global test cases}{}% 28
-\BOOKMARK [1][-]{section.8}{Models}{}% 29
-\BOOKMARK [2][-]{subsection.8.1}{User stories}{section.8}% 30
-\BOOKMARK [2][-]{subsection.8.2}{Object models}{section.8}% 31
-\BOOKMARK [2][-]{subsection.8.3}{Dynamic models}{section.8}% 32
-\BOOKMARK [2][-]{subsection.8.4}{Web interfaces}{section.8}% 33
-\BOOKMARK [1][-]{section.9}{Glossary}{}% 34
+\BOOKMARK [2][-]{subsection.7.1}{Test Case}{section.7}% 29
+\BOOKMARK [1][-]{section.8}{Models}{}% 30
+\BOOKMARK [2][-]{subsection.8.1}{User stories}{section.8}% 31
+\BOOKMARK [2][-]{subsection.8.2}{Object models}{section.8}% 32
+\BOOKMARK [2][-]{subsection.8.3}{Dynamic models}{section.8}% 33
+\BOOKMARK [2][-]{subsection.8.4}{Web interfaces}{section.8}% 34
+\BOOKMARK [1][-]{section.9}{Glossary}{}% 35
