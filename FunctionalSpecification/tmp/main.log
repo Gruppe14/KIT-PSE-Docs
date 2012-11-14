@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  14 NOV 2012 20:15
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  14 NOV 2012 23:22
 entering extended mode
 **main.tex
 
@@ -1156,9 +1156,7 @@ Package: glossary-tree 2012/09/21 v3.03 (NLCT)
 \glstreeindent=\skip72
 ))
 \@input{Sections/0XGlossaryEntries.aux}
-
-("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\Sections/0XGlossaryEntries.tex")
+No file Sections/0XGlossaryEntries.tex.
 \glo@main@file=\write4
 Package glossaries Info: Writing glossary file main.glo on input line 63.
 
@@ -1185,7 +1183,9 @@ onalSpecification\Sections/07GlobalTestCases.aux")
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\Sections/08Models.aux")
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\Sections/09Glossary.aux"))
+onalSpecification\Sections/09DevelopmentEnvironment.aux")
+("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
+onalSpecification\Sections/10Glossary.aux"))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
 LaTeX Font Info:    ... okay on input line 70.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
@@ -1371,7 +1371,7 @@ File: uzavm.fd 2006/05/30 Fontinst v1.929 font definitions for U/zavm.
 LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <9> not available
 (Font)              Font shape `T1/fav/b/n' tried instead on input line 11.
 
-<Pictures/KIT-Logo.png, id=143, 501.875pt x 250.9375pt>
+<Pictures/KIT-Logo.png, id=163, 501.875pt x 250.9375pt>
 File: Pictures/KIT-Logo.png Graphic file (type png)
 
 <use Pictures/KIT-Logo.png>
@@ -1393,15 +1393,6 @@ onalSpecification\Sections/00Introduction.tex"
 LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/fav/b/n' tried instead on input line 1.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 6--79
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 6--79
-
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (17.0pt): 
  Make it at least 25.58592pt.
@@ -1414,11 +1405,11 @@ Package Fancyhdr Warning: \headheight is too small (17.0pt):
 
 ]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\main.toc")
-\tf@toc=\write6
- [3
+onalSpecification\main.toc" [3
 
-]
+])
+\tf@toc=\write6
+ [4]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\Sections/01Goals.tex"
 LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <12> not available
@@ -1431,27 +1422,21 @@ LaTeX Font Warning: Font shape `TS1/fav/m/n' undefined
 (Font)              using `TS1/cmr/m/n' instead
 (Font)              for symbol `textbullet' on input line 11.
 
+[5
 
-Overfull \hbox (3.66214pt too wide) in paragraph at lines 47--51
-[][]\T1/fav/m/n/10.95 WHAT can use the data-warehouse which is filled with user
- data from sdss.skyverser.org
- []
-
-[4
-
-]) [5]
+]) [6]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\Sections/02Usage.tex") [6
+onalSpecification\Sections/02Usage.tex") [7
 
 
 ]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\Sections/03OperatingEnvironment.tex") [7
+onalSpecification\Sections/03OperatingEnvironment.tex") [8
 
 
 ]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\Sections/04FunctionalRequirements.tex" [8
+onalSpecification\Sections/04FunctionalRequirements.tex" [9
 
 
 ]
@@ -1460,29 +1445,34 @@ LaTeX Font Info:    Try loading font information for T1+fvm on input line 76.
 (C:\Users\Jonathan\AppData\Roaming\MiKTeX\2.9\tex\latex\bera\t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 ))
-[9]
+[10]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\Sections/05Data.tex") [10
+onalSpecification\Sections/05Data.tex") [11
 
 
 ]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\Sections/06NonfunctionalRequirements.tex") [11
+onalSpecification\Sections/06NonfunctionalRequirements.tex") [12
 
 
 ]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\Sections/07GlobalTestCases.tex") [12
+onalSpecification\Sections/07GlobalTestCases.tex") [13
 
 
 ]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\Sections/08Models.tex") [13
+onalSpecification\Sections/08Models.tex") [14
 
 
 ]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\Sections/09Glossary.tex") [14
+onalSpecification\Sections/09DevelopmentEnvironment.tex") [15
+
+
+]
+("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
+onalSpecification\Sections/10Glossary.tex") [16
 
 
 ]
@@ -1490,8 +1480,8 @@ onalSpecification\Sections/09Glossary.tex") [14
 Package glossaries Warning: No \printglossary or \printglossaries found.
 This document will not have a glossary.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 104.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 104.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 105.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 105.
 
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\main.aux"
@@ -1516,22 +1506,24 @@ onalSpecification\Sections/07GlobalTestCases.aux")
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\Sections/08Models.aux")
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\Sections/09Glossary.aux"))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 104.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 104.
+onalSpecification\Sections/09DevelopmentEnvironment.aux")
+("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
+onalSpecification\Sections/10Glossary.aux"))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 105.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 105.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 29A2B4F3F22F3461AC6753755DC813F9;2228.
+(rerunfilecheck)             Checksum: C35D866B533DD7440B165AEA4B643CE5;2541.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 11765 strings out of 493921
- 184181 string characters out of 3140856
- 300199 words of memory out of 3000000
- 14610 multiletter control sequences out of 15000+200000
- 36519 words of font info for 60 fonts, out of 3000000 for 9000
+ 11727 strings out of 493921
+ 183981 string characters out of 3140856
+ 299787 words of memory out of 3000000
+ 14559 multiletter control sequences out of 15000+200000
+ 36817 words of font info for 61 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  45i,14n,47p,1476b,459s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/Programmieren/Latex/MiKTeX/fonts/enc/dvips/fontname/8r.enc}
@@ -1539,10 +1531,11 @@ Here is how much of TeX's memory you used:
 \tcrm1095.pk><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/a
 rev/ArevSans-Bold.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1
 /public/arev/ArevSans-Roman.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/f
-onts/type1/bera/fvmr8a.pfb>
-Output written on main.pdf (14 pages, 102223 bytes).
+onts/type1/bera/fvmr8a.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/
+type1/mathdesign/mdbch/md-chb7y.pfb>
+Output written on main.pdf (16 pages, 110037 bytes).
 PDF statistics:
- 373 PDF objects out of 1000 (max. 8388607)
- 130 named destinations out of 1000 (max. 500000)
- 286 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 411 PDF objects out of 1000 (max. 8388607)
+ 137 named destinations out of 1000 (max. 500000)
+ 326 words of extra memory for PDF output out of 10000 (max. 10000000)
 
