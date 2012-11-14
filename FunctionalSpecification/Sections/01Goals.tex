@@ -2,64 +2,62 @@
 
 %=======================================================================
 
-\subsection{Server Log Parser (SLP)}
+\subsection{Parser}
 
 % TODO generell goal specification
 
 \subsubsection{Obligatory criteria} % Musskriterien
 \begin{itemize}
-\item The SLP can read a CSV-formatted log file from sdss.skyserver.org
+\item The Parser can read a CSV-formatted log file from skyserver.sdss.org
  and fill a data-warehouse with multi-dimensional user information.
  The dimensions of this data are location of the user, location of the 
- database and time of the server-access. 
-\item SLP will recognise invalid logs and won't add them to the data-warehouse.
+ database and time of the server-access. It will also add several measures such as delay time or  
+\item The Parser will recognise invalid logs and won't add them to the data-warehouse.
  Every log with a mistake won't be accepted, because an error-message is not 
  as bad as a corrupted data-warehouse. 
-\item SLP will be accessible with admin-login to the webpage.
+\item The Parser will be accessible with admin-login to the webpage.
 \end{itemize}
 
 %----------------------------------------------------------------------
 \subsubsection{Optional criteria}
 \begin{itemize}
-\item SLP will contain a small manual which is designed for experienced users.
+\item The parser will contain a small manual which is designed for experienced users. (optional because this parser is
+only used by it's developers)
 \end{itemize}
 
 %----------------------------------------------------------------------
 \subsubsection{Exclusion criteria}
 \begin{itemize}
-\item The SLP can only use CSV-formatted logs from sdss.skyserver.org. 
+\item The Parser can only use CSV-formatted logs from skyserver.sdss.org. 
 It can neither read logs in another format nor logs
 from another source.
-\item There is no way to avoid using SLP when adding data to the warehouse. 
+\item There is no way to avoid using this Parser when adding data to the warehouse. 
 This can stop corrupting the warehouse to guarantee correct data in the warehouse.
-\item SLP doesn't correct mistakes in the log file.
-\item Due to being only a tool for the persons who wrote it, SLP doesn't need to be easy to use for first-time users.
-It will be a console program or maybe contain a simple GUI.
+\item The Parser doesn't correct mistakes in the log file.
+\item Due to being only a tool for it's developers, our parser doesn't need to be easy to use for first-time users.
 \end{itemize}
 
 
 
 %=======================================================================
-\subsection{Warehouse Analyzing Tool (WHAT)}
+\subsection{Analyzer}
 
 \subsubsection{Obligatory criteria}
 \begin{itemize}
-\item WHAT can use the data-warehouse which is filled with user data  
-from sdss.skyverser.org to create various charts. 
-Those charts are created by user command and are visible on a javascript-webpage.
+\item The analyzer can use the data-warehouse which is filled with user data  
+from skyverser.sdss.org to create various charts. 
+Those charts are created by user command and are visible on a javascript-website.
 \begin{itemize}
 \item scatterplots
 \item histograms
 \end{itemize}
-\item The website contains small guides for experienced users on how to create a specific chart. 
-(similar to the guides at skyserver.sdss.org)
+\item The analyzer can take filter information via webpage from the user to use only certain data for creating charts.
 \end{itemize}
 
 %----------------------------------------------------------------------
 \subsubsection{Optional criteria}
 \begin{itemize}
-\item The language of the website can be changed into different languages. (e.g. German)
-\item WHAT will support different chart-types.
+\item The analyzer will support different chart-types.
 \end{itemize}
 
 %----------------------------------------------------------------------
@@ -68,3 +66,27 @@ Those charts are created by user command and are visible on a javascript-webpage
 \item WHAT takes correct data in the warehouse for granted. It doesn't check the
  data because it already checked by SLP. 
 \end{itemize}
+
+
+%=======================================================================
+\subsection{Website}
+\subsubsection{Obligatory criteria}
+\begin{itemize}
+\item The website has an graphical interface in javascript, so that users can enter which chart they want.
+\item The website contains small guides for experienced users on how to create a specific chart. 
+(similar to the guides at skyserver.sdss.org)
+\end{itemize}
+\item The website has an admin-login page to get administrative rights, which are needed to use the parser.
+
+%----------------------------------------------------------------------
+\subsubsection{Optional criteria}
+\begin{itemize}
+\item The language of the website can be changed into different languages. (e.g. German)
+\end{itemize}
+
+%----------------------------------------------------------------------
+\subsubsection{Exclusion criteria}
+\begin{itemize}
+\item The website got no function for normal users to enter data into the data warehouse.
+\end{itemize}
+
