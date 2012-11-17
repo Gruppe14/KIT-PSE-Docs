@@ -35,12 +35,17 @@
 	\fancyfoot[C]{\thepage}
 	
 % Customized headlines
-% TBD if wanted
+\usepackage{titlesec}
+
 
 % If you want enumartions to go on with last one do this:
 % \begin{enumerate}[resume]
 \usepackage{enumitem}
+\setlist{leftmargin=*}
 
+
+
+%\setlist[1]{labelindent=\parindent}
 
 % Including pictures
 \usepackage{graphicx}
@@ -51,19 +56,6 @@
 % Return after CR set 0
 \setlength{\parindent}{0pt} 
 \setlength{\parskip}{6pt}	% space after passage
-
-
-
-\newcounter{mycounter}
-\makeatletter
-\renewcommand\themycounter{\two@digits{\value{mycounter}}}
-\makeatother
- \newcommand\Test{\stepcounter{mycounter}\themycounter\ }
-
-
-
-
-
 
 
 
@@ -99,7 +91,8 @@
 \include{Sections/02Usage}
 \newpage 
 \include{Sections/03OperatingEnvironment}
-\newpage 
+\newpage
+\setlist{leftmargin=40pt}
 \include{Sections/04FunctionalRequirements}
 \newpage 
 \include{Sections/05Data}
@@ -108,6 +101,7 @@
 \newpage 
 \include{Sections/07GlobalTestCases}
 \newpage 
+\setlist{leftmargin=*}
 \include{Sections/08Models} 
 \newpage 
 \include{Sections/09DevelopmentEnvironment}
