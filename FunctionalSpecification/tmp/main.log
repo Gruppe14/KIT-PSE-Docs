@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  17 NOV 2012 15:29
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  17 NOV 2012 18:06
 entering extended mode
 **main.tex
 
@@ -1167,7 +1167,7 @@ onalSpecification\main.aux"
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\titlepage.aux")
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\Sections/00Introduction.aux")
+onalSpecification\Sections/00AboutThisDocument.aux")
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\Sections/01Goals.aux")
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
@@ -1391,7 +1391,7 @@ LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <10.95> not available
 e Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/FunctionalSpecif
 ication/Pictures/KIT-Logo.png>])
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\Sections/00Introduction.tex"
+onalSpecification\Sections/00AboutThisDocument.tex"
 LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/fav/b/n' tried instead on input line 1.
 )
@@ -1490,7 +1490,7 @@ onalSpecification\main.aux"
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\titlepage.aux")
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\Sections/00Introduction.aux")
+onalSpecification\Sections/00AboutThisDocument.aux")
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\Sections/01Goals.aux")
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
@@ -1522,7 +1522,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
  ) 
 Here is how much of TeX's memory you used:
  11789 strings out of 493921
- 185360 string characters out of 3140856
+ 185415 string characters out of 3140856
  301545 words of memory out of 3000000
  14619 multiletter control sequences out of 15000+200000
  36817 words of font info for 61 fonts, out of 3000000 for 9000
@@ -1535,7 +1535,7 @@ rev/ArevSans-Bold.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1
 /public/arev/ArevSans-Roman.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/f
 onts/type1/bera/fvmr8a.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/
 type1/mathdesign/mdbch/md-chb7y.pfb>
-Output written on main.pdf (16 pages, 110514 bytes).
+Output written on main.pdf (16 pages, 110522 bytes).
 PDF statistics:
  411 PDF objects out of 1000 (max. 8388607)
  137 named destinations out of 1000 (max. 500000)
