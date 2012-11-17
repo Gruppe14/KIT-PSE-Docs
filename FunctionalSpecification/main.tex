@@ -53,6 +53,20 @@
 \setlength{\parskip}{6pt}	% space after passage
 
 
+
+\newcounter{mycounter}
+\makeatletter
+\renewcommand\themycounter{\two@digits{\value{mycounter}}}
+\makeatother
+ \newcommand\Test{\stepcounter{mycounter}\themycounter\ }
+
+
+
+
+
+
+
+
 % For links of the chapters and out of the pdf + boxes around links deleted
 \usepackage[colorlinks=true, linkcolor=black, urlcolor=blue]{hyperref} 
 
