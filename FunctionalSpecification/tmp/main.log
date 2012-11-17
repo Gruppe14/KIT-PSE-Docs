@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  16 NOV 2012 23:50
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  17 NOV 2012 15:29
 entering extended mode
 **main.tex
 
@@ -1155,8 +1155,10 @@ ary-tree.sty
 Package: glossary-tree 2012/09/21 v3.03 (NLCT)
 \glstreeindent=\skip72
 ))
-\@input{Sections/0XGlossaryEntries.aux}
-No file Sections/0XGlossaryEntries.tex.
+\@input{Sections/1XGlossaryEntries.aux}
+
+("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
+onalSpecification\Sections/1XGlossaryEntries.tex")
 \glo@main@file=\write4
 Package glossaries Info: Writing glossary file main.glo on input line 63.
 
@@ -1413,14 +1415,14 @@ onalSpecification\main.toc" [3
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\Sections/01Goals.tex"
 LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <12> not available
-(Font)              Font shape `T1/fav/b/n' tried instead on input line 5.
-LaTeX Font Info:    Try loading font information for TS1+fav on input line 11.
-LaTeX Font Info:    No file TS1fav.fd. on input line 11.
+(Font)              Font shape `T1/fav/b/n' tried instead on input line 9.
+LaTeX Font Info:    Try loading font information for TS1+fav on input line 13.
+LaTeX Font Info:    No file TS1fav.fd. on input line 13.
 
 
 LaTeX Font Warning: Font shape `TS1/fav/m/n' undefined
 (Font)              using `TS1/cmr/m/n' instead
-(Font)              for symbol `textbullet' on input line 11.
+(Font)              for symbol `textbullet' on input line 13.
 
 [5
 
@@ -1512,20 +1514,20 @@ onalSpecification\Sections/10Glossary.aux"))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 105.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 105.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C35D866B533DD7440B165AEA4B643CE5;2541.
+(rerunfilecheck)             Checksum: 8F55D51E7418F7BE478F41DF4FF066D2;2534.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 11727 strings out of 493921
- 183981 string characters out of 3140856
- 299787 words of memory out of 3000000
- 14559 multiletter control sequences out of 15000+200000
+ 11789 strings out of 493921
+ 185360 string characters out of 3140856
+ 301545 words of memory out of 3000000
+ 14619 multiletter control sequences out of 15000+200000
  36817 words of font info for 61 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 45i,14n,47p,1476b,459s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,14n,47p,1476b,499s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/Programmieren/Latex/MiKTeX/fonts/enc/dvips/fontname/8r.enc}
  <C:\Users\Jonathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
 \tcrm1095.pk><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/a
@@ -1533,7 +1535,7 @@ rev/ArevSans-Bold.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1
 /public/arev/ArevSans-Roman.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/f
 onts/type1/bera/fvmr8a.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/
 type1/mathdesign/mdbch/md-chb7y.pfb>
-Output written on main.pdf (16 pages, 109973 bytes).
+Output written on main.pdf (16 pages, 110514 bytes).
 PDF statistics:
  411 PDF objects out of 1000 (max. 8388607)
  137 named destinations out of 1000 (max. 500000)

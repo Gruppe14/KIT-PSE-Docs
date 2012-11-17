@@ -1,12 +1,27 @@
 \section{Operating environment}
 
 
-\subsection{Software}
-The client requires the latest version of a modern browser, like Chrom or Firefox. 
-Other browsers might work, but might not been tested as extensively.
-Javascript needs to be enabled.
+Whereas the programm and the data warehouse run on a sever, 
+the access to it will be via web browser on a workstation computer.
 
-The server requires a recent version of the Java Runtime Enviroment.
+\subsection{Software}
+The following software is required on the server:
+\begin{itemize}
+  \item recent version of th Java Runtime Environment / Java VM  % Glossary
+  \item Oracle/MySQL?
+\end{itemize}
+% I'm not sure about the last point, also we could split it on two servers?
+
+This software is required on the workstation computer:
+\begin{itemize}
+  \item Latest version of a modern browser
+  \begin{itemize}
+    \item Chrome or Firefox will be supported
+  \end{itemize}
+  \item JavaScript (enabled)
+\end{itemize}
+% Is the funcationality of a web browser connected to the OS?
+% If so we have to add this point here!
 
 
 \subsection{Hardware}
@@ -14,6 +29,7 @@ The server requires a recent version of the Java Runtime Enviroment.
 The server has to be fast enough to support all clients. This depends on
 the expected number of clients. Most computations will be done on the server.
 
+% Is the program really local hosted? 
 The client needs to be fast enough to visualize the data received from the server. 
 The required hardware thus depends greatly on the amount of data that needs to be 
 visualized. That said, any recent computer, with for example, 
@@ -29,5 +45,11 @@ data points on a scatterplot with ease.
 The server needs to be able to connect to the client with a reasonable latency.
 Also it has to be set up before the client will be able to connect to it.
 
+% Other direction: Program hast to be able to run query against data warehouse?
+
+To fulfill optional requirements, the programm musst be able to run queries against
+the origin database. 
+
 \subsection{Product interfaces}
- 
+
+To fulfill optional requirements .csv files have to be imported.

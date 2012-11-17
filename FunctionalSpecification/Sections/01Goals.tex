@@ -2,11 +2,13 @@
 
 %=======================================================================
 
+Through this programm the user should be put in the position 
+to visiualize the prepared data of queries, runned against his data base.
+
+
 \subsection{Parser}
 
-% TODO generell goal specification
-
-\subsubsection{Obligatory criteria} % Musskriterien
+\subsubsection{Core criteria} % Musskriterien
 \begin{itemize}
 \item The Parser can read a CSV-formatted log file from skyserver.sdss.org
  and fill a data-warehouse with multi-dimensional user information.
@@ -16,7 +18,7 @@
  Every log with a mistake won't be accepted, because an error-message is not 
  as bad as a corrupted data-warehouse. 
 \item The Parser will be accessible with admin-login to the webpage.
-\end{itemize}
+\end{itemize} 
 
 %----------------------------------------------------------------------
 \subsubsection{Optional criteria}
@@ -42,7 +44,7 @@ This can stop corrupting the warehouse to guarantee correct data in the warehous
 %=======================================================================
 \subsection{Analyzer}
 
-\subsubsection{Obligatory criteria}
+\subsubsection{Core criteria}
 \begin{itemize}
 \item The analyzer can use the data-warehouse which is filled with user data  
 from skyverser.sdss.org to create various charts. 
@@ -70,7 +72,7 @@ Those charts are created by user command and are visible on a javascript-website
 
 %=======================================================================
 \subsection{Website}
-\subsubsection{Obligatory criteria}
+\subsubsection{Core criteria}
 \begin{itemize}
 \item The website has an graphical interface in javascript, so that users can enter which chart they want.
 \item The website contains small guides for experienced users on how to create a specific chart. 
