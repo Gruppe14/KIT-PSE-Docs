@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  17 NOV 2012 23:23
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  18 NOV 2012 12:05
 entering extended mode
 **main.tex
 
@@ -1385,14 +1385,21 @@ File: uzavm.fd 2006/05/30 Fontinst v1.929 font definitions for U/zavm.
 LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <9> not available
 (Font)              Font shape `T1/fav/b/n' tried instead on input line 11.
 
-<Pictures/KIT-Logo.png, id=163, 501.875pt x 250.9375pt>
+<Pictures/KIT-Logo.png, id=167, 501.875pt x 250.9375pt>
 File: Pictures/KIT-Logo.png Graphic file (type png)
 
 <use Pictures/KIT-Logo.png>
 Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 24.
 (pdftex.def)             Requested size: 128.03653pt x 64.01692pt.
+
+<Pictures/WHAT-LogoText2.png, id=169, 2293.56876pt x 1049.9225pt>
+File: Pictures/WHAT-LogoText2.png Graphic file (type png)
+
+<use Pictures/WHAT-LogoText2.png>
+Package pdftex.def Info: Pictures/WHAT-LogoText2.png used on input line 52.
+(pdftex.def)             Requested size: 358.50317pt x 164.09804pt.
 LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/fav/b/n' tried instead on input line 70.
+(Font)              Font shape `T1/fav/b/n' tried instead on input line 76.
  [1
 
 
@@ -1401,7 +1408,8 @@ LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <10.95> not available
 
 {C:/Users/Jonathan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <F:/Eigen
 e Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/FunctionalSpecif
-ication/Pictures/KIT-Logo.png>])
+ication/Pictures/KIT-Logo.png> <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/Git
+Repository/KIT-PSE-Docs/FunctionalSpecification/Pictures/WHAT-LogoText2.png>])
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\Sections/00AboutThisDocument.tex"
 LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <14.4> not available
@@ -1482,10 +1490,18 @@ onalSpecification\Sections/07GlobalTestCases.tex") [14
 
 ]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\Sections/08Models.tex") [15
+onalSpecification\Sections/08Models.tex"
+<Pictures/WareHouseDiagramm.png, id=354, 316.5426pt x 200.4288pt>
+File: Pictures/WareHouseDiagramm.png Graphic file (type png)
+
+<use Pictures/WareHouseDiagramm.png>
+Package pdftex.def Info: Pictures/WareHouseDiagramm.png used on input line 13.
+(pdftex.def)             Requested size: 497.92326pt x 315.28555pt.
+) [15
 
 
-]
+ <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/Functi
+onalSpecification/Pictures/WareHouseDiagramm.png>]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\Sections/09DevelopmentEnvironment.tex") [16
 
@@ -1532,17 +1548,17 @@ onalSpecification\Sections/10Glossary.aux"))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 113.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 113.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 8F55D51E7418F7BE478F41DF4FF066D2;2534.
+(rerunfilecheck)             Checksum: CC4D5CE1B580FC4B3E1641F895ADE3B8;2600.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 12054 strings out of 493921
- 188908 string characters out of 3140856
- 306667 words of memory out of 3000000
- 14884 multiletter control sequences out of 15000+200000
+ 12066 strings out of 493921
+ 189245 string characters out of 3140856
+ 306671 words of memory out of 3000000
+ 14893 multiletter control sequences out of 15000+200000
  40493 words of font info for 63 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  45i,14n,47p,1476b,533s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1553,9 +1569,9 @@ rev/ArevSans-Bold.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1
 /public/arev/ArevSans-Roman.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/f
 onts/type1/bera/fvmr8a.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/
 type1/mathdesign/mdbch/md-chb7y.pfb>
-Output written on main.pdf (17 pages, 112464 bytes).
+Output written on main.pdf (17 pages, 374327 bytes).
 PDF statistics:
- 409 PDF objects out of 1000 (max. 8388607)
- 132 named destinations out of 1000 (max. 500000)
- 326 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 419 PDF objects out of 1000 (max. 8388607)
+ 133 named destinations out of 1000 (max. 500000)
+ 344 words of extra memory for PDF output out of 10000 (max. 10000000)
 
