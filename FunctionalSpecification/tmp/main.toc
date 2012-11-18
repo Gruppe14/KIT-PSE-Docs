@@ -3,11 +3,11 @@
 \contentsline {subsubsection}{\numberline {1.1.1}Core criteria}{6}{subsubsection.1.1.1}
 \contentsline {subsubsection}{\numberline {1.1.2}Optional criteria}{6}{subsubsection.1.1.2}
 \contentsline {subsubsection}{\numberline {1.1.3}Exclusion criteria}{6}{subsubsection.1.1.3}
-\contentsline {subsection}{\numberline {1.2}Analyzer}{6}{subsection.1.2}
-\contentsline {subsubsection}{\numberline {1.2.1}Core criteria}{6}{subsubsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2}Analyzer}{7}{subsection.1.2}
+\contentsline {subsubsection}{\numberline {1.2.1}Core criteria}{7}{subsubsection.1.2.1}
 \contentsline {subsubsection}{\numberline {1.2.2}Optional criteria}{7}{subsubsection.1.2.2}
 \contentsline {subsubsection}{\numberline {1.2.3}Exclusion criteria}{7}{subsubsection.1.2.3}
-\contentsline {subsection}{\numberline {1.3}Website}{7}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.3}Web page}{7}{subsection.1.3}
 \contentsline {subsubsection}{\numberline {1.3.1}Core criteria}{7}{subsubsection.1.3.1}
 \contentsline {subsubsection}{\numberline {1.3.2}Optional criteria}{7}{subsubsection.1.3.2}
 \contentsline {subsubsection}{\numberline {1.3.3}Exclusion criteria}{7}{subsubsection.1.3.3}
@@ -37,6 +37,6 @@
 \contentsline {subsection}{\numberline {8.3}Dynamic models}{15}{subsection.8.3}
 \contentsline {subsection}{\numberline {8.4}Web interfaces}{15}{subsection.8.4}
 \contentsline {subsection}{\numberline {8.5}Overview}{16}{subsection.8.5}
-\contentsline {subsection}{\numberline {8.6}Warehouse model}{17}{subsection.8.6}
+\contentsline {subsection}{\numberline {8.6}Warehouse schema}{17}{subsection.8.6}
 \contentsline {section}{\numberline {9}Development Environment}{18}{section.9}
 \contentsline {section}{\numberline {10}Glossary}{19}{section.10}
