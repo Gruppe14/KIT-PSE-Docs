@@ -7,7 +7,8 @@ With this programm the user should be put in the position
 to visiualize the prepared data of queries, runned against his data base.
 
 
-To fullfill this purpose the system is structured in three parts:
+To structure the criteria the system has to fullfill, 
+it is devided into three parts for this and other sections.
 \begin{itemize}
   \item Parser
   \item Analyzer
@@ -17,38 +18,26 @@ See \ref{overview} for a overview of this parts and their relationships.
 In the following their specific goals and criteria are described.
 
 
-%\subsection{Core criteria}
+\subsection{Core criteria}
+This criteria have to be fullfilled to guarantee 
+the core functionality of the system.
+
+\begin{itemize}
+  \item Provide an option to import CSV-formatted log files % glossary
+   and parse specified data out of them
+  \item Load 
+\end{itemize}
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+%=======================================================================
 \subsection{Parser}
 
 \subsubsection{Core criteria} % Musskriterien
 \begin{itemize}
-\item The Parser can read a CSV-formatted log file (from skyserver.sdss.org)
+\item The Parser can read a CSV-formatted log file (from Skyserver)
  and fill a data-warehouse with multi-dimensional user information.
  The dimensions of this data are location of the user, location of the 
  database and time of the server-access. It will also add several measures such as delay time or  
@@ -111,7 +100,8 @@ Those charts are created by user command and are visible on a javascript-website
 \subsection{Web page}
 \subsubsection{Core criteria}
 \begin{itemize}
-\item The website has an graphical interface in javascript, so that users can enter which chart they want.
+\item The website has an graphical interface, 
+so that users can enter which chart they want.
 
 \item The website contains small guides for experienced users on how to create a specific chart. 
 (similar to the guides at skyserver.sdss.org)

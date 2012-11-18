@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  18 NOV 2012 16:51
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  18 NOV 2012 17:27
 entering extended mode
 **main.tex
 
@@ -1385,14 +1385,14 @@ File: uzavm.fd 2006/05/30 Fontinst v1.929 font definitions for U/zavm.
 LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <9> not available
 (Font)              Font shape `T1/fav/b/n' tried instead on input line 11.
 
-<Pictures/KIT-Logo.png, id=183, 501.875pt x 250.9375pt>
+<Pictures/KIT-Logo.png, id=187, 501.875pt x 250.9375pt>
 File: Pictures/KIT-Logo.png Graphic file (type png)
 
 <use Pictures/KIT-Logo.png>
 Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 24.
 (pdftex.def)             Requested size: 128.03653pt x 64.01692pt.
 
-<Pictures/WHAT-LogoText2.png, id=185, 2293.56876pt x 1049.9225pt>
+<Pictures/WHAT-LogoText2.png, id=189, 2293.56876pt x 1049.9225pt>
 File: Pictures/WHAT-LogoText2.png Graphic file (type png)
 
 <use Pictures/WHAT-LogoText2.png>
@@ -1436,35 +1436,35 @@ onalSpecification\main.toc" [3
  [4]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\Sections/01Goals.tex"
-LaTeX Font Info:    Try loading font information for TS1+fav on input line 12.
-LaTeX Font Info:    No file TS1fav.fd. on input line 12.
+LaTeX Font Info:    Try loading font information for TS1+fav on input line 13.
+LaTeX Font Info:    No file TS1fav.fd. on input line 13.
 
 
 LaTeX Font Warning: Font shape `TS1/fav/m/n' undefined
 (Font)              using `TS1/cmr/m/n' instead
-(Font)              for symbol `textbullet' on input line 12.
+(Font)              for symbol `textbullet' on input line 13.
 
+[5
 
-Overfull \hbox (24.64487pt too wide) in paragraph at lines 87--91
+]
+Overfull \hbox (24.64487pt too wide) in paragraph at lines 76--80
 [][]\T1/fav/m/n/10.95 The an-a-lyzer can use the data-warehouse which is filled
  with user data from sky-verser.sdss.org
  []
 
-[5
-
-]) [6]
+[6]) [7]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\Sections/02Usage.tex") [7
+onalSpecification\Sections/02Usage.tex") [8
 
 
 ]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\Sections/03OperatingEnvironment.tex") [8
+onalSpecification\Sections/03OperatingEnvironment.tex") [9
 
 
 ]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\Sections/04FunctionalRequirements.tex" [9
+onalSpecification\Sections/04FunctionalRequirements.tex" [10
 
 
 ]
@@ -1473,50 +1473,50 @@ LaTeX Font Info:    Try loading font information for T1+fvm on input line 84.
 (C:\Users\Jonathan\AppData\Roaming\MiKTeX\2.9\tex\latex\bera\t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 ))
-[10]
+[11]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\Sections/05Data.tex") [11
+onalSpecification\Sections/05Data.tex") [12
 
 
 ]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\Sections/06NonfunctionalRequirements.tex") [12
+onalSpecification\Sections/06NonfunctionalRequirements.tex") [13
 
 
 ]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\Sections/07GlobalTestCases.tex") [13
+onalSpecification\Sections/07GlobalTestCases.tex") [14
 
 
 ]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\Sections/08Models.tex" [14
+onalSpecification\Sections/08Models.tex" [15
 
 
 ]
-<Pictures/GenerellConcept.png, id=373, 257.763pt x 271.9761pt>
+<Pictures/GenerellConcept.png, id=382, 257.763pt x 271.9761pt>
 File: Pictures/GenerellConcept.png Graphic file (type png)
 
 <use Pictures/GenerellConcept.png>
 Package pdftex.def Info: Pictures/GenerellConcept.png used on input line 15.
 (pdftex.def)             Requested size: 497.92326pt x 525.40025pt.
- [15 <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/Fu
+ [16 <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/Fu
 nctionalSpecification/Pictures/GenerellConcept.png>] <Pictures/WareHouseSchema.
-png, id=378, 372.1905pt x 300.6432pt>
+png, id=387, 372.1905pt x 300.6432pt>
 File: Pictures/WareHouseSchema.png Graphic file (type png)
 
 <use Pictures/WareHouseSchema.png>
 Package pdftex.def Info: Pictures/WareHouseSchema.png used on input line 26.
 (pdftex.def)             Requested size: 497.92326pt x 402.20378pt.
-) [16 <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/F
+) [17 <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/F
 unctionalSpecification/Pictures/WareHouseSchema.png>]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\Sections/09DevelopmentEnvironment.tex") [17
+onalSpecification\Sections/09DevelopmentEnvironment.tex") [18
 
 
 ]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\Sections/10Glossary.tex") [18
+onalSpecification\Sections/10Glossary.tex") [19
 
 
 ]
@@ -1555,36 +1555,30 @@ onalSpecification\Sections/09DevelopmentEnvironment.aux")
 onalSpecification\Sections/10Glossary.aux"))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 113.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 113.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: B8BF63ACBEC896B30806160276C18CB0;2930.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: F9BA9AEF94789006FB378DEE680CD1A5;2866
-(rerunfilecheck)             After:  B8F1F202E04F7122594AF1BEEA1E8C5D;2866.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 12080 strings out of 493921
- 189486 string characters out of 3140856
- 307200 words of memory out of 3000000
- 14902 multiletter control sequences out of 15000+200000
+ 12083 strings out of 493921
+ 189523 string characters out of 3140856
+ 307201 words of memory out of 3000000
+ 14903 multiletter control sequences out of 15000+200000
  40195 words of font info for 62 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 45i,14n,47p,1476b,517s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,14n,47p,1476b,464s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/Programmieren/Latex/MiKTeX/fonts/enc/dvips/fontname/8r.enc}
  <C:\Users\Jonathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
 \tcrm1095.pk><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/a
 rev/ArevSans-Bold.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1
 /public/arev/ArevSans-Roman.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/f
 onts/type1/bera/fvmr8a.pfb>
-Output written on main.pdf (18 pages, 463881 bytes).
+Output written on main.pdf (19 pages, 465623 bytes).
 PDF statistics:
- 440 PDF objects out of 1000 (max. 8388607)
- 138 named destinations out of 1000 (max. 500000)
- 381 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 451 PDF objects out of 1000 (max. 8388607)
+ 140 named destinations out of 1000 (max. 500000)
+ 389 words of extra memory for PDF output out of 10000 (max. 10000000)
 
