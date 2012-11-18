@@ -3,12 +3,12 @@
 %=======================================================================
 
 %Through or with?
-With this programm the user should be put in the position 
-to visiualize the prepared data of queries, runned against his data base.
+With this program the user should be put in the position 
+to visualize the prepared data of queries, made against his data base.
 
 
 To structure the criteria the system has to fulfill, 
-it is devided into three parts for this and other sections.
+it is divided into three parts for this and other sections.
 \begin{itemize}
   \item Web page
   \item Parser
@@ -33,7 +33,7 @@ In the following their specific goals and criteria are described.
 \subsection{Web page}
 \subsubsection{Core criteria}
 \begin{itemize}
-\item The web page is the graphical interface for users and adminastrators.
+\item The web page is the graphical interface for users and administrators.
 
 \item Users can choose the charts, they want to see 
 and also the variables and scales for those.
@@ -58,7 +58,7 @@ and also the variables and scales for those.
 \begin{itemize}
 \item The web page does not allow normal users to load new data into the data warehouse.
 
-\item The web page does not provide statistic tabulars. 
+\item The web page does not provide statistic tabular. 
 \end{itemize}
 
 
@@ -68,10 +68,10 @@ and also the variables and scales for those.
 \subsubsection{Core criteria} % Musskriterien
 \begin{itemize}
 \item The Parser is able to perform the ETL-process on CSV-formatted log files (from Skyserver). %glossary
-This means he extracs the data he needs from the files, transforms them 
+This means he extracts the data he needs from the files, transforms them 
 and loads them into the data-warehouse. Dimensions and measures are specified in \ref{WHschema}.
   
-\item The Parser will recognise invalid logs and won't add them to the data-warehouse.
+\item The Parser will recognize invalid logs and won't add them to the data-warehouse.
  Every log with a mistake won't be accepted, because an error-message is not 
  as bad as a corrupted data-warehouse. 
  
@@ -105,9 +105,9 @@ This can stop corrupting the warehouse to guarantee correct data in the warehous
 \begin{itemize}
 \item The analyzer is the gate to the data warehouse. It extracts the specific data, 
 needed for the diagrams, passing them to the java-script front-end.
-\item The analyzer can take filtered information via webpage from the user 
+\item The analyzer can take filtered information via web page from the user 
 to use only certain data for the charts.
-\item The charts that are suppourted are at least:
+\item The charts that are supported are at least:
 \begin{itemize}
 \item scatter plots
 \item histograms
