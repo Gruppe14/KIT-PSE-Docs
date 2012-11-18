@@ -6,8 +6,6 @@
 \renewcommand{\labelenumi}{\theenumi}
 
   
-    
-% TODO solve the F90 to F100 problem
 \subsection{Main functions}
 
 This functions are required to fulfill the core criteria.
@@ -32,18 +30,11 @@ This functions are required to fulfill the core criteria.
   
   \item Provide option for the intervals or selections of the two variables % ref to privious
   
-% After entry 9
-%\end{enumerate}
-%\renewcommand{\theenumi}{/F\arabic{enumi}0/}
-%\begin{enumerate}
-%\setcounter{enumi}{9}
-  
-  
   \item Show bubble charts % add to glossary
   
   \item Provide option for the three variables of the scattered plot
   
-  \item Provide option for the intervals or selections of the two variables % ref to privious
+  \item Provide option for the intervals or selections of the three variables % ref to privious
   
   \item Show information about chart types
   
@@ -59,29 +50,25 @@ This functions are required for the adminstrative business.
   
   \item Provide access via web page with administrator rights
    
-  \item Provide the opportunity to initialize the data warehouse * % may get kicked out
-   
   \item Provide the opportunity to pass log-files to the parser
-  
-  \item Provide the opportunity to clean the data warehouse
    
 \end{enumerate}
 
 
 \subsubsection*{Parser specific}
  
- The following functions specify the parses functionality. Thereby /FXU/* to /FXZ/* specify
- the function /FXT/.
+ The following functions specify the parses functionality.
+ Thereby \ref{p2} to \ref{p4} specify the function \ref{p1}.
  
 \begin{enumerate}[resume]
   
-  \item Extract specific data from the log-files
+  \item Extract specific data from the log-files \label{p1}
   
-  \item Extract access database, access time and user information (dimensions) % add to glossary: first
+  \item Extract access database, access time and user information (dimensions)\label{p2} % add to glossary: first
   
   \item Extract number of rows, elapsed time, busy time (measures) % add to glossary: all 3
   
-  \item Extract type of data requested from the \texttt{where} part % add to glossary: where
+  \item Extract type of data requested from the \texttt{where}-part\label{p4} % add to glossary: where
   
   \item Transform the data to fit into the data warehouse schema
   
@@ -95,13 +82,7 @@ This functions are required for the adminstrative business.
   
   \item Run specific queries against data warehouse
   
-  \item Build up diagrams with received data % ref to selection /FXY/
-  
-  \item Build up histrograms
-  
-  \item Build up scattered plots
-  
-  \item Build up bubble charts
+  \item Transform received data serving the web page
 
 \end{enumerate}
 
@@ -110,16 +91,35 @@ This functions are required for the adminstrative business.
 
 To fulfill the optional goals the following functions are required.
 
+\subsubsection*{General}
 \begin{enumerate}[resume]
   
   \item Select language on web page
   
-  \item Switch language to German or other
+  \item Show bubble map % add to glossary
   
-  \item Build up and show bubble map % add to glossary
+  \item Show combination of histogram and scattered plot
   
-  \item Build up and show other chart types
+  \item Show other diagrams and charts
+  
+  \item Show history of the 5 last requested charts
   
   \item \ldots
  
 \end{enumerate}
+
+
+\subsubsection*{Administrator specific}
+
+\begin{enumerate}[resume]
+   
+  \item Provide the opportunity to initialize the data warehouse
+   
+  \item Provide the opportunity to request new log-files for specific time intervals
+  	from the database
+  
+  \item Provide the opportunity to clean the data warehouse
+   
+\end{enumerate}
+
+
