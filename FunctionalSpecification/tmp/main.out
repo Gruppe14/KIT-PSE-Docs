@@ -1,45 +1,46 @@
 \BOOKMARK [1][-]{section.1}{Goals}{}% 1
-\BOOKMARK [2][-]{subsection.1.1}{Parser}{section.1}% 2
-\BOOKMARK [3][-]{subsubsection.1.1.1}{Core criteria}{subsection.1.1}% 3
-\BOOKMARK [3][-]{subsubsection.1.1.2}{Optional criteria}{subsection.1.1}% 4
-\BOOKMARK [3][-]{subsubsection.1.1.3}{Exclusion criteria}{subsection.1.1}% 5
-\BOOKMARK [2][-]{subsection.1.2}{Analyzer}{section.1}% 6
-\BOOKMARK [3][-]{subsubsection.1.2.1}{Core criteria}{subsection.1.2}% 7
-\BOOKMARK [3][-]{subsubsection.1.2.2}{Optional criteria}{subsection.1.2}% 8
-\BOOKMARK [3][-]{subsubsection.1.2.3}{Exclusion criteria}{subsection.1.2}% 9
-\BOOKMARK [2][-]{subsection.1.3}{Web page}{section.1}% 10
-\BOOKMARK [3][-]{subsubsection.1.3.1}{Core criteria}{subsection.1.3}% 11
-\BOOKMARK [3][-]{subsubsection.1.3.2}{Optional criteria}{subsection.1.3}% 12
-\BOOKMARK [3][-]{subsubsection.1.3.3}{Exclusion criteria}{subsection.1.3}% 13
-\BOOKMARK [1][-]{section.2}{Usage}{}% 14
-\BOOKMARK [2][-]{subsection.2.1}{Applications}{section.2}% 15
-\BOOKMARK [2][-]{subsection.2.2}{Target groups / Audience}{section.2}% 16
-\BOOKMARK [2][-]{subsection.2.3}{Operating conditions}{section.2}% 17
-\BOOKMARK [1][-]{section.3}{Operating environment}{}% 18
-\BOOKMARK [2][-]{subsection.3.1}{Software}{section.3}% 19
-\BOOKMARK [2][-]{subsection.3.2}{Hardware}{section.3}% 20
-\BOOKMARK [2][-]{subsection.3.3}{Orgware}{section.3}% 21
-\BOOKMARK [2][-]{subsection.3.4}{Product interfaces}{section.3}% 22
-\BOOKMARK [1][-]{section.4}{Functional requirements}{}% 23
-\BOOKMARK [2][-]{subsection.4.1}{Main functions}{section.4}% 24
-\BOOKMARK [2][-]{subsection.4.2}{Extending functions}{section.4}% 25
-\BOOKMARK [1][-]{section.5}{Data}{}% 26
-\BOOKMARK [2][-]{subsection.5.1}{Static Data}{section.5}% 27
-\BOOKMARK [2][-]{subsection.5.2}{Data-Warehouse data}{section.5}% 28
-\BOOKMARK [1][-]{section.6}{Nonfunctional requirements}{}% 29
-\BOOKMARK [2][-]{subsection.6.1}{First Whatever}{section.6}% 30
-\BOOKMARK [2][-]{subsection.6.2}{Next Whatever}{section.6}% 31
-\BOOKMARK [1][-]{section.7}{Global test cases}{}% 32
-\BOOKMARK [2][-]{subsection.7.1}{Test Case}{section.7}% 33
-\BOOKMARK [1][-]{section.8}{Models}{}% 34
-\BOOKMARK [2][-]{subsection.8.1}{User stories}{section.8}% 35
-\BOOKMARK [2][-]{subsection.8.2}{Object models}{section.8}% 36
-\BOOKMARK [2][-]{subsection.8.3}{Dynamic models}{section.8}% 37
-\BOOKMARK [2][-]{subsection.8.4}{Web interfaces}{section.8}% 38
-\BOOKMARK [2][-]{subsection.8.5}{Overview}{section.8}% 39
-\BOOKMARK [3][-]{subsubsection.8.5.1}{Parser}{subsection.8.5}% 40
-\BOOKMARK [3][-]{subsubsection.8.5.2}{Analyzer}{subsection.8.5}% 41
-\BOOKMARK [3][-]{subsubsection.8.5.3}{Web page}{subsection.8.5}% 42
-\BOOKMARK [2][-]{subsection.8.6}{Warehouse schema}{section.8}% 43
-\BOOKMARK [1][-]{section.9}{Development Environment}{}% 44
-\BOOKMARK [1][-]{section.10}{Glossary}{}% 45
+\BOOKMARK [2][-]{subsection.1.1}{Core criteria}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Web page}{section.1}% 3
+\BOOKMARK [3][-]{subsubsection.1.2.1}{Core criteria}{subsection.1.2}% 4
+\BOOKMARK [3][-]{subsubsection.1.2.2}{Optional criteria}{subsection.1.2}% 5
+\BOOKMARK [3][-]{subsubsection.1.2.3}{Exclusion criteria}{subsection.1.2}% 6
+\BOOKMARK [2][-]{subsection.1.3}{Parser}{section.1}% 7
+\BOOKMARK [3][-]{subsubsection.1.3.1}{Core criteria}{subsection.1.3}% 8
+\BOOKMARK [3][-]{subsubsection.1.3.2}{Optional criteria}{subsection.1.3}% 9
+\BOOKMARK [3][-]{subsubsection.1.3.3}{Exclusion criteria}{subsection.1.3}% 10
+\BOOKMARK [2][-]{subsection.1.4}{Analyzer}{section.1}% 11
+\BOOKMARK [3][-]{subsubsection.1.4.1}{Core criteria}{subsection.1.4}% 12
+\BOOKMARK [3][-]{subsubsection.1.4.2}{Optional criteria}{subsection.1.4}% 13
+\BOOKMARK [3][-]{subsubsection.1.4.3}{Exclusion criteria}{subsection.1.4}% 14
+\BOOKMARK [1][-]{section.2}{Usage}{}% 15
+\BOOKMARK [2][-]{subsection.2.1}{Applications}{section.2}% 16
+\BOOKMARK [2][-]{subsection.2.2}{Target groups / Audience}{section.2}% 17
+\BOOKMARK [2][-]{subsection.2.3}{Operating conditions}{section.2}% 18
+\BOOKMARK [1][-]{section.3}{Operating environment}{}% 19
+\BOOKMARK [2][-]{subsection.3.1}{Software}{section.3}% 20
+\BOOKMARK [2][-]{subsection.3.2}{Hardware}{section.3}% 21
+\BOOKMARK [2][-]{subsection.3.3}{Orgware}{section.3}% 22
+\BOOKMARK [2][-]{subsection.3.4}{Product interfaces}{section.3}% 23
+\BOOKMARK [1][-]{section.4}{Functional requirements}{}% 24
+\BOOKMARK [2][-]{subsection.4.1}{Main functions}{section.4}% 25
+\BOOKMARK [2][-]{subsection.4.2}{Extending functions}{section.4}% 26
+\BOOKMARK [1][-]{section.5}{Data}{}% 27
+\BOOKMARK [2][-]{subsection.5.1}{Static Data}{section.5}% 28
+\BOOKMARK [2][-]{subsection.5.2}{Data-Warehouse data}{section.5}% 29
+\BOOKMARK [1][-]{section.6}{Nonfunctional requirements}{}% 30
+\BOOKMARK [2][-]{subsection.6.1}{First Whatever}{section.6}% 31
+\BOOKMARK [2][-]{subsection.6.2}{Next Whatever}{section.6}% 32
+\BOOKMARK [1][-]{section.7}{Global test cases}{}% 33
+\BOOKMARK [2][-]{subsection.7.1}{Test Case}{section.7}% 34
+\BOOKMARK [1][-]{section.8}{Models}{}% 35
+\BOOKMARK [2][-]{subsection.8.1}{User stories}{section.8}% 36
+\BOOKMARK [2][-]{subsection.8.2}{Object models}{section.8}% 37
+\BOOKMARK [2][-]{subsection.8.3}{Dynamic models}{section.8}% 38
+\BOOKMARK [2][-]{subsection.8.4}{Web interfaces}{section.8}% 39
+\BOOKMARK [2][-]{subsection.8.5}{Overview}{section.8}% 40
+\BOOKMARK [3][-]{subsubsection.8.5.1}{Parser}{subsection.8.5}% 41
+\BOOKMARK [3][-]{subsubsection.8.5.2}{Analyzer}{subsection.8.5}% 42
+\BOOKMARK [3][-]{subsubsection.8.5.3}{Web page}{subsection.8.5}% 43
+\BOOKMARK [2][-]{subsection.8.6}{Warehouse schema}{section.8}% 44
+\BOOKMARK [1][-]{section.9}{Development Environment}{}% 45
+\BOOKMARK [1][-]{section.10}{Glossary}{}% 46
