@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  18 NOV 2012 15:48
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  18 NOV 2012 16:04
 entering extended mode
 **main.tex
 
@@ -1564,8 +1564,8 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
  ) 
 Here is how much of TeX's memory you used:
  12080 strings out of 493921
- 189544 string characters out of 3140856
- 306709 words of memory out of 3000000
+ 189486 string characters out of 3140856
+ 307200 words of memory out of 3000000
  14902 multiletter control sequences out of 15000+200000
  40195 words of font info for 62 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -1576,7 +1576,7 @@ Here is how much of TeX's memory you used:
 rev/ArevSans-Bold.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1
 /public/arev/ArevSans-Roman.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/f
 onts/type1/bera/fvmr8a.pfb>
-Output written on main.pdf (18 pages, 463105 bytes).
+Output written on main.pdf (18 pages, 463116 bytes).
 PDF statistics:
  440 PDF objects out of 1000 (max. 8388607)
  138 named destinations out of 1000 (max. 500000)
