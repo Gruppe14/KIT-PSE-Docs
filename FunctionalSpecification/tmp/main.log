@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  18 NOV 2012 12:46
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  18 NOV 2012 14:12
 entering extended mode
 **main.tex
 
@@ -1385,14 +1385,14 @@ File: uzavm.fd 2006/05/30 Fontinst v1.929 font definitions for U/zavm.
 LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <9> not available
 (Font)              Font shape `T1/fav/b/n' tried instead on input line 11.
 
-<Pictures/KIT-Logo.png, id=167, 501.875pt x 250.9375pt>
+<Pictures/KIT-Logo.png, id=171, 501.875pt x 250.9375pt>
 File: Pictures/KIT-Logo.png Graphic file (type png)
 
 <use Pictures/KIT-Logo.png>
 Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 24.
 (pdftex.def)             Requested size: 128.03653pt x 64.01692pt.
 
-<Pictures/WHAT-LogoText2.png, id=169, 2293.56876pt x 1049.9225pt>
+<Pictures/WHAT-LogoText2.png, id=173, 2293.56876pt x 1049.9225pt>
 File: Pictures/WHAT-LogoText2.png Graphic file (type png)
 
 <use Pictures/WHAT-LogoText2.png>
@@ -1490,25 +1490,33 @@ onalSpecification\Sections/07GlobalTestCases.tex") [14
 
 ]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\Sections/08Models.tex"
-<Pictures/WareHouseDiagramm.png, id=354, 316.5426pt x 200.4288pt>
-File: Pictures/WareHouseDiagramm.png Graphic file (type png)
-
-<use Pictures/WareHouseDiagramm.png>
-Package pdftex.def Info: Pictures/WareHouseDiagramm.png used on input line 13.
-(pdftex.def)             Requested size: 497.92326pt x 315.28555pt.
-) [15
+onalSpecification\Sections/08Models.tex" [15
 
 
- <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/Functi
-onalSpecification/Pictures/WareHouseDiagramm.png>]
+]
+<Pictures/GenerellConcept.png, id=363, 257.763pt x 271.9761pt>
+File: Pictures/GenerellConcept.png Graphic file (type png)
+
+<use Pictures/GenerellConcept.png>
+Package pdftex.def Info: Pictures/GenerellConcept.png used on input line 15.
+(pdftex.def)             Requested size: 497.92326pt x 525.40025pt.
+ [16 <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/Fu
+nctionalSpecification/Pictures/GenerellConcept.png>] <Pictures/WareHouseSchema.
+png, id=368, 372.1905pt x 300.6432pt>
+File: Pictures/WareHouseSchema.png Graphic file (type png)
+
+<use Pictures/WareHouseSchema.png>
+Package pdftex.def Info: Pictures/WareHouseSchema.png used on input line 21.
+(pdftex.def)             Requested size: 497.92326pt x 402.20378pt.
+) [17 <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/F
+unctionalSpecification/Pictures/WareHouseSchema.png>]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\Sections/09DevelopmentEnvironment.tex") [16
+onalSpecification\Sections/09DevelopmentEnvironment.tex") [18
 
 
 ]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\Sections/10Glossary.tex") [17
+onalSpecification\Sections/10Glossary.tex") [19
 
 
 ]
@@ -1548,17 +1556,17 @@ onalSpecification\Sections/10Glossary.aux"))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 113.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 113.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: CC4D5CE1B580FC4B3E1641F895ADE3B8;2600.
+(rerunfilecheck)             Checksum: A8BAF6E604481A3D16A5E9601E06C182;2659.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 12066 strings out of 493921
- 189245 string characters out of 3140856
+ 12075 strings out of 493921
+ 189429 string characters out of 3140856
  306671 words of memory out of 3000000
- 14893 multiletter control sequences out of 15000+200000
+ 14898 multiletter control sequences out of 15000+200000
  40493 words of font info for 63 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  45i,14n,47p,1476b,533s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1569,9 +1577,9 @@ rev/ArevSans-Bold.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1
 /public/arev/ArevSans-Roman.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/f
 onts/type1/bera/fvmr8a.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/
 type1/mathdesign/mdbch/md-chb7y.pfb>
-Output written on main.pdf (17 pages, 374327 bytes).
+Output written on main.pdf (19 pages, 465653 bytes).
 PDF statistics:
- 419 PDF objects out of 1000 (max. 8388607)
- 133 named destinations out of 1000 (max. 500000)
- 344 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 434 PDF objects out of 1000 (max. 8388607)
+ 136 named destinations out of 1000 (max. 500000)
+ 357 words of extra memory for PDF output out of 10000 (max. 10000000)
 

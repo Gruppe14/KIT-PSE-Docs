@@ -36,6 +36,7 @@
 \contentsline {subsection}{\numberline {8.2}Object models}{15}{subsection.8.2}
 \contentsline {subsection}{\numberline {8.3}Dynamic models}{15}{subsection.8.3}
 \contentsline {subsection}{\numberline {8.4}Web interfaces}{15}{subsection.8.4}
-\contentsline {subsection}{\numberline {8.5}Warehouse model}{15}{subsection.8.5}
-\contentsline {section}{\numberline {9}Development Environment}{16}{section.9}
-\contentsline {section}{\numberline {10}Glossary}{17}{section.10}
+\contentsline {subsection}{\numberline {8.5}Overview}{16}{subsection.8.5}
+\contentsline {subsection}{\numberline {8.6}Warehouse model}{17}{subsection.8.6}
+\contentsline {section}{\numberline {9}Development Environment}{18}{section.9}
+\contentsline {section}{\numberline {10}Glossary}{19}{section.10}
