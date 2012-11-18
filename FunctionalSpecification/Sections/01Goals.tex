@@ -10,22 +10,55 @@ to visiualize the prepared data of queries, runned against his data base.
 To structure the criteria the system has to fulfill, 
 it is devided into three parts for this and other sections.
 \begin{itemize}
+  \item Web page
   \item Parser
   \item Analyzer
-  \item Web page
 \end{itemize}
 See \ref{overview} for a overview of this parts and their relationships.
 In the following their specific goals and criteria are described.
+ 
+
+% \subsection{Core criteria}
+% This criteria have to be fulfilled to guarantee 
+% the core functionality of the system.
+% 
+% \begin{itemize}
+%   \item Provide an option to import CSV-formatted log files % glossary
+%    and parse specified data out of them
+%   \item Load 
+% \end{itemize}
 
 
-\subsection{Core criteria}
-This criteria have to be fulfilled to guarantee 
-the core functionality of the system.
-
+%=======================================================================
+\subsection{Web page}
+\subsubsection{Core criteria}
 \begin{itemize}
-  \item Provide an option to import CSV-formatted log files % glossary
-   and parse specified data out of them
-  \item Load 
+\item The web page is the graphical interface for users and adminastrators.
+
+\item Users can choose the charts, they want to see 
+and also the variables and scales for those.
+
+\item The web page provides help for how to use the diagrams and variables.
+
+\item A admin-login provides administrative rights, which are needed to use the parser.
+\end{itemize}
+
+%----------------------------------------------------------------------
+\subsubsection{Optional criteria}
+\begin{itemize}
+\item The language of the website can be changed into different languages. (e.g. German)
+
+\item The administrator gets the ability to handle the data warehouse and load new log-files.
+
+\item A little history of the last requested charts is stored and viewable.
+\end{itemize}
+
+%----------------------------------------------------------------------
+\subsubsection{Exclusion criteria}
+\begin{itemize}
+\item The web page does not allow normal users to load new data into the data warehouse.
+
+\item The web page does not provide statistic tabulars. 
 \end{itemize}
 
 
@@ -34,33 +67,33 @@ the core functionality of the system.
 
 \subsubsection{Core criteria} % Musskriterien
 \begin{itemize}
-\item The Parser can read a CSV-formatted log file (from Skyserver)
- and fill a data-warehouse with multi-dimensional user information.
- The dimensions of this data are location of the user, location of the 
- database and time of the server-access. It will also add several measures such as delay time or  
+\item The Parser is able to perform the ETL-process on CSV-formatted log files (from Skyserver). %glossary
+This means he extracs the data he needs from the files, transforms them 
+and loads them into the data-warehouse. Dimensions and measures are specified in \ref{WHschema}.
+  
 \item The Parser will recognise invalid logs and won't add them to the data-warehouse.
  Every log with a mistake won't be accepted, because an error-message is not 
  as bad as a corrupted data-warehouse. 
-\item The Parser will be accessible with admin-login to the webpage.
+ 
+\item The Parser will be fed with log files from the administrator via web page.
 \end{itemize} 
 
-%----------------------------------------------------------------------
-\subsubsection{Optional criteria}
-\begin{itemize}
-\item The parser will contain a small manual which is designed for experienced users. 
-(optional because this parser is only used by it's developers)
-\end{itemize}
-
+% %----------------------------------------------------------------------
+% \subsubsection{Optional criteria}
+% \begin{itemize}
+% \item 
+% \end{itemize} 
+ 
 %----------------------------------------------------------------------
 \subsubsection{Exclusion criteria}
 \begin{itemize}
-\item The Parser can only use CSV-formatted logs from skyserver.sdss.org. 
-It can neither read logs in another format nor logs
-from another source.
+\item This parser is only able to operate on CSV-formatted logs from SkyServer. 
+It can neither read logs in another formats nor logs from another source.
+
 \item There is no way to avoid using this Parser when adding data to the warehouse. 
 This can stop corrupting the warehouse to guarantee correct data in the warehouse.
+
 \item The Parser doesn't correct mistakes in the log file.
-\item Due to being only a tool for it's developers, our parser doesn't need to be easy to use for first-time users.
 \end{itemize}
 
 
@@ -70,52 +103,36 @@ This can stop corrupting the warehouse to guarantee correct data in the warehous
 
 \subsubsection{Core criteria}
 \begin{itemize}
-\item The analyzer can use the data-warehouse which is filled with user data  
-from skyverser.sdss.org to create various charts. 
-Those charts are created by user command and are visible on a javascript-website.
+\item The analyzer is the gate to the data warehouse. It extracts the specific data, 
+needed for the diagrams, passing them to the java-script front-end.
+\item The analyzer can take filtered information via webpage from the user 
+to use only certain data for the charts.
+\item The charts that are suppourted are at least:
 \begin{itemize}
-\item scatterplots
+\item scatter plots
 \item histograms
-\end{itemize}
-\item The analyzer can take filter information via webpage from the user to use only certain data for creating charts.
-\end{itemize}
-
-%----------------------------------------------------------------------
-\subsubsection{Optional criteria}
-\begin{itemize}
-\item The analyzer will support different chart-types.
+\item bubble charts
 \end{itemize}
 
-%----------------------------------------------------------------------
-\subsubsection{Exclusion criteria}
-\begin{itemize}
-\item WHAT takes correct data in the warehouse for granted. It doesn't check the
- data because it already checked by SLP. 
-\end{itemize}
-
-%=======================================================================
-\subsection{Web page}
-\subsubsection{Core criteria}
-\begin{itemize}
-\item The website has an graphical interface, 
-so that users can enter which chart they want.
-
-\item The website contains small guides for experienced users on how to create a specific chart. 
-(similar to the guides at skyserver.sdss.org)
-
-\item The website has an admin-login page to get administrative rights, which are needed to use the parser.
 \end{itemize}
 
 %----------------------------------------------------------------------
 \subsubsection{Optional criteria}
 \begin{itemize}
-\item The language of the website can be changed into different languages. (e.g. German)
+\item The analyzer will support more different chart-types, especially the combination of
+a histogram and a scatter plot. 
+\item The analyzer does a little bit of data mining. This function will 
+be called Niko's data mining.
 \end{itemize}
 
 %----------------------------------------------------------------------
-\subsubsection{Exclusion criteria}
-\begin{itemize}
-\item The website got no function for normal users to enter data into the data warehouse.
-\end{itemize}
+% \subsubsection{Exclusion criteria}
+% \begin{itemize}
+% \item 
+% \end{itemize}
+
+
+% Vll sollte man noch was zum warehouse sagen.
+
 
 

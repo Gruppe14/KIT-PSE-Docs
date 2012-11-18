@@ -19,7 +19,7 @@
 \usepackage{color}
 \usepackage[usenames,dvipsnames, table]{xcolor}
 \usepackage{etoolbox} 
- 
+  
 % Customized header & footer
 \usepackage{fancyhdr}
 \pagestyle{fancy}
@@ -36,7 +36,7 @@
 	
 % Customized headlines
 \usepackage{titlesec}
-
+ 
  
 % If you want enumartions to go on with last one -> do this:
 % \begin{enumerate}[resume]
@@ -64,6 +64,12 @@
 
 
 % Glossary 
+% \usepackage{ifthen}
+% \usepackage{xkeyval}
+% \usepackage{xfor}
+% \usepackage{amsgen}
+% \usepackage{etoolbox} 
+
 \usepackage[makeindex]{glossaries}
 \include{Sections/1XGlossaryEntries} 
 \makeglossaries   
@@ -105,7 +111,8 @@
 \include{Sections/08Models} 
 \newpage 
 \include{Sections/09DevelopmentEnvironment}
-\newpage  
+\newpage
+\setlist{leftmargin=90pt} 
 \include{Sections/10Glossary}
 \newpage 
    
