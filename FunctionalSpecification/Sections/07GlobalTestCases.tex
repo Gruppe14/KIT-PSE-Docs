@@ -9,7 +9,7 @@ or not.
 
 \subsection{Test case}
 
-is the description of Workflow of this Application and depend on the Functional requirements. This Workflow must
+is the description of Workflow of this Application and depend on the Functional requirements. This Workflow must work
 successful and correctly with alle these points. 
 
 \begin{enumerate}
@@ -55,5 +55,121 @@ successful and correctly with alle these points.
 \item Call information about selectable variables (\ref{f14})
 
 \item Leave the web page
+
+\end{enumerate}
+
+
+
+
+\subsection{Scenario Testing}
+
+Scenario testing is sequence Workflow from use cases and shod lead iteratively
+
+% Enumeration changed
+\renewcommand{\theenumi}{/T\arabic{enumi}0/}
+\renewcommand{\labelenumi}{\theenumi}
+
+\subsubsection {Scenario : load logs file} 
+
+\begin{enumerate}
+
+\item Start the Application
+
+\item Log in the User with the Admin ID and password
+
+\item Write the Queries
+
+\item Send the Querise to Skyserver
+
+\item Send the logs file to parse
+
+\item Call the opportunity to initialize the data warehouse
+
+\item Call the opportunity to request new log-files for specific time intervals from the
+database
+
+\item Call the opportunity to clean the data warehouse %what's mean?
+
+\item Leave the Application
+
+\end{enumerate}
+
+\subsubsection {Scenario : parser} 
+
+\begin{enumerate}
+
+\item Start the Application
+
+\item Log in the User with the Admin ID and password
+
+\item Call Extract specific data from the log-files
+
+\item Call Extract access database, access time and user information (dimensions)
+
+\item Call Extract number of rows, elapsed time, busy time (measures)
+
+\item Call Extract type of data requested from the where-part
+
+\item Call Transform the data to fit into the data warehouse schema
+
+\item Load the data into the data warehouse
+
+\item Leave the Application
+
+\end{enumerate}
+
+\subsubsection {Scenario : select the variables of diagram} 
+
+\begin{enumerate}
+
+\item Start the Application
+
+\item Select a diagram type
+
+\item Show the diagram
+
+\item Call option for the tow or three variables of the diagram
+
+\item Change one, tow or three variables of the diagram
+
+\item Refresh the Information
+
+\item Show the new diagram with new variables of the diagram
+
+\item Leave the Application
+
+\end{enumerate}
+
+\subsubsection {Scenario : Option} 
+
+\begin{enumerate}
+
+\item Start the Application
+
+\item Call the option menu
+
+\item Select the Languge of the Application
+
+\item Show the Application with the selected languge
+
+\item Leave the Application
+
+\item Start the Application 
+
+\item Select the diagram 
+
+\item Call file menu
+
+\item Save the diagram as a PDF file
+
+\item Leave the Application
+
+\end{enumerate}
+
+\subsubsection {Scenario : A} 
+
+\begin{enumerate}
+
+\item blabla
 
 \end{enumerate}
