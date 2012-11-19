@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  19 NOV 2012 18:57
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  19 NOV 2012 19:08
 entering extended mode
 **main.tex
 
@@ -1385,14 +1385,14 @@ File: uzavm.fd 2006/05/30 Fontinst v1.929 font definitions for U/zavm.
 LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <9> not available
 (Font)              Font shape `T1/fav/b/n' tried instead on input line 11.
 
-<Pictures/KIT-Logo.png, id=215, 501.875pt x 250.9375pt>
+<Pictures/KIT-Logo.png, id=219, 501.875pt x 250.9375pt>
 File: Pictures/KIT-Logo.png Graphic file (type png)
 
 <use Pictures/KIT-Logo.png>
 Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 24.
 (pdftex.def)             Requested size: 128.03653pt x 64.01692pt.
 
-<Pictures/WHAT-LogoText2.png, id=217, 2293.56876pt x 1049.9225pt>
+<Pictures/WHAT-LogoText2.png, id=221, 2293.56876pt x 1049.9225pt>
 File: Pictures/WHAT-LogoText2.png Graphic file (type png)
 
 <use Pictures/WHAT-LogoText2.png>
@@ -1483,9 +1483,9 @@ onalSpecification\Sections/07GlobalTestCases.tex" [13
 
 
 ]
-Overfull \hbox (16.75171pt too wide) in paragraph at lines 67--68
-[]\T1/fav/m/n/10.95 Extract cor-rect num-ber of rows, elapsed time, busy time f
-rom the log-file([][]/F210/[][]) 
+Overfull \hbox (16.75171pt too wide) in paragraph at lines 69--70
+[][]\T1/fav/m/n/10.95 Extract cor-rect num-ber of rows, elapsed time, busy time
+ from the log-file([][]/F210/[][]) 
  []
 
 [14]) [15]
@@ -1494,7 +1494,7 @@ onalSpecification\Sections/08Models.tex" [16
 
 
 ]
-<Pictures/GenerellConcept.png, id=490, 257.763pt x 271.9761pt>
+<Pictures/GenerellConcept.png, id=495, 257.763pt x 271.9761pt>
 File: Pictures/GenerellConcept.png Graphic file (type png)
 
 <use Pictures/GenerellConcept.png>
@@ -1502,7 +1502,7 @@ Package pdftex.def Info: Pictures/GenerellConcept.png used on input line 36.
 (pdftex.def)             Requested size: 497.92326pt x 525.40025pt.
  [17 <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/Fu
 nctionalSpecification/Pictures/GenerellConcept.png>] <Pictures/WareHouseSchema.
-png, id=495, 372.1905pt x 300.6432pt>
+png, id=500, 372.1905pt x 300.6432pt>
 File: Pictures/WareHouseSchema.png Graphic file (type png)
 
 <use Pictures/WareHouseSchema.png>
@@ -1554,20 +1554,20 @@ onalSpecification\Sections/10Glossary.aux"))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 120.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 120.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C7A385751312E9CCFABCA28746398F75;3465.
+(rerunfilecheck)             Checksum: 543B9C43897B536D159DAC849E2B7402;3566.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 12231 strings out of 493921
- 191232 string characters out of 3140856
+ 12233 strings out of 493921
+ 191302 string characters out of 3140856
  309829 words of memory out of 3000000
- 15004 multiletter control sequences out of 15000+200000
+ 15005 multiletter control sequences out of 15000+200000
  40195 words of font info for 62 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 45i,14n,47p,1476b,570s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,14n,47p,1476b,556s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{glo:SkyServer} has been referenced but does not e
 xist, replaced by a fixed one
 
@@ -1577,9 +1577,9 @@ crm1095.pk><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/are
 v/ArevSans-Bold.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1/p
 ublic/arev/ArevSans-Roman.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fon
 ts/type1/bera/fvmr8a.pfb>
-Output written on main.pdf (20 pages, 484107 bytes).
+Output written on main.pdf (20 pages, 484906 bytes).
 PDF statistics:
- 569 PDF objects out of 1000 (max. 8388607)
- 186 named destinations out of 1000 (max. 500000)
- 445 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 575 PDF objects out of 1000 (max. 8388607)
+ 187 named destinations out of 1000 (max. 500000)
+ 453 words of extra memory for PDF output out of 10000 (max. 10000000)
 
