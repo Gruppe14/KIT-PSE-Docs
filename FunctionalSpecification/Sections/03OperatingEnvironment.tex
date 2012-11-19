@@ -7,6 +7,8 @@
 Whereas the programm and the data warehouse run on a sever,
 the access to it will be via a web browser on the users computer. 
 This implies that the webpage will need to be hosted on a webserver.
+However, a dedicated server machine is not required, as the clients computer can host both the client,
+the webserver and the webpage.
 
 
 
@@ -15,15 +17,15 @@ This implies that the webpage will need to be hosted on a webserver.
   \item The server hosting the data warehouse needs  MySQL %glossary
   
   \item The server hosting the web page needs a 
-  recent version of th Java Runtime Environment / Java VM  % Glossary
+  recent version of the Java Runtime Environment / Java VM  % Glossary
 \end{itemize}
 
 
-This software is required on the users computer:
+Following software is required on the users computer:
 \begin{itemize}
   \item Latest version of a modern browser
   \begin{itemize}
-    \item Chrome and Firefox will be supported
+    \item Though Chrome and Firefox will be officially supported, other browsers might work as well.
   \end{itemize}
   \item JavaScript (enabled)
 \end{itemize}
@@ -35,7 +37,7 @@ This software is required on the users computer:
 The server has to be fast enough to support all clients. This depends on
 the expected number of clients. Most computations will be done on the server.
 
-% Is the program really local hosted? 
+% Is the program really local hosted? %wat
 The client needs to be fast enough to visualize the data received from the server, as that's almost all it does.
 The required hardware thus depends greatly on the amount of data that needs to be 
 visualized. That said, any recent computer, with for example, 
