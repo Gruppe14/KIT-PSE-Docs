@@ -1,9 +1,6 @@
 \section{Data}
 The product data are divided in two groups, static data, 
-which are delivered with the program and in the data warehouse data, 
-which come from the Skyserver server logs, are parsed 
-and loaded into the Data-Warehouse. If optional criteria are fulfilled they can be replaced 
-by clearing the data warehouse and loading new data via web page as administrator.
+which are delivered with the program and in 
 
 % Enumeration changed
 \renewcommand{\theenumi}{/D\arabic{enumi}0/}
@@ -22,17 +19,34 @@ by clearing the data warehouse and loading new data via web page as administrato
   \item Stylesheet files
 \end{enumerate}
 
-\subsection{Data-Warehouse data}
+\subsection{Dynamic Data}
 
-\begin{enumerate}[resume] % <- resume goes on with old counter
-  \item Database accessed by Users
-  \item Server accessed by Users
-  \item City of Users
-  \item Country of Users
-  \item Time of SkyServer access
-  \item Number of rows accessed
-  \item Elapsed time of access
-  \item CPU busy time of access
-\end{enumerate}
+
+\subsection{Data-Warehouse data} 
+
+The warehouse may use a star schema. It will store nearly all d
+
+The data warehouse stores all the data, coming from from the database (Skyserver) server logs.
+They were subject of the ETL-process in the parser. If optional criteria are fulfilled
+ they can be replaced by clearing the data warehouse 
+ and loading new data via web page as administrator.
+
+The data warehouse may use a star schema.
+\begin{center}
+\includegraphics[width=0.7\linewidth]{Pictures/WareHouseSchema.png}
+\end{center}   
+See rows, elapse time and bussy time in the glossary (\ref{glos}) for descriptions. 
+
+
+% \begin{enumerate}[resume] % <- resume goes on with old counter
+%   \item Database accessed by Users
+%   \item Server accessed by Users
+%   \item City of Users
+%   \item Country of Users
+%   \item Time of SkyServer access
+%   \item Number of rows accessed
+%   \item Elapsed time of access
+%   \item CPU busy time of access
+% \end{enumerate}
 
 % we may include just the schema in here? 
