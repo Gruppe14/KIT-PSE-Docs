@@ -1,14 +1,11 @@
 \section{Data}
-The product data are divided in two groups, static data, 
-which are delivered with the program and in 
-
 % Enumeration changed
 \renewcommand{\theenumi}{/D\arabic{enumi}0/}
 \renewcommand{\labelenumi}{\theenumi}
 
-\subsection{Static Data}
+\subsection{Static data}
 
-\begin{enumerate}
+\begin{enumerate}[resume]
   \item Language files
   \item Manual
   \item Source Code
@@ -19,12 +16,11 @@ which are delivered with the program and in
   \item Stylesheet files
 \end{enumerate}
 
-\subsection{Dynamic Data}
 
 
+\newpage
 \subsection{Data-Warehouse data} 
 
-The warehouse may use a star schema. It will store nearly all d
 
 The data warehouse stores all the data, coming from from the database (Skyserver) server logs.
 They were subject of the ETL-process in the parser. If optional criteria are fulfilled
@@ -33,7 +29,7 @@ They were subject of the ETL-process in the parser. If optional criteria are ful
 
 The data warehouse may use a star schema.
 \begin{center}
-\includegraphics[width=0.7\linewidth]{Pictures/WareHouseSchema.png}
+\includegraphics[width=1\linewidth]{Pictures/WareHouseSchema.png}
 \end{center}   
 See rows, elapse time and bussy time in the glossary (\ref{glos}) for descriptions. 
 
