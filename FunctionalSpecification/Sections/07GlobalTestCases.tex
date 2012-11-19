@@ -7,57 +7,73 @@ or not.
 \renewcommand{\theenumi}{/T\arabic{enumi}0/}
 \renewcommand{\labelenumi}{\theenumi}
 
-\subsection{Test case}
+\subsection{General}
 
-is the description of Workflow of this Application and depend on the Functional requirements. This Workflow must work
-successful and correctly with alle these points. 
+Those test-cases are necessary for the webpage to work properly and succeed in serving basic requests.
 
 \begin{enumerate}
 
+\item Access webpage with Mozilla Firefox 16 & Google Chrome 23 (local or internet) (\ref{f1})
 
-\item Start internet browser (\ref{f1})
+\item Open chart-type menu (unnecessary if chart-type menu is on the first page) (\ref{f2})
 
-\item Type the web address - say pse10-analyzer.edu - in browser's address bar (\ref{f1})
+\item Open window for scatterplot-creation (\ref{f2}) and create an example (\ref{f7})
+      with x-Axis date and y-Axis number of lines per request (\ref{f8}) (\ref{f9})
 
-\item Call the Home Page with a Table Bottun /F20/ % What does this mean?
+\item Open window for histogram-creation(\ref{f2}) and create an example (\ref{f4})
+      with x-Axis year and y-Axis number of requests (\ref{f5}) (\ref{f6})
 
-\item Select a Type of chart /F30/
-
-\item Call the diagram Page 
-% may get obsolot if we start with the overview as planed
-
-\item Call histogram /F40/
-
-\item Call the option for tow variables of the histrogram /F50/
-
-\item Call the option for the interval or selection of the x-axis variable /F60/
-
-\item Call  scattered plots  /F70/
-
-\item Call the option for tow variables of the histrogram /F80/
-
-\item Call the option for the interval or selection of the x-axis variable /F90/
-
-\item Call  scattered plots  /F70/
-
-\item Call the option for tow variables of the scattered plots /F80/
-
-\item Call the option for the interval or selection of tow variables /F90/
-
-\item Call bubble charts /F100/
-
-\item Call the option for three variables of the scattered plots /F110/
-
-\item Call the option for the interval or selection of tow variables /F120/
+\item Open window for bubble-chart-creation(\ref{f2}) and create an example (\ref{f10})
+      with x-Axis year, y-Axis Country and size number of requests (\ref{f11}) (\ref{f12})
 
 \item Call the information about chart types (\ref{f13})
 
-\item Call information about selectable variables (\ref{f14})
-
-\item Leave the web page
+\item Request information about selectable variables (\ref{f14})
 
 \end{enumerate}
 
+\subsection{Administrator specific}
+
+Those test cases check the correct admin-login.
+
+\begin{enumerate}
+
+\item Enter loginname and password for admin-login. (\ref{f15})
+
+\item Log-in and get administrative rights. (\ref{f15})
+
+\item Try to log in with wrong loginname (\ref{f15})
+
+\item Try to log in with wrong password (\ref{f15})
+
+\item Pass example log-file to the parser (\ref{f16})
+
+\end{enumerate}
+
+\subsection{Parser specific}
+
+The following test-cases test the correct work of our parser, which extracts information from a .csv-file and writes 
+it in our data-warehouse.
+
+\begin{enumerate}
+
+\item Parse example log-file and extract valuable information correctly. (\ref{f17}) More specifically :
+
+\begin{itemize}
+
+\item Extract correct database, time, user information and type of request from the log-file (\ref{f18}) (\ref{f20})
+
+\item Extract correct number of rows, elapsed time, busy time from the log-file(\ref{f18})
+
+\end{itemize}
+
+\item Write extracted information in the warehouse correctly. (\ref{f21}) (\ref{f22})
+
+\end{enumerate}
+
+\subsection{Analyzer specific}
+
+The analyzer is already tested in the general test-cases.
 
 
 
