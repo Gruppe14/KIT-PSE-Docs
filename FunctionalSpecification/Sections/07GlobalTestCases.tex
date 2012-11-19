@@ -8,27 +8,38 @@
 
 \subsubsection{General}
 
-Those test-cases are necessary for the webpage to work properly and succeed in serving basic requests.
+Those test-cases are necessary for the webpage to work 
+properly and succeed in serving basic requests.
 
 \begin{enumerate}
 
-\item Access webpage with Mozilla Firefox 16 \& 
-Google Chrome 23 (local or internet) (\ref{f1})
+\item Access web page (local or internet) (\ref{f1})
+\begin{enumerate}
+  \item[/T12/] via Google Chrome
+  \item[/T14/] via Mozilla Firefox
+\end{enumerate}
+\label{t10}
 
-\item Open chart-type menu (unnecessary if chart-type menu is on the first page) (\ref{f2})
+\item Navigate switfly through the web page. (\ref{f141}) 
+\label{t11}
 
-\item Open window for scatterplot-creation (\ref{f2}) and create an example (\ref{f7})
-      with x-Axis date and y-Axis number of lines per request (\ref{f8}) (\ref{f9})
+\item Open page for scatter plot-creation and create an example
+      with x-Axis date and y-Axis number of lines per request. (\ref{f2}, \ref{f3}, \ref{f7}, \ref{f9})
+\label{t12}
 
-\item Open window for histogram-creation(\ref{f2}) and create an example (\ref{f4})
-      with x-Axis year and y-Axis number of requests (\ref{f5}) (\ref{f6})
+\item Open page for histogram-creation and create an example
+      with x-Axis year and y-Axis number of requests. (\ref{f2}, \ref{f3}, \ref{f4}, \ref{f6})
+\label{t13}
 
-\item Open window for bubble-chart-creation(\ref{f2}) and create an example (\ref{f10})
-      with x-Axis year, y-Axis Country and size number of requests (\ref{f11}) (\ref{f12})
+\item Open page for bubble chart-creation and create an example
+      with x-Axis year, y-Axis Country and size number of requests. (\ref{f2}, \ref{f3}, \ref{f10}, \ref{f11})
+\label{t14}
 
-\item Call the information about chart types (\ref{f13})
+\item Call the information about chart types. (\ref{f13})
+\label{t15}
 
-\item Request information about selectable variables (\ref{f14})
+\item Request information about selectable variables. (\ref{f14})
+\label{t16}
 
 \end{enumerate}
 
@@ -39,42 +50,59 @@ Those test cases check the correct admin-login.
 \begin{enumerate}[resume]
 
 \item Enter loginname and password for admin-login. (\ref{f15})
+\label{t17}
 
 \item Log-in and get administrative rights. (\ref{f15})
+\label{t18}
 
-\item Try to log in with wrong loginname (\ref{f15})
+\item Try to log in with wrong loginname. (\ref{f15})
+\label{t19}
 
-\item Try to log in with wrong password (\ref{f15})
+\item Try to log in with wrong password. (\ref{f15})
+\label{t20}
 
-\item Pass example log-file to the parser (\ref{f16})
+\item Pass example log-file to the parser. (\ref{f16})
+\label{t21}
+
 
 \end{enumerate}
 
 \subsubsection{Parser specific}
 
-The following test-cases test the correct work of our parser, which extracts information from a .csv-file and writes 
-it in our data-warehouse.
+The following test cases test the correct work of our parser.
+%, which extracts information from a .csv-file and writes 
+%it in our data-warehouse.
 
 \begin{enumerate}[resume]
 
-\item Parse example log-file and extract valuable information correctly. (\ref{f17}) More specifically :
+\item Parse example log-file and extract valuable information correctly. (\ref{p1})
+	\\ More specifically: 
+\label{t22}
+  \begin{enumerate}
 
-\begin{itemize}
+	\item[/T132/] Extract correct database, time, user information 
+	and type (\ref{p2})
+\label{t23}
 
-\item Extract correct database, time, user information and type of request from the log-file (\ref{f18}) (\ref{f20})
+	\item[/T134/] Extract correct number of rows, elapsed time, 
+	busy time from the log-file (\ref{f17})
+\label{t24}	
+	
+	\item[/T136/] Extract the type requested (\ref{p4})
+\label{t25}
 
-\item Extract correct number of rows, elapsed time, busy time from the log-file(\ref{f18})
+  \end{enumerate}
 
-\end{itemize}
-
-\item Write extracted information in the warehouse correctly. (\ref{f21}) (\ref{f22})
+\item Load extracted information into the data warehouse correctly. (\ref{f18}, \ref{f19})
+\label{t26}
 
 \end{enumerate}
 
 
 \subsubsection{Analyzer specific}
 
-The analyzer is already tested in the general test-cases.
+The functions  \ref{f20} and \ref{f21} of the analyzer are 
+already tested in the general test-cases \ref{t12} to \ref{t14}.
 
 
 
@@ -86,7 +114,7 @@ Scenario testing is sequence Workflow from use cases and shod lead iteratively
 \renewcommand{\theenumi}{/T\arabic{enumi}0/}
 \renewcommand{\labelenumi}{\theenumi}
 
-\subsubsection {Scenario : load logs file} 
+\subsubsection {Scenario 1: loading logs file} 
 
 \begin{enumerate}
  
@@ -111,7 +139,7 @@ database
 
 \end{enumerate} 
 
-\subsubsection {Scenario : parser} 
+\subsubsection {Scenario 2: parsing} 
 
 \begin{enumerate}
 
@@ -135,7 +163,7 @@ database
 
 \end{enumerate} 
 
-\subsubsection {Scenario : select the variables of diagram} 
+\subsubsection {Scenario 3: selecting variables of diagrams} 
 
 \begin{enumerate}
 
@@ -157,7 +185,7 @@ database
 
 \end{enumerate}
 
-\subsubsection {Scenario : Option} 
+\subsubsection {Scenario 4: options} 
 
 \begin{enumerate}
 
@@ -183,7 +211,7 @@ database
 
 \end{enumerate}
 
-\subsubsection {Scenario : A} 
+\subsubsection {Scenario 5: A!} 
 
 \begin{enumerate}
 

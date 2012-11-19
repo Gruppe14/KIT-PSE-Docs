@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  19 NOV 2012 20:18
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  19 NOV 2012 21:06
 entering extended mode
 **main.tex
 
@@ -1385,14 +1385,14 @@ File: uzavm.fd 2006/05/30 Fontinst v1.929 font definitions for U/zavm.
 LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <9> not available
 (Font)              Font shape `T1/fav/b/n' tried instead on input line 11.
 
-<Pictures/KIT-Logo.png, id=219, 501.875pt x 250.9375pt>
+<Pictures/KIT-Logo.png, id=211, 501.875pt x 250.9375pt>
 File: Pictures/KIT-Logo.png Graphic file (type png)
 
 <use Pictures/KIT-Logo.png>
 Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 24.
 (pdftex.def)             Requested size: 128.03653pt x 64.01692pt.
 
-<Pictures/WHAT-LogoText2.png, id=221, 2293.56876pt x 1049.9225pt>
+<Pictures/WHAT-LogoText2.png, id=213, 2293.56876pt x 1049.9225pt>
 File: Pictures/WHAT-LogoText2.png Graphic file (type png)
 
 <use Pictures/WHAT-LogoText2.png>
@@ -1459,7 +1459,7 @@ onalSpecification\Sections/03OperatingEnvironment.tex") [8
 ]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\Sections/04FunctionalRequirements.tex"
-LaTeX Font Info:    Try loading font information for T1+fvm on input line 76.
+LaTeX Font Info:    Try loading font information for T1+fvm on input line 78.
 
 (C:\Users\Jonathan\AppData\Roaming\MiKTeX\2.9\tex\latex\bera\t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
@@ -1473,7 +1473,7 @@ onalSpecification\Sections/05Data.tex" [11
 
 
 ]
-<Pictures/WareHouseSchema.png, id=378, 372.1905pt x 300.6432pt>
+<Pictures/WareHouseSchema.png, id=368, 372.1905pt x 300.6432pt>
 File: Pictures/WareHouseSchema.png Graphic file (type png)
 
 <use Pictures/WareHouseSchema.png>
@@ -1487,23 +1487,7 @@ onalSpecification\Sections/06NonfunctionalRequirements.tex") [13
 
 ]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\Sections/07GlobalTestCases.tex"
-
-LaTeX Warning: Reference `f8' on page 14 undefined on input line 21.
-
-
-LaTeX Warning: Reference `f5' on page 14 undefined on input line 24.
-
-
-LaTeX Warning: Reference `f12' on page 14 undefined on input line 27.
-
-
-Overfull \hbox (16.75171pt too wide) in paragraph at lines 66--67
-[][]\T1/fav/m/n/10.95 Extract cor-rect num-ber of rows, elapsed time, busy time
- from the log-file([][]/F190/[][]) 
- []
-
-[14
+onalSpecification\Sections/07GlobalTestCases.tex" [14
 
 
 ] [15]) [16]
@@ -1512,19 +1496,14 @@ onalSpecification\Sections/08Models.tex" [17
 
 
 ]
-<Pictures/GenerellConcept.png, id=494, 257.763pt x 271.9761pt>
+<Pictures/GenerellConcept.png, id=488, 257.763pt x 271.9761pt>
 File: Pictures/GenerellConcept.png Graphic file (type png)
 
 <use Pictures/GenerellConcept.png>
-Package pdftex.def Info: Pictures/GenerellConcept.png used on input line 36.
+Package pdftex.def Info: Pictures/GenerellConcept.png used on input line 39.
 (pdftex.def)             Requested size: 497.92326pt x 525.40025pt.
  [18 <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/Fu
-nctionalSpecification/Pictures/GenerellConcept.png>]
-File: Pictures/WareHouseSchema.png Graphic file (type png)
- <use Pictures/WareHouseSchema.png>
-Package pdftex.def Info: Pictures/WareHouseSchema.png used on input line 47.
-(pdftex.def)             Requested size: 497.92326pt x 402.20378pt.
-) [19]
+nctionalSpecification/Pictures/GenerellConcept.png>]) [19]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\Sections/09DevelopmentEnvironment.tex") [20
 
@@ -1569,23 +1548,20 @@ onalSpecification\Sections/10Glossary.aux"))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 120.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 120.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9A509B32D704016635240F42919407CC;3566.
+(rerunfilecheck)             Checksum: 4DEA57CE109174241F2279E95BEBDC29;3447.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
  ) 
 Here is how much of TeX's memory you used:
- 12231 strings out of 493921
- 191283 string characters out of 3140856
- 309785 words of memory out of 3000000
- 15006 multiletter control sequences out of 15000+200000
+ 12237 strings out of 493921
+ 191246 string characters out of 3140856
+ 310496 words of memory out of 3000000
+ 15017 multiletter control sequences out of 15000+200000
  40195 words of font info for 62 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 45i,14n,47p,1476b,574s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,14n,47p,1476b,587s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{glo:SkyServer} has been referenced but does not e
 xist, replaced by a fixed one
 
@@ -1595,9 +1571,9 @@ crm1095.pk><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/are
 v/ArevSans-Bold.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1/p
 ublic/arev/ArevSans-Roman.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fon
 ts/type1/bera/fvmr8a.pfb>
-Output written on main.pdf (21 pages, 485194 bytes).
+Output written on main.pdf (21 pages, 483611 bytes).
 PDF statistics:
- 572 PDF objects out of 1000 (max. 8388607)
- 184 named destinations out of 1000 (max. 500000)
- 453 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 564 PDF objects out of 1000 (max. 8388607)
+ 179 named destinations out of 1000 (max. 500000)
+ 437 words of extra memory for PDF output out of 10000 (max. 10000000)
 
