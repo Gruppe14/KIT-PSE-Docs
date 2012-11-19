@@ -10,7 +10,7 @@
 \BOOKMARK [3][-]{subsubsection.1.3.1}{Core criteria}{subsection.1.3}% 10
 \BOOKMARK [3][-]{subsubsection.1.3.2}{Optional criteria}{subsection.1.3}% 11
 \BOOKMARK [1][-]{section.2}{Usage}{}% 12
-\BOOKMARK [2][-]{subsection.2.1}{Applications}{section.2}% 13
+\BOOKMARK [2][-]{subsection.2.1}{Area of Application}{section.2}% 13
 \BOOKMARK [2][-]{subsection.2.2}{Target groups / Audience}{section.2}% 14
 \BOOKMARK [2][-]{subsection.2.3}{Operating conditions}{section.2}% 15
 \BOOKMARK [1][-]{section.3}{Operating environment}{}% 16
@@ -27,17 +27,27 @@
 \BOOKMARK [1][-]{section.6}{Nonfunctional requirements}{}% 27
 \BOOKMARK [2][-]{subsection.6.1}{First Whatever}{section.6}% 28
 \BOOKMARK [2][-]{subsection.6.2}{Next Whatever}{section.6}% 29
-\BOOKMARK [1][-]{section.7}{Global test cases}{}% 30
-\BOOKMARK [2][-]{subsection.7.1}{Test case}{section.7}% 31
-\BOOKMARK [1][-]{section.8}{Models}{}% 32
-\BOOKMARK [2][-]{subsection.8.1}{User stories}{section.8}% 33
-\BOOKMARK [2][-]{subsection.8.2}{Object models}{section.8}% 34
-\BOOKMARK [2][-]{subsection.8.3}{Dynamic models}{section.8}% 35
-\BOOKMARK [2][-]{subsection.8.4}{Web interfaces}{section.8}% 36
-\BOOKMARK [2][-]{subsection.8.5}{Overview}{section.8}% 37
-\BOOKMARK [3][-]{subsubsection.8.5.1}{Parser}{subsection.8.5}% 38
-\BOOKMARK [3][-]{subsubsection.8.5.2}{Analyzer}{subsection.8.5}% 39
-\BOOKMARK [3][-]{subsubsection.8.5.3}{Web page}{subsection.8.5}% 40
-\BOOKMARK [2][-]{subsection.8.6}{Warehouse schema}{section.8}% 41
-\BOOKMARK [1][-]{section.9}{Development Environment}{}% 42
-\BOOKMARK [1][-]{section.10}{Glossary}{}% 43
+\BOOKMARK [2][-]{subsection.6.3}{Optional}{section.6}% 30
+\BOOKMARK [1][-]{section.7}{Global test cases}{}% 31
+\BOOKMARK [2][-]{subsection.7.1}{General}{section.7}% 32
+\BOOKMARK [2][-]{subsection.7.2}{Administrator specific}{section.7}% 33
+\BOOKMARK [2][-]{subsection.7.3}{Parser specific}{section.7}% 34
+\BOOKMARK [2][-]{subsection.7.4}{Analyzer specific}{section.7}% 35
+\BOOKMARK [2][-]{subsection.7.5}{Scenario Testing}{section.7}% 36
+\BOOKMARK [3][-]{subsubsection.7.5.1}{Scenario : load logs file}{subsection.7.5}% 37
+\BOOKMARK [3][-]{subsubsection.7.5.2}{Scenario : parser}{subsection.7.5}% 38
+\BOOKMARK [3][-]{subsubsection.7.5.3}{Scenario : select the variables of diagram}{subsection.7.5}% 39
+\BOOKMARK [3][-]{subsubsection.7.5.4}{Scenario : Option}{subsection.7.5}% 40
+\BOOKMARK [3][-]{subsubsection.7.5.5}{Scenario : A}{subsection.7.5}% 41
+\BOOKMARK [1][-]{section.8}{Models}{}% 42
+\BOOKMARK [2][-]{subsection.8.1}{User stories}{section.8}% 43
+\BOOKMARK [2][-]{subsection.8.2}{Object models}{section.8}% 44
+\BOOKMARK [2][-]{subsection.8.3}{Dynamic models}{section.8}% 45
+\BOOKMARK [2][-]{subsection.8.4}{Web interfaces}{section.8}% 46
+\BOOKMARK [2][-]{subsection.8.5}{Overview}{section.8}% 47
+\BOOKMARK [3][-]{subsubsection.8.5.1}{Parser}{subsection.8.5}% 48
+\BOOKMARK [3][-]{subsubsection.8.5.2}{Analyzer}{subsection.8.5}% 49
+\BOOKMARK [3][-]{subsubsection.8.5.3}{Web page}{subsection.8.5}% 50
+\BOOKMARK [2][-]{subsection.8.6}{Warehouse schema}{section.8}% 51
+\BOOKMARK [1][-]{section.9}{Development Environment}{}% 52
+\BOOKMARK [1][-]{section.10}{Glossary}{}% 53
