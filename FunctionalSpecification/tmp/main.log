@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  20 NOV 2012 18:13
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  20 NOV 2012 18:24
 entering extended mode
 **main.tex
 
@@ -1172,7 +1172,7 @@ Package: glossary-tree 2012/09/21 v3.03 (NLCT)
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\Sections/1XGlossaryEntries.tex")
 \glo@main@file=\write4
-Package glossaries Info: Writing glossary file main.glo on input line 76.
+Package glossaries Info: Writing glossary file main.glo on input line 78.
 
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\main.aux"
@@ -1200,35 +1200,35 @@ onalSpecification\Sections/08Models.aux")
 onalSpecification\Sections/09DevelopmentEnvironment.aux")
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\Sections/10Glossary.aux"))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 83.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 83.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 85.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 85.
 
 ("C:\Program Files\Programmieren\Latex\MiKTeX\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 83.
-LaTeX Font Info:    Try loading font information for MDA+cmr on input line 83.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 85.
+LaTeX Font Info:    Try loading font information for MDA+cmr on input line 85.
 
 (C:\Users\Jonathan\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdacmr.fd
 File: mdacmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Try loading font information for T1+fav on input line 83.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Try loading font information for T1+fav on input line 85.
 
 (C:\Users\Jonathan\AppData\Roaming\MiKTeX\2.9\tex\latex\arev\t1fav.fd
 File: t1fav.fd 2006/05/30 Fontinst v1.929 font definitions for T1/fav.
@@ -1283,7 +1283,7 @@ File: t1fav.fd 2006/05/30 Fontinst v1.929 font definitions for T1/fav.
 \everyMPtoPDFconversion=\toks35
 )
 \AtBeginShipoutBox=\box35
-Package hyperref Info: Link coloring ON on input line 83.
+Package hyperref Info: Link coloring ON on input line 85.
  ("C:\Program Files\Programmieren\Latex\MiKTeX\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/07/31 v2.42 Cross-referencing by name of section
 
@@ -1293,9 +1293,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count120
 )
-LaTeX Info: Redefining \ref on input line 83.
-LaTeX Info: Redefining \pageref on input line 83.
-LaTeX Info: Redefining \nameref on input line 83.
+LaTeX Info: Redefining \ref on input line 85.
+LaTeX Info: Redefining \pageref on input line 85.
+LaTeX Info: Redefining \nameref on input line 85.
 
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\main.out")
@@ -1385,14 +1385,14 @@ File: uzavm.fd 2006/05/30 Fontinst v1.929 font definitions for U/zavm.
 LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <9> not available
 (Font)              Font shape `T1/fav/b/n' tried instead on input line 11.
 
-<Pictures/KIT-Logo.png, id=179, 501.875pt x 250.9375pt>
+<Pictures/KIT-Logo.png, id=167, 501.875pt x 250.9375pt>
 File: Pictures/KIT-Logo.png Graphic file (type png)
 
 <use Pictures/KIT-Logo.png>
 Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 24.
 (pdftex.def)             Requested size: 128.03653pt x 64.01692pt.
 
-<Pictures/WHAT-LogoText2.png, id=181, 2293.56876pt x 1049.9225pt>
+<Pictures/WHAT-LogoText2.png, id=169, 2293.56876pt x 1049.9225pt>
 File: Pictures/WHAT-LogoText2.png Graphic file (type png)
 
 <use Pictures/WHAT-LogoText2.png>
@@ -1417,9 +1417,16 @@ LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <14.4> not available
 LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <12> not available
 (Font)              Font shape `T1/fav/b/n' tried instead on input line 4.
 )
+<Pictures/WHAT-Logo.png, id=181, 2293.56876pt x 850.17625pt>
+File: Pictures/WHAT-Logo.png Graphic file (type png)
+
+<use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 94.
+(pdftex.def)             Requested size: 64.73245pt x 23.98639pt.
+
 
 Package Fancyhdr Warning: \headheight is too small (17.0pt): 
- Make it at least 25.58592pt.
+ Make it at least 28.06642pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
@@ -1427,12 +1434,23 @@ Package Fancyhdr Warning: \headheight is too small (17.0pt):
 
 
 
-]
+ <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/Functi
+onalSpecification/Pictures/WHAT-Logo.png>]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\main.toc" [3
+onalSpecification\main.toc"
+File: Pictures/WHAT-Logo.png Graphic file (type png)
+ <use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 39.
+(pdftex.def)             Requested size: 64.73245pt x 23.98639pt.
+ [3
 
 ])
 \tf@toc=\write6
+File: Pictures/WHAT-Logo.png Graphic file (type png)
+
+<use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 97.
+(pdftex.def)             Requested size: 64.73245pt x 23.98639pt.
  [4]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\Sections/01Goals.tex"
@@ -1444,16 +1462,36 @@ LaTeX Font Warning: Font shape `TS1/fav/m/n' undefined
 (Font)              using `TS1/cmr/m/n' instead
 (Font)              for symbol `textbullet' on input line 13.
 
-[5
+File: Pictures/WHAT-Logo.png Graphic file (type png)
+<use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 76.
+(pdftex.def)             Requested size: 64.73245pt x 23.98639pt.
+ [5
 
-]) [6]
+])
+File: Pictures/WHAT-Logo.png Graphic file (type png)
+ <use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 98.
+(pdftex.def)             Requested size: 64.73245pt x 23.98639pt.
+ [6]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\Sections/02Usage.tex") [7
+onalSpecification\Sections/02Usage.tex")
+File: Pictures/WHAT-Logo.png Graphic file (type png)
+ <use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 100.
+(pdftex.def)             Requested size: 64.73245pt x 23.98639pt.
+ [7
 
 
 ]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\Sections/03OperatingEnvironment.tex") [8
+onalSpecification\Sections/03OperatingEnvironment.tex")
+File: Pictures/WHAT-Logo.png Graphic file (type png)
+
+<use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 102.
+(pdftex.def)             Requested size: 64.73245pt x 23.98639pt.
+ [8
 
 
 ]
@@ -1463,26 +1501,52 @@ LaTeX Font Info:    Try loading font information for T1+fvm on input line 78.
 
 (C:\Users\Jonathan\AppData\Roaming\MiKTeX\2.9\tex\latex\bera\t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
-) [9
+)
+File: Pictures/WHAT-Logo.png Graphic file (type png)
+
+<use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 92.
+(pdftex.def)             Requested size: 64.73245pt x 23.98639pt.
+ [9
 
 
 ])
-[10]
+File: Pictures/WHAT-Logo.png Graphic file (type png)
+ <use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 105.
+(pdftex.def)             Requested size: 64.73245pt x 23.98639pt.
+ [10]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\Sections/05Data.tex" [11
+onalSpecification\Sections/05Data.tex"
+File: Pictures/WHAT-Logo.png Graphic file (type png)
+ <use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 21.
+(pdftex.def)             Requested size: 64.73245pt x 23.98639pt.
+ [11
 
 
 ]
-<Pictures/WareHouseSchema.png, id=324, 372.1905pt x 300.6432pt>
+<Pictures/WareHouseSchema.png, id=311, 372.1905pt x 300.6432pt>
 File: Pictures/WareHouseSchema.png Graphic file (type png)
 
 <use Pictures/WareHouseSchema.png>
 Package pdftex.def Info: Pictures/WareHouseSchema.png used on input line 32.
 (pdftex.def)             Requested size: 497.92326pt x 402.20378pt.
-) [12 <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/F
-unctionalSpecification/Pictures/WareHouseSchema.png>]
+)
+File: Pictures/WHAT-Logo.png Graphic file (type png)
+ <use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 107.
+(pdftex.def)             Requested size: 64.73245pt x 23.98639pt.
+ [12 <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/Fu
+nctionalSpecification/Pictures/WareHouseSchema.png>]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\Sections/06NonfunctionalRequirements.tex") [13
+onalSpecification\Sections/06NonfunctionalRequirements.tex")
+File: Pictures/WHAT-Logo.png Graphic file (type png)
+
+<use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 109.
+(pdftex.def)             Requested size: 64.73245pt x 23.98639pt.
+ [13
 
 
 ]
@@ -1491,45 +1555,79 @@ onalSpecification\Sections/07GlobalTestCases.tex"
 
 LaTeX Warning: Reference `f141' on page 14 undefined on input line 22.
 
-[14
+File: Pictures/WHAT-Logo.png Graphic file (type png)
+<use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 69.
+(pdftex.def)             Requested size: 64.73245pt x 23.98639pt.
+ [14
 
 
-]) [15]
+])
+File: Pictures/WHAT-Logo.png Graphic file (type png)
+ <use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 111.
+(pdftex.def)             Requested size: 64.73245pt x 23.98639pt.
+ [15]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\Sections/08Models.tex"
-<Pictures/GenerellConcept.png, id=396, 257.763pt x 271.9761pt>
+<Pictures/GenerellConcept.png, id=383, 257.763pt x 271.9761pt>
 File: Pictures/GenerellConcept.png Graphic file (type png)
 
 <use Pictures/GenerellConcept.png>
 Package pdftex.def Info: Pictures/GenerellConcept.png used on input line 34.
 (pdftex.def)             Requested size: 497.92326pt x 525.40025pt.
+File: Pictures/WHAT-Logo.png Graphic file (type png)
+ <use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 44.
+(pdftex.def)             Requested size: 64.73245pt x 23.98639pt.
  [16
 
 
  <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/Functi
-onalSpecification/Pictures/GenerellConcept.png>] [17] <Pictures/Flow1.png, id=4
-05, 542.2659pt x 761.244pt>
+onalSpecification/Pictures/GenerellConcept.png>]
+<Pictures/Flow1.png, id=388, 542.2659pt x 761.244pt>
 File: Pictures/Flow1.png Graphic file (type png)
-
-<use Pictures/Flow1.png>
+ <use Pictures/Flow1.png>
 Package pdftex.def Info: Pictures/Flow1.png used on input line 47.
 (pdftex.def)             Requested size: 398.34012pt x 559.21143pt.
- [18 <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/Fu
-nctionalSpecification/Pictures/Flow1.png>]) [19]
+File: Pictures/WHAT-Logo.png Graphic file (type png)
+
+<use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 50.
+(pdftex.def)             Requested size: 64.73245pt x 23.98639pt.
+ [17 <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/Fu
+nctionalSpecification/Pictures/Flow1.png>])
+File: Pictures/WHAT-Logo.png Graphic file (type png)
+
+<use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 114.
+(pdftex.def)             Requested size: 64.73245pt x 23.98639pt.
+ [18]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\Sections/09DevelopmentEnvironment.tex") [20
+onalSpecification\Sections/09DevelopmentEnvironment.tex")
+File: Pictures/WHAT-Logo.png Graphic file (type png)
+
+<use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 116.
+(pdftex.def)             Requested size: 64.73245pt x 23.98639pt.
+ [19
 
 
 ]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\Sections/10Glossary.tex"
 No file main.gls.
-) [21
+)
+File: Pictures/WHAT-Logo.png Graphic file (type png)
+ <use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 119.
+(pdftex.def)             Requested size: 64.73245pt x 23.98639pt.
+ [20
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 121.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 121.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 123.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 123.
 
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\main.aux"
@@ -1557,10 +1655,10 @@ onalSpecification\Sections/08Models.aux")
 onalSpecification\Sections/09DevelopmentEnvironment.aux")
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\Sections/10Glossary.aux"))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 121.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 121.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 123.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 123.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 7FD2D45A9080915312FC9467004639E1;2756.
+(rerunfilecheck)             Checksum: 84FA30BCE4FA2A6E6168355BC998FC97;2551.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1570,13 +1668,13 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 12186 strings out of 493921
- 190732 string characters out of 3140856
- 310467 words of memory out of 3000000
- 15013 multiletter control sequences out of 15000+200000
+ 12184 strings out of 493921
+ 190725 string characters out of 3140856
+ 310543 words of memory out of 3000000
+ 15014 multiletter control sequences out of 15000+200000
  40493 words of font info for 63 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 45i,14n,47p,1476b,585s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,14n,60p,1476b,502s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{glo:SkyServer} has been referenced but does not e
 xist, replaced by a fixed one
 
@@ -1587,9 +1685,9 @@ v/ArevSans-Bold.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1/p
 ublic/arev/ArevSans-Roman.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fon
 ts/type1/bera/fvmr8a.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/ty
 pe1/mathdesign/mdbch/md-chb7y.pfb>
-Output written on main.pdf (21 pages, 632814 bytes).
+Output written on main.pdf (20 pages, 846954 bytes).
 PDF statistics:
- 475 PDF objects out of 1000 (max. 8388607)
- 130 named destinations out of 1000 (max. 500000)
- 378 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 457 PDF objects out of 1000 (max. 8388607)
+ 126 named destinations out of 1000 (max. 500000)
+ 359 words of extra memory for PDF output out of 10000 (max. 10000000)
 
