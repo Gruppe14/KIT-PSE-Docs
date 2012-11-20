@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  20 NOV 2012 18:56
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  20 NOV 2012 18:59
 entering extended mode
 **main.tex
 
@@ -1416,16 +1416,15 @@ LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <14.4> not available
 LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <12> not available
 (Font)              Font shape `T1/fav/b/n' tried instead on input line 4.
 )
-<Pictures/WHAT-Logo.png, id=181, 2293.56876pt x 850.17625pt>
-File: Pictures/WHAT-Logo.png Graphic file (type png)
+File: Pictures/KIT-Logo.png Graphic file (type png)
 
-<use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 95.
-(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
+<use Pictures/KIT-Logo.png>
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 95.
+(pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (17.0pt): 
- Make it at least 27.37886pt.
+ Make it at least 28.26395pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
@@ -1433,29 +1432,25 @@ Package Fancyhdr Warning: \headheight is too small (17.0pt):
 
 
 
- <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/Functi
-onalSpecification/Pictures/WHAT-Logo.png>]
+]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\main.toc"
-File: Pictures/KIT-Logo.png Graphic file (type png)
- <use Pictures/KIT-Logo.png>
-Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 39.
-(pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (27.37886pt): 
- Make it at least 28.26395pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[3
-
-])
-\tf@toc=\write6
+<Pictures/WHAT-Logo.png, id=224, 2293.56876pt x 850.17625pt>
 File: Pictures/WHAT-Logo.png Graphic file (type png)
- <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 98.
+
+<use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 39.
 (pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
+ [3
+
+ <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/Functi
+onalSpecification/Pictures/WHAT-Logo.png>])
+\tf@toc=\write6
+File: Pictures/KIT-Logo.png Graphic file (type png)
+
+<use Pictures/KIT-Logo.png>
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 98.
+(pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
  [4]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\Sections/01Goals.tex"
@@ -1470,36 +1465,36 @@ LaTeX Font Warning: Font shape `TS1/fav/m/n' undefined
 
 Underfull \vbox (badness 4366) has occurred while \output is active []
 
-File: Pictures/KIT-Logo.png Graphic file (type png)
+File: Pictures/WHAT-Logo.png Graphic file (type png)
 
-<use Pictures/KIT-Logo.png>
-Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 76.
-(pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
+<use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 76.
+(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
  [5
 
 ])
-File: Pictures/WHAT-Logo.png Graphic file (type png)
- <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 99.
-(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
+File: Pictures/KIT-Logo.png Graphic file (type png)
+ <use Pictures/KIT-Logo.png>
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 99.
+(pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
  [6]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\Sections/02Usage.tex")
-File: Pictures/KIT-Logo.png Graphic file (type png)
- <use Pictures/KIT-Logo.png>
-Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 101.
-(pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
+File: Pictures/WHAT-Logo.png Graphic file (type png)
+ <use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 101.
+(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
  [7
 
 
 ]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\Sections/03OperatingEnvironment.tex")
-File: Pictures/WHAT-Logo.png Graphic file (type png)
+File: Pictures/KIT-Logo.png Graphic file (type png)
 
-<use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 103.
-(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
+<use Pictures/KIT-Logo.png>
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 103.
+(pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
  [8
 
 
@@ -1511,26 +1506,26 @@ LaTeX Font Info:    Try loading font information for T1+fvm on input line 78.
 (C:\Users\Jonathan\AppData\Roaming\MiKTeX\2.9\tex\latex\bera\t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
-File: Pictures/KIT-Logo.png Graphic file (type png)
+File: Pictures/WHAT-Logo.png Graphic file (type png)
 
-<use Pictures/KIT-Logo.png>
-Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 92.
-(pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
+<use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 92.
+(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
  [9
 
 
 ])
-File: Pictures/WHAT-Logo.png Graphic file (type png)
- <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 106.
-(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
+File: Pictures/KIT-Logo.png Graphic file (type png)
+ <use Pictures/KIT-Logo.png>
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 106.
+(pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
  [10]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\Sections/05Data.tex"
-File: Pictures/KIT-Logo.png Graphic file (type png)
- <use Pictures/KIT-Logo.png>
-Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 21.
-(pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
+File: Pictures/WHAT-Logo.png Graphic file (type png)
+ <use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 21.
+(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
  [11
 
 
@@ -1542,19 +1537,19 @@ File: Pictures/WareHouseSchema.png Graphic file (type png)
 Package pdftex.def Info: Pictures/WareHouseSchema.png used on input line 32.
 (pdftex.def)             Requested size: 483.69687pt x 390.71223pt.
 )
-File: Pictures/WHAT-Logo.png Graphic file (type png)
- <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 108.
-(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
+File: Pictures/KIT-Logo.png Graphic file (type png)
+ <use Pictures/KIT-Logo.png>
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 108.
+(pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
  [12 <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/Fu
 nctionalSpecification/Pictures/WareHouseSchema.png>]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\Sections/06NonfunctionalRequirements.tex")
-File: Pictures/KIT-Logo.png Graphic file (type png)
+File: Pictures/WHAT-Logo.png Graphic file (type png)
 
-<use Pictures/KIT-Logo.png>
-Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 110.
-(pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
+<use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 110.
+(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
  [13
 
 
@@ -1564,18 +1559,18 @@ onalSpecification\Sections/07GlobalTestCases.tex"
 
 LaTeX Warning: Reference `f141' on page 14 undefined on input line 22.
 
-File: Pictures/WHAT-Logo.png Graphic file (type png)
-<use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 69.
-(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
+File: Pictures/KIT-Logo.png Graphic file (type png)
+<use Pictures/KIT-Logo.png>
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 69.
+(pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
  [14
 
 
 ])
-File: Pictures/KIT-Logo.png Graphic file (type png)
- <use Pictures/KIT-Logo.png>
-Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 112.
-(pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
+File: Pictures/WHAT-Logo.png Graphic file (type png)
+ <use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 112.
+(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
  [15]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\Sections/08Models.tex"
@@ -1594,35 +1589,35 @@ Package pdftex.def Info: Pictures/Flow1.png used on input line 47.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-File: Pictures/WHAT-Logo.png Graphic file (type png)
+File: Pictures/KIT-Logo.png Graphic file (type png)
 
-<use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 48.
-(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
+<use Pictures/KIT-Logo.png>
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 48.
+(pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
  [16
 
 
  <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/Functi
 onalSpecification/Pictures/GenerellConcept.png>]
-File: Pictures/KIT-Logo.png Graphic file (type png)
- <use Pictures/KIT-Logo.png>
-Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 50.
-(pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
+File: Pictures/WHAT-Logo.png Graphic file (type png)
+<use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 50.
+(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
  [17 <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/Fu
 nctionalSpecification/Pictures/Flow1.png>])
-File: Pictures/WHAT-Logo.png Graphic file (type png)
-
-<use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 115.
-(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
- [18]
-("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\Sections/09DevelopmentEnvironment.tex")
 File: Pictures/KIT-Logo.png Graphic file (type png)
 
 <use Pictures/KIT-Logo.png>
-Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 117.
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 115.
 (pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
+ [18]
+("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
+onalSpecification\Sections/09DevelopmentEnvironment.tex")
+File: Pictures/WHAT-Logo.png Graphic file (type png)
+
+<use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 117.
+(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
  [19
 
 
@@ -1631,10 +1626,10 @@ Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 117.
 onalSpecification\Sections/10Glossary.tex"
 No file main.gls.
 )
-File: Pictures/WHAT-Logo.png Graphic file (type png)
- <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 120.
-(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
+File: Pictures/KIT-Logo.png Graphic file (type png)
+ <use Pictures/KIT-Logo.png>
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 120.
+(pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
  [20
 
 
@@ -1698,7 +1693,7 @@ v/ArevSans-Bold.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1/p
 ublic/arev/ArevSans-Roman.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fon
 ts/type1/bera/fvmr8a.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/ty
 pe1/mathdesign/mdbch/md-chb7y.pfb>
-Output written on main.pdf (20 pages, 850014 bytes).
+Output written on main.pdf (20 pages, 850023 bytes).
 PDF statistics:
  457 PDF objects out of 1000 (max. 8388607)
  126 named destinations out of 1000 (max. 500000)
