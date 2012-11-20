@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  20 NOV 2012 18:37
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  20 NOV 2012 18:56
 entering extended mode
 **main.tex
 
@@ -88,8 +88,8 @@ Package typearea Info: These are the values describing the layout:
 (typearea)             \paperwidth      = 597.50793pt
 (typearea)              \textwidth      = 418.25555pt
 (typearea)              DIV departure   = -6%
-(typearea)              \evensidemargin = 17.3562pt
-(typearea)              \oddsidemargin  = 17.3562pt
+(typearea)              \evensidemargin = 47.2316pt
+(typearea)              \oddsidemargin  = -12.5192pt
 (typearea)             \paperheight     = 845.04694pt
 (typearea)              \textheight     = 595.80026pt
 (typearea)              \topmargin      = -25.16531pt
@@ -1172,7 +1172,7 @@ Package: glossary-tree 2012/09/21 v3.03 (NLCT)
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\Sections/1XGlossaryEntries.tex")
 \glo@main@file=\write4
-Package glossaries Info: Writing glossary file main.glo on input line 78.
+Package glossaries Info: Writing glossary file main.glo on input line 79.
 
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\main.aux"
@@ -1200,35 +1200,35 @@ onalSpecification\Sections/08Models.aux")
 onalSpecification\Sections/09DevelopmentEnvironment.aux")
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\Sections/10Glossary.aux"))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 85.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 85.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 86.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 86.
 
 ("C:\Program Files\Programmieren\Latex\MiKTeX\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 85.
-LaTeX Font Info:    Try loading font information for MDA+cmr on input line 85.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 86.
+LaTeX Font Info:    Try loading font information for MDA+cmr on input line 86.
 
 (C:\Users\Jonathan\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdacmr.fd
 File: mdacmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 85.
-LaTeX Font Info:    ... okay on input line 85.
-LaTeX Font Info:    Try loading font information for T1+fav on input line 85.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Try loading font information for T1+fav on input line 86.
 
 (C:\Users\Jonathan\AppData\Roaming\MiKTeX\2.9\tex\latex\arev\t1fav.fd
 File: t1fav.fd 2006/05/30 Fontinst v1.929 font definitions for T1/fav.
@@ -1240,22 +1240,21 @@ File: t1fav.fd 2006/05/30 Fontinst v1.929 font definitions for T1/fav.
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* bindingoffset: 28.45274pt
-* modes: includehead includefoot heightrounded 
-* h-part:(L,W,R)=(28.45274pt, 497.92326pt, 42.67912pt)
+* modes: includehead includefoot twoside heightrounded 
+* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
 * v-part:(T,H,B)=(54.06023pt, 728.39056pt, 62.59605pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=497.92326pt
+* \textwidth=483.69687pt
 * \textheight=623.00027pt
-* \oddsidemargin=-15.3645pt
-* \evensidemargin=-43.81725pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
 * \topmargin=-18.20976pt
 * \headheight=17.0pt
 * \headsep=42.67912pt
 * \topskip=11.0pt
 * \footskip=47.60002pt
-* \marginparwidth=59.7508pt
+* \marginparwidth=89.62619pt
 * \marginparsep=12.8401pt
 * \columnsep=10.0pt
 * \skip\footins=10.0pt plus 4.0pt minus 2.0pt
@@ -1263,8 +1262,8 @@ File: t1fav.fd 2006/05/30 Fontinst v1.929 font definitions for T1/fav.
 * \voffset=0.0pt
 * \mag=1000
 * \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
+* \@twosidetrue
+* \@mparswitchtrue
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
@@ -1283,7 +1282,7 @@ File: t1fav.fd 2006/05/30 Fontinst v1.929 font definitions for T1/fav.
 \everyMPtoPDFconversion=\toks35
 )
 \AtBeginShipoutBox=\box35
-Package hyperref Info: Link coloring ON on input line 85.
+Package hyperref Info: Link coloring ON on input line 86.
  ("C:\Program Files\Programmieren\Latex\MiKTeX\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/07/31 v2.42 Cross-referencing by name of section
 
@@ -1293,9 +1292,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count120
 )
-LaTeX Info: Redefining \ref on input line 85.
-LaTeX Info: Redefining \pageref on input line 85.
-LaTeX Info: Redefining \nameref on input line 85.
+LaTeX Info: Redefining \ref on input line 86.
+LaTeX Info: Redefining \pageref on input line 86.
+LaTeX Info: Redefining \nameref on input line 86.
 
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\main.out")
@@ -1311,7 +1310,7 @@ Package geometry Warning: `a4paper': not available in `\newgeometry'; skipped.
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: includehead includefoot heightrounded 
+* modes: includehead includefoot twoside heightrounded 
 * h-part:(L,W,R)=(42.67912pt, 512.14963pt, 42.67912pt)
 * v-part:(T,H,B)=(54.06023pt, 762.53387pt, 28.45274pt)
 * \paperwidth=597.50787pt
@@ -1325,7 +1324,7 @@ Package geometry Warning: `a4paper': not available in `\newgeometry'; skipped.
 * \headsep=42.67912pt
 * \topskip=11.0pt
 * \footskip=47.60002pt
-* \marginparwidth=59.7508pt
+* \marginparwidth=89.62619pt
 * \marginparsep=12.8401pt
 * \columnsep=10.0pt
 * \skip\footins=10.0pt plus 4.0pt minus 2.0pt
@@ -1333,8 +1332,8 @@ Package geometry Warning: `a4paper': not available in `\newgeometry'; skipped.
 * \voffset=0.0pt
 * \mag=1000
 * \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
+* \@twosidetrue
+* \@mparswitchtrue
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
@@ -1421,12 +1420,12 @@ LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <12> not available
 File: Pictures/WHAT-Logo.png Graphic file (type png)
 
 <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 94.
-(pdftex.def)             Requested size: 64.73245pt x 23.98639pt.
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 95.
+(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (17.0pt): 
- Make it at least 28.06642pt.
+ Make it at least 27.37886pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
@@ -1438,19 +1437,25 @@ Package Fancyhdr Warning: \headheight is too small (17.0pt):
 onalSpecification/Pictures/WHAT-Logo.png>]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\main.toc"
-File: Pictures/WHAT-Logo.png Graphic file (type png)
- <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 39.
-(pdftex.def)             Requested size: 64.73245pt x 23.98639pt.
- [3
+File: Pictures/KIT-Logo.png Graphic file (type png)
+ <use Pictures/KIT-Logo.png>
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 39.
+(pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (27.37886pt): 
+ Make it at least 28.26395pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3
 
 ])
 \tf@toc=\write6
 File: Pictures/WHAT-Logo.png Graphic file (type png)
-
-<use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 97.
-(pdftex.def)             Requested size: 64.73245pt x 23.98639pt.
+ <use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 98.
+(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
  [4]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\Sections/01Goals.tex"
@@ -1462,24 +1467,28 @@ LaTeX Font Warning: Font shape `TS1/fav/m/n' undefined
 (Font)              using `TS1/cmr/m/n' instead
 (Font)              for symbol `textbullet' on input line 13.
 
-File: Pictures/WHAT-Logo.png Graphic file (type png)
-<use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 76.
-(pdftex.def)             Requested size: 64.73245pt x 23.98639pt.
+
+Underfull \vbox (badness 4366) has occurred while \output is active []
+
+File: Pictures/KIT-Logo.png Graphic file (type png)
+
+<use Pictures/KIT-Logo.png>
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 76.
+(pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
  [5
 
 ])
 File: Pictures/WHAT-Logo.png Graphic file (type png)
  <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 98.
-(pdftex.def)             Requested size: 64.73245pt x 23.98639pt.
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 99.
+(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
  [6]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\Sections/02Usage.tex")
-File: Pictures/WHAT-Logo.png Graphic file (type png)
- <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 100.
-(pdftex.def)             Requested size: 64.73245pt x 23.98639pt.
+File: Pictures/KIT-Logo.png Graphic file (type png)
+ <use Pictures/KIT-Logo.png>
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 101.
+(pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
  [7
 
 
@@ -1489,8 +1498,8 @@ onalSpecification\Sections/03OperatingEnvironment.tex")
 File: Pictures/WHAT-Logo.png Graphic file (type png)
 
 <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 102.
-(pdftex.def)             Requested size: 64.73245pt x 23.98639pt.
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 103.
+(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
  [8
 
 
@@ -1502,26 +1511,26 @@ LaTeX Font Info:    Try loading font information for T1+fvm on input line 78.
 (C:\Users\Jonathan\AppData\Roaming\MiKTeX\2.9\tex\latex\bera\t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
-File: Pictures/WHAT-Logo.png Graphic file (type png)
+File: Pictures/KIT-Logo.png Graphic file (type png)
 
-<use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 92.
-(pdftex.def)             Requested size: 64.73245pt x 23.98639pt.
+<use Pictures/KIT-Logo.png>
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 92.
+(pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
  [9
 
 
 ])
 File: Pictures/WHAT-Logo.png Graphic file (type png)
  <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 105.
-(pdftex.def)             Requested size: 64.73245pt x 23.98639pt.
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 106.
+(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
  [10]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\Sections/05Data.tex"
-File: Pictures/WHAT-Logo.png Graphic file (type png)
- <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 21.
-(pdftex.def)             Requested size: 64.73245pt x 23.98639pt.
+File: Pictures/KIT-Logo.png Graphic file (type png)
+ <use Pictures/KIT-Logo.png>
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 21.
+(pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
  [11
 
 
@@ -1531,21 +1540,21 @@ File: Pictures/WareHouseSchema.png Graphic file (type png)
 
 <use Pictures/WareHouseSchema.png>
 Package pdftex.def Info: Pictures/WareHouseSchema.png used on input line 32.
-(pdftex.def)             Requested size: 497.92326pt x 402.20378pt.
+(pdftex.def)             Requested size: 483.69687pt x 390.71223pt.
 )
 File: Pictures/WHAT-Logo.png Graphic file (type png)
  <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 107.
-(pdftex.def)             Requested size: 64.73245pt x 23.98639pt.
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 108.
+(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
  [12 <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/Fu
 nctionalSpecification/Pictures/WareHouseSchema.png>]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\Sections/06NonfunctionalRequirements.tex")
-File: Pictures/WHAT-Logo.png Graphic file (type png)
+File: Pictures/KIT-Logo.png Graphic file (type png)
 
-<use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 109.
-(pdftex.def)             Requested size: 64.73245pt x 23.98639pt.
+<use Pictures/KIT-Logo.png>
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 110.
+(pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
  [13
 
 
@@ -1558,15 +1567,15 @@ LaTeX Warning: Reference `f141' on page 14 undefined on input line 22.
 File: Pictures/WHAT-Logo.png Graphic file (type png)
 <use Pictures/WHAT-Logo.png>
 Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 69.
-(pdftex.def)             Requested size: 64.73245pt x 23.98639pt.
+(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
  [14
 
 
 ])
-File: Pictures/WHAT-Logo.png Graphic file (type png)
- <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 111.
-(pdftex.def)             Requested size: 64.73245pt x 23.98639pt.
+File: Pictures/KIT-Logo.png Graphic file (type png)
+ <use Pictures/KIT-Logo.png>
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 112.
+(pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
  [15]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\Sections/08Models.tex"
@@ -1575,51 +1584,46 @@ File: Pictures/GenerellConcept.png Graphic file (type png)
 
 <use Pictures/GenerellConcept.png>
 Package pdftex.def Info: Pictures/GenerellConcept.png used on input line 34.
-(pdftex.def)             Requested size: 497.92326pt x 525.40025pt.
+(pdftex.def)             Requested size: 483.69687pt x 510.38965pt.
 
 <Pictures/Flow1.png, id=384, 542.2659pt x 721.4955pt>
 File: Pictures/Flow1.png Graphic file (type png)
  <use Pictures/Flow1.png>
 Package pdftex.def Info: Pictures/Flow1.png used on input line 47.
-(pdftex.def)             Requested size: 448.12788pt x 596.25397pt.
+(pdftex.def)             Requested size: 411.14528pt x 547.0432pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 File: Pictures/WHAT-Logo.png Graphic file (type png)
 
 <use Pictures/WHAT-Logo.png>
 Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 48.
-(pdftex.def)             Requested size: 64.73245pt x 23.98639pt.
+(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
  [16
 
 
  <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/Functi
 onalSpecification/Pictures/GenerellConcept.png>]
-File: Pictures/WHAT-Logo.png Graphic file (type png)
- <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 48.
-(pdftex.def)             Requested size: 64.73245pt x 23.98639pt.
- [17]
-Overfull \vbox (2.52385pt too high) has occurred while \output is active []
-
-File: Pictures/WHAT-Logo.png Graphic file (type png)
-
-<use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 48.
-(pdftex.def)             Requested size: 64.73245pt x 23.98639pt.
- [18 <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/Fu
+File: Pictures/KIT-Logo.png Graphic file (type png)
+ <use Pictures/KIT-Logo.png>
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 50.
+(pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
+ [17 <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/Fu
 nctionalSpecification/Pictures/Flow1.png>])
 File: Pictures/WHAT-Logo.png Graphic file (type png)
 
 <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 114.
-(pdftex.def)             Requested size: 64.73245pt x 23.98639pt.
- [19]
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 115.
+(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
+ [18]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\Sections/09DevelopmentEnvironment.tex")
-File: Pictures/WHAT-Logo.png Graphic file (type png)
+File: Pictures/KIT-Logo.png Graphic file (type png)
 
-<use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 116.
-(pdftex.def)             Requested size: 64.73245pt x 23.98639pt.
- [20
+<use Pictures/KIT-Logo.png>
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 117.
+(pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
+ [19
 
 
 ]
@@ -1629,14 +1633,14 @@ No file main.gls.
 )
 File: Pictures/WHAT-Logo.png Graphic file (type png)
  <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 119.
-(pdftex.def)             Requested size: 64.73245pt x 23.98639pt.
- [21
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 120.
+(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
+ [20
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 123.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 123.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 124.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 124.
 
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\main.aux"
@@ -1664,8 +1668,8 @@ onalSpecification\Sections/08Models.aux")
 onalSpecification\Sections/09DevelopmentEnvironment.aux")
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\Sections/10Glossary.aux"))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 123.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 123.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 124.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 124.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 84FA30BCE4FA2A6E6168355BC998FC97;2551.
 
@@ -1677,13 +1681,13 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 12185 strings out of 493921
- 190732 string characters out of 3140856
- 310543 words of memory out of 3000000
- 15014 multiletter control sequences out of 15000+200000
+ 12189 strings out of 493921
+ 190803 string characters out of 3140856
+ 310562 words of memory out of 3000000
+ 15019 multiletter control sequences out of 15000+200000
  40493 words of font info for 63 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 45i,14n,60p,1476b,502s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,14n,60p,1476b,506s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{glo:SkyServer} has been referenced but does not e
 xist, replaced by a fixed one
 
@@ -1694,9 +1698,9 @@ v/ArevSans-Bold.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1/p
 ublic/arev/ArevSans-Roman.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fon
 ts/type1/bera/fvmr8a.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/ty
 pe1/mathdesign/mdbch/md-chb7y.pfb>
-Output written on main.pdf (21 pages, 850927 bytes).
+Output written on main.pdf (20 pages, 850014 bytes).
 PDF statistics:
- 462 PDF objects out of 1000 (max. 8388607)
- 127 named destinations out of 1000 (max. 500000)
+ 457 PDF objects out of 1000 (max. 8388607)
+ 126 named destinations out of 1000 (max. 500000)
  359 words of extra memory for PDF output out of 10000 (max. 10000000)
 
