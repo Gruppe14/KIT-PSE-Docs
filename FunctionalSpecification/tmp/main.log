@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  19 NOV 2012 23:50
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  20 NOV 2012 18:02
 entering extended mode
 **main.tex
 
@@ -1385,14 +1385,14 @@ File: uzavm.fd 2006/05/30 Fontinst v1.929 font definitions for U/zavm.
 LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <9> not available
 (Font)              Font shape `T1/fav/b/n' tried instead on input line 11.
 
-<Pictures/KIT-Logo.png, id=183, 501.875pt x 250.9375pt>
+<Pictures/KIT-Logo.png, id=175, 501.875pt x 250.9375pt>
 File: Pictures/KIT-Logo.png Graphic file (type png)
 
 <use Pictures/KIT-Logo.png>
 Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 24.
 (pdftex.def)             Requested size: 128.03653pt x 64.01692pt.
 
-<Pictures/WHAT-LogoText2.png, id=185, 2293.56876pt x 1049.9225pt>
+<Pictures/WHAT-LogoText2.png, id=177, 2293.56876pt x 1049.9225pt>
 File: Pictures/WHAT-LogoText2.png Graphic file (type png)
 
 <use Pictures/WHAT-LogoText2.png>
@@ -1473,7 +1473,7 @@ onalSpecification\Sections/05Data.tex" [11
 
 
 ]
-<Pictures/WareHouseSchema.png, id=334, 372.1905pt x 300.6432pt>
+<Pictures/WareHouseSchema.png, id=319, 372.1905pt x 300.6432pt>
 File: Pictures/WareHouseSchema.png Graphic file (type png)
 
 <use Pictures/WareHouseSchema.png>
@@ -1487,13 +1487,17 @@ onalSpecification\Sections/06NonfunctionalRequirements.tex") [13
 
 ]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\Sections/07GlobalTestCases.tex" [14
+onalSpecification\Sections/07GlobalTestCases.tex"
+
+LaTeX Warning: Reference `f141' on page 14 undefined on input line 22.
+
+[14
 
 
 ]) [15]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\Sections/08Models.tex"
-<Pictures/GenerellConcept.png, id=409, 257.763pt x 271.9761pt>
+<Pictures/GenerellConcept.png, id=393, 257.763pt x 271.9761pt>
 File: Pictures/GenerellConcept.png Graphic file (type png)
 
 <use Pictures/GenerellConcept.png>
@@ -1504,7 +1508,7 @@ Package pdftex.def Info: Pictures/GenerellConcept.png used on input line 34.
 
  <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/Functi
 onalSpecification/Pictures/GenerellConcept.png>] [17] <Pictures/Flow1.png, id=4
-18, 542.2659pt x 761.244pt>
+02, 542.2659pt x 761.244pt>
 File: Pictures/Flow1.png Graphic file (type png)
 
 <use Pictures/Flow1.png>
@@ -1556,20 +1560,23 @@ onalSpecification\Sections/10Glossary.aux"))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 121.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 121.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E4356ED22FBDD1006BAC8E973B692663;2887.
+(rerunfilecheck)             Checksum: 3EE0E52011B9E4E02F522DB686AA7143;2699.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were undefined references.
+
  ) 
 Here is how much of TeX's memory you used:
- 12192 strings out of 493921
- 190830 string characters out of 3140856
- 310496 words of memory out of 3000000
- 15014 multiletter control sequences out of 15000+200000
+ 12186 strings out of 493921
+ 190716 string characters out of 3140856
+ 310467 words of memory out of 3000000
+ 15012 multiletter control sequences out of 15000+200000
  40493 words of font info for 63 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 45i,14n,47p,1476b,587s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,14n,47p,1476b,585s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{glo:SkyServer} has been referenced but does not e
 xist, replaced by a fixed one
 
@@ -1580,9 +1587,9 @@ v/ArevSans-Bold.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1/p
 ublic/arev/ArevSans-Roman.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fon
 ts/type1/bera/fvmr8a.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/ty
 pe1/mathdesign/mdbch/md-chb7y.pfb>
-Output written on main.pdf (21 pages, 635081 bytes).
+Output written on main.pdf (21 pages, 632579 bytes).
 PDF statistics:
- 489 PDF objects out of 1000 (max. 8388607)
- 135 named destinations out of 1000 (max. 500000)
- 386 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 472 PDF objects out of 1000 (max. 8388607)
+ 131 named destinations out of 1000 (max. 500000)
+ 370 words of extra memory for PDF output out of 10000 (max. 10000000)
 

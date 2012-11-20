@@ -1,22 +1,21 @@
 \section{Test Cases}
 
-\subsection{Global test cases}
 
 % Enumeration changed
 \renewcommand{\theenumi}{/T\arabic{enumi}0/}
 \renewcommand{\labelenumi}{\theenumi}
 
-\subsubsection{General}
+\subsection{General}
 
 Those test-cases are necessary for the webpage to work 
 properly and succeed in serving basic requests.
 
 \begin{enumerate}
 
-\item Access web page (local or internet) (\ref{f1})
+\item Access web page (\ref{f1})
 \begin{enumerate}
-  \item[/T12/] via Google Chrome
-  \item[/T14/] via Mozilla Firefox
+  \item[/T12/] via Google Chrome,
+  \item[/T14/] via Mozilla Firefox.
 \end{enumerate}
 \label{t10}
 
@@ -43,7 +42,7 @@ properly and succeed in serving basic requests.
 
 \end{enumerate}
 
-\subsubsection{Administrator specific}
+\subsection{Administrator specific}
 
 Those test cases check the correct admin-login.
 
@@ -67,7 +66,7 @@ Those test cases check the correct admin-login.
 
 \end{enumerate}
 
-\subsubsection{Parser specific}
+\subsection{Parser specific}
 
 The following test cases test the correct work of our parser.
 %, which extracts information from a .csv-file and writes 
@@ -81,14 +80,14 @@ The following test cases test the correct work of our parser.
   \begin{enumerate}
 
 	\item[/T132/] Extract correct database, time, user information 
-	and type (\ref{p2})
+	and type, (\ref{p2})
 \label{t23}
 
 	\item[/T134/] Extract correct number of rows, elapsed time, 
-	busy time from the log-file (\ref{f17})
+	busy time from the log-file, (\ref{f17})
 \label{t24}	
 	
-	\item[/T136/] Extract the type requested (\ref{p4})
+	\item[/T136/] Extract the type requested. (\ref{p4})
 \label{t25}
 
   \end{enumerate}
@@ -99,7 +98,7 @@ The following test cases test the correct work of our parser.
 \end{enumerate}
 
 
-\subsubsection{Analyzer specific}
+\subsection{Analyzer specific}
 
 The functions  \ref{f20} and \ref{f21} of the analyzer are 
 already tested in the general test-cases \ref{t12} to \ref{t14}.
