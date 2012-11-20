@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  21 NOV 2012 00:30
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  21 NOV 2012 00:52
 entering extended mode
-**main.tex
+**main
 
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\main.tex"
@@ -1173,523 +1173,9 @@ Package: glossary-tree 2012/09/21 v3.03 (NLCT)
 \@input{Sections/1XGlossaryEntries.aux}
 
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\Sections/1XGlossaryEntries.tex"
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.179 }
-       
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Undefined control sequence.
-\in@ #1#2->\begingroup \def \in@@ 
-                                  ##1#1{}\toks@ \expandafter {\in@@ #2{}{}#1...
-l.179 }
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Illegal parameter number in definition of \glolist@main.
-<to be read again> 
-                   1
-l.179 }
-       
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Undefined control sequence.
-\in@ ...f \in@@ ##1#1{}\toks@ \expandafter {\in@@ 
-                                                  #2{}{}#1}\edef \in@@ {\the...
-l.179 }
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\in@ ... \expandafter {\in@@ #2{}{}#1}\edef \in@@ 
-                                                  {\the \toks@ }\expandafter...
-l.179 }
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.179 }
-       
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.179 }
-       
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Extra \endcsname.
-<argument> ...exttt {WHERE}-part@parent\endcsname 
-                                                  {}\else \ifthenelse {\equa...
-l.179 }
-       
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.179 }
-       
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Extra \endcsname.
-<argument> ...texttt {WHERE}-part@level\endcsname 
-                                                  {\number \gls@level }\ifx ...
-l.179 }
-       
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.179 }
-       
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Extra \endcsname.
-<argument> ...\texttt {WHERE}-part@text\endcsname 
-                                                  {\@glo@text }\expandafter ...
-l.179 }
-       
-I'm ignoring this, since I wasn't doing a \csname.
-
-LaTeX Font Info:    Try loading font information for T1+fvm on input line 179.
-(C:\Users\Jonathan\AppData\Roaming\MiKTeX\2.9\tex\latex\bera\t1fvm.fd
-File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
-)
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.179 }
-       
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Extra \endcsname.
-<argument> ...exttt {WHERE}-part@plural\endcsname 
-                                                  {\@glo@plural }\expandafte...
-l.179 }
-       
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.179 }
-       
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Extra \endcsname.
-<argument> ...texttt {WHERE}-part@first\endcsname 
-                                                  {\@glo@first }\expandafter...
-l.179 }
-       
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.179 }
-       
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Extra \endcsname.
-<argument> ...xttt {WHERE}-part@firstpl\endcsname 
-                                                  {\@glo@firstplural }\expan...
-l.179 }
-       
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.179 }
-       
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Extra \endcsname.
-<argument> ...\texttt {WHERE}-part@type\endcsname 
-                                                  {\@glo@type }\expandafter ...
-l.179 }
-       
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.179 }
-       
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Extra \endcsname.
-<argument> ...xttt {WHERE}-part@counter\endcsname 
-                                                  {\@glo@counter }\expandaft...
-l.179 }
-       
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.179 }
-       
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Extra \endcsname.
-<argument> ...texttt {WHERE}-part@useri\endcsname 
-                                                  {\@glo@useri }\expandafter...
-l.179 }
-       
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.179 }
-       
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Extra \endcsname.
-<argument> ...exttt {WHERE}-part@userii\endcsname 
-                                                  {\@glo@userii }\expandafte...
-l.179 }
-       
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.179 }
-       
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Extra \endcsname.
-<argument> ...xttt {WHERE}-part@useriii\endcsname 
-                                                  {\@glo@useriii }\expandaft...
-l.179 }
-       
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.179 }
-       
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Extra \endcsname.
-<argument> ...exttt {WHERE}-part@useriv\endcsname 
-                                                  {\@glo@useriv }\expandafte...
-l.179 }
-       
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.179 }
-       
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Extra \endcsname.
-<argument> ...texttt {WHERE}-part@userv\endcsname 
-                                                  {\@glo@userv }\expandafter...
-l.179 }
-       
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.179 }
-       
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Extra \endcsname.
-<argument> ...exttt {WHERE}-part@uservi\endcsname 
-                                                  {\@glo@uservi }\expandafte...
-l.179 }
-       
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.179 }
-       
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Extra \endcsname.
-<argument> ...texttt {WHERE}-part@short\endcsname 
-                                                  {\@glo@short }\expandafter...
-l.179 }
-       
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.179 }
-       
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Extra \endcsname.
-<argument> ...xttt {WHERE}-part@shortpl\endcsname 
-                                                  {\@glo@shortpl }\expandaft...
-l.179 }
-       
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.179 }
-       
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Extra \endcsname.
-<argument> ...\texttt {WHERE}-part@long\endcsname 
-                                                  {\@glo@long }\expandafter ...
-l.179 }
-       
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.179 }
-       
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Extra \endcsname.
-<argument> ...exttt {WHERE}-part@longpl\endcsname 
-                                                  {\@glo@longpl }\@gls@sanit...
-l.179 }
-       
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.179 }
-       
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Extra \endcsname.
-<argument> ...\texttt {WHERE}-part@name\endcsname 
-                                                  {\@glo@name }\ifcsundef {g...
-l.179 }
-       
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.179 }
-       
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Extra \endcsname.
-\ifcsundef #1->\ifcsname #1\endcsname 
-                                      \expandafter \ifx \csname #1\endcsname...
-l.179 }
-       
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.179 }
-       
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.179 }
-       
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Extra \endcsname.
-<argument> ...\texttt {WHERE}-part@desc\endcsname 
-                                                  {\@glo@desc }\expandafter ...
-l.179 }
-       
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.179 }
-       
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Extra \endcsname.
-<argument> ...t {WHERE}-part@descplural\endcsname 
-                                                  {\@glo@descplural }\@gls@d...
-l.179 }
-       
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.179 }
-       
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Extra \endcsname.
-\@gls@defsort ...ef \csname glo@#2@sort\endcsname 
-                                                  {\@glo@sort }
-l.179 }
-       
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.179 }
-       
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Extra \endcsname.
-<argument> ...exttt {WHERE}-part@symbol\endcsname 
-                                                  {\@glo@symbol }\expandafte...
-l.179 }
-       
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.179 }
-       
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Extra \endcsname.
-<argument> ...{WHERE}-part@symbolplural\endcsname 
-                                                  {\@glo@symbolplural }\expa...
-l.179 }
-       
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.179 }
-       
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Extra \endcsname.
-<argument> ...tt {WHERE}-part@flagfalse\endcsname 
-                                                  {\expandafter \global \exp...
-l.179 }
-       
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \protect 
-l.179 }
-       
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Extra \endcsname.
-<argument> ...\texttt {WHERE}-part@flag\endcsname 
-                                                  \iffalse }\expandafter \gd...
-l.179 }
-       
-I'm ignoring this, since I wasn't doing a \csname.
-
-)
-! Incomplete \iffalse; all text was ignored after line 179.
-<inserted text> 
-                \fi 
-l.92 \include{Sections/1XGlossaryEntries}
-                                         
-The file ended while I was skipping conditional text.
-This kind of error happens when you say `\if...' and forget
-the matching `\fi'. I've inserted a `\fi'; this might work.
-
+onalSpecification\Sections/1XGlossaryEntries.tex")
 \glo@main@file=\write4
 Package glossaries Info: Writing glossary file main.glo on input line 93.
-
-Overfull \hbox (14.60301pt too wide) in paragraph at lines 179--94
-[][]\T1/cmr/m/n/10.95 -part@parent-part@level0-part@text\T1/fvm/m/n/10.95 WHERE
-\T1/cmr/m/n/10.95 -part-part@plural\T1/fvm/m/n/10.95 WHERE\T1/cmr/m/n/10.95 -pa
-rt-part@first\T1/fvm/m/n/10.95 WHERE\T1/cmr/m/n/10.95 -
- []
-
-
-Overfull \hbox (60.16957pt too wide) in paragraph at lines 179--94
-\T1/cmr/m/n/10.95 part-part@firstpl\T1/fvm/m/n/10.95 WHERE\T1/cmr/m/n/10.95 -pa
-rt-part@typemain-part@counterpage-part@useri-part@userii-part@useriii-
- []
-
-
-Overfull \hbox (81.0941pt too wide) in paragraph at lines 179--94
-\T1/cmr/m/n/10.95 part@useriv-part@userv-part@uservi-part@short-part@shortpl-pa
-rt@long-part@longpl-part@name\texttt
- []
-
-
-Overfull \hbox (40.36104pt too wide) in paragraph at lines 179--94
-\T1/cmr/m/n/10.95 of a \gls {query} spe-cific the re-quest with ag-gre-gate fun
-c-tions or value ranges.-part@descpluralThe
- []
-
 
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\main.aux"
@@ -1821,24 +1307,6 @@ onalSpecification\main.out")
 onalSpecification\main.out")
 \@outlinefile=\write5
 
-<Pictures/WHAT-Logo.png, id=167, 2293.56876pt x 850.17625pt>
-File: Pictures/WHAT-Logo.png Graphic file (type png)
-
-<use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 118.
-(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (17.0pt): 
- Make it at least 27.37886pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[1{C:/Users/Jonathan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
-
-
- <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/Functi
-onalSpecification/Pictures/WHAT-Logo.png>]
 
 Package geometry Warning: `a4paper': not available in `\newgeometry'; skipped.
 
@@ -1921,14 +1389,14 @@ File: uzavm.fd 2006/05/30 Fontinst v1.929 font definitions for U/zavm.
 LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <9> not available
 (Font)              Font shape `T1/fav/b/n' tried instead on input line 11.
 
-<Pictures/KIT-Logo.png, id=178, 501.875pt x 250.9375pt>
+<Pictures/KIT-Logo.png, id=167, 501.875pt x 250.9375pt>
 File: Pictures/KIT-Logo.png Graphic file (type png)
 
 <use Pictures/KIT-Logo.png>
 Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 24.
 (pdftex.def)             Requested size: 128.03653pt x 64.01692pt.
 
-<Pictures/WHAT-LogoText2.png, id=179, 2293.56876pt x 1049.9225pt>
+<Pictures/WHAT-LogoText2.png, id=169, 2293.56876pt x 1049.9225pt>
 File: Pictures/WHAT-LogoText2.png Graphic file (type png)
 
 <use Pictures/WHAT-LogoText2.png>
@@ -1936,64 +1404,34 @@ Package pdftex.def Info: Pictures/WHAT-LogoText2.png used on input line 52.
 (pdftex.def)             Requested size: 358.50317pt x 164.09804pt.
 LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/fav/b/n' tried instead on input line 76.
- [2
+ [1
 
 
- <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/Functi
-onalSpecification/Pictures/KIT-Logo.png> <F:/Eigene Dateien/Jo/Studium/Informat
-ik/PSE/GitRepository/KIT-PSE-Docs/FunctionalSpecification/Pictures/WHAT-LogoTex
-t2.png>])
+
+
+
+{C:/Users/Jonathan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <F:/Eigen
+e Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/FunctionalSpecif
+ication/Pictures/KIT-Logo.png> <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/Git
+Repository/KIT-PSE-Docs/FunctionalSpecification/Pictures/WHAT-LogoText2.png>])
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\Sections/00AboutThisDocument.tex"
 LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <12> not available
 (Font)              Font shape `T1/fav/b/n' tried instead on input line 3.
-
-
-! Package glossaries Error: Glossary entry `database' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.8 ...alizing the server log of a \gls{database}.
-                                                  
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `database' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.32 ...cation should work with any \gls{database}
-                                                  
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `database' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.35 ...r} is one of the biggest \glspl{database} 
-                                                  for astronomical data.
-You need to define a glossary entry before you can use it.
-
 )
-File: Pictures/WHAT-Logo.png Graphic file (type png)
- <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 123.
-(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
+File: Pictures/KIT-Logo.png Graphic file (type png)
+
+<use Pictures/KIT-Logo.png>
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 123.
+(pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (17.0pt): 
- Make it at least 27.37886pt.
+ Make it at least 28.26395pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[3
+[2
 
 
 
@@ -2003,1218 +1441,146 @@ LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <14.4> not available
 
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\main.toc"
-File: Pictures/KIT-Logo.png Graphic file (type png)
- <use Pictures/KIT-Logo.png>
-Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 39.
-(pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (27.37886pt): 
- Make it at least 28.26395pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[4
-
-])
-\tf@toc=\write6
+<Pictures/WHAT-Logo.png, id=234, 2293.56876pt x 850.17625pt>
 File: Pictures/WHAT-Logo.png Graphic file (type png)
- <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 126.
+
+<use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 39.
 (pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
- [5]
+ [3
+
+ <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/Functi
+onalSpecification/Pictures/WHAT-Logo.png>])
+\tf@toc=\write6
+File: Pictures/KIT-Logo.png Graphic file (type png)
+
+<use Pictures/KIT-Logo.png>
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 126.
+(pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
+ [4]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\Sections/01Goals.tex"
-! Undefined control sequence.
-l.7 to visualize the prepared data of \glsp
-                                           {queries}, made into his data base.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 LaTeX Font Info:    Try loading font information for TS1+fav on input line 13.
 LaTeX Font Info:    No file TS1fav.fd. on input line 13.
+
 
 LaTeX Font Warning: Font shape `TS1/fav/m/n' undefined
 (Font)              using `TS1/cmr/m/n' instead
 (Font)              for symbol `textbullet' on input line 13.
 
-! Undefined control sequence.
-<recently read> \glsp 
-                      
-l.14   \item \glsp
-                  {Parser}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+Underfull \vbox (badness 4366) has occurred while \output is active []
+
+File: Pictures/WHAT-Logo.png Graphic file (type png)
+
+<use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 77.
+(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
+ [5
+
+])
+File: Pictures/KIT-Logo.png Graphic file (type png)
+ <use Pictures/KIT-Logo.png>
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 127.
+(pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
+ [6]
+("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
+onalSpecification\Sections/02Usage.tex")
+File: Pictures/WHAT-Logo.png Graphic file (type png)
+ <use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 129.
+(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
+ [7
 
 
-! Package glossaries Error: Glossary entry `scatter plot' has not been defined.
-
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.40 ... to support at least \glspl{scatter plot},
-                                                   \glspl{histogram} and \gl...
-
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `histogram' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.40 ...t \glspl{scatter plot}, \glspl{histogram} 
-                                                  and \glspl{bubble chart}.
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `bubble chart' has not been defined.
-
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.40 ...glspl{histogram} and \glspl{bubble chart}.
-                                                  
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `diagram' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.42 ...s help for how to use the \glspl{diagram} 
-                                                  and variables (\glspl{dime...
-
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `dimension' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.42 ...{diagram} and variables (\glspl{dimension}
-                                                  
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `parser' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.46 ... which are needed to use the \gls{parser}.
-                                                  
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `data warehouse' has not been define
-d.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 ...bility to handle the \gls{data warehouse} 
-                                                  and load new \glspl{log fi...
-
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `data warehouse' has not been define
-d.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.62 ...ad new data into the \gls{data warehouse}.
-                                                  
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `parser' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.73 \item The \gls{parser} 
-                            is able to perform the \gls{ETL}-process on \gls...
-
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `ETL' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.73 ...{parser} is able to perform the \gls{ETL}-
-                                                  process on \gls{.csv} \gls...
-
-You need to define a glossary entry before you can use it.
-
-
-Underfull \vbox (badness 7631) has occurred while \output is active []
-
+]
+("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
+onalSpecification\Sections/03OperatingEnvironment.tex")
 File: Pictures/KIT-Logo.png Graphic file (type png)
 
 <use Pictures/KIT-Logo.png>
-Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 77.
-(pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
- [6
-
-]
-
-! Package glossaries Error: Glossary entry `parser' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.78 \item The \gls{parser} 
-                            will recognize invalid logs and won't add them t...
-
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `data warehouse' has not been define
-d.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.78 ...on't add them to the \gls{data warehouse}.
-                                                  
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `data warehouse' has not been define
-d.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.80  as bad as a corrupted \gls{data warehouse}.
-                                                 
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `parser' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.82 \item The \gls{parser} 
-                            will be fed with \glspl{log file} from the admin...
-
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `parser' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.94 \item This \gls{parser} 
-                             is only able to operate on \gls{.csv} \glspl{lo...
-
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `parser' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.97 ...s no way to avoid using this \gls{parser} 
-                                                  when adding data to the \g...
-
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `data warehouse' has not been define
-d.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.97 ...n adding data to the \gls{data warehouse}.
-                                                  
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `data warehouse' has not been define
-d.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.98 ...vents corrupting the \gls{data warehouse} 
-                                                  and guarantees correct dat...
-
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `parser' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.100 \item The \gls{parser} 
-                             doesn't correct mistakes in the \glspl{log file}.
-You need to define a glossary entry before you can use it.
-
-)
-File: Pictures/WHAT-Logo.png Graphic file (type png)
- <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 127.
-(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
- [7]
-("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\Sections/02Usage.tex"
-
-! Package glossaries Error: Glossary entry `database' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.6 ...his product is scientific \glspl{database} 
-                                                  that need to be analysed, ...
-
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `database' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.10 ...correct access logs of the \gls{database}.
-                                                  
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `database' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.11 ...th many other scientific \glspl{database},
-                                                  
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `database' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.34 ...ize queries made against a \gls{database}.
-                                                   Specifically,
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `database' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.39   \item the owners of the \gls{database} 
-                                              who want to optimize the acces...
-
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `database' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.49   \item people new to the \gls{database},
-                                               who want to understand it or ...
-
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `database' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.53 ...they want to see how their \gls{database} 
-                                                  is used, analyse current t...
-
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `diagram' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 or just love statistics and \glspl{diagram}.
-                                                 
-You need to define a glossary entry before you can use it.
-
-)
-File: Pictures/KIT-Logo.png Graphic file (type png)
- <use Pictures/KIT-Logo.png>
-Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 129.
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 131.
 (pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
  [8
 
 
 ]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\Sections/03OperatingEnvironment.tex"
-
-! Package glossaries Error: Glossary entry `data warehouse' has not been define
-d.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.7 ...s the program and the \gls{data warehouse} 
-                                                  run on a server,
-You need to define a glossary entry before you can use it.
-
-! Undefined control sequence.
-<argument> glo@\data 
-                     warehouse@name
-l.17 ... server hosting the \gls{\data warehouse} 
-                                                  needs \gls{SQL} support.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! Undefined control sequence.
- ...ckage glossaries Error: Glossary entry `\data 
-                                                  warehouse' has not been de...
-l.17 ... server hosting the \gls{\data warehouse} 
-                                                  needs \gls{SQL} support.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Package glossaries Error: Glossary entry `warehouse' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.17 ... server hosting the \gls{\data warehouse} 
-                                                  needs \gls{SQL} support.
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `scatter plot' has not been defined.
-
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.48 data points on a \gls{scatter plot} 
-                                         with ease.
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `database' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.59 the origin \gls{database}.
-                               
-You need to define a glossary entry before you can use it.
-
-)
+onalSpecification\Sections/04FunctionalRequirements.tex"
 File: Pictures/WHAT-Logo.png Graphic file (type png)
- <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 131.
+
+<use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 92.
 (pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
  [9
 
 
-]
-("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\Sections/04FunctionalRequirements.tex"
-
-! Package glossaries Error: Glossary entry `chart' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.17   \item Provide option for \gls{chart} 
-                                            types \label{f2}
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `diagram' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.19   \item Show \glspl{diagram} 
-                                  \label{f3}
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `histogram' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.21   \item Show \glspl{histogram} 
-                                    \label{f4} % add to glossary
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `histogram' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.25 ...nd filter variables for \glspl{histogram} 
-                                                   \label{f6}
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `scatter plot' has not been defined.
-
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.30   \item Show \glspl{scatter plot} 
-                                       \label{f7} % add to glossary
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `scatter plot' has not been defined.
-
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.35 ...filter variables for \glspl{scatter plot} 
-                                                  \label{f9}
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `bubble chart' has not been defined.
-
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.37   \item Show \glspl{bubble chart} 
-                                       \label{f10} % add to glossary
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `bubble chart' has not been defined.
-
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.39 ...filter variables for \glspl{bubble chart} 
-                                                  \label{f11}
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `chart' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.44   \item Show information about \gls{chart} 
-                                                types \label{f13}
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `log files' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.60 ...e the opportunity to pass \gls{log files} 
-                                                  to the \gls{parser} \label...
-
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `parser' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.60 ... pass \gls{log files} to the \gls{parser} 
-                                                  \label{f16}
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `parser' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.66 ... functions required from the \gls{parser} 
-                                                  are mainly to execute the ...
-
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `log files' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.72 ... specific data from the \glspl{log files} 
-                                                  \label{p1}
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `database' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.74   \item Extract access \gls{database},
-                                            access time and user information...
-
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `dimension' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.74 ...e and user information (\glspl{dimension})
-                                                  \label{p2} % add to glossa...
-
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `row' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.76   \item Extract number of \glspl{row},
-                                            \gls{elapsed time}, \gls{busy ti...
-
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `elapsed time' has not been defined.
-
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.76 ...number of \glspl{row}, \gls{elapsed time},
-                                                   \gls{busy time} (\glspl{m...
-
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `busy time' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.76 ...row}, \gls{elapsed time}, \gls{busy time} 
-                                                  (\glspl{measure})\label{f1...
-
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `measure' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.76 ...d time}, \gls{busy time} (\glspl{measure})
-                                                  \label{f17} % add to gloss...
-
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `where-part' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.78 ... requested from the \gls{where-part}\label
-                                                  {p4} % add to glossary: where
-
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `data warehouse' has not been define
-d.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.80 ...data to fit into the \gls{data warehouse} 
-                                                  schema\label{f18}
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `data warehouse' has not been define
-d.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.82 ...ad the data into the \gls{data warehouse} 
-                                                  \label{f19}
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `data warehouse' has not been define
-d.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.90 ...ific queries against \gls{data warehouse} 
-                                                  \label{f20}
-You need to define a glossary entry before you can use it.
-
-File: Pictures/KIT-Logo.png Graphic file (type png)
-<use Pictures/KIT-Logo.png>
-Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 92.
-(pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
- [10
-
-
-]
-
-! Package glossaries Error: Glossary entry `histogram' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.108   \item Show combination of \gls{histogram} 
-                                                  and \gls{scattered plot} \...
-
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `scattered plot' has not been define
-d.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.108 ...\gls{histogram} and \gls{scattered plot} 
-                                                  \label{f24}
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `chart' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.110   \item Show other \glspl{chart} 
-                                       \label{f25}
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `chart' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.112 ...ry of the 5 last requested \glspl{chart} 
-                                                   \label{f26}
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `data warehouse' has not been define
-d.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.135 ...y to initialize the \gls{data warehouse} 
-                                                  \label{f27}
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `log files' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.137 ...portunity to request new \gls{log files} 
-                                                  for specific time intervals
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `database' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.138   	from the \gls{database} 
-                                 \label{f28}
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `data warehouse' has not been define
-d.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.140 ...tunity to clean the \gls{data warehouse} 
-                                                  \label{f29}
-You need to define a glossary entry before you can use it.
-
-)
-File: Pictures/WHAT-Logo.png Graphic file (type png)
- <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 134.
-(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
- [11]
-("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\Sections/05Data.tex"
+])
 File: Pictures/KIT-Logo.png Graphic file (type png)
  <use Pictures/KIT-Logo.png>
-Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 21.
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 134.
 (pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
- [12
+ [10]
+("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
+onalSpecification\Sections/05Data.tex"
+File: Pictures/WHAT-Logo.png Graphic file (type png)
+ <use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 21.
+(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
+ [11
 
 
 ]
-
-! Package glossaries Error: Glossary entry `data warehouse' has not been define
-d.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.25 The \gls{data warehouse} 
-                              stores all the data, coming from from the \gls...
-
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `database' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.25 ...ta, coming from from the \glspl{database} 
-                                                  (\gls{SkyServer}) server l...
-
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `data warehouse' has not been define
-d.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.27 ...laced by clearing the \gls{data warehouse}
-                                                  
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `data warehouse' has not been define
-d.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.30 The \gls{data warehouse} 
-                              may use a star schema.
-You need to define a glossary entry before you can use it.
-
-<Pictures/WareHouseSchema.png, id=346, 351.714pt x 271.9761pt>
+<Pictures/WareHouseSchema.png, id=432, 351.714pt x 271.9761pt>
 File: Pictures/WareHouseSchema.png Graphic file (type png)
 
 <use Pictures/WareHouseSchema.png>
 Package pdftex.def Info: Pictures/WareHouseSchema.png used on input line 32.
 (pdftex.def)             Requested size: 483.69687pt x 374.06165pt.
-
-
-! Package glossaries Error: Glossary entry `dimension' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.34 ...measure or refer to a new \gls{dimension}.
-                                                   This depends on the \gls{...
-
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `database' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.34 ...nsion}. This depends on the \gls{database}
-                                                  
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `elapsed time' has not been defined.
-
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.37 See rows, \gls{elapsed time} 
-                                  and \gls{busy time} in the glossary (\ref{...
-
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `busy time' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.37 ...s, \gls{elapsed time} and \gls{busy time} 
-                                                  in the glossary (\ref{glos...
-
-You need to define a glossary entry before you can use it.
-
-)
-File: Pictures/WHAT-Logo.png Graphic file (type png)
- <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 137.
-(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
- [13 <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/Fu
-nctionalSpecification/Pictures/WareHouseSchema.png>]
-("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\Sections/06NonfunctionalRequirements.tex"
-! Undefined control sequence.
-l.11   \item Minimalistic \glsp
-                               {GUI} design
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.12   \item Responsive \glsp
-                             {GUI}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \glsp 
-                      
-l.13   \item \glsp
-                  {GUI} that is easy to get used to
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! Package glossaries Error: Glossary entry `data warehouse' has not been define
-d.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.15   \item The \gls{data warehouse} 
-                                      can store more than 1000000 entries
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `row' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.21 	\item Parse 1000 log \glspl{row} 
-                                       in 10 seconds
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `scatter plot' has not been defined.
-
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.23 	\item Visualize \gls{scatter plot} 
-                                         of 50000 points in 10 seconds
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `diagram' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.37 ... screen while visualizing a \gls{diagram}.
-                                                  
-You need to define a glossary entry before you can use it.
-
 )
 File: Pictures/KIT-Logo.png Graphic file (type png)
  <use Pictures/KIT-Logo.png>
-Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 140.
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 137.
 (pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
- [14
+ [12 <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/Fu
+nctionalSpecification/Pictures/WareHouseSchema.png>]
+("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
+onalSpecification\Sections/06NonfunctionalRequirements.tex")
+File: Pictures/WHAT-Logo.png Graphic file (type png)
+
+<use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 140.
+(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
+ [13
 
 
 ]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\Sections/07GlobalTestCases.tex"
-
-! Package glossaries Error: Glossary entry `scatter plot' has not been defined.
-
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.25 \item Open page for \gls{scatter plot}-
-                                            creation and create an example
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `histogram' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.29 \item Open page for \gls{histogram}-
-                                         creation and create an example
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `bubble chart' has not been defined.
-
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.33 \item Open page for \gls{bubble chart}-
-                                            creation and create an example
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `chart' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.37 \item Call the information about \gls{chart} 
-                                                  types. (\ref{f13})
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `parser' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.63 ...xample \gls{log file} to the \gls{parser}.
-                                                   (\ref{f16})
-You need to define a glossary entry before you can use it.
-
-File: Pictures/WHAT-Logo.png Graphic file (type png)
-<use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 69.
-(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
- [15
-
-
-]
-
-! Package glossaries Error: Glossary entry `parser' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.72 ...sure the correct work of our \gls{parser}.
-                                                  
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `database' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.83 ...em[/T132/] Extract correct \gls{database},
-                                                   time, user information
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `row' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.87 ...4/] Extract correct number of \glspl{row},
-                                                   \gls{elapsed time},
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `elapsed time' has not been defined.
-
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.87 ...number of \glspl{row}, \gls{elapsed time},
-                                                  
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `busy time' has not been defined.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.88 	\gls{busy time} 
-                      from the \gls{log file}, (\ref{f17})
-You need to define a glossary entry before you can use it.
-
-
-! Package glossaries Error: Glossary entry `data warehouse' has not been define
-d.
-
-See the glossaries package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.96 ...information into the \gls{data warehouse} 
-                                                  correctly. (\ref{f18}, \re...
-
-You need to define a glossary entry before you can use it.
-
-)
 File: Pictures/KIT-Logo.png Graphic file (type png)
  <use Pictures/KIT-Logo.png>
-Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 143.
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 69.
 (pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
- [16]
+
+[14
+
+
+])
+File: Pictures/WHAT-Logo.png Graphic file (type png)
+ <use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 143.
+(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
+ [15]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\Sections/08Models.tex"
-<Pictures/GenerellConcept.png, id=422, 257.763pt x 271.9761pt>
+<Pictures/GenerellConcept.png, id=530, 257.763pt x 271.9761pt>
 File: Pictures/GenerellConcept.png Graphic file (type png)
 
 <use Pictures/GenerellConcept.png>
 Package pdftex.def Info: Pictures/GenerellConcept.png used on input line 34.
 (pdftex.def)             Requested size: 483.69687pt x 510.38965pt.
 
-<Pictures/Flow1.png, id=423, 542.2659pt x 721.4955pt>
+<Pictures/Flow1.png, id=531, 542.2659pt x 721.4955pt>
 File: Pictures/Flow1.png Graphic file (type png)
  <use Pictures/Flow1.png>
 Package pdftex.def Info: Pictures/Flow1.png used on input line 47.
@@ -3222,51 +1588,66 @@ Package pdftex.def Info: Pictures/Flow1.png used on input line 47.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-File: Pictures/WHAT-Logo.png Graphic file (type png)
+File: Pictures/KIT-Logo.png Graphic file (type png)
 
-<use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 48.
-(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
- [17
+<use Pictures/KIT-Logo.png>
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 48.
+(pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
+ [16
 
 
  <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/Functi
 onalSpecification/Pictures/GenerellConcept.png>]
-File: Pictures/KIT-Logo.png Graphic file (type png)
- <use Pictures/KIT-Logo.png>
-Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 50.
-(pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
- [18 <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/Fu
-nctionalSpecification/Pictures/Flow1.png>])
 File: Pictures/WHAT-Logo.png Graphic file (type png)
-
 <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 146.
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 50.
 (pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
- [19]
-("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\Sections/09DevelopmentEnvironment.tex")
+ [17 <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/Fu
+nctionalSpecification/Pictures/Flow1.png>])
 File: Pictures/KIT-Logo.png Graphic file (type png)
 
 <use Pictures/KIT-Logo.png>
-Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 148.
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 146.
 (pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
- [20
+ [18]
+("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
+onalSpecification\Sections/09DevelopmentEnvironment.tex")
+File: Pictures/WHAT-Logo.png Graphic file (type png)
+
+<use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 148.
+(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
+ [19
 
 
 ]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\Sections/10Glossary.tex"
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\main.gls"))
-File: Pictures/WHAT-Logo.png Graphic file (type png)
- <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 151.
-(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
- [21
+onalSpecification\main.gls"
+File: Pictures/KIT-Logo.png Graphic file (type png)
+ <use Pictures/KIT-Logo.png>
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 64.
+(pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
+ [20
 
 
 ]
+Overfull \hbox (22.40628pt too wide) in paragraph at lines 79--79
+[][]\T1/fav/b/n/10.95 PSE \T1/fav/m/n/10.95 PSE stand for prac-tice of soft-war
+e en-gi-neer-ing (germ. Praxis der Software-Entwicklung).
+ []
+
+LaTeX Font Info:    Try loading font information for T1+fvm on input line 101.
+(C:\Users\Jonathan\AppData\Roaming\MiKTeX\2.9\tex\latex\bera\t1fvm.fd
+File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
+)))
+File: Pictures/WHAT-Logo.png Graphic file (type png)
+
+<use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 151.
+(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
+ [21]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 155.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 155.
 
@@ -3304,58 +1685,25 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
- )
-(\end occurred inside a group at level 1)
-
-### simple group (level 1) entered at line 179 ({)
-### bottom level
-(\end occurred when \ifmmode on line 179 was incomplete)
-(\end occurred when \iftrue on line 92 was incomplete)
-(\end occurred when \ifnum on line 92 was incomplete) 
+ ) 
 Here is how much of TeX's memory you used:
- 12840 strings out of 493921
- 202940 string characters out of 3140856
- 338214 words of memory out of 3000000
- 15654 multiletter control sequences out of 15000+200000
+ 12963 strings out of 493921
+ 205387 string characters out of 3140856
+ 335763 words of memory out of 3000000
+ 15763 multiletter control sequences out of 15000+200000
  40493 words of font info for 63 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 45i,14n,60p,1476b,1610s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): nam
-e{glo:ETL-process} has been referenced but does not exist, replaced by a fixed 
-one
-
-pdfTeX warning (dest): name{glo:Java\040VM} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:SQL} has been referenced but does not exist, re
-placed by a fixed one
-
-pdfTeX warning (dest): name{glo:Dimension} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:.csv} has been referenced but does not exist, r
-eplaced by a fixed one
-
-pdfTeX warning (dest): name{glo:log\040file} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{glo:GUI} has been referenced but does not exist, re
-placed by a fixed one
-
-pdfTeX warning (dest): name{glo:PSE} has been referenced but does not exist, re
-placed by a fixed one
-
+ 45i,14n,60p,1472b,701s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/Programmieren/Latex/MiKTeX/fonts/enc/dvips/fontname/8r.enc}
  <C:\Users\Jonathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
-\tcrm1095.pk>{C:/Program Files/Programmieren/Latex/MiKTeX/fonts/enc/dvips/fontn
-ame/8r.enc} <C:\Users\Jonathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
-n\ec\dpi600\ecrm1095.pk><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/typ
-e1/public/arev/ArevSans-Bold.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/
-fonts/type1/public/arev/ArevSans-Roman.pfb><C:/Users/Jonathan/AppData/Roaming/M
-iKTeX/2.9/fonts/type1/bera/fvmr8a.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX
-/2.9/fonts/type1/mathdesign/mdbch/md-chb7y.pfb>
-Output written on main.pdf (21 pages, 867569 bytes).
+\tcrm1095.pk><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/a
+rev/ArevSans-Bold.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1
+/public/arev/ArevSans-Roman.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/f
+onts/type1/bera/fvmr8a.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/
+type1/mathdesign/mdbch/md-chb7y.pfb>
+Output written on main.pdf (21 pages, 898458 bytes).
 PDF statistics:
- 540 PDF objects out of 1000 (max. 8388607)
- 137 named destinations out of 1000 (max. 500000)
+ 717 PDF objects out of 1000 (max. 8388607)
+ 151 named destinations out of 1000 (max. 500000)
  359 words of extra memory for PDF output out of 10000 (max. 10000000)
 

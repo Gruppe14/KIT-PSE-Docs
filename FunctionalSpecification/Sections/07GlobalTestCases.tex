@@ -7,7 +7,7 @@
 
 \subsection{General}
 
-These test-cases are necessary for the webpage to work 
+These test-cases are necessary for the web page to work 
 properly and succeed in serving basic requests.
 
 \begin{enumerate}[label={{/T}\itemnumber*{/}}, series=test]
@@ -22,19 +22,19 @@ properly and succeed in serving basic requests.
 \item Navigate swiftly through the web page. (\ref{N1}) 
 \label{t11}
 
-\item Open page for scatter plot-creation and create an example
-      with x-Axis date and y-Axis number of lines per request. (\ref{f2}, \ref{f3}, \ref{f7}, \ref{f9})
+\item Open page for \gls{scatter plot}-creation and create an example
+      with x-Axis date and y-Axis number of rows per request. (\ref{f2}, \ref{f3}, \ref{f7}, \ref{f9})
 \label{t12}
 
-\item Open page for histogram-creation and create an example
+\item Open page for \gls{histogram}-creation and create an example
       with x-Axis year and y-Axis number of requests. (\ref{f2}, \ref{f3}, \ref{f4}, \ref{f6})
 \label{t13}
 
-\item Open page for bubble chart-creation and create an example
+\item Open page for \gls{bubble chart}-creation and create an example
       with x-Axis year, y-Axis Country and size number of requests. (\ref{f2}, \ref{f3}, \ref{f10}, \ref{f11})
 \label{t14}
 
-\item Call the information about chart types. (\ref{f13})
+\item Call the information about \gls{chart} types. (\ref{f13})
 \label{t15}
 
 \item Request information about selectable variables. (\ref{f14})
@@ -60,7 +60,7 @@ These test cases check the correct admin-login.
 \item Try to log in with wrong password. (\ref{f15})
 \label{t20}
 
-\item Pass example log-file to the parser. (\ref{f16})
+\item Pass example \gls{log file} to the \gls{parser}. (\ref{f16})
 \label{t21}
 
 
@@ -69,23 +69,23 @@ These test cases check the correct admin-login.
 \newpage
 \subsection{Parser specific}
 
-The following test cases ensure the correct work of our parser.
+The following test cases ensure the correct work of our \gls{parser}.
 %, which extracts information from a .csv-file and writes 
 %it in our data-warehouse.
 
 \begin{enumerate}[resume*=test]
 
-\item Parse example log-file and extract valuable information correctly. (\ref{p1})
+\item Parse example \gls{log file} and extract valuable information correctly. (\ref{p1})
 	\\ More specifically: 
 \label{t22}
   \begin{enumerate}
 
-	\item[/T132/] Extract correct database, time, user information 
+	\item[/T132/] Extract correct \gls{database}, time, user information 
 	and type, (\ref{p2})
 \label{t23}
 
-	\item[/T134/] Extract correct number of rows, elapsed time, 
-	busy time from the log-file, (\ref{f17})
+	\item[/T134/] Extract correct number of \glspl{row}, \gls{elapsed time}, 
+	\gls{busy time} from the \gls{log file}, (\ref{f17})
 \label{t24}	
 	
 	\item[/T136/] Extract the type requested. (\ref{p4})
@@ -93,7 +93,7 @@ The following test cases ensure the correct work of our parser.
 
   \end{enumerate}
 
-\item Load the extracted information into the data warehouse correctly. (\ref{f18}, \ref{f19})
+\item Load the extracted information into the \gls{data warehouse} correctly. (\ref{f18}, \ref{f19})
 \label{t26}
 
 \end{enumerate}

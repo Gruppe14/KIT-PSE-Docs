@@ -5,7 +5,7 @@
 %>					of PSE Group 10
 %>
 %=========================================================================%
-\documentclass[a4paper, twoside]{scrartcl}
+\documentclass[a4paper, twoside, svgnames]{scrartcl}
 
 % Character encoding
 \usepackage[utf8]{inputenc}
@@ -39,15 +39,27 @@
 	
 % Customized headlines
 \usepackage{titlesec}
- 
+% \usepackage{tikz}
+%  \usepackage[explicit]{titlesec}
+% \titleformat{\section}
+%   {\gdef\chapterlabel{}\normalfont\LARGE\bfseries\scshape}
+%   {\gdef\chapterlabel{\thechapter\ }}{0pt}
+% 	{\begin{tikzpicture}[remember picture,overlay]
+% 		\node[xshift=0cm, anchor=west,rectangle,inner sep=10pt, fill=Bittersweet]
+% 			{\color{white}\chapterlabel#1\hspace*{100pt}};
+% 	 	\end{tikzpicture}
+% 	}
  
 % If you want enumartions to go on with last one -> do this:
 % \begin{enumerate}[resume]
-\usepackage{enumitem}
+\usepackage[shortlabels]{enumitem}
 \setlist{leftmargin=*}
 \renewcommand{\labelitemii}{$\circ$}
-
-
+\makeatletter
+\def\itemnumber#1{\expandafter\@itemnumber\csname c@#1\endcsname}
+\def\@itemnumber#1{\ifnum#1<10\relax0\fi\@arabic{#1}0}
+\makeatother
+\AddEnumerateCounter{\itemnumber}{\@itemnumber}{000}
 
 %\setlist[1]{labelindent=\parindent}
 
@@ -65,7 +77,9 @@
 
 % For links of the chapters and out of the pdf + boxes around links deleted
 \usepackage[colorlinks=true, linkcolor=black, urlcolor=blue]{hyperref} 
-
+\hypersetup{
+	pdftitle={Functional specification - WHAT WareHouse Analyzing Tool},
+	pdfauthor={Alexander Noe, Jonathan Klawitter, Anas Saber, Nikolaos Alexandros Kurt Moraitakis,Lukas Ehnle}}
 
 % Glossary 
 % \usepackage{ifthen}
@@ -78,9 +92,23 @@
 \include{Sections/1XGlossaryEntries} 
 \makeglossaries   
  
+ 
+%Glossarverweise formatieren
+\DeclareRobustCommand\textsfgls[1]{\textsf{\textcolor{blue}{#1}}}
+\renewcommand{\glsdisplayfirst}[4]{\textsfgls{#1}} % Farbe/Schriftart für das erste Vorkommen einer Referenz festlegen
+\renewcommand{\glsdisplay}[4]{\textsfgls{#1}} % Farbe/Schriftart für alle anderen Referenzen festlegen
 
-%\author{Lukas Ehnle, 
-%Jo Klawitter, Nikos Moraitakis, Alexander Noe, Anas Saber}
+%Glossareinträge formatieren
+\renewcommand{\glossaryentryfield}[5]{%
+\item % bullet point
+\textbf{\glstarget{#1}{#2}}% the entry name
+\space #3% the description
+\space [#5]% the number list in square brackets
+}%
+ 
+ 
+
+
 
 %!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%
 \begin{document} % BEGIN BEGIN BEGIN BEGIN BEGIN BEGIN BEGIN BEGIN BEGIN
@@ -102,13 +130,16 @@
 \newpage 
 \include{Sections/03OperatingEnvironment}
 \newpage
-\setlist{leftmargin=40pt}
+\setlist{leftmargin=41pt}
 \include{Sections/04FunctionalRequirements}
 %\newpage
+\setlist{leftmargin=36pt}
 \include{Sections/05Data}
 \newpage 
+
 \include{Sections/06NonfunctionalRequirements}
-\newpage 
+\newpage
+\setlist{leftmargin=41pt}
 \include{Sections/07GlobalTestCases}
 \newpage 
 \setlist{leftmargin=*}
@@ -116,7 +147,7 @@
 \newpage 
 \include{Sections/09DevelopmentEnvironment}
 \newpage
-\setlist{leftmargin=90pt} 
+\setlist{leftmargin=5pt}
 \include{Sections/10Glossary}
 \newpage 
    

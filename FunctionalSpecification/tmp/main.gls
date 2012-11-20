@@ -1,0 +1,9 @@
+\glossarysection[\glossarytoctitle]{\glossarytitle}\glossarypreamble
+\begin{theglossary}\glossaryheader
+\glsgroupheading{K}\relax \glsresetentrylist %
+\glossaryentryfield{KIT}{\glsnamefont{KIT}}{is a technological university in Karlsruhe, Baden-Württemberg, Germany (Karlsruhe Institute of Technology)}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{2}}}\glsgroupskip
+\glsgroupheading{S}\relax \glsresetentrylist %
+\glossaryentryfield{SkyServer}{\glsnamefont{SkyServer}}{is a big database for astronomical data. It contains pictures and other information concerning astronomy and tries to 'form a map of the universe }{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{2}}}%
+\end{theglossary}\glossarypostamble
