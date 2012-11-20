@@ -2,24 +2,24 @@
 
 
 % Enumeration changed
-\renewcommand{\theenumi}{/T\arabic{enumi}0/}
-\renewcommand{\labelenumi}{\theenumi}
+% \renewcommand{\theenumi}{/T\arabic{enumi}0/}
+% \renewcommand{\labelenumi}{\theenumi}
 
 \subsection{General}
 
 Those test-cases are necessary for the webpage to work 
 properly and succeed in serving basic requests.
 
-\begin{enumerate}
+\begin{enumerate}[label={{/T}\itemnumber*{/}}, series=test]
 
 \item Access web page (\ref{f1})
 \begin{enumerate}
-  \item[/T12/] via Google Chrome,
-  \item[/T14/] via Mozilla Firefox.
+  \item[/T012/] via Google Chrome,
+  \item[/T014/] via Mozilla Firefox.
 \end{enumerate}
 \label{t10}
 
-\item Navigate switfly through the web page. (\ref{f141}) 
+\item Navigate switfly through the web page. (\ref{N1}) 
 \label{t11}
 
 \item Open page for scatter plot-creation and create an example
@@ -46,7 +46,7 @@ properly and succeed in serving basic requests.
 
 Those test cases check the correct admin-login.
 
-\begin{enumerate}[resume]
+\begin{enumerate}[resume*=test]
 
 \item Enter loginname and password for admin-login. (\ref{f15})
 \label{t17}
@@ -73,7 +73,7 @@ The following test cases test the correct work of our parser.
 %, which extracts information from a .csv-file and writes 
 %it in our data-warehouse.
 
-\begin{enumerate}[resume]
+\begin{enumerate}[resume*=test]
 
 \item Parse example log-file and extract valuable information correctly. (\ref{p1})
 	\\ More specifically: 

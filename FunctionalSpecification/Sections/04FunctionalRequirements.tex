@@ -2,8 +2,8 @@
 
 
 %\renewcommand{\theenumi}{/F\ifnum\value{enumi}<10 0\fi\arabic{enumi}0/}
-\renewcommand{\theenumi}{/F\arabic{enumi}0/}
-\renewcommand{\labelenumi}{\theenumi}
+%\renewcommand{\theenumi}{{/F}\itemnumber*{0/}}
+%\renewcommand{\labelenumi}{\theenumi}
 
   
 \subsection{Main functions}
@@ -11,7 +11,7 @@
 This functions are required to fulfill the core criteria.
  
 \subsubsection*{General}
-\begin{enumerate}
+\begin{enumerate}[label={{/F}\itemnumber*{/}}, series=func]
   \item Provide access via web page \label{f1}
     
   \item Provide option for chart types \label{f2}
@@ -53,7 +53,7 @@ This functions are required to fulfill the core criteria.
 \subsubsection*{Administrator specific}
 This functions are required for the administrative business.
 
-\begin{enumerate}[resume]
+\begin{enumerate}[resume*=func]
   
   \item Provide access via web page with administrator rights\label{f15}
    
@@ -67,7 +67,7 @@ This functions are required for the administrative business.
 %  The following functions specify the parses functionality, which consist 
 %  Thereby \ref{p2} to \ref{p4} specify the function \ref{p1}.
  
-\begin{enumerate}[resume]
+\begin{enumerate}[resume*=func]
   
   \item Extract specific data from the log-files \label{p1}
   
@@ -85,7 +85,7 @@ This functions are required for the administrative business.
 
 \subsubsection*{Analyzer specific}
  
-\begin{enumerate}[resume]
+\begin{enumerate}[resume*=func]
   
   \item Run specific queries against data warehouse \label{f20}
   
@@ -99,7 +99,7 @@ This functions are required for the administrative business.
 To fulfill the optional goals the following functions are required.
 
 \subsubsection*{General}
-\begin{enumerate}[resume]
+\begin{enumerate}[resume*=func]
   
   \item Select language on web page \label{f22}
   
@@ -130,7 +130,7 @@ To fulfill the optional goals the following functions are required.
 
 \subsubsection*{Administrator specific}
 
-\begin{enumerate}[resume]
+\begin{enumerate}[resume*=func]
    
   \item Provide the opportunity to initialize the data warehouse\label{f27}
    
