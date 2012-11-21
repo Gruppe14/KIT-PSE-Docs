@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.20)  21 NOV 2012 03:50
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.11.20)  21 NOV 2012 04:08
 entering extended mode
 **main.tex
 (D:\Dokumente\GitHub\KIT-PSE-Docs\FunctionalSpecification\main.tex
@@ -1610,7 +1610,7 @@ ex (D:\Dokumente\GitHub\KIT-PSE-Docs\FunctionalSpecification\main.gls
 File: Pictures/WHAT-Logo.png Graphic file (type png)
 
 <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 68.
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 64.
 (pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
  [21
 
@@ -1664,18 +1664,18 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  12953 strings out of 494045
  199735 string characters out of 3145974
- 342098 words of memory out of 3000000
+ 342107 words of memory out of 3000000
  15752 multiletter control sequences out of 15000+200000
  40490 words of font info for 63 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 45i,14n,60p,1476b,695s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,14n,60p,1476b,697s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc} <C:\Users
 \Alu\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1095.pk><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/arev/ArevSans-Bold.pfb><C:/
 Program Files (x86)/MiKTeX 2.9/fonts/type1/public/arev/ArevSans-Roman.pfb><C:/P
 rogram Files (x86)/MiKTeX 2.9/fonts/type1/bera/fvmr8a.pfb><C:/Program Files (x8
 6)/MiKTeX 2.9/fonts/type1/mathdesign/mdbch/md-chb7y.pfb>
-Output written on main.pdf (22 pages, 927122 bytes).
+Output written on main.pdf (22 pages, 927148 bytes).
 PDF statistics:
  734 PDF objects out of 1000 (max. 8388607)
  152 named destinations out of 1000 (max. 500000)

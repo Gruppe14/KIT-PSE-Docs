@@ -95,7 +95,7 @@
 		\setentrycounter[]{page}\glsnumberformat{5\delimN 6}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{8\delimR 10}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{13\delimN 14}}}%
-\glossaryentryfield{SkyServer}{\glsnamefont{SkyServer}}{is a big database for astronomical data. It contains pictures and other information concerning astronomy and tries to 'form a map of the universe }{\relax }{\glossaryentrynumbers{\relax 
+\glossaryentryfield{SkyServer}{\glsnamefont{SkyServer}}{is a big database for astronomical data. It contains pictures and other information concerning astronomy and tries to "form a map of the universe". }{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{6\delimN 7}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{12}}}%
