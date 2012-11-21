@@ -120,7 +120,8 @@
 \restoregeometry
 \newpage 
 
-\include{Sections/00AboutThisDocument} 
+\include{Sections/00AboutThisDocument}
+%\vspace*{0.1cm}
 \tableofcontents
   
 \newpage 
@@ -135,13 +136,14 @@
 %\newpage
 \setlist{leftmargin=36pt}
 \include{Sections/05Data}
-\newpage 
+\newpage
 
 \include{Sections/06NonfunctionalRequirements}
 \newpage
+\addtocontents{toc}{\protect\newpage} 
 \setlist{leftmargin=41pt}
 \include{Sections/07GlobalTestCases}
-\newpage 
+\newpage
 \setlist{leftmargin=*}
 \include{Sections/08Models} 
 \newpage 

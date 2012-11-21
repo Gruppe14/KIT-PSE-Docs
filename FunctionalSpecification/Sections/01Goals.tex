@@ -1,10 +1,9 @@
 \section{Goals}
 
 %=======================================================================
-
-%Through or with?
+ 
 With this program the user should be put in the position 
-to visualize the prepared data of \glspl{query}, made into his data base.
+to visualize the prepared data of \glspl{query}, made into his \gls{database}.
 
 
 To structure the criteria the system has to fulfill, 
@@ -35,8 +34,8 @@ In the following section their specific goals and criteria are described.
 \begin{itemize}
 \item The web page is the graphical user interface (\gls{GUI}) for users and administrators. 
 
-\item Users can choose the charts they want to see 
-and also choose and filter the dimensions and measures for those. 
+\item Users can choose the \glspl{chart} they want to see 
+and also choose and filter the \glspl{dimension} and \glspl{measure} for those. 
 It has to support at least \glspl{scatter plot}, \glspl{histogram} and \glspl{bubble chart}.
 
 \item The web page provides help for how to use the \glspl{diagram} and variables (\glspl{dimension} 
@@ -53,7 +52,7 @@ Also the navigation on the page is easy to use and straight forward.
 
 \item The administrator gets the ability to handle the \gls{data warehouse} and load new \glspl{log file}.
 
-\item A little history of the last requested charts is stored and viewable.
+\item A little history of the last requested \glspl{chart} is stored and viewable.
 \end{itemize}
 
 %----------------------------------------------------------------------
@@ -73,7 +72,7 @@ Also the navigation on the page is easy to use and straight forward.
 \item The \gls{parser} is able to perform the \gls{ETL-process} on \gls{.csv} \glspl{log file}
  (from \gls{SkyServer}). 
 This means it extracts the data it needs from the files, transforms them 
-and loads them into the data-warehouse. \gls{dimension} and measures are specified in \ref{WHschema}.
+and loads them into the \gls{data warehouse}. \gls{dimension} and \glspl{measure} are specified in \ref{WHschema}.
   
 \item The \gls{parser} will recognize invalid logs and won't add them to the \gls{data warehouse}.
  Every log with a mistake won't be accepted, because an error-message is not 
@@ -107,11 +106,11 @@ This prevents corrupting the \gls{data warehouse} and guarantees correct data in
 
 \subsubsection{Core criteria}
 \begin{itemize}
-\item The analyzer is the gate to the data warehouse. It extracts the specific data, 
-needed for the diagrams, passing them to the java-script front-end.
+\item The analyzer is the gate to the \gls{data warehouse}. It extracts the specific data, 
+needed for the \glspl{diagram}, passing them to the java-script front-end.
 \item The analyzer can take information filtered by user-selected criteria, 
-to use only certain data for the charts.
-\item The charts that are supported are at least:
+to use only certain data for the \glspl{chart}.
+\item The \glspl{chart} that are supported are at least:
 \begin{itemize}
 \item \glspl{scatter plot}
 \item \glspl{histogram}
