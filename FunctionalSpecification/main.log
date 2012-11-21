@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  21 NOV 2012 00:52
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  21 NOV 2012 01:10
 entering extended mode
 **main
 
@@ -1603,21 +1603,40 @@ File: Pictures/WHAT-Logo.png Graphic file (type png)
 Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 50.
 (pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
  [17 <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/Fu
-nctionalSpecification/Pictures/Flow1.png>])
+nctionalSpecification/Pictures/Flow1.png>]
+<Pictures/WHAT-Start.png, id=540, 645.91313pt x 548.80031pt>
+File: Pictures/WHAT-Start.png Graphic file (type png)
+
+<use Pictures/WHAT-Start.png>
+Package pdftex.def Info: Pictures/WHAT-Start.png used on input line 54.
+(pdftex.def)             Requested size: 483.69687pt x 410.97116pt.
+File: Pictures/KIT-Logo.png Graphic file (type png)
+ <use Pictures/KIT-Logo.png>
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 56.
+(pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
+ [18 <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/Fu
+nctionalSpecification/Pictures/WHAT-Start.png>]
+<Pictures/WHAT-Histogram.png, id=546, 687.31781pt x 592.46344pt>
+File: Pictures/WHAT-Histogram.png Graphic file (type png)
+
+<use Pictures/WHAT-Histogram.png>
+Package pdftex.def Info: Pictures/WHAT-Histogram.png used on input line 59.
+(pdftex.def)             Requested size: 483.69687pt x 416.94548pt.
+)
+File: Pictures/WHAT-Logo.png Graphic file (type png)
+ <use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 146.
+(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
+ [19 <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/Fu
+nctionalSpecification/Pictures/WHAT-Histogram.png>]
+("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
+onalSpecification\Sections/09DevelopmentEnvironment.tex")
 File: Pictures/KIT-Logo.png Graphic file (type png)
 
 <use Pictures/KIT-Logo.png>
-Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 146.
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 148.
 (pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
- [18]
-("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
-onalSpecification\Sections/09DevelopmentEnvironment.tex")
-File: Pictures/WHAT-Logo.png Graphic file (type png)
-
-<use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 148.
-(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
- [19
+ [20
 
 
 ]
@@ -1625,29 +1644,29 @@ Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 148.
 onalSpecification\Sections/10Glossary.tex"
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\main.gls"
-File: Pictures/KIT-Logo.png Graphic file (type png)
- <use Pictures/KIT-Logo.png>
-Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 64.
-(pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
- [20
+File: Pictures/WHAT-Logo.png Graphic file (type png)
+ <use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 68.
+(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
+ [21
 
 
 ]
-Overfull \hbox (22.40628pt too wide) in paragraph at lines 79--79
+Overfull \hbox (22.40628pt too wide) in paragraph at lines 83--83
 [][]\T1/fav/b/n/10.95 PSE \T1/fav/m/n/10.95 PSE stand for prac-tice of soft-war
 e en-gi-neer-ing (germ. Praxis der Software-Entwicklung).
  []
 
-LaTeX Font Info:    Try loading font information for T1+fvm on input line 101.
+LaTeX Font Info:    Try loading font information for T1+fvm on input line 106.
 (C:\Users\Jonathan\AppData\Roaming\MiKTeX\2.9\tex\latex\bera\t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )))
-File: Pictures/WHAT-Logo.png Graphic file (type png)
+File: Pictures/KIT-Logo.png Graphic file (type png)
 
-<use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 151.
-(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
- [21]
+<use Pictures/KIT-Logo.png>
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 151.
+(pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
+ [22]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 155.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 155.
 
@@ -1687,13 +1706,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 12963 strings out of 493921
- 205387 string characters out of 3140856
- 335763 words of memory out of 3000000
- 15763 multiletter control sequences out of 15000+200000
+ 13061 strings out of 493921
+ 207216 string characters out of 3140856
+ 337735 words of memory out of 3000000
+ 15858 multiletter control sequences out of 15000+200000
  40493 words of font info for 63 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 45i,14n,60p,1472b,701s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,14n,60p,1472b,699s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/Programmieren/Latex/MiKTeX/fonts/enc/dvips/fontname/8r.enc}
  <C:\Users\Jonathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
 \tcrm1095.pk><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/a
@@ -1701,9 +1720,9 @@ rev/ArevSans-Bold.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1
 /public/arev/ArevSans-Roman.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/f
 onts/type1/bera/fvmr8a.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/
 type1/mathdesign/mdbch/md-chb7y.pfb>
-Output written on main.pdf (21 pages, 898458 bytes).
+Output written on main.pdf (22 pages, 926770 bytes).
 PDF statistics:
- 717 PDF objects out of 1000 (max. 8388607)
- 151 named destinations out of 1000 (max. 500000)
- 359 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 733 PDF objects out of 1000 (max. 8388607)
+ 152 named destinations out of 1000 (max. 500000)
+ 369 words of extra memory for PDF output out of 10000 (max. 10000000)
 
