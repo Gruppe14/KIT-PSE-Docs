@@ -8,12 +8,13 @@
 		\setentrycounter[]{page}\glsnumberformat{5\delimN 6}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{9}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{14}}}%
-\glossaryentryfield{busy time}{\glsnamefont{busy time}}{Busy time can also be refered to as CPU time and is the amount of time which a central processing unit (CPU), in our case the Skyserver, needed to process instructions, e.g. to serve the requested data. \href {(http://en.wikipedia.org/wiki/CPU_time)}{(Wiki)}}{\relax }{\glossaryentrynumbers{\relax 
+\glossaryentryfield{busy time}{\glsnamefont{busy time}}{Busy time can also be refered to as CPU time and is the amount of time which a central processing unit (CPU), in our case the \gls {SkyServer}, needed to process instructions, e.g. to serve the requested data. \href {(http://en.wikipedia.org/wiki/CPU_time)}{(Wiki)}}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{9}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{12}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{15}}}\glsgroupskip
 \glsgroupheading{C}\relax \glsresetentrylist %
 \glossaryentryfield{chart}{\glsnamefont{chart}}{Used with the same meaning as \gls {diagram}.}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{5\delimN 6}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{9\delimN 10}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{14}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{21}}}\glsgroupskip
@@ -26,13 +27,13 @@
 		\setentrycounter[]{page}\glsnumberformat{21\delimN 22}}}%
 \glossaryentryfield{database}{\glsnamefont{database}}{A database is a structured collection of data. Its main task is storing a huge amount of data efficiently, without inconsistency and over a long period of time. \href {https://en.wikipedia.org/wiki/Database}{(Wiki)}}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{5}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{7\delimR 10}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{12}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{15}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{21\delimN 22}}}%
 \glossaryentryfield{diagram}{\glsnamefont{diagram}}{A diagram is a symbolic representation of information according to some visualization technique. The term diagram is used with the same meaining as \gls {chart}. \href {https://en.wikipedia.org/wiki/Diagram}{(Wiki)}}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{5}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{7}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{5\delimR 7}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{9}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{13}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{19}\delimN 
@@ -51,7 +52,7 @@
 		\setentrycounter[]{page}\glsnumberformat{9}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{12}}}\glsgroupskip
 \glsgroupheading{G}\relax \glsresetentrylist %
-\glossaryentryfield{GUI}{\glsnamefont{GUI}}{A graphical user interface, short GUI, is a type of user interface that allows users to interact with electronic devices using images rather than text commands.\href {https://en.wikipedia.org/wiki/Graphical_user_interface}{(Wiki)}}{\relax }{\glossaryentrynumbers{\relax 
+\glossaryentryfield{GUI}{\glsnamefont{GUI}}{A graphical user interface, short GUI, is a type of user interface that allows users to interact with electronic devices using images rather than text commands. \href {https://en.wikipedia.org/wiki/Graphical_user_interface}{(Wiki)}}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{5}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{13}}}\glsgroupskip
 \glsgroupheading{H}\relax \glsresetentrylist %
@@ -73,7 +74,9 @@
 		\setentrycounter[]{page}\glsnumberformat{14\delimN 15}}}\glsgroupskip
 \glsgroupheading{M}\relax \glsresetentrylist %
 \glossaryentryfield{measure}{\glsnamefont{measure}}{A measure is a variable in a model with a specific value range.}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{9}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{5\delimN 6}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{9}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{12}}}\glsgroupskip
 \glsgroupheading{P}\relax \glsresetentrylist %
 \glossaryentryfield{parser}{\glsnamefont{parser}}{A parser describes the program, which just has the function of analyzing a text, to determine its grammatical structure with respect to a given formal grammar. Or in other words, it extracts parts of a text respectivly to their function or meaning. \href {https://en.wikipedia.org/wiki/Parser}{(Wiki)} }{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{5\delimN 6}\delimN 
@@ -84,24 +87,29 @@
 \glsgroupheading{Q}\relax \glsresetentrylist %
 \glossaryentryfield{query}{\glsnamefont{query}}{A query is a request to a \gls {database} or \gls {data warehouse}.}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{5}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{10}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{22}}}\glsgroupskip
 \glsgroupheading{R}\relax \glsresetentrylist %
-\glossaryentryfield{row}{\glsnamefont{row}}{In the context of a database, a row represents a single, implicitly structured data item in a table. Each row in a table represents a set of related data, and every row in the table has the same structure. \href {(http://en.wikipedia.org/wiki/Row_(database))}{(Wiki)}}{\relax }{\glossaryentrynumbers{\relax 
+\glossaryentryfield{row}{\glsnamefont{row}}{In the context of a \gls {database}, a row represents a single, implicitly structured data item in a table. Each row in a table represents a set of related data, and every row in the table has the same structure. \href {(http://en.wikipedia.org/wiki/Row_(database))}{(Wiki)}}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{9}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{13}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{15}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{12\delimN 13}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{15}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{22}}}\glsgroupskip
 \glsgroupheading{S}\relax \glsresetentrylist %
 \glossaryentryfield{scatter plot}{\glsnamefont{scatter plot}}{A scatter plot or scattergraph is a type of mathematical diagram. The data is displayed as a collection of points, each having the value of one variable determining the position on the horizontal axis and the value of the other variable determining the position on the vertical axis. \href {http://en.wikipedia.org/wiki/Scatter_plot}{(Wiki)}}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{5\delimN 6}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{8\delimR 10}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{13\delimN 14}}}%
-\glossaryentryfield{SkyServer}{\glsnamefont{SkyServer}}{is a big database for astronomical data. It contains pictures and other information concerning astronomy and tries to "form a map of the universe". }{\relax }{\glossaryentrynumbers{\relax 
+\glossaryentryfield{SkyServer}{\glsnamefont{SkyServer}}{is a big \gls {database} for astronomical data. It contains pictures and other information concerning astronomy and tries to 'form a map of the universe'. }{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{2}\delimN 
 		\setentrycounter[]{page}\glsnumberformat{6\delimN 7}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{12}}}%
+		\setentrycounter[]{page}\glsnumberformat{12}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{21}}}%
 \glossaryentryfield{SQL}{\glsnamefont{SQL}}{SQL -Structured Query Language - is a special-purpose programming language designed for managing data in relational \gls {database} management systems. \href {https://en.wikipedia.org/wiki/Sql}{(Wiki)}}{\relax }{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{8}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{8}}}%
+\glossaryentryfield{star schema}{\glsnamefont{star schema}}{The star schema is a simple style of a \gls {data warehouse} schema. \href {https://en.wikipedia.org/wiki/Star_schema}{(Wiki)}}{\relax }{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{12}}}\glsgroupskip
 \glsgroupheading{W}\relax \glsresetentrylist %
-\glossaryentryfield{WHERE-part}{\glsnamefont{WHERE-part}}{The \texttt {WHERE}-part is a part of a \gls {query}. It includes a comparison predicate, which restricts the rows returned by the \gls {query}. The WHERE clause eliminates all rows from the result set for which the comparison predicate does not evaluate to True.}{\relax }{\glossaryentrynumbers{\relax 
+\glossaryentryfield{WHERE-part}{\glsnamefont{WHERE-part}}{The \texttt {WHERE}-part is a part of a \gls {query}. It includes a comparison predicate, which restricts the \glspl {row} returned by the \gls {query}. The WHERE clause eliminates all rows from the result set for which the comparison predicate does not evaluate to True.}{\relax }{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{9}}}%
 \end{theglossary}\glossarypostamble

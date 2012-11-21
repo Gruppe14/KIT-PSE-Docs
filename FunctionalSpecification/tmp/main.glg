@@ -1,7 +1,7 @@
 This is makeindex, version 2.15 [MiKTeX 2.9] (kpathsea + Thai support).
 Scanning style file D:/Dokumente/GitHub/KIT-PSE-Docs/FunctionalSpecification/main.ist...........................done (27 attributes redefined, 0 ignored).
-Scanning input file main.glo....done (138 entries accepted, 0 rejected).
-Sorting entries....done (1074 comparisons).
-Generating output file main.gls....done (107 lines written, 0 warnings).
+Scanning input file main.glo....done (160 entries accepted, 0 rejected).
+Sorting entries....done (1384 comparisons).
+Generating output file main.gls....done (115 lines written, 0 warnings).
 Output written in main.gls.
 Transcript written in main.glg.
