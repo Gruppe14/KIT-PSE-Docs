@@ -20,9 +20,7 @@
 \usepackage{color}
 \usepackage[usenames,dvipsnames, table]{xcolor}
 \usepackage{etoolbox} 
-\definecolor{dark_gray}{rgb}{0.2,0.2,0.2}
-
-
+  
 % Customized header & footer
 \usepackage{fancyhdr}
 \pagestyle{fancy}
@@ -78,7 +76,7 @@
 
 
 % For links of the chapters and out of the pdf + boxes around links deleted
-\usepackage[colorlinks=true, linkcolor=black, urlcolor=gray]{hyperref} 
+\usepackage[colorlinks=true, linkcolor=black, urlcolor=blue]{hyperref} 
 \hypersetup{
 	pdftitle={Functional specification - WHAT WareHouse Analyzing Tool},
 	pdfauthor={Alexander Noe, Jonathan Klawitter, Anas Saber, Nikolaos Alexandros Kurt Moraitakis,Lukas Ehnle}}
@@ -96,7 +94,7 @@
  
  
 %Glossarverweise formatieren
-\DeclareRobustCommand\textsfgls[1]{\textsf{\textcolor{dark_gray}{#1}}}
+\DeclareRobustCommand\textsfgls[1]{\textsf{\textcolor{Gray}{#1}}}
 \renewcommand{\glsdisplayfirst}[4]{\textsfgls{#1}} % Farbe/Schriftart für das erste Vorkommen einer Referenz festlegen
 \renewcommand{\glsdisplay}[4]{\textsfgls{#1}} % Farbe/Schriftart für alle anderen Referenzen festlegen
 
