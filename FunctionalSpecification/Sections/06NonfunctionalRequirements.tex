@@ -1,23 +1,23 @@
 \section{Nonfunctional requirements}
 
 % Enumeration changed
-\renewcommand{\theenumi}{/N\arabic{enumi}0/}
-\renewcommand{\labelenumi}{\theenumi}
+% \renewcommand{\theenumi}{/N\arabic{enumi}0/}
+% \renewcommand{\labelenumi}{\theenumi}
 
  
 \subsection{Usability}
 
-\begin{enumerate}
-  \item Minimalistic \gls{GUI} design
+\begin{enumerate}[label={{/N}\itemnumber*{/}}, series=nonf]
+  \item Minimalistic \gls{GUI} design: Not more than 8 clicks needed to see a chart.
   \item Responsive \gls{GUI}
-  \item \gls{GUI} that is easy to get used to
+  \item \gls{GUI} which you will be able to work with not later than trying for 3 minutes.
   \label{N1}
   \item The \gls{data warehouse} can store more than 1000000 entries
 \end{enumerate}
 
 \subsection{Swiftness}
 
-\begin{enumerate}[resume] % <- resume goes on with old counter
+\begin{enumerate}[resume*=nonf] 
 	\item Parse 1000 log \glspl{row} entries in 10 seconds
 	
 	\item Visualize \gls{scatter plot} of 50000 points in 10 seconds %ten is too long, want to change
@@ -25,14 +25,24 @@
 
 \subsection{Maintainability}
 
-\begin{enumerate}[resume]
-  \item Easy translatability in other languages
+\begin{enumerate}[resume*=nonf]
+  \item Languages files for easy adding of new languages
   \item Reasonably commented, clean code
 \end{enumerate}
 
-
-\subsection{Optional}
-
-\begin{enumerate}[resume]
-  \item Show a nice loading screen while visualizing a \gls{diagram}. 
+\subsection{Safety}
+\begin{enumerate}[resume*=nonf]
+  \item Protection against DoS attacks.
 \end{enumerate}
+
+\subsection{Other}
+\begin{enumerate}[resume*=nonf]
+  \item Java is the programming language for the main program
+  \item MySQL or Oracle SQL is used for the \gls{data warehouse}
+\end{enumerate}
+
+% \subsection{Optional}
+% 
+% \begin{enumerate}[resume]
+%   \item Show a nice loading screen while visualizing a \gls{diagram}. 
+% \end{enumerate}

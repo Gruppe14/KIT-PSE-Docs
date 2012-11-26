@@ -20,6 +20,7 @@
 \usepackage{color}
 \usepackage[usenames,dvipsnames, table]{xcolor}
 \usepackage{etoolbox} 
+\definecolor{dark_gray}{rgb}{0.25,0.25,0.25}
   
 % Customized header & footer
 \usepackage{fancyhdr}
@@ -94,7 +95,7 @@
  
  
 %Glossarverweise formatieren
-\DeclareRobustCommand\textsfgls[1]{\textsf{\textcolor{Gray}{#1}}}
+\DeclareRobustCommand\textsfgls[1]{\textsf{\textcolor{dark_gray}{#1}}}
 \renewcommand{\glsdisplayfirst}[4]{\textsfgls{#1}} % Farbe/Schriftart für das erste Vorkommen einer Referenz festlegen
 \renewcommand{\glsdisplay}[4]{\textsfgls{#1}} % Farbe/Schriftart für alle anderen Referenzen festlegen
 
