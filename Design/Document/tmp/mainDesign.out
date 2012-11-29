@@ -1,0 +1,16 @@
+\BOOKMARK [1][-]{section.1}{Architecture}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{4-tier architecture}{section.1}% 2
+\BOOKMARK [1][-]{section.2}{Classes}{}% 3
+\BOOKMARK [2][-]{subsection.2.1}{Class diagram}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.2}{Class descriptions}{section.2}% 5
+\BOOKMARK [1][-]{section.3}{Data warehouse design}{}% 6
+\BOOKMARK [2][-]{subsection.3.1}{Overview}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.2}{Dimension descriptions}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.3}{Measure descriptions}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.4}{Type description}{section.3}% 10
+\BOOKMARK [1][-]{section.4}{Sequences}{}% 11
+\BOOKMARK [1][-]{section.5}{Other data}{}% 12
+\BOOKMARK [2][-]{subsection.5.1}{Static data}{section.5}% 13
+\BOOKMARK [2][-]{subsection.5.2}{Dynamic data}{section.5}% 14
+\BOOKMARK [2][-]{subsection.5.3}{Extern data}{section.5}% 15
+\BOOKMARK [1][-]{section.6}{Libraries}{}% 16
