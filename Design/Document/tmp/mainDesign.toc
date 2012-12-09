@@ -1,10 +1,9 @@
 \contentsline {section}{\numberline {1}Architecture}{3}{section.1}
-\contentsline {subsection}{\numberline {1.1}4-tier architecture}{3}{subsection.1.1}
-\contentsline {subsection}{\numberline {1.2}Web browser tier}{4}{subsection.1.2}
-\contentsline {subsection}{\numberline {1.3}Web server tier}{4}{subsection.1.3}
-\contentsline {subsection}{\numberline {1.4}Application tier}{4}{subsection.1.4}
-\contentsline {subsection}{\numberline {1.5}Data access tier}{4}{subsection.1.5}
-\contentsline {subsection}{\numberline {1.6}Data tier}{4}{subsection.1.6}
+\contentsline {subsection}{\numberline {1.1}Web browser tier}{4}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Web server tier}{4}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Application tier}{4}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Data access tier}{4}{subsection.1.4}
+\contentsline {subsection}{\numberline {1.5}Data tier}{4}{subsection.1.5}
 \contentsline {section}{\numberline {2}Classes}{5}{section.2}
 \contentsline {subsection}{\numberline {2.1}Class diagram}{5}{subsection.2.1}
 \contentsline {subsection}{\numberline {2.2}Class descriptions}{5}{subsection.2.2}
