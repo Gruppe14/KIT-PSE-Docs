@@ -1,16 +1,21 @@
 \contentsline {section}{\numberline {1}Architecture}{3}{section.1}
 \contentsline {subsection}{\numberline {1.1}4-tier architecture}{3}{subsection.1.1}
-\contentsline {section}{\numberline {2}Classes}{4}{section.2}
-\contentsline {subsection}{\numberline {2.1}Class diagram}{4}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Class descriptions}{4}{subsection.2.2}
-\contentsline {section}{\numberline {3}Data warehouse design}{5}{section.3}
-\contentsline {subsection}{\numberline {3.1}Overview}{5}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Dimension descriptions}{5}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Measure descriptions}{5}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}Type description}{5}{subsection.3.4}
-\contentsline {section}{\numberline {4}Sequences}{6}{section.4}
-\contentsline {section}{\numberline {5}Other data}{7}{section.5}
-\contentsline {subsection}{\numberline {5.1}Static data}{7}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Dynamic data}{7}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Extern data}{7}{subsection.5.3}
-\contentsline {section}{\numberline {6}Libraries}{8}{section.6}
+\contentsline {subsection}{\numberline {1.2}Web browser tier}{4}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Web server tier}{4}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Application tier}{4}{subsection.1.4}
+\contentsline {subsection}{\numberline {1.5}Data access tier}{4}{subsection.1.5}
+\contentsline {subsection}{\numberline {1.6}Data tier}{4}{subsection.1.6}
+\contentsline {section}{\numberline {2}Classes}{5}{section.2}
+\contentsline {subsection}{\numberline {2.1}Class diagram}{5}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Class descriptions}{5}{subsection.2.2}
+\contentsline {section}{\numberline {3}Data warehouse design}{6}{section.3}
+\contentsline {subsection}{\numberline {3.1}Overview}{6}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Dimension descriptions}{6}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Measure descriptions}{6}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Type description}{6}{subsection.3.4}
+\contentsline {section}{\numberline {4}Sequences}{7}{section.4}
+\contentsline {section}{\numberline {5}Other data}{8}{section.5}
+\contentsline {subsection}{\numberline {5.1}Static data}{8}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Dynamic data}{8}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Extern data}{8}{subsection.5.3}
+\contentsline {section}{\numberline {6}Libraries}{9}{section.6}
