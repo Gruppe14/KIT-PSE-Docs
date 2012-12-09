@@ -22,6 +22,25 @@ The dataEntry which will be written in the warehouse. It contains hour, day, mon
 from the logfile, the elapsed and busy time on the server, the ip, from which the request came, the type of request, the database
 and server which handle the request and an object-array of additional information, which depends on the actual database entry.
 
+\subsubsubsection*{Java Files}
+The Parser uses java.io.File and a ThreadPool from java.util.
+
+\subsubsubsection*{ParseTools}
+The ParseTools are a set of static tools to parse the logline.
+
+\subsubsubsubsection*{NormalFormTool}
+The NormalFormTool is used first. It converts the logline in a standardized form, which can be used by the other tools.
+
+\subsubsubsubsection*{VerificationTool}
+The VerificationTool checks the logline and looks if it is a correct logline - if the logline got a mistake, it will 
+be deleted and the VerificationTool sends an error.
+
+
+
+\subsubsubsection*{ParsingThread}
+A parsing thread is one of the threads which are created from Parser. It gets a line from the logfile and uses the ParseTools
+to create a dataEntry, which represents the line from the log. 
+
 \subsubsection*{Petra}
 Petra has a importand role in the chart creating process. She saves all informations about the request,
 like chart type, axis, filters and their intervals. Blabla
