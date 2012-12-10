@@ -7,8 +7,13 @@
 \contentsline {section}{\numberline {2}Web page design}{5}{section.2}
 \contentsline {section}{\numberline {3}Classes}{6}{section.3}
 \contentsline {subsection}{\numberline {3.1}Class diagram}{6}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Fassade}{6}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Parser}{6}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.2}Fassade + Configurations}{6}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Fassade}{6}{subsubsection.3.2.1}
+\contentsline {subsection}{\numberline {3.3}Chart request operator}{6}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}Fassade}{6}{subsubsection.3.3.1}
+\contentsline {subsection}{\numberline {3.4}Chart parameters}{6}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}}{6}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}Parser}{6}{subsection.3.6}
 \contentsline {section}{\numberline {4}Data warehouse design}{8}{section.4}
 \contentsline {subsection}{\numberline {4.1}Overview}{8}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}Dimension descriptions}{8}{subsection.4.2}

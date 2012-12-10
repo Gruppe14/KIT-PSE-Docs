@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  10 DEC 2012 21:20
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  10 DEC 2012 21:51
 entering extended mode
 **mainDesign.tex
 
@@ -1363,7 +1363,7 @@ Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 130.
 \Document\Sections/B-ClassDiagram.tex"
 File: Pictures/KIT-Logo.png Graphic file (type png)
  <use Pictures/KIT-Logo.png>
-Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 40.
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 43.
 (pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
  [6
 
@@ -1446,27 +1446,24 @@ Package rerunfilecheck Warning: File `mainDesign.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `mainDesign.out':
-(rerunfilecheck)             Before: ABDE0F61CC521B1448172255292DD024;1317
-(rerunfilecheck)             After:  C1763984184001F3E9B8233BCC279947;1296.
+(rerunfilecheck)             Before: C1763984184001F3E9B8233BCC279947;1296
+(rerunfilecheck)             After:  1EA51E035F23E6C2D02E5B8367A736BD;1640.
  ) 
 Here is how much of TeX's memory you used:
- 10094 strings out of 493921
- 155491 string characters out of 3140856
+ 10101 strings out of 493921
+ 155609 string characters out of 3140856
  262315 words of memory out of 3000000
- 13102 multiletter control sequences out of 15000+200000
+ 13105 multiletter control sequences out of 15000+200000
  35558 words of font info for 57 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  45i,14n,47p,775b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{subsubsection.3.2.1} has been referenced but does
- not exist, replaced by a fixed one
-
-{C:/Program Files/Programmieren/Latex/MiKTeX/fonts/enc/dvips/fontname/8r.enc}<C
-:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/arev/ArevSans-Bo
-ld.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/arev/Ar
-evSans-Roman.pfb>
-Output written on mainDesign.pdf (11 pages, 587079 bytes).
+{C:/Program Files/Programmieren/Latex/MiKTeX/fonts/enc/dvips/fontname/8r.enc}
+<C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/arev/ArevSans-
+Bold.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/arev/
+ArevSans-Roman.pfb>
+Output written on mainDesign.pdf (11 pages, 588027 bytes).
 PDF statistics:
- 189 PDF objects out of 1000 (max. 8388607)
- 35 named destinations out of 1000 (max. 500000)
+ 196 PDF objects out of 1000 (max. 8388607)
+ 39 named destinations out of 1000 (max. 500000)
  197 words of extra memory for PDF output out of 10000 (max. 10000000)
 
