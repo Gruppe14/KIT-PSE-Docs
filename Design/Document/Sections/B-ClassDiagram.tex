@@ -23,31 +23,32 @@ The chart parameters describe
 
 \subsubsection*{ParserMediator}
 Parser is the 'main'-Class of the Parser. It creates and administrates a threadpool of ParsingThreads,
-contains the entryBuffer for finished DataEntries, the stringBuffer for strings, whcih were extracted
+contains the entryBuffer for finished DataEntries, the stringBuffer for strings, which were extracted
 from the logfile, a method to add them to the data warehouse
-and allows the user to select a new logfile and configuration file.
+and allows the user to select a new logfile and configuration file. %how? i thought the only way to interact with what was via webpage?
 
 \subsubsection*{LogFile}
-The gateway between parser and logfile - it contains the path of the logfile and an integer, 
+The gateway between parser and logfile - it contains the path of the logfile and an integer 
 which saves how many lines have been read from this file. It can read single lines from the logfile and return them to 
 the Parser.
 
 \subsubsection*{DataEntry}
 The dataEntry which will be written in the warehouse. It contains hour, day, month, year of the request, rows which were read 
-from the logfile, the elapsed and busy time on the server, the ip, from which the request came, the type of request, the database
-and server which handle the request and an object-array of additional information, which depends on the actual database entry.
+from the logfile%from the logfile or rows accessed in the original db?
+, the elapsed and busy time on the server, the ip, from which the request came, the type of request, the database
+and server which handled the request and an object-array of additional information, which depends on the actual database entry.%not logfile entry?
 
 \subsubsection*{Java Files}
 The Parser uses java.io.File and a ThreadPool from java.util.
 
 \subsubsection*{ParseTools}
-The ParseTools are a set of static tools to parse the logline.
+The ParseTools are a set of static tools to parse the loglines.
 
 \subsubsection*{NormalFormTool}
-The NormalFormTool is used first. It converts the logline in a standardized form, which can be used by the other tools.
+The NormalFormTool is used first. It converts a logline in a standardized form, which can then be used by the other tools.
 
 \subsubsection*{VerificationTool}
-The VerificationTool checks the logline and looks if it is a correct logline - if the logline got a mistake, it will 
+The VerificationTool checks a logline and looks if it is a correct logline - if the logline got a mistake, it will 
 be deleted and the VerificationTool sends an error.
 
 
