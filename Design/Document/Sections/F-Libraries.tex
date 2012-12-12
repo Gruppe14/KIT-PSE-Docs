@@ -17,9 +17,11 @@ It runs, as one would imagine, in our browser tier.
 -Geoip
 We use the Maxmind geoip Lite[geo] library to map user IPs to locations.
 This allows queries based on location, as well as preserving anonymity.
+Our parser uses the geoip library.
 
 -Oracle database and warehouse
 We host our data in an oracle warehouse.
+Our data tier consists of them.
 
 -oracle jdbc
 Oracle jdbc is the oracle database access driver. We use it in the data access tier.
@@ -35,7 +37,7 @@ Java play is released under the Apache 2 License [apache2]
 d3.js is released under the BSD License, BSD 3 Clause [bsd3]
 The geoip library we use is licensed under the LGPL. [lgpl]
 
-Oracle stuff is released under the oracle license[oracle]
+Oracle libraries are released under the oracle license[oracle]
 
 
 
@@ -44,6 +46,6 @@ Oracle stuff is released under the oracle license[oracle]
 [d3link] d3js.org
 [geo] http://www.maxmind.com/download/geoip/api/java/
 [oracle] http://www.oracle.com/technetwork/licenses/distribution-license-152002.html.
-[apache2]
-[bsd3]
-[lgpl]
+[apache2] http://www.apache.org/licenses/LICENSE-2.0.html
+[bsd3]  http://opensource.org/licenses/BSD-3-Clause
+[lgpl] http://opensource.org/licenses/lgpl-license
