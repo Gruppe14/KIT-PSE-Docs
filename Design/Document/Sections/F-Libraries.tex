@@ -1,1 +1,52 @@
 \section{Libraries}
+
+The program uses a number of external libraries to achieve its functionality. This section describes which they are,
+how they interact with the program, and well as licensing information. 
+
+-Java Play
+Java play is primarily a web framework, but it includes a webserver too [].
+We use it to create a website, instead of a conventional java Swing GUI.
+http://www.playframework.org/assets/images/logos/normal.png
+Our web server tier is just a modification of appropriate java play classes[play].
+
+-d3.js
+D3.js [d3link] is a javascript visualization library for the browser.
+It allows the production beautiful, interactive visualizations.
+It runs, as one would imagine, in our browser tier.
+
+-Geoip
+We use the Maxmind geoip Lite[geo] library to map user IPs to locations.
+This allows queries based on location, as well as preserving anonymity.
+
+-Oracle database and warehouse
+We host our data in an oracle warehouse.
+
+-oracle jdbc
+Oracle jdbc is the oracle database access driver. We use it in the data access tier.
+
+
+
+Licensing information
+Most of the libraries used are open source, as well as free of charge.
+The rest are from oracle. We can use them in our product, because our university has bought licenses but I don't know what happens when we release it.
+(but we can use them from the university! it's ok! not evil!)
+
+Java play is released under the Apache 2 License
+d3.js is released under the BSD License, BSD 3 Clause
+The geoip library we use is licensed under the LGPL.
+
+
+oracle stuff is made from the blood of beaten puppies
+from "http://www.oracle.com/technetwork/licenses/distribution-license-152002.html"
+Quote:
+`` For example, you may not develop a software program using an Oracle program and an Open Source program where such use results in a program file(s) that contains code from both the Oracle program and the Open Source program (including without limitation libraries) if the Open Source program is licensed under a license that requires any "modifications" be made freely available. You also may not combine the Oracle program with programs licensed under the GNU General Public License ("GPL") in any manner that could cause, or could be interpreted or asserted to cause, the Oracle program or any modifications thereto to become subject to the terms of the GPL.``
+
+Koennen wir das Program dann noch ueberhaupt benutzen? Zaehlen Schnittstellen?
+
+
+
+
+
+[play] see the class diagram for more details
+[d3link] d3js.org
+[geo] http://www.maxmind.com/download/geoip/api/java/
