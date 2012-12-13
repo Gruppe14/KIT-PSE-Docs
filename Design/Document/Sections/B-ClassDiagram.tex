@@ -1,28 +1,35 @@
 \section{Classes}
 
-\subsection{Class diagram}
 
-\subsection{webpage} % don't know if this should be here, move as desired, also correct if it is not sufficient
+
+\subsection{Server tier class diagram}
+TODOO sentence about this dia
+\begin{center}
+\includegraphics[width=1\linewidth]{Pictures/ServerTierDia.png}
+%\includegraphics[width=1\linewidth]{Pictures/ServerTierDiaNormal.png} 
+\end{center}   
+
 
 \subsubsection*{WebpageControllers}
 All valid HTTP requests are mapped to a method from WebpageControllers.
 WebpageControllers either uses other helper classes to handle requests itself  
 or makes calls to the facade of the application tier. 
 The last step done by WebpageControllers is to create a valid HTTP response.
-                                                                              
+                                                                            
 
 \subsubsection*{HTML views}
 The HTML views contain the main template for, and all other HTML content of the webpage. %unklar
 They do not have to be static, but can also dynamically integrate some content, e.g. localized strings.
 
-\subsubsection*{static files}
+\subsubsection*{Static files}
 Static files contains all files of the webpage, which are not changed during runtime. 
 This includes, but is not limited, to images of the webpage, javascript files and stylesheets.
 
 \subsubsection*{Localize}
 Localize is a static helper class handling all the language related things. 
 It has a method to get localized Strings using the language files, 
-to change the language of the webpage und methods determining all available languages, %dieser Satz, passt der syntaktisch? Sollte es methods sein?
+to change the language of the webpage und methods determining all available languages, 
+%dieser Satz, passt der syntaktisch? Sollte es methods sein?
 so they can be integrated in the webpage once they are present.
 
 \subsubsection*{ChartIndex}
@@ -31,26 +38,39 @@ and saves them internally. This is used by the index page to dynamically display
 even if one is deleted or added.
 %Do we have to specify how one might add them? I mean, not here, but somewhere.
 
+
+\subsection{Application \& Data access tier class diagram}
+
+TODOO sentence about this dia
+\newpage
+\begin{center}
+\includegraphics[width=0.9\linewidth]{Pictures/AppTierDia1.png}
+%\includegraphics[width=0.9\linewidth]{Pictures/AppTierDia1Normal.png} 
+\end{center}  
+\begin{center}
+\includegraphics[width=0.9\linewidth]{Pictures/AppTierDia2.png}
+%\includegraphics[width=0.9\linewidth]{Pictures/AppTierDia2Normal.png} 
+\end{center}  
+
 \subsection{Fassade + Configurations}
 %picture
 \subsubsection{Fassade}
 
 
 \subsection{Chart request operator}
-Visitor pattern blabla   %FIXME FIXME
+Visitor pattern blabla   
 classes
 %picture
 \subsubsection{Fassade}
 
 \subsection{Chart parameters}
-The chart parameters describe %FIXME, I guess
-
+The chart parameters describe 
 \subsection{}
 
 
 \subsection{Parser}
 
-HIER LOGFILE \& PARSERMEDIATOR HIN!
+HIER LOGFILE  PARSERMEDIATOR HIN!
 CAPSLOCK REGELT, UND SO!!11einself %JA, ABER DAS KANN NICHT DA BLEIBEN!!1
 
 \subsubsection*{ParserMediator}
@@ -100,6 +120,7 @@ and LocationTool to create a dataEntry which contains the same information.
 
 LOADING TASK! %ARE WE ALLOWED TO BE EXCITED?
 
+
 \subsubsection*{LoadingTask}
 A loading task is another possible task for the threadPool. It takes a finished dataEntry from the buffer and sends it to the warehouse.
 
@@ -118,7 +139,7 @@ The response of this class is to build data for the requester.
 After accessing the Database and geting the DataEntry from LoadingTask then will build %who?
 the data warehouse in OLAP - Cube form. With help from Oracle %Sounds like a group of superheroes saving the world!
 and Java library, which make it easy to access the database and build the warehouse. %I though the warehouse was built before
-
+ 
 \subsubsection*{JavaToOracle}
 
 Is a Library interface, wich makes a connection with a database.
@@ -127,5 +148,5 @@ Is a Library interface, wich makes a connection with a database.
 
 A database language. %is it?
 
-
-[geo] link to the maxmind geoip library in the library section
+geo
+ link to the maxmind geoip library in the library section

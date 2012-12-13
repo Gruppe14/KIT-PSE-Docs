@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  29 NOV 2012 22:26
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  13 DEC 2012 18:16
 entering extended mode
 **main.tex
 
@@ -1205,8 +1205,8 @@ onalSpecification\Sections/07GlobalTestCases.aux")
 onalSpecification\Sections/08Models.aux")
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\Sections/09DevelopmentEnvironment.aux")
-No file Sections/10Glossary.aux.
-)
+("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
+onalSpecification\Sections/10Glossary.aux"))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 115.
 LaTeX Font Info:    ... okay on input line 115.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 115.
@@ -1222,7 +1222,8 @@ LaTeX Font Info:    ... okay on input line 115.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 115.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 115.
 
- ("C:\Program Files\Programmieren\Latex\MiKTeX\tex\latex\base\ts1cmr.fd"
+
+("C:\Program Files\Programmieren\Latex\MiKTeX\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 115.
@@ -1539,10 +1540,6 @@ File: Pictures/WareHouseSchema.png Graphic file (type png)
 <use Pictures/WareHouseSchema.png>
 Package pdftex.def Info: Pictures/WareHouseSchema.png used on input line 37.
 (pdftex.def)             Requested size: 483.69687pt x 374.06165pt.
-
-
-LaTeX Warning: Reference `glos' on page 12 undefined on input line 42.
-
 )
 File: Pictures/KIT-Logo.png Graphic file (type png)
  <use Pictures/KIT-Logo.png>
@@ -1579,14 +1576,14 @@ Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 146.
  [15]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Functi
 onalSpecification\Sections/08Models.tex"
-<Pictures/GenerellConcept.png, id=560, 257.763pt x 271.9761pt>
+<Pictures/GenerellConcept.png, id=561, 257.763pt x 271.9761pt>
 File: Pictures/GenerellConcept.png Graphic file (type png)
 
 <use Pictures/GenerellConcept.png>
 Package pdftex.def Info: Pictures/GenerellConcept.png used on input line 34.
 (pdftex.def)             Requested size: 483.69687pt x 510.38965pt.
 
-<Pictures/Flow1.png, id=561, 542.2659pt x 721.4955pt>
+<Pictures/Flow1.png, id=562, 542.2659pt x 721.4955pt>
 File: Pictures/Flow1.png Graphic file (type png)
  <use Pictures/Flow1.png>
 Package pdftex.def Info: Pictures/Flow1.png used on input line 47.
@@ -1610,7 +1607,7 @@ Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 50.
 (pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
  [17 <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/Fu
 nctionalSpecification/Pictures/Flow1.png>]
-<Pictures/WHAT-Start.png, id=570, 645.91313pt x 548.80031pt>
+<Pictures/WHAT-Start.png, id=571, 645.91313pt x 548.80031pt>
 File: Pictures/WHAT-Start.png Graphic file (type png)
 
 <use Pictures/WHAT-Start.png>
@@ -1622,7 +1619,7 @@ Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 56.
 (pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
  [18 <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/Fu
 nctionalSpecification/Pictures/WHAT-Start.png>]
-<Pictures/WHAT-Histogram.png, id=576, 687.31781pt x 592.46344pt>
+<Pictures/WHAT-Histogram.png, id=577, 687.31781pt x 592.46344pt>
 File: Pictures/WHAT-Histogram.png Graphic file (type png)
 
 <use Pictures/WHAT-Histogram.png>
@@ -1696,17 +1693,14 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 13066 strings out of 493921
- 207064 string characters out of 3140856
- 336796 words of memory out of 3000000
- 15865 multiletter control sequences out of 15000+200000
+ 13069 strings out of 493921
+ 207322 string characters out of 3140856
+ 337175 words of memory out of 3000000
+ 15866 multiletter control sequences out of 15000+200000
  39873 words of font info for 61 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  45i,14n,50p,1476b,585s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1794,9 +1788,9 @@ ame/8r.enc}<C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/are
 v/ArevSans-Bold.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1/p
 ublic/arev/ArevSans-Roman.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fon
 ts/type1/mathdesign/mdbch/md-chb7y.pfb>
-Output written on main.pdf (21 pages, 903022 bytes).
+Output written on main.pdf (21 pages, 902973 bytes).
 PDF statistics:
- 644 PDF objects out of 1000 (max. 8388607)
+ 645 PDF objects out of 1000 (max. 8388607)
  159 named destinations out of 1000 (max. 500000)
  385 words of extra memory for PDF output out of 10000 (max. 10000000)
 
