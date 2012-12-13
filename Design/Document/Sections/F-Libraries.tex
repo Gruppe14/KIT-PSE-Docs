@@ -5,11 +5,11 @@ The program uses a number of external libraries to achieve its functionality. Th
 how they interact with the program, as well as licensing information. 
 
 \subsection{Java play}
-\textbf{Version:}
+\textbf{Version:} 2.0.4
 
-\textbf{Link:} \href{http://www.playframework.org/}{\includegraphix[width = 0.1\linewidth]{Play-Logo}}
+\textbf{Link:} \url{http://www.playframework.org/}
 
-\textbf{Licens:}
+\textbf{Licens:} Apache 2 License
 
 
 \textbf{Usage:} 
@@ -18,11 +18,11 @@ We use it to create a modern, dynamic and interactive website, instead of a conv
 Our web server tier is just a modification of appropriate java play classes.
 
 \subsection{D3.js}
-\textbf{Version:} 
+\textbf{Version:} v2
 
-\textbf{Link:} \href{}
+\textbf{Link:} \url{http://d3js.org/} 
 
-\textbf{Licens:}
+\textbf{Licens:} BSD License, BSD 3 Clause
 
 
 \textbf{Usage:} 
@@ -30,59 +30,48 @@ D3.js [d3link] is a javascript visualization library for the browser.
 It allows the creation of beautiful, interactive visualizations.
 It runs, as one would imagine, in our browser tier.
 
+
+
+
 \subsection{GeoIP}\label{geo}
-\textbf{Version:} 
 
-\textbf{Link:} \href{}
+\textbf{Version:} 1.2.8
 
-
+\textbf{Link:} \url{https://www.maxmind.com/download/geoip/api/java/}
 
 \textbf{Usage:} 
-
-We use the Maxmind geoip Lite[geo] library to map user IPs to locations.
+We use the Maxmind GeoIP Lite library to map user IPs to locations.
 This allows queries based on location, as well as preserving anonymity.
-Our parser uses the geoip library.
+Our parser uses the GeoIP library.
 
 
-\subsection{Oracle warehouse & OLAP software}
-\textbf{Version:} 
+\subsection{Oracle Data Warehouse & OLAP software}
+\textbf{Version:} 11g Release 2
 
-\textbf{Link:} \href{}
+\textbf{Link:} \href{http://www.oracle.com/de/technologies/datawarehousing/index.html}{Oracle Data Warehousing}
 
-\textbf{Licens:}
-
-\textbf{Usage:} 
-Data will be stored with an Oracle warehouse and Oracel OLAP-Cubes.
-
--oracle jdbc
-Oracle jdbc is the oracle database access driver. We use it in the data access tier. //FIXME: be more specific
-
-\subsection{JSON-Lib}\labe{jsonL}
-\textbf{Version:} 
-
-\textbf{Link:} \href{}
-
-\textbf{Licens:}
+\textbf{Licens:} Oracle license
 
 \textbf{Usage:} 
-The JSON-Lib provides methods for easy creating of .json files out of data in Java.
+Data will be stored with an Oracle warehouse and Oracel OLAP-Cubes. The software will use it over the KIT.
 
 
-\subsection{Licensing information}
-Most of the libraries used are open source, as well as free of charge.
-The rest are from Oracle. We can use them in our product, because our university has bought licenses 
-but I don't know what happens when we release it. 
+% 
+% \subsection{Licensing information}
+% Most of the libraries used are open source, as well as free of charge.
+% The rest are from Oracle. We can use them in our product, because our university has bought licenses 
+% but I don't know what happens when we release it. 
+% 
+% Java play is released under the Apache 2 License [apache2]
+% d3.js is released under the BSD License, BSD 3 Clause [bsd3]
+% The geoip library we use is licensed under the LGPL. [lgpl]
+% 
+% Oracle libraries are released under the oracle license[oracle]
 
-Java play is released under the Apache 2 License [apache2]
-d3.js is released under the BSD License, BSD 3 Clause [bsd3]
-The geoip library we use is licensed under the LGPL. [lgpl]
 
-Oracle libraries are released under the oracle license[oracle]
-
-
-[d3link] d3js.org
-[geo] http://www.maxmind.com/download/geoip/api/java/
-[oracle] http://www.oracle.com/technetwork/licenses/distribution-license-152002.html.
-[apache2] http://www.apache.org/licenses/LICENSE-2.0.html
-[bsd3]  http://opensource.org/licenses/BSD-3-Clause
-[lgpl] http://opensource.org/licenses/lgpl-license
+% [d3link] d3js.org
+% [geo] http://www.maxmind.com/download/geoip/api/java/
+% [oracle] http://www.oracle.com/technetwork/licenses/distribution-license-152002.html.
+% [apache2] http://www.apache.org/licenses/LICENSE-2.0.html
+% [bsd3]  http://opensource.org/licenses/BSD-3-Clause
+% [lgpl] http://opensource.org/licenses/lgpl-license
