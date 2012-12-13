@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  14 DEC 2012 00:41
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  14 DEC 2012 00:45
 entering extended mode
 **mainDesign.tex
 
@@ -1302,20 +1302,7 @@ LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/fav/b/n' tried instead on input line 114.
 
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Design
-\Document\mainDesign.toc"
-! Misplaced alignment tab character &.
-<argument> ...{\numberline {7.4}Oracle warehouse &
-                                                   OLAP software}\hyper@link...
-l.29 ...house & OLAP software}{20}{subsection.7.4}
-                                                  
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-)
+\Document\mainDesign.toc")
 \tf@toc=\write4
 File: Pictures/KIT-Logo.png Graphic file (type png)
  <use Pictures/KIT-Logo.png>
@@ -1579,41 +1566,20 @@ Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 127.
 ]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Design
 \Document\Sections/F-Libraries.tex"
-LaTeX Font Info:    Try loading font information for T1+fvm on input line 10.
+LaTeX Font Info:    Try loading font information for T1+fvm on input line 9.
 
 (C:\Users\Jonathan\AppData\Roaming\MiKTeX\2.9\tex\latex\bera\t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
-)
-! Misplaced alignment tab character &.
-<argument> Oracle Data Warehouse &
-                                   OLAP software
-l.48 ...ion{Oracle Data Warehouse & OLAP software}
-                                                  
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `alignment tab' on input line 48.
-
-)
+))
 File: Pictures/KIT-Logo.png Graphic file (type png)
- <use Pictures/KIT-Logo.png>
+
+<use Pictures/KIT-Logo.png>
 Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 129.
 (pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
  [20
 
 
 ]
-File: Pictures/WHAT-Logo.png Graphic file (type png)
- <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 129.
-(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
- [21]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 133.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 133.
 
@@ -1637,41 +1603,29 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 133.
 \Document\Sections/F-Libraries.aux"))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 133.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 133.
+Package rerunfilecheck Info: File `mainDesign.out' has not changed.
+(rerunfilecheck)             Checksum: 9263B4907C09FB44E81A58D6909CA965;1952.
 
-
-Package rerunfilecheck Warning: File `mainDesign.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `mainDesign.out':
-(rerunfilecheck)             Before: F72B034476BB9AAA311F47EFC7476D89;1950
-(rerunfilecheck)             After:  DFEC5743E50349152AF0E0E11194A7B2;1951.
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 10218 strings out of 493921
- 158040 string characters out of 3140856
- 264306 words of memory out of 3000000
+ 10215 strings out of 493921
+ 158005 string characters out of 3140856
+ 265306 words of memory out of 3000000
  13187 multiletter control sequences out of 15000+200000
  36178 words of font info for 59 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  45i,14n,47p,775b,393s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{subsection.7.6} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.7.5} has been referenced but does not ex
-ist, replaced by a fixed one
-
-{C:/Program Files/Programmieren/Latex/MiKTeX/fonts/enc/dvips/fontname/8r.enc}<C
-:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/arev/ArevSans-Bo
-ld.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/arev/Ar
-evSans-Roman.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1/bera
-/fvmr8a.pfb>
-Output written on mainDesign.pdf (21 pages, 1721584 bytes).
+{C:/Program Files/Programmieren/Latex/MiKTeX/fonts/enc/dvips/fontname/8r.enc}
+<C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/arev/ArevSans-
+Bold.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/arev/
+ArevSans-Roman.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1/be
+ra/fvmr8a.pfb>
+Output written on mainDesign.pdf (20 pages, 1720255 bytes).
 PDF statistics:
- 312 PDF objects out of 1000 (max. 8388607)
- 55 named destinations out of 1000 (max. 500000)
+ 305 PDF objects out of 1000 (max. 8388607)
+ 52 named destinations out of 1000 (max. 500000)
  334 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -28,4 +28,4 @@
 \contentsline {subsection}{\numberline {7.1}Java play}{20}{subsection.7.1}
 \contentsline {subsection}{\numberline {7.2}D3.js}{20}{subsection.7.2}
 \contentsline {subsection}{\numberline {7.3}GeoIP}{20}{subsection.7.3}
-\contentsline {subsection}{\numberline {7.4}Oracle Data Warehouse & OLAP software}{20}{subsection.7.4}
+\contentsline {subsection}{\numberline {7.4}Oracle Data Warehouse \& OLAP software}{20}{subsection.7.4}
