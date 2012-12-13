@@ -54,20 +54,47 @@ On the next pages the class diagram of the application and data acces tier are d
 
 %=||======================================================================>
 \subsection{Facade + Configurations}
+The facade of the application tier and configuration files in this design show a
+optional feature. According to the database on which is operated - if there are more
+than SkyServer - just a configuration file for this specific one, has to be created and
+given to the program. This may give the application to power to manage all functions dynamically
+according to the database. Facade and ConfigDB handle this configurations.
+
 
 \begin{center}
 \includegraphics{Pictures/Parts/FacadeConfi.png}
 \end{center}   
 
 \subsubsection*{Facade}
+The Facade is, as you might have suggested, the facade of the application tier. 
+This means the only way to communicate with this tier is via this class.
+On of its task is to get the right ConfigDB for any call. With this he forwards
+them to the corresponding mediators or workers. So new log files are passed to
+the ParserMediator and chart requests to the ChartMediator. Some other optional
+calls, like the history of charts or the configuration of a new Warehouse are just
+adumbrated.
+
+
 \subsubsection*{ConfigDB}
+The ConfigDB class provides a static factory for creating itself out of a configuration
+file, which may use caching. Objects of ConfigDB store the information about the database
+they describe and while be used by all the dynamic methods, which are hooked on specific
+databases. 
+
+One thing stored in a ConfigDB is a String indicating the form of a line in the log files.
+Other attributes are booleans for specific measures or dimensions, as well as trees of
+Strings for dimensions like Databas > Server or the Type.
+
 
 \begin{center}
 \includegraphics{Pictures/Parts/Strings.png}
 \end{center}  
-\subsubsection*{Server, Database}
-\subsubsection*{Type}
-\subsubsection*{Country, City}
+\subsubsection*{Server, Database, Type, Country, City}
+All this classes are Stringwrappers and also build as trees. They stand exemplary for
+possible things stored in a ConfigDB. The implementation of them may be way more dynamic.
+Whereas the content of Server \& Database and Type are depended on the configuration,
+the Country \& City tree is mostly hooked to the GeoIP library.
+
 
 %=||======================================================================>
 \subsection{Chart request operator}
