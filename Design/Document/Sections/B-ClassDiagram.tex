@@ -3,7 +3,8 @@
 
 %=||======================================================================>
 \subsection{Server tier class diagram}
-This diagram shows the webserver tier of WHAT. It controls the webserver and it can only access the facade of the tier below.
+This diagram shows the web server tier of WHAT. It controls the web server and it can only access
+ the facade of the tier below.
 \begin{center}
 \includegraphics[width=1\linewidth]{Pictures/ServerTierDia.png}
 %\includegraphics[width=1\linewidth]{Pictures/ServerTierDiaNormal.png} 
@@ -18,19 +19,19 @@ The last step done by WebpageControllers is to create a valid HTTP response.
                                                                             
 
 \subsubsection*{HTML views}
-The HTML views contain the main template for, and all other HTML content of the webpage. %unklar
+The HTML views contain the main template for, and all other HTML content of the web page. %unklar
 They do not have to be static, but can also dynamically integrate some content, e.g. localized strings.
 
 \subsubsection*{Static files}
-Static files contains all files of the webpage, which are not changed during runtime. 
-This includes, but is not limited, to images of the webpage, javascript files and stylesheets.
+Static files contains all files of the web page, which are not changed during runtime. 
+This includes, but is not limited, to images of the web page, javascript files and stylesheets.
 
 \subsubsection*{Localize}
 Localize is a static helper class handling all the language related things. 
 It has a method to get localized Strings using the language files, 
-to change the language of the webpage und methods determining all available languages, 
+to change the language of the web page und methods determining all available languages, 
 %dieser Satz, passt der syntaktisch? Sollte es methods sein?
-so they can be integrated in the webpage once they are present.
+so they can be integrated in the web page once they are present.
 
 \subsubsection*{ChartIndex}
 ChartIndex implements the singleton pattern. On instantiation it scans which chart types are available 
@@ -40,7 +41,7 @@ even if one is deleted or added.
 
 %=||======================================================================>
 \subsection{Application \& Data access tier class diagram}
-On the next pages the class diagram of the application and data acces tier are displayed. 
+On the next pages the class diagram of the application and data access tier are displayed. 
 \newpage
 \begin{center}
 \includegraphics[width=0.9\linewidth]{Pictures/AppTierDia1.png}
@@ -83,7 +84,7 @@ databases.
 
 One thing stored in a ConfigDB is a String indicating the form of a line in the log files.
 Other attributes are booleans for specific measures or dimensions, as well as trees of
-Strings for dimensions like Databas > Server or the Type.
+Strings for dimensions like Database > Server or the Type.
 
 
 \begin{center}
@@ -114,30 +115,52 @@ ChartHost firstly. Then he triggers the visits of the three visitors.
 ChartVisitors work on a ChartHost. What they do depends on which specific one the visit and of course their
 one type. One visitor, the ChartDataRequester, is part of the data access tier.
 
+
 \subsubsection*{DataPreparer}
 The DataPreparer is the second visitor. He prepares the raw data stored in a ChartHost, so that the JSON-Writter
 can do its work easily.
 
+
 \subsubsection*{JSON-Writter}
 The JSON-Writter is the last visitor. According to the data stored in the visited ChartHost he creates a .json file
-which contains all information needed by D3 to display the charts. Therefor he is supported by the JSON-Library.
+which contains all information needed by D3 to display the charts. Therefor he is supported by the JSON-Library
+ (\ref{jsonL}).
 
 
 \begin{center}
 \includegraphics{Pictures/Parts/Petra.png}
 \end{center}  
-\subsubsection*{ChartVisitor}
+
 \subsubsection*{ChartHost/Petra}
-\subsubsection*{OneDimeChart}
-\subsubsection*{TwoeDimeChart}
-\subsubsection*{ThreeDimeChart} 
+ChartHosts are objects hosting one chart request. Initialized they store the chart parameteres requested for
+the axes and the filter options. During the visits they first store raw data and later the .json file needed
+for the chart.
+The other name Petra for ChartHost is the intern name used for this class. As it had no official name it was
+and stills is known by Petra. So because when mentioning Petra all current members know what is meant the name
+is also given in this design document.
 
+\subsubsection*{OneDimChart}
+A OneDimChart - the name standing for one dimension chart - stores the ChartParam for the x axes or for example
+just the measure/radius needed in a bubble chart.
+ 
+ 
+\subsubsection*{TwoDimChart}
+More than the OneDimeChart the TwoDimChart also stores the ChartParam of a second axis.
 
-\subsection{Chart parameters}
+\subsubsection*{ThreeDimChart} 
+The ThreeDimChart stores ChartParam for three axes.
+
 \begin{center}
 \includegraphics[width=1\linewidth]{Pictures/Parts/ChartPara.png}
 \end{center}  
+
 \subsubsection*{ChartParam} 
+ChartParam represent on the one hand the type of a dimension or measure, like time or number of rows, and
+on the other hand the interval or the aggregation. e.g. sum or maximum, requested or filtered. 
+With the boolean set true may be shown, that no filtering is required on this parameter, or other implemented
+they may be just left out in that case. 
+This ChartParam stand just representative for possible chart parameter and may be implemented way more dynamically.
+
 
 
 %=||======================================================================>
@@ -152,10 +175,10 @@ ParserMediator is the 'main'-Class of the Parser. It creates and administrates a
  which contains several tasks, 
 %contains used twice very shortly (I was momentarily confused).Also, the sentence is huge. I see no immediate replacement
 contains the entryBuffer for finished DataEntries, the stringBuffer for strings,
-which were extracted from the logfile and saves which log file and configuration file is used.
+which were extracted from the log file and saves which log file and configuration file is used.
 
 \subsubsection*{LogFile}
-The gateway between parser and logfile - it contains the path of the logfile and an integer 
+The gateway between parser and log file - it contains the path of the logfile and an integer 
 which saves how many lines have been read from this file. It can read single lines from the
 logfile and return them to the Parser.
 
@@ -164,16 +187,18 @@ logfile and return them to the Parser.
 \end{center}  
 
 \subsubsection*{DataEntry}
-The dataEntry which will be written in the warehouse.
-It contains 
--hour, day, month, year of the request,
--rows which were read  from the logfile%from the logfile or rows accessed in the original db? %+1, it is not clear
--the elapsed and busy time on the server
--the ip from which the request came
--the type of request
--the database and server which handled the request. %I Thought I'd break this up and make a list
-It may contain additional information depending on the actual logfile, as specified in the configuration file. 
-%is this correct?
+The DataEntry stores the data which will be written into the warehouse. The given attributes stand representative
+for possible for possible data. The implementation of them may be way more dynamically.
+
+% It contains 
+% -hour, day, month, year of the request,
+% -rows which were read  from the logfile%from the logfile or rows accessed in the original db? %+1, it is not clear
+% -the elapsed and busy time on the server
+% -the ip from which the request came
+% -the type of request
+% -the database and server which handled the request. %I Thought I'd break this up and make a list
+% It may contain additional information depending on the actual logfile, as specified in the configuration file. 
+% %is this correct?
 
 %\newline\newline doesnt work in empty lines
 % \subsubsection*{Java Files}
@@ -184,25 +209,23 @@ It may contain additional information depending on the actual logfile, as specif
 \end{center}  
 
 \subsubsection*{ParsingTask}
-A ParsingTask is one of the tasks which are created from Parser. It gets a line from the logfile and uses, SplittingTool, VerifyTool
-and LocationTool to create a dataEntry which contains the same information. 
+ParsingTasks are tasks created by the ParserMediator. They receive a line from the log file and use  
+SplittingTool, VerifyTool and LocationTool to create a DataEntry. 
 
 
 \subsubsection*{SplittingTool}
-The splitting tool splits the dataLine from its parsingTask and enters the splitted parts into the dataEntry.
+The SplittingTool splits the dataLine from its parsingTask and enters the splitted raw parts into the DataEntry.
 
 \subsubsection*{VerifyTool}
-The VerifyTool checks if the dataEntry is correct - if it has a mistake (e.g. Month = 13 or Elapsed Time = -1), it will 
-be deleted and the VerifyTool sends an detailed error, which can be displayed elsewhere.
+The VerifyTool checks the DataEntry for its correctness. % - if it has a mistake (e.g. Month = 13 or Elapsed Time = -1),
+If mistakes are found this line will be deleted and a internal exception registrated. 
 
 \subsubsection*{LocationTool}
-The LocationTool takes the IP from the dataEntry and uses GeoIP-libraries[geo] to determine the city and country of the request.
-Those will be added to the dataEntry.
-
+The LocationTool uses GeoIP-Libraries \ref{geo} to determine the city and country of the request out of the ip.
 
 \subsubsection*{LoadingTask}
-
-A loading task is another possible task for the threadPool. It takes a finished dataEntry from the buffer and sends it to the warehouse.
+A LoadingTask is another possible task for the thread pool.
+It takes finished DataEntries from the buffer and sends them to the data access tier.
 
 
 
@@ -217,14 +240,13 @@ A loading task is another possible task for the threadPool. It takes a finished 
 \subsubsection*{ChartDataRequester}
 
 The ChartDataRequester is the first of the three visitors of a ChartHost. Its task is to 
-create the queries to gain the data needed for the charts. It takes the informationen about what he
+create the queries to gain the data needed for the charts. It takes the information about what he
 has to request from the hosted ChartHost.
-
 
 
 \subsubsection*{OracleWHAdapter}
 
-Every query, whether loading, extracting or anythin else, runned against the Oracle server is made by this,
+Every query, whether loading, extracting or anything else, run against the Oracle server is made by this,
 and only by this, class. So it represents the interface out of the application to the data.
 
 
@@ -239,9 +261,5 @@ where the Warehouse is stored. It is only used by the OracleWHAdapter.
 \subsubsection*{WareHouseConfiger}
 
 This class will only be needed if a very optional function will be implemented. It's task is to create
-a WareHouse for one certain new database just with the information of its configuration file information.
+a warehouse for one certain new database just with the information of its configuration file information.
 
-
-
-geo
- link to the maxmind geoip library in the library section

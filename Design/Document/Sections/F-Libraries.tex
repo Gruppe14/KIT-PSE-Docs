@@ -1,37 +1,77 @@
 \section{Libraries}
-FIXME: Needs links and tex in its life.
+
 
 The program uses a number of external libraries to achieve its functionality. This section describes which they are,
 how they interact with the program, as well as licensing information. 
 
--Java Play
-Java play is primarily a web framework, but it includes a webserver too [play].
-We use it to create a modern, dynamic and interactive website, instead of a conventional java Swing GUI.
-http://www.playframework.org/assets/images/logos/normal.png
-Our web server tier is just a modification of appropriate java play classes[playintegration].
+\subsection{Java play}
+\textbf{Version:}
 
--d3.js
+\textbf{Link:} \href{http://www.playframework.org/}{\includegraphix[width = 0.1\linewidth]{Play-Logo}}
+
+\textbf{Licens:}
+
+
+\textbf{Usage:} 
+Java play is primarily a web framework, but it includes a webserver too.
+We use it to create a modern, dynamic and interactive website, instead of a conventional java Swing GUI.
+Our web server tier is just a modification of appropriate java play classes.
+
+\subsection{D3.js}
+\textbf{Version:} 
+
+\textbf{Link:} \href{}
+
+\textbf{Licens:}
+
+
+\textbf{Usage:} 
 D3.js [d3link] is a javascript visualization library for the browser.
 It allows the creation of beautiful, interactive visualizations.
 It runs, as one would imagine, in our browser tier.
 
--Geoip
+\subsection{GeoIP}\label{geo}
+\textbf{Version:} 
+
+\textbf{Link:} \href{}
+
+
+
+\textbf{Usage:} 
+
 We use the Maxmind geoip Lite[geo] library to map user IPs to locations.
 This allows queries based on location, as well as preserving anonymity.
 Our parser uses the geoip library.
 
--Oracle database and warehouse
-We host our data in an oracle warehouse.
-Our data tier consists of them. %FIXME 
+
+\subsection{Oracle warehouse & OLAP software}
+\textbf{Version:} 
+
+\textbf{Link:} \href{}
+
+\textbf{Licens:}
+
+\textbf{Usage:} 
+Data will be stored with an Oracle warehouse and Oracel OLAP-Cubes.
 
 -oracle jdbc
 Oracle jdbc is the oracle database access driver. We use it in the data access tier. //FIXME: be more specific
 
+\subsection{JSON-Lib}\labe{jsonL}
+\textbf{Version:} 
+
+\textbf{Link:} \href{}
+
+\textbf{Licens:}
+
+\textbf{Usage:} 
+The JSON-Lib provides methods for easy creating of .json files out of data in Java.
 
 
-Licensing information
+\subsection{Licensing information}
 Most of the libraries used are open source, as well as free of charge.
-The rest are from oracle. We can use them in our product, because our university has bought licenses but I don't know what happens when we release it. FIXME, too
+The rest are from Oracle. We can use them in our product, because our university has bought licenses 
+but I don't know what happens when we release it. 
 
 Java play is released under the Apache 2 License [apache2]
 d3.js is released under the BSD License, BSD 3 Clause [bsd3]
@@ -40,9 +80,6 @@ The geoip library we use is licensed under the LGPL. [lgpl]
 Oracle libraries are released under the oracle license[oracle]
 
 
-
-[play]http://www.playframework.org/
-[playintegration] see the class diagram for more details
 [d3link] d3js.org
 [geo] http://www.maxmind.com/download/geoip/api/java/
 [oracle] http://www.oracle.com/technetwork/licenses/distribution-license-152002.html.

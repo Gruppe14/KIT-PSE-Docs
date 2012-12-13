@@ -10,17 +10,17 @@
 \contentsline {subsection}{\numberline {3.2}Application \& Data access tier class diagram}{7}{subsection.3.2}
 \contentsline {subsection}{\numberline {3.3}Facade + Configurations}{10}{subsection.3.3}
 \contentsline {subsection}{\numberline {3.4}Chart request operator}{11}{subsection.3.4}
-\contentsline {subsection}{\numberline {3.5}Chart parameters}{12}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.5}Chart parameters}{13}{subsection.3.5}
 \contentsline {subsection}{\numberline {3.6}Parser}{13}{subsection.3.6}
 \contentsline {subsection}{\numberline {3.7}Data access tier}{15}{subsection.3.7}
-\contentsline {section}{\numberline {4}Data warehouse design}{16}{section.4}
-\contentsline {subsection}{\numberline {4.1}Overview}{16}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Dimension descriptions}{16}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Measure descriptions}{16}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Type description}{16}{subsection.4.4}
-\contentsline {section}{\numberline {5}Sequences}{17}{section.5}
-\contentsline {section}{\numberline {6}Other data}{18}{section.6}
-\contentsline {subsection}{\numberline {6.1}Static data}{18}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Dynamic data}{18}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}Extern data}{18}{subsection.6.3}
-\contentsline {section}{\numberline {7}Libraries}{19}{section.7}
+\contentsline {section}{\numberline {4}Data warehouse design}{17}{section.4}
+\contentsline {subsection}{\numberline {4.1}Overview}{17}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Dimension descriptions}{17}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Measure descriptions}{17}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Type description}{17}{subsection.4.4}
+\contentsline {section}{\numberline {5}Sequences}{18}{section.5}
+\contentsline {section}{\numberline {6}Other data}{19}{section.6}
+\contentsline {subsection}{\numberline {6.1}Static data}{19}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Dynamic data}{19}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Extern data}{19}{subsection.6.3}
+\contentsline {section}{\numberline {7}Libraries}{20}{section.7}
