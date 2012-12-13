@@ -8,7 +8,7 @@
 All valid HTTP requests are mapped to a method from WebpageControllers.
 WebpageControllers either uses other helper classes to handle requests itself  
 or makes calls to the facade of the application tier. 
-The last step done by WebpageControllers is to create a valid HTTP response. %ist http response das teil vom handshake
+The last step done by WebpageControllers is to create a valid HTTP response. %ist http response ein Teil vom handshake
                                                                               %oder ist das richtig?
                                                                               
 
@@ -23,13 +23,14 @@ This includes, but is not limited, to images of the webpage, javascript files an
 \subsubsection*{Localize}
 Localize is a static helper class handling all the language related things. 
 It has a method to get localized Strings using the language files, 
-to change the language of the webpage und methods determining all available languages, %dieser Satz, passt der Syntaktisch? Sollte es methods sein?
+to change the language of the webpage und methods determining all available languages, %dieser Satz, passt der syntaktisch? Sollte es methods sein?
 so they can be integrated in the webpage once they are present.
 
 \subsubsection*{ChartIndex}
-ChartIndex implements the singleton pattern. On instanciation it scans which chart types are available 
+ChartIndex implements the singleton pattern. On instantiation it scans which chart types are available 
 and saves them internally. This is used by the index page to dynamically display all available chart types,
 even if one is deleted or added.
+%Do we have to specify how one might add them?
 
 \subsection{Fassade + Configurations}
 %picture
@@ -37,13 +38,13 @@ even if one is deleted or added.
 
 
 \subsection{Chart request operator}
-Visitor pattern blabla
+Visitor pattern blabla   %FIXME FIXME
 classes
 %picture
 \subsubsection{Fassade}
 
 \subsection{Chart parameters}
-The chart parameters describe 
+The chart parameters describe %FIXME, I guess
 
 \subsection{}
 
@@ -51,7 +52,7 @@ The chart parameters describe
 \subsection{Parser}
 
 HIER LOGFILE \& PARSERMEDIATOR HIN!
-CAPSLOCK REGELT, UND SO!!11einself
+CAPSLOCK REGELT, UND SO!!11einself %JA, ABER DAS KANN NICHT DA BLEIBEN
 
 \subsubsection*{ParserMediator}
 ParserMediator is the 'main'-Class of the Parser. It creates and administrates a threadpool, which contains several tasks, 
@@ -67,9 +68,10 @@ DATAENTRY
 
 \subsubsection*{DataEntry}
 The dataEntry which will be written in the warehouse. It contains hour, day, month, year of the request, rows which were read 
-from the logfile%from the logfile or rows accessed in the original db?
+from the logfile%from the logfile or rows accessed in the original db? %+1, it is not clear
 , the elapsed and busy time on the server, the ip, from which the request came, the type of request, the database
-and server which handled the request and maybe additional information depending on the actual logfile.
+and server which handled the request.
+It may contain additional information depending on the actual logfile, as specified in the configuration file. %is this correct?
 
 %\newline\newline doesnt work in empty lines
 \subsubsection*{Java Files}
@@ -78,10 +80,10 @@ The Parser uses java.io.File and a ThreadPool from java.util.
 TOOLS + PARSING TASK!
 
 \subsubsection*{SplittingTool}
-The splitting tool splits the dataLine from it's parsingTask and enters the splitted parts into the dataEntry.
+The splitting tool splits the dataLine from its parsingTask and enters the splitted parts into the dataEntry.
 
 \subsubsection*{VerifyTool}
-The VerifyTool checks, if the dataEntry is correct - if it has a mistake (e.g. Month 13 or Elapsed Time -1), it will 
+The VerifyTool checks if the dataEntry is correct - if it has a mistake (e.g. Month 13 or Elapsed Time -1), it will 
 be deleted and the VerifyTool sends an detailed error, which can be displayed elsewhere.
 
 \subsubsection*{LocationTool}
@@ -99,23 +101,25 @@ A loading task is another possible task for the threadPool. It takes a finished 
 
 \subsubsection*{WareHouseGonfiger}
 
-This Config send the order to OracleWHAdapter to builde Data Warehouse.
+This Config sends the order to OracleWHAdapter to build Data Warehouse.
 
 \subsubsection*{ChartDataRequester}
 
-A ChartDataRequester is a request wich get it's information from ChartVistor and send the data in request form to OracleWHAdapter.
-The resone of this class is to build a data for requester.
+A ChartDataRequester is a request which get its information from ChartVistor
+and sends the data in request form to OracleWHAdapter. %I don't understand this
+The response of this class is to build data for the requester.
 
 \subsubsection*{OracleWHAdapter}
 
-After acssece the Database and geting the DataEntry from LoadingTask then will build the data warehouse in OLAP - Cube form. With help from Oracle 
-and Java library, wich make the work esy to acssece the database and build the warehouse.
+After accessing the Database and geting the DataEntry from LoadingTask then will build %who?
+the data warehouse in OLAP - Cube form. With help from Oracle %Sounds like a group of superheroes saving the world!
+and Java library, which make the work easy to access the database and build the warehouse.
 
 \subsubsection*{JavaToOracle}
 
-Is a Libary interfaces, wich make a connection with database.
+Is a Library interface, wich makes a connection with a database.
 
 \subsubsection*{Oracle}
 
-A database language.
+A database language. %is it?
 
