@@ -94,3 +94,28 @@ LOADING TASK!
 
 \subsubsection*{LoadingTask}
 A loading task is another possible task for the threadPool. It takes a finished dataEntry from the buffer and sends it to the warehouse.
+
+\subsubsection*{WareHouseGonfiger}
+
+This Config send the order to OracleWHAdapter to builde Data Warehouse.
+
+\subsubsection*{ChartDataRequester}
+
+A ChartDataRequester is a request wich get it's information from ChartVistor and send the data in request form to OracleWHAdapter.
+The resone of this class is to build a data for requester.
+
+\subsubsection*{OracleWHAdapter}
+
+After acssece the Database and geting the DataEntry from LoadingTask then will build the data warehouse in OLAP - Cube form. With help from Oracle 
+and Java library, wich make the work esy to acssece the database and build the warehouse.
+
+\subsubsection*{JavaToOracle}
+
+Is a Libary interfaces, wich make a connection with database.
+
+\subsubsection*{Oraacle}
+
+A database language.
+
+
+\subsubsection*{OracleWHAdapter}
