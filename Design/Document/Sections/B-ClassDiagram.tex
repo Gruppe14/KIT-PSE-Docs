@@ -21,38 +21,49 @@ The chart parameters describe
 
 \subsection{Parser}
 
+HIER LOGFILE & PARSERMEDIATOR HIN!
+CAPSLOCK REGELT, UND SO!!11einself
+
 \subsubsection*{ParserMediator}
-Parser is the 'main'-Class of the Parser. It creates and administrates a threadpool of ParsingThreads,
+ParserMediator is the 'main'-Class of the Parser. It creates and administrates a threadpool, which contains several tasks, 
 contains the entryBuffer for finished DataEntries, the stringBuffer for strings, which were extracted
-from the logfile, a method to add them to the data warehouse
-and allows the user to select a new logfile and configuration file. %how? i thought the only way to interact with what was via webpage?
+from the logfile and saves which log file and configuration file is used.
 
 \subsubsection*{LogFile}
 The gateway between parser and logfile - it contains the path of the logfile and an integer 
 which saves how many lines have been read from this file. It can read single lines from the logfile and return them to 
 the Parser.
 
+DATAENTRY
+
 \subsubsection*{DataEntry}
 The dataEntry which will be written in the warehouse. It contains hour, day, month, year of the request, rows which were read 
 from the logfile%from the logfile or rows accessed in the original db?
 , the elapsed and busy time on the server, the ip, from which the request came, the type of request, the database
-and server which handled the request and an object-array of additional information, which depends on the actual database entry.%not logfile entry?
+and server which handled the request and maybe additional information depending on the actual logfile.
 
+\newline\newline
 \subsubsection*{Java Files}
 The Parser uses java.io.File and a ThreadPool from java.util.
 
-\subsubsection*{ParseTools}
-The ParseTools are a set of static tools to parse the loglines.
+TOOLS + PARSING TASK!
 
-\subsubsection*{NormalFormTool}
-The NormalFormTool is used first. It converts a logline in a standardized form, which can then be used by the other tools.
+\subsubsection*{SplittingTool}
+The splitting tool splits the dataLine from it's parsingTask and enters the splitted parts into the dataEntry.
 
-\subsubsection*{VerificationTool}
-The VerificationTool checks a logline and looks if it is a correct logline - if the logline got a mistake, it will 
-be deleted and the VerificationTool sends an error.
+\subsubsection*{VerifyTool}
+The VerifyTool checks, if the dataEntry is correct - if it has a mistake (e.g. Month 13 or Elapsed Time -1), it will 
+be deleted and the VerifyTool sends an detailed error, which can be displayed elsewhere.
 
+\subsubsection*{LocationTool}
+The LocationTool takes the IP from the dataEntry and uses GeoIP-libraries to determine the city and country of the request.
+Those will be added to the dataEntry.
 
+\subsubsection*{ParsingTask}
+A ParsingTask is one of the tasks which are created from Parser. It gets a line from the logfile and uses, SplittingTool, VerifyTool
+and LocationTool to create a dataEntry which contains the same information. 
 
-\subsubsection*{ParsingThread}
-A parsing thread is one of the threads which are created from Parser. It gets a line from the logfile and uses the ParseTools
-to create a dataEntry, which represents the line from the log. 
+LOADING TASK!
+
+\subsubsection*{LoadingTask}
+A loading task is another possible task for the threadPool. It takes a finished dataEntry from the buffer and sends it to the warehouse.
