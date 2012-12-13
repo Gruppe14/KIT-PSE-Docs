@@ -98,22 +98,36 @@ the Country \& City tree is mostly hooked to the GeoIP library.
 
 %=||======================================================================>
 \subsection{Chart request operator}
+The task of the following classes is to handle a chart request. For their design the visitor pattern
+is used. 
 
 \begin{center}
 \includegraphics[width=1\linewidth]{Pictures/Parts/MediVisi.png}
 \end{center}  
+
 \subsubsection*{ChartMediator}
+The ChartMediator is the mediator of the whole chart request process. For a incoming request it will create a new
+ChartHost firstly. Then he triggers the visits of the three visitors. 
+
+
 \subsubsection*{ChartVisitor}
+ChartVisitors work on a ChartHost. What they do depends on which specific one the visit and of course their
+one type. One visitor, the ChartDataRequester, is part of the data access tier.
+
 \subsubsection*{DataPreparer}
+The DataPreparer is the second visitor. He prepares the raw data stored in a ChartHost, so that the JSON-Writter
+can do its work easily.
+
 \subsubsection*{JSON-Writter}
-\subsubsection*{.json}
-\subsubsection*{JSON-Lib}
+The JSON-Writter is the last visitor. According to the data stored in the visited ChartHost he creates a .json file
+which contains all information needed by D3 to display the charts. Therefor he is supported by the JSON-Library.
 
 
 \begin{center}
 \includegraphics{Pictures/Parts/Petra.png}
 \end{center}  
 \subsubsection*{ChartVisitor}
+\subsubsection*{ChartHost/Petra}
 \subsubsection*{OneDimeChart}
 \subsubsection*{TwoeDimeChart}
 \subsubsection*{ThreeDimeChart} 
@@ -134,15 +148,16 @@ the Country \& City tree is mostly hooked to the GeoIP library.
 \end{center}  
 
 \subsubsection*{ParserMediator}
-ParserMediator is the 'main'-Class of the Parser. It creates and administrates a threadpool, which contains several tasks, 
+ParserMediator is the 'main'-Class of the Parser. It creates and administrates a threadpool,
+ which contains several tasks, 
 %contains used twice very shortly (I was momentarily confused).Also, the sentence is huge. I see no immediate replacement
-contains the entryBuffer for finished DataEntries, the stringBuffer for strings, which were extracted 
-from the logfile and saves which log file and configuration file is used.
+contains the entryBuffer for finished DataEntries, the stringBuffer for strings,
+which were extracted from the logfile and saves which log file and configuration file is used.
 
 \subsubsection*{LogFile}
 The gateway between parser and logfile - it contains the path of the logfile and an integer 
-which saves how many lines have been read from this file. It can read single lines from the logfile and return them to 
-the Parser.
+which saves how many lines have been read from this file. It can read single lines from the
+logfile and return them to the Parser.
 
 \begin{center}
 \includegraphics{Pictures/Parts/DataEntry.png}
@@ -157,7 +172,8 @@ It contains
 -the ip from which the request came
 -the type of request
 -the database and server which handled the request. %I Thought I'd break this up and make a list
-It may contain additional information depending on the actual logfile, as specified in the configuration file. %is this correct?
+It may contain additional information depending on the actual logfile, as specified in the configuration file. 
+%is this correct?
 
 %\newline\newline doesnt work in empty lines
 % \subsubsection*{Java Files}
@@ -200,7 +216,7 @@ A loading task is another possible task for the threadPool. It takes a finished 
 
 \subsubsection*{ChartDataRequester}
 
-The ChartDataRequester is one of the three visitors of a ChartHost. Its task is to 
+The ChartDataRequester is the first of the three visitors of a ChartHost. Its task is to 
 create the queries to gain the data needed for the charts. It takes the informationen about what he
 has to request from the hosted ChartHost.
 

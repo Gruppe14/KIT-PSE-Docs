@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  13 DEC 2012 22:59
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  13 DEC 2012 23:23
 entering extended mode
 **mainDesign.tex
 
@@ -1446,81 +1446,85 @@ ng>]
 File: Pictures/Parts/MediVisi.png Graphic file (type png)
 
 <use Pictures/Parts/MediVisi.png>
-Package pdftex.def Info: Pictures/Parts/MediVisi.png used on input line 103.
+Package pdftex.def Info: Pictures/Parts/MediVisi.png used on input line 105.
 (pdftex.def)             Requested size: 483.69687pt x 128.53882pt.
-
-<Pictures/Parts/Petra.png, id=196, 316.5426pt x 167.4255pt>
+File: Pictures/WHAT-Logo.png Graphic file (type png)
+ <use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 126.
+(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
+ [11 <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/De
+sign/Document/Pictures/Parts/MediVisi.png>]
+<Pictures/Parts/Petra.png, id=200, 316.5426pt x 167.4255pt>
 File: Pictures/Parts/Petra.png Graphic file (type png)
 
 <use Pictures/Parts/Petra.png>
-Package pdftex.def Info: Pictures/Parts/Petra.png used on input line 114.
+Package pdftex.def Info: Pictures/Parts/Petra.png used on input line 127.
 (pdftex.def)             Requested size: 316.54182pt x 167.42508pt.
 
-<Pictures/Parts/ChartPara.png, id=197, 601.7682pt x 172.0026pt>
+<Pictures/Parts/ChartPara.png, id=201, 601.7682pt x 172.0026pt>
 File: Pictures/Parts/ChartPara.png Graphic file (type png)
 
 <use Pictures/Parts/ChartPara.png>
-Package pdftex.def Info: Pictures/Parts/ChartPara.png used on input line 124.
+Package pdftex.def Info: Pictures/Parts/ChartPara.png used on input line 138.
 (pdftex.def)             Requested size: 483.69687pt x 138.25577pt.
-File: Pictures/WHAT-Logo.png Graphic file (type png)
- <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 125.
-(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
- [11 <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/De
-sign/Document/Pictures/Parts/MediVisi.png> <F:/Eigene Dateien/Jo/Studium/Inform
-atik/PSE/GitRepository/KIT-PSE-Docs/Design/Document/Pictures/Parts/Petra.png>]
-<Pictures/Parts/ParsMedi.png, id=203, 354.123pt x 87.6876pt>
+
+<Pictures/Parts/ParsMedi.png, id=202, 354.123pt x 87.6876pt>
 File: Pictures/Parts/ParsMedi.png Graphic file (type png)
 
 <use Pictures/Parts/ParsMedi.png>
-Package pdftex.def Info: Pictures/Parts/ParsMedi.png used on input line 133.
+Package pdftex.def Info: Pictures/Parts/ParsMedi.png used on input line 147.
 (pdftex.def)             Requested size: 354.12212pt x 87.68738pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 File: Pictures/KIT-Logo.png Graphic file (type png)
- <use Pictures/KIT-Logo.png>
-Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 147.
+
+<use Pictures/KIT-Logo.png>
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 148.
 (pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
  [12 <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/De
-sign/Document/Pictures/Parts/ChartPara.png> <F:/Eigene Dateien/Jo/Studium/Infor
-matik/PSE/GitRepository/KIT-PSE-Docs/Design/Document/Pictures/Parts/ParsMedi.pn
-g>]
-<Pictures/Parts/DataEntry.png, id=209, 83.8332pt x 155.3805pt>
+sign/Document/Pictures/Parts/Petra.png> <F:/Eigene Dateien/Jo/Studium/Informati
+k/PSE/GitRepository/KIT-PSE-Docs/Design/Document/Pictures/Parts/ChartPara.png>]
+
+<Pictures/Parts/DataEntry.png, id=208, 83.8332pt x 155.3805pt>
 File: Pictures/Parts/DataEntry.png Graphic file (type png)
 
 <use Pictures/Parts/DataEntry.png>
-Package pdftex.def Info: Pictures/Parts/DataEntry.png used on input line 148.
+Package pdftex.def Info: Pictures/Parts/DataEntry.png used on input line 163.
 (pdftex.def)             Requested size: 83.83298pt x 155.3801pt.
 
-<Pictures/Parts/TaskTool.png, id=210, 451.9284pt x 193.6836pt>
+<Pictures/Parts/TaskTool.png, id=209, 451.9284pt x 193.6836pt>
 File: Pictures/Parts/TaskTool.png Graphic file (type png)
 
 <use Pictures/Parts/TaskTool.png>
-Package pdftex.def Info: Pictures/Parts/TaskTool.png used on input line 167.
+Package pdftex.def Info: Pictures/Parts/TaskTool.png used on input line 183.
 (pdftex.def)             Requested size: 483.69687pt x 207.30736pt.
 File: Pictures/WHAT-Logo.png Graphic file (type png)
  <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 178.
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 184.
 (pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
  [13 <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/De
-sign/Document/Pictures/Parts/DataEntry.png> <F:/Eigene Dateien/Jo/Studium/Infor
-matik/PSE/GitRepository/KIT-PSE-Docs/Design/Document/Pictures/Parts/TaskTool.pn
+sign/Document/Pictures/Parts/ParsMedi.png> <F:/Eigene Dateien/Jo/Studium/Inform
+atik/PSE/GitRepository/KIT-PSE-Docs/Design/Document/Pictures/Parts/DataEntry.pn
 g>]
-<Pictures/Parts/Data.png, id=217, 363.759pt x 163.5711pt>
+<Pictures/Parts/Data.png, id=216, 363.759pt x 163.5711pt>
 File: Pictures/Parts/Data.png Graphic file (type png)
 
 <use Pictures/Parts/Data.png>
-Package pdftex.def Info: Pictures/Parts/Data.png used on input line 198.
+Package pdftex.def Info: Pictures/Parts/Data.png used on input line 214.
 (pdftex.def)             Requested size: 363.75812pt x 163.5707pt.
 File: Pictures/KIT-Logo.png Graphic file (type png)
  <use Pictures/KIT-Logo.png>
-Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 213.
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 215.
 (pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
  [14 <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/De
-sign/Document/Pictures/Parts/Data.png>])
+sign/Document/Pictures/Parts/TaskTool.png>])
 File: Pictures/WHAT-Logo.png Graphic file (type png)
  <use Pictures/WHAT-Logo.png>
 Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 121.
 (pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
- [15]
+ [15 <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/De
+sign/Document/Pictures/Parts/Data.png>]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Design
 \Document\Sections/C-DataWarehouseDesign.tex")
 File: Pictures/KIT-Logo.png Graphic file (type png)
@@ -1611,7 +1615,7 @@ Here is how much of TeX's memory you used:
 <C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/arev/ArevSans-
 Bold.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/arev/
 ArevSans-Roman.pfb>
-Output written on mainDesign.pdf (19 pages, 1707847 bytes).
+Output written on mainDesign.pdf (19 pages, 1708415 bytes).
 PDF statistics:
  266 PDF objects out of 1000 (max. 8388607)
  46 named destinations out of 1000 (max. 500000)
