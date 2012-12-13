@@ -8,8 +8,7 @@
 All valid HTTP requests are mapped to a method from WebpageControllers.
 WebpageControllers either uses other helper classes to handle requests itself  
 or makes calls to the facade of the application tier. 
-The last step done by WebpageControllers is to create a valid HTTP response. %ist http response ein Teil vom handshake
-                                                                              %oder ist das richtig?
+The last step done by WebpageControllers is to create a valid HTTP response. %falls das richtig ist, ist es super
                                                                               
 
 \subsubsection*{HTML views}
@@ -30,7 +29,7 @@ so they can be integrated in the webpage once they are present.
 ChartIndex implements the singleton pattern. On instantiation it scans which chart types are available 
 and saves them internally. This is used by the index page to dynamically display all available chart types,
 even if one is deleted or added.
-%Do we have to specify how one might add them?
+%Do we have to specify how one might add them? I mean, not here, but somewhere.
 
 \subsection{Fassade + Configurations}
 %picture
@@ -52,11 +51,12 @@ The chart parameters describe %FIXME, I guess
 \subsection{Parser}
 
 HIER LOGFILE \& PARSERMEDIATOR HIN!
-CAPSLOCK REGELT, UND SO!!11einself %JA, ABER DAS KANN NICHT DA BLEIBEN
+CAPSLOCK REGELT, UND SO!!11einself %JA, ABER DAS KANN NICHT DA BLEIBEN!!1
 
 \subsubsection*{ParserMediator}
 ParserMediator is the 'main'-Class of the Parser. It creates and administrates a threadpool, which contains several tasks, 
-contains the entryBuffer for finished DataEntries, the stringBuffer for strings, which were extracted
+%contains used twice very shortly (I was momentarily confused).Also, the sentence is huge. I see no immediate replacement
+contains the entryBuffer for finished DataEntries, the stringBuffer for strings, which were extracted 
 from the logfile and saves which log file and configuration file is used.
 
 \subsubsection*{LogFile}
@@ -67,10 +67,14 @@ the Parser.
 DATAENTRY
 
 \subsubsection*{DataEntry}
-The dataEntry which will be written in the warehouse. It contains hour, day, month, year of the request, rows which were read 
-from the logfile%from the logfile or rows accessed in the original db? %+1, it is not clear
-, the elapsed and busy time on the server, the ip, from which the request came, the type of request, the database
-and server which handled the request.
+The dataEntry which will be written in the warehouse.
+It contains 
+-hour, day, month, year of the request,
+-rows which were read  from the logfile%from the logfile or rows accessed in the original db? %+1, it is not clear
+-the elapsed and busy time on the server
+-the ip from which the request came
+-the type of request
+-the database and server which handled the request. %I Thought I'd break this up and make a list
 It may contain additional information depending on the actual logfile, as specified in the configuration file. %is this correct?
 
 %\newline\newline doesnt work in empty lines
@@ -83,25 +87,25 @@ TOOLS + PARSING TASK!
 The splitting tool splits the dataLine from its parsingTask and enters the splitted parts into the dataEntry.
 
 \subsubsection*{VerifyTool}
-The VerifyTool checks if the dataEntry is correct - if it has a mistake (e.g. Month 13 or Elapsed Time -1), it will 
+The VerifyTool checks if the dataEntry is correct - if it has a mistake (e.g. Month = 13 or Elapsed Time = -1), it will 
 be deleted and the VerifyTool sends an detailed error, which can be displayed elsewhere.
 
 \subsubsection*{LocationTool}
-The LocationTool takes the IP from the dataEntry and uses GeoIP-libraries to determine the city and country of the request.
+The LocationTool takes the IP from the dataEntry and uses GeoIP-libraries[geo] to determine the city and country of the request.
 Those will be added to the dataEntry.
 
 \subsubsection*{ParsingTask}
 A ParsingTask is one of the tasks which are created from Parser. It gets a line from the logfile and uses, SplittingTool, VerifyTool
 and LocationTool to create a dataEntry which contains the same information. 
 
-LOADING TASK!
+LOADING TASK! %ARE WE ALLOWED TO BE EXCITED?
 
 \subsubsection*{LoadingTask}
 A loading task is another possible task for the threadPool. It takes a finished dataEntry from the buffer and sends it to the warehouse.
 
 \subsubsection*{WareHouseGonfiger}
 
-This Config sends the order to OracleWHAdapter to build Data Warehouse.
+This Config sends the order to OracleWHAdapter to build the Data Warehouse.
 
 \subsubsection*{ChartDataRequester}
 
@@ -113,7 +117,7 @@ The response of this class is to build data for the requester.
 
 After accessing the Database and geting the DataEntry from LoadingTask then will build %who?
 the data warehouse in OLAP - Cube form. With help from Oracle %Sounds like a group of superheroes saving the world!
-and Java library, which make the work easy to access the database and build the warehouse.
+and Java library, which make it easy to access the database and build the warehouse. %I though the warehouse was built before
 
 \subsubsection*{JavaToOracle}
 
@@ -123,3 +127,5 @@ Is a Library interface, wich makes a connection with a database.
 
 A database language. %is it?
 
+
+[geo] link to the maxmind geoip library in the library section
