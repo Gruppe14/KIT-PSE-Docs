@@ -1,9 +1,9 @@
 \section{Classes}
 
 
-
+%=||======================================================================>
 \subsection{Server tier class diagram}
-This diagram shows the webserver tier of wHAT. It controls the webserver and it can only access the facade of the tier below.
+This diagram shows the webserver tier of WHAT. It controls the webserver and it can only access the facade of the tier below.
 \begin{center}
 \includegraphics[width=1\linewidth]{Pictures/ServerTierDia.png}
 %\includegraphics[width=1\linewidth]{Pictures/ServerTierDiaNormal.png} 
@@ -38,22 +38,21 @@ and saves them internally. This is used by the index page to dynamically display
 even if one is deleted or added.
 %Do we have to specify how one might add them? I mean, not here, but somewhere.
 
-
+%=||======================================================================>
 \subsection{Application \& Data access tier class diagram}
-This is the application tier for the analyzer-part of WHAT. 
+On the next pages the class diagram of the application and data acces tier are displayed. 
 \newpage
 \begin{center}
 \includegraphics[width=0.9\linewidth]{Pictures/AppTierDia1.png}
 %\includegraphics[width=0.9\linewidth]{Pictures/AppTierDia1Normal.png} 
 \end{center}  
 
-This is the design for the parser. 
-
 \begin{center}
 \includegraphics[width=0.9\linewidth]{Pictures/AppTierDia2.png}
 %\includegraphics[width=0.9\linewidth]{Pictures/AppTierDia2Normal.png} 
 \end{center}  
 
+%=||======================================================================>
 \subsection{Facade + Configurations}
 
 \begin{center}
@@ -70,10 +69,9 @@ This is the design for the parser.
 \subsubsection*{Type}
 \subsubsection*{Country, City}
 
-
+%=||======================================================================>
 \subsection{Chart request operator}
-Visitor pattern blabla   
-classes
+
 \begin{center}
 \includegraphics[width=1\linewidth]{Pictures/Parts/MediVisi.png}
 \end{center}  
@@ -101,7 +99,7 @@ classes
 \subsubsection*{ChartParam} 
 
 
-
+%=||======================================================================>
 \subsection{Parser}
 
 \begin{center}
@@ -160,43 +158,47 @@ Those will be added to the dataEntry.
 
 
 \subsubsection*{LoadingTask}
+
 A loading task is another possible task for the threadPool. It takes a finished dataEntry from the buffer and sends it to the warehouse.
 
+
+
+
+%=||======================================================================>
 \subsection{Data access tier}
 
 \begin{center}
 \includegraphics{Pictures/Parts/Data.png}
 \end{center} 
 
-\subsubsection*{WareHouseGonfiger}
-
-This Config sends the order to OracleWHAdapter to build the Data Warehouse.
-
 \subsubsection*{ChartDataRequester}
 
-A ChartDataRequester used to send the request to OracleWHAdapter.
-There are three types of request:
+The ChartDataRequester is one of the three visitors of a ChartHost. Its task is to 
+create the queries to gain the data needed for the charts. It takes the informationen about what he
+has to request from the hosted ChartHost.
 
-1) vistOneDim : if the user requestet a Chart with one dimension.
 
-2) vistTwoDim : if the user requestet a Chart with two dimensions.
-
-3) vistThreeDim : the user requestet a Chart with three dimensions.
-
-The response of this class is to build data for the requester.
 
 \subsubsection*{OracleWHAdapter}
 
-After accessing the Database and geting the DataEntry from LoadingTask then OracleWHAdapter will build
-the data warehouse in OLAP - Cube form. 
- 
+Every query, whether loading, extracting or anythin else, runned against the Oracle server is made by this,
+and only by this, class. So it represents the interface out of the application to the data.
+
+
+
 \subsubsection*{JavaToOracle}
 
-Is a Library interface, wich makes a connection with a database.
+Any library used for the connection and communication with the Oracle server, 
+where the Warehouse is stored. It is only used by the OracleWHAdapter.
 
-\subsubsection*{Oracle}
 
-A database language. %is it?
+
+\subsubsection*{WareHouseConfiger}
+
+This class will only be needed if a very optional function will be implemented. It's task is to create
+a WareHouse for one certain new database just with the information of its configuration file information.
+
+
 
 geo
  link to the maxmind geoip library in the library section

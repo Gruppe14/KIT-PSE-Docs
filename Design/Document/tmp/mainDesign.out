@@ -11,8 +11,8 @@
 \BOOKMARK [2][-]{subsection.3.3}{Facade + Configurations}{section.3}% 11
 \BOOKMARK [2][-]{subsection.3.4}{Chart request operator}{section.3}% 12
 \BOOKMARK [2][-]{subsection.3.5}{Chart parameters}{section.3}% 13
-\BOOKMARK [2][-]{subsection.3.6}{}{section.3}% 14
-\BOOKMARK [2][-]{subsection.3.7}{Parser}{section.3}% 15
+\BOOKMARK [2][-]{subsection.3.6}{Parser}{section.3}% 14
+\BOOKMARK [2][-]{subsection.3.7}{Data access tier}{section.3}% 15
 \BOOKMARK [1][-]{section.4}{Data warehouse design}{}% 16
 \BOOKMARK [2][-]{subsection.4.1}{Overview}{section.4}% 17
 \BOOKMARK [2][-]{subsection.4.2}{Dimension descriptions}{section.4}% 18
