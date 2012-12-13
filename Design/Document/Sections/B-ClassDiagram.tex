@@ -39,6 +39,7 @@ and saves them internally. This is used by the index page to dynamically display
 even if one is deleted or added.
 %Do we have to specify how one might add them? I mean, not here, but somewhere.
 
+
 %=||======================================================================>
 \subsection{Application \& Data access tier class diagram}
 On the next pages the class diagram of the application and data access tier are displayed. 
@@ -86,7 +87,7 @@ One thing stored in a ConfigDB is a String indicating the form of a line in the 
 Other attributes are booleans for specific measures or dimensions, as well as trees of
 Strings for dimensions like Database > Server or the Type.
 
-
+\newpage
 \begin{center}
 \includegraphics{Pictures/Parts/Strings.png}
 \end{center}  
@@ -123,9 +124,7 @@ can do its work easily.
 
 \subsubsection*{JSON-Writter}
 The JSON-Writter is the last visitor. According to the data stored in the visited ChartHost he creates a .json file
-which contains all information needed by D3 to display the charts. Therefor he is supported by the JSON-Library
- (\ref{jsonL}).
-
+which contains all information needed by D3 to display the charts. 
 
 \begin{center}
 \includegraphics{Pictures/Parts/Petra.png}
@@ -221,7 +220,7 @@ The VerifyTool checks the DataEntry for its correctness. % - if it has a mistake
 If mistakes are found this line will be deleted and a internal exception registrated. 
 
 \subsubsection*{LocationTool}
-The LocationTool uses GeoIP-Libraries \ref{geo} to determine the city and country of the request out of the ip.
+The LocationTool uses GeoIP-Libraries (\ref{geo}) to determine the city and country of the request out of the ip.
 
 \subsubsection*{LoadingTask}
 A LoadingTask is another possible task for the thread pool.
@@ -231,6 +230,7 @@ It takes finished DataEntries from the buffer and sends them to the data access 
 
 
 %=||======================================================================>
+\newpage 
 \subsection{Data access tier}
 
 \begin{center}
@@ -256,7 +256,7 @@ and only by this, class. So it represents the interface out of the application t
 Any library used for the connection and communication with the Oracle server, 
 where the Warehouse is stored. It is only used by the OracleWHAdapter.
 
-
+ 
 
 \subsubsection*{WareHouseConfiger}
 
