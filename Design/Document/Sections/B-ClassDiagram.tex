@@ -2,6 +2,33 @@
 
 \subsection{Class diagram}
 
+\subsection{webpage} % don't know if this should be here, move as desired, also correct if it is not sufficient
+
+\subsubsection*{WebpageControllers}
+All valid HTTP requests are mapped to a method from WebpageControllers.
+WebpageControllers uses other helper classes to handle requests itself 
+or makes calls to the facade of the application tier. 
+The last step done by WebpageControllers is to create a valid HTTP response.
+
+\subsubsection*{HTML views}
+the HTML views contains the main template for, and all other HTML content of the webpage. 
+They do not have to be static, but can also dynamically integrate some content, e.g. localized strings.
+
+\subsubsection*{static files}
+static files contains all files of the webpage, which are not changed in runtime. 
+This includes, but is not limited to images of the webpage, javascript files and stylesheets.
+
+\subsubsection*{Localize}
+Localize is a static helper class handling all the language related things. 
+It has a method to get localized Strings using the language files, 
+to change the language of the webpage und methods determining all available languages, 
+so they can be integrated in the webpage once they are present.
+
+\subsubsection*{ChartIndex}
+ChartIndex implements the singleton pattern. On instanciation it scans which chart types are available 
+and saves them internally. This is used by the index page to dynamically display all available chart types,
+even if one is deleted or added.
+
 \subsection{Fassade + Configurations}
 %picture
 \subsubsection{Fassade}
