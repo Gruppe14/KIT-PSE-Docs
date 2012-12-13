@@ -6,22 +6,24 @@
 
 \subsubsection*{WebpageControllers}
 All valid HTTP requests are mapped to a method from WebpageControllers.
-WebpageControllers uses other helper classes to handle requests itself 
+WebpageControllers either uses other helper classes to handle requests itself  
 or makes calls to the facade of the application tier. 
-The last step done by WebpageControllers is to create a valid HTTP response.
+The last step done by WebpageControllers is to create a valid HTTP response. %ist http response das teil vom handshake
+                                                                              %oder ist das richtig?
+                                                                              
 
 \subsubsection*{HTML views}
-the HTML views contains the main template for, and all other HTML content of the webpage. 
+The HTML views contain the main template for, and all other HTML content of the webpage. %unklar
 They do not have to be static, but can also dynamically integrate some content, e.g. localized strings.
 
 \subsubsection*{static files}
-static files contains all files of the webpage, which are not changed in runtime. 
-This includes, but is not limited to images of the webpage, javascript files and stylesheets.
+Static files contains all files of the webpage, which are not changed during runtime. 
+This includes, but is not limited, to images of the webpage, javascript files and stylesheets.
 
 \subsubsection*{Localize}
 Localize is a static helper class handling all the language related things. 
 It has a method to get localized Strings using the language files, 
-to change the language of the webpage und methods determining all available languages, 
+to change the language of the webpage und methods determining all available languages, %dieser Satz, passt der Syntaktisch? Sollte es methods sein?
 so they can be integrated in the webpage once they are present.
 
 \subsubsection*{ChartIndex}
