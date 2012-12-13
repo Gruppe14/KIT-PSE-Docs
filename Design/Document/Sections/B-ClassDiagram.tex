@@ -130,15 +130,21 @@ This Config sends the order to OracleWHAdapter to build the Data Warehouse.
 
 \subsubsection*{ChartDataRequester}
 
-A ChartDataRequester is a request which get its information from ChartVistor
-and sends the data in request form to OracleWHAdapter. %I don't understand this
+A ChartDataRequester used to send the request to OracleWHAdapter.
+There are three types of request:
+
+1) vistOneDim : if the user requestet a Chart with one dimension.
+
+2) vistTwoDim : if the user requestet a Chart with two dimensions.
+
+3) vistThreeDim : the user requestet a Chart with three dimensions.
+
 The response of this class is to build data for the requester.
 
 \subsubsection*{OracleWHAdapter}
 
-After accessing the Database and geting the DataEntry from LoadingTask then will build %who?
-the data warehouse in OLAP - Cube form. With help from Oracle %Sounds like a group of superheroes saving the world!
-and Java library, which make it easy to access the database and build the warehouse. %I though the warehouse was built before
+After accessing the Database and geting the DataEntry from LoadingTask then OracleWHAdapter will build
+the data warehouse in OLAP - Cube form. 
  
 \subsubsection*{JavaToOracle}
 
