@@ -173,13 +173,13 @@ This ChartParam stand just representative for possible chart parameter and may b
 
 \subsubsection*{ParserMediator}
 ParserMediator is the 'main'-Class of the Parser. It creates and administrates a threadpool,
- which contains several tasks, 
-%contains used twice very shortly (I was momentarily confused).Also, the sentence is huge. I see no immediate replacement
-contains the entryBuffer for finished DataEntries, the stringBuffer for strings,
-which were extracted from the log file and saves which log file and configuration file is used.
+ which contains several tasks.
+The ParserMediator also contains the entryBuffer for finished DataEntries, the stringBuffer for strings,
+which were extracted from the log file and it saves which log file and configuration file is used.
+%shorter sentences should clarify some things
 
 \subsubsection*{LogFile}
-The gateway between parser and log file - it contains the path of the logfile and an integer 
+The LogFile class is the gateway between parser and a log file - it contains the path of the logfile and an integer 
 which saves how many lines have been read from this file. It can read single lines from the
 logfile and return them to the Parser.
 
@@ -188,8 +188,8 @@ logfile and return them to the Parser.
 \end{center}  
 
 \subsubsection*{DataEntry}
-The DataEntry stores the data which will be written into the warehouse. The given attributes stand representative
-for possible for possible data. The implementation of them may be way more dynamically.
+The DataEntry stores the data which will be written into the warehouse. The given attributes are representative
+for possible data. The implementation of them may be way more dynamically.
 
 % It contains 
 % -hour, day, month, year of the request,
@@ -221,10 +221,10 @@ The SplittingTool splits the dataLine from its parsingTask and enters the splitt
 
 \subsubsection*{VerifyTool}
 The VerifyTool checks the DataEntry for its correctness. % - if it has a mistake (e.g. Month = 13 or Elapsed Time = -1),
-If mistakes are found this line will be deleted and a internal exception registrated. 
+If mistakes are found this line will be deleted and an internal exception will be thrown. 
 
 \subsubsection*{LocationTool}
-The LocationTool uses GeoIP-Libraries (\ref{geo}) to determine the city and country of the request out of the ip.
+The LocationTool utilizes GeoIP-Libraries (\ref{geo}) to determine the city and country of the request using the IP.
 
 \subsubsection*{LoadingTask}
 A LoadingTask is another possible task for the thread pool.
@@ -244,14 +244,14 @@ It takes finished DataEntries from the buffer and sends them to the data access 
 \subsubsection*{ChartDataRequester}
 
 The ChartDataRequester is the first of the three visitors of a ChartHost. Its task is to 
-create the queries to gain the data needed for the charts. It takes the information about what he
+create the queries to gain the data needed for the charts. It takes the information about what it
 has to request from the hosted ChartHost.
 
 
 \subsubsection*{OracleWHAdapter}
 
 Every query, whether loading, extracting or anything else, run against the Oracle server is made by this,
-and only by this, class. So it represents the interface out of the application to the data.
+and exclusively by this, class. So it represents the interface to the data.
 
 
 
