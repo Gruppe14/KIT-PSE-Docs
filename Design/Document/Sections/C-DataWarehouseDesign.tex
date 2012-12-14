@@ -1,7 +1,7 @@
 \section{Data warehouse design}
 
 The data warehouse stores all parsed information and creates OLAP-Cubes to achieve fast responses 
-for even the most complex queries.
+for even the most complex of queries.
 
 \subsection{Schema}
 The data may be stored in the following schema. If optional functions are implemented and
@@ -14,17 +14,17 @@ the warehouses are configured dynamically, the schema may diverge from this.
 
 
 \subsection{Dimension descriptions}
- The only database undependent dimensions are time and location. The time dimension is defined by us. The location 
- dimension is given by the GeoIP-lib (\ref{geo}).
+ The only database independent dimensions are time and location. The time dimension is defined by us. The location 
+ dimension is given by the GeoIP-lib. (\ref{geo}).
  
  BILD TIME DIMENSION
 
-Other dimension like database > server, type and mabye others, 
-depend on the database on which is operated, e.g. SkyServer.
+Other dimensions like database > server, type and maybe others, 
+depend on the database operated on, e.g. SkyServer.
 
 
 \subsection{Measure descriptions}
-Measures are for example bussy time (CPU time), elapse time and rows. The aggregatios stored in the
+Measures are for example busy time (CPU time), elapse time and rows. The aggregations stored in the
 OLAP-Cubes for this measures are:
 \begin{itemize}
  \item sum of their value,

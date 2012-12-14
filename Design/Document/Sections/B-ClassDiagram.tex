@@ -28,16 +28,19 @@ This includes, but is not limited, to images of the web page, javascript files a
 
 \subsubsection*{Localize}
 Localize is a static helper class handling all the language related things. 
-It has a method to get localized Strings using the language files, 
-to change the language of the web page und methods determining all available languages, 
-%dieser Satz, passt der syntaktisch? Sollte es methods sein?
-so they can be integrated in the web page once they are present.
+It has a method to get localized Strings using the language files to change the language of the web page.
+It also has methods determining all available languages, allowing integration in the webpage if they are present.
+%It has a method to get localized Strings using the language files, 
+%to change the language of the web page und methods determining all available languages, 
+%%dieser Satz, passt der syntaktisch? Sollte es methods sein?
+%so they can be integrated in the web page once they are present.
 
 \subsubsection*{ChartIndex}
 ChartIndex implements the singleton pattern. On instantiation it scans which chart types are available 
 and saves them internally. This is used by the index page to dynamically display all available chart types,
 even if one is deleted or added.
 %Do we have to specify how one might add them? I mean, not here, but somewhere.
+%I added that at the data section, because I am awesome.
 
 
 %=||======================================================================>
@@ -56,7 +59,7 @@ On the next pages the class diagram of the application and data access tier are 
 
 %=||======================================================================>
 \subsection{Facade + Configurations}
-The facade of the application tier and configuration files in this design show a
+The facade of the application tier and configuration files in this design fulfill an
 optional feature. According to the database on which is operated - if there are more
 than SkyServer - just a configuration file for this specific one, has to be created and
 given to the program. This may give the application the power to manage all functions dynamically
@@ -68,7 +71,7 @@ according to the database. Facade and ConfigDB handle this configurations.
 \end{center}   
 
 \subsubsection*{Facade}
-The Facade is, as you might have suggested, the facade of the application tier. 
+The Facade is, as you might have suspected, the facade of the application tier. 
 This means the only way to communicate with this tier is via this class.
 One of its tasks is to get the right ConfigDB for any call. With this it forwards
 them to the corresponding mediators or workers. So new log files are passed to
