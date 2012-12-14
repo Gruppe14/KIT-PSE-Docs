@@ -223,7 +223,7 @@ SplittingTool, VerifyTool and LocationTool to create a DataEntry.
 The SplittingTool splits the dataLine from its parsingTask and enters the splitted raw parts into the DataEntry.
 
 \subsubsection*{VerifyTool}
-The VerifyTool checks the DataEntry for its correctness. % - if it has a mistake (e.g. Month = 13 or Elapsed Time = -1),
+The VerifyTool checks the DataEntry for correctness. % - if it has a mistake (e.g. Month = 13 or Elapsed Time = -1),
 If mistakes are found this line will be deleted and an internal exception will be thrown. 
 
 \subsubsection*{LocationTool}
@@ -267,6 +267,6 @@ where the Warehouse is stored. It is only used by the OracleWHAdapter.
 
 \subsubsection*{WareHouseConfiger}
 
-This class will only be needed if a very optional function will be implemented. It's task is to create
-a warehouse for one certain new database just with the information of its configuration file information.
+This class will only be needed if an optional function is to be implemented. Its task is to create
+a warehouse for one certain new database with just the information obtained from its configuration file.
 
