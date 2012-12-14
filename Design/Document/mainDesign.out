@@ -1,0 +1,31 @@
+\BOOKMARK [1][-]{section.1}{Architecture}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Web browser tier}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Web server tier}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{Application tier}{section.1}% 4
+\BOOKMARK [2][-]{subsection.1.4}{Data access tier}{section.1}% 5
+\BOOKMARK [2][-]{subsection.1.5}{Data tier}{section.1}% 6
+\BOOKMARK [1][-]{section.2}{Web page design}{}% 7
+\BOOKMARK [1][-]{section.3}{Classes}{}% 8
+\BOOKMARK [2][-]{subsection.3.1}{Server tier class diagram}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.2}{Application \046 Data access tier class diagram}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.3}{Facade + Configurations}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.4}{Chart request operator}{section.3}% 12
+\BOOKMARK [2][-]{subsection.3.5}{Parser}{section.3}% 13
+\BOOKMARK [2][-]{subsection.3.6}{Data access tier}{section.3}% 14
+\BOOKMARK [1][-]{section.4}{Data warehouse design}{}% 15
+\BOOKMARK [2][-]{subsection.4.1}{Overview}{section.4}% 16
+\BOOKMARK [2][-]{subsection.4.2}{Dimension descriptions}{section.4}% 17
+\BOOKMARK [2][-]{subsection.4.3}{Measure descriptions}{section.4}% 18
+\BOOKMARK [2][-]{subsection.4.4}{Type description}{section.4}% 19
+\BOOKMARK [1][-]{section.5}{Sequences}{}% 20
+\BOOKMARK [1][-]{section.6}{Data}{}% 21
+\BOOKMARK [2][-]{subsection.6.1}{Log files}{section.6}% 22
+\BOOKMARK [2][-]{subsection.6.2}{Configuration files}{section.6}% 23
+\BOOKMARK [2][-]{subsection.6.3}{Visualization files}{section.6}% 24
+\BOOKMARK [2][-]{subsection.6.4}{Language files}{section.6}% 25
+\BOOKMARK [2][-]{subsection.6.5}{Misc}{section.6}% 26
+\BOOKMARK [1][-]{section.7}{Libraries}{}% 27
+\BOOKMARK [2][-]{subsection.7.1}{Java play}{section.7}% 28
+\BOOKMARK [2][-]{subsection.7.2}{D3.js}{section.7}% 29
+\BOOKMARK [2][-]{subsection.7.3}{GeoIP}{section.7}% 30
+\BOOKMARK [2][-]{subsection.7.4}{Oracle Data Warehouse \046 OLAP software}{section.7}% 31

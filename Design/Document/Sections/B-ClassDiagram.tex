@@ -153,7 +153,7 @@ The ThreeDimChart stores ChartParam for three axes.
 \includegraphics[width=1\linewidth]{Pictures/Parts/ChartPara.png}
 \end{center}  
 
-\subsubsection*{ChartParam} 
+\subsubsection*{ChartParam}  
 ChartParam represent on the one hand the type of a dimension or measure, like time or number of rows, and
 on the other hand the interval or the aggregation. e.g. sum or maximum, requested or filtered. 
 With the boolean set true may be shown, that no filtering is required on this parameter, or other implemented
@@ -163,6 +163,7 @@ This ChartParam stand just representative for possible chart parameter and may b
 
 
 %=||======================================================================>
+\newpage
 \subsection{Parser}
 
 \begin{center}
@@ -203,9 +204,11 @@ for possible for possible data. The implementation of them may be way more dynam
 % \subsubsection*{Java Files}
 % The Parser uses java.io.File and a ThreadPool from java.util.
 
+
+\newpage
 \begin{center}
 \includegraphics[width=1\linewidth]{Pictures/Parts/TaskTool.png}
-\end{center}  
+\end{center}
 
 \subsubsection*{ParsingTask}
 ParsingTasks are tasks created by the ParserMediator. They receive a line from the log file and use  
