@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  14 DEC 2012 17:44
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  14 DEC 2012 01:26
 entering extended mode
 **mainDesign.tex
 
@@ -1275,14 +1275,14 @@ File: uzavm.fd 2006/05/30 Fontinst v1.929 font definitions for U/zavm.
 LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <9> not available
 (Font)              Font shape `T1/fav/b/n' tried instead on input line 11.
 
-<Pictures/KIT-Logo.png, id=139, 501.875pt x 250.9375pt>
+<Pictures/KIT-Logo.png, id=131, 501.875pt x 250.9375pt>
 File: Pictures/KIT-Logo.png Graphic file (type png)
 
 <use Pictures/KIT-Logo.png>
 Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 24.
 (pdftex.def)             Requested size: 128.03653pt x 64.01692pt.
 
-<Pictures/WHAT-LogoText2.png, id=141, 2293.56876pt x 1049.9225pt>
+<Pictures/WHAT-LogoText2.png, id=133, 2293.56876pt x 1049.9225pt>
 File: Pictures/WHAT-LogoText2.png Graphic file (type png)
 
 <use Pictures/WHAT-LogoText2.png>
@@ -1321,7 +1321,7 @@ Package Fancyhdr Warning: \headheight is too small (17.0pt):
 ]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Design
 \Document\Sections/A-Architecture.tex"
-<Pictures/ArchiColor.png, id=190, 287.6346pt x 491.6769pt>
+<Pictures/ArchiColor.png, id=180, 287.6346pt x 491.6769pt>
 File: Pictures/ArchiColor.png Graphic file (type png)
 
 <use Pictures/ArchiColor.png>
@@ -1333,7 +1333,7 @@ LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <12> not available
 Underfull \vbox (badness 7308) has occurred while \output is active []
 
 
-<Pictures/WHAT-Logo.png, id=191, 2293.56876pt x 850.17625pt>
+<Pictures/WHAT-Logo.png, id=181, 2293.56876pt x 850.17625pt>
 File: Pictures/WHAT-Logo.png Graphic file (type png)
 
 <use Pictures/WHAT-Logo.png>
@@ -1351,7 +1351,7 @@ Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 117.
  [4]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Design
 \Document\Sections/W-WebPage.tex"
-<Pictures/WHATHome.png, id=201, 809.0225pt x 766.865pt>
+<Pictures/WHATHome.png, id=191, 809.0225pt x 766.865pt>
 File: Pictures/WHATHome.png Graphic file (type png)
 
 <use Pictures/WHATHome.png>
@@ -1369,7 +1369,7 @@ Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 119.
 /Document/Pictures/WHATHome.png>]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Design
 \Document\Sections/B-ClassDiagram.tex"
-<Pictures/ServerTierDia.png, id=207, 564.1878pt x 257.0403pt>
+<Pictures/ServerTierDia.png, id=197, 564.1878pt x 257.0403pt>
 File: Pictures/ServerTierDia.png Graphic file (type png)
 
 <use Pictures/ServerTierDia.png>
@@ -1377,7 +1377,7 @@ Package pdftex.def Info: Pictures/ServerTierDia.png used on input line 9.
 (pdftex.def)             Requested size: 483.69687pt x 220.37967pt.
 File: Pictures/KIT-Logo.png Graphic file (type png)
  <use Pictures/KIT-Logo.png>
-Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 37.
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 35.
 (pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
  [6
 
@@ -1386,14 +1386,14 @@ Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 37.
 /Document/Pictures/ServerTierDia.png>]
 File: Pictures/WHAT-Logo.png Graphic file (type png)
  <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 49.
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 46.
 (pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
  [7]
-<Pictures/AppTierDia1.png, id=217, 575.5101pt x 843.3909pt>
+<Pictures/AppTierDia1.png, id=207, 575.5101pt x 843.3909pt>
 File: Pictures/AppTierDia1.png Graphic file (type png)
 
 <use Pictures/AppTierDia1.png>
-Package pdftex.def Info: Pictures/AppTierDia1.png used on input line 51.
+Package pdftex.def Info: Pictures/AppTierDia1.png used on input line 48.
 (pdftex.def)             Requested size: 435.32422pt x 637.9595pt.
 
 Overfull \vbox (14.95923pt too high) has occurred while \output is active []
@@ -1401,15 +1401,15 @@ Overfull \vbox (14.95923pt too high) has occurred while \output is active []
 File: Pictures/KIT-Logo.png Graphic file (type png)
 
 <use Pictures/KIT-Logo.png>
-Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 53.
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 50.
 (pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
  [8 <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/Des
 ign/Document/Pictures/AppTierDia1.png>]
-<Pictures/AppTierDia2.png, id=223, 576.9555pt x 795.9336pt>
+<Pictures/AppTierDia2.png, id=213, 576.9555pt x 795.9336pt>
 File: Pictures/AppTierDia2.png Graphic file (type png)
 
 <use Pictures/AppTierDia2.png>
-Package pdftex.def Info: Pictures/AppTierDia2.png used on input line 56.
+Package pdftex.def Info: Pictures/AppTierDia2.png used on input line 53.
 (pdftex.def)             Requested size: 435.32422pt x 600.55579pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1417,105 +1417,105 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: Pictures/WHAT-Logo.png Graphic file (type png)
 
 <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 67.
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 64.
 (pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
  [9 <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/Des
 ign/Document/Pictures/AppTierDia2.png>]
-<Pictures/Parts/FacadeConfi.png, id=228, 462.528pt x 97.3236pt>
+<Pictures/Parts/FacadeConfi.png, id=218, 462.528pt x 97.3236pt>
 File: Pictures/Parts/FacadeConfi.png Graphic file (type png)
 
 <use Pictures/Parts/FacadeConfi.png>
-Package pdftex.def Info: Pictures/Parts/FacadeConfi.png used on input line 70.
+Package pdftex.def Info: Pictures/Parts/FacadeConfi.png used on input line 67.
 (pdftex.def)             Requested size: 462.52686pt x 97.32333pt.
 File: Pictures/KIT-Logo.png Graphic file (type png)
  <use Pictures/KIT-Logo.png>
-Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 93.
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 90.
 (pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
  [10 <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/De
 sign/Document/Pictures/Parts/FacadeConfi.png>]
-<Pictures/Parts/Strings.png, id=233, 208.1376pt x 107.2005pt>
+<Pictures/Parts/Strings.png, id=223, 208.1376pt x 107.2005pt>
 File: Pictures/Parts/Strings.png Graphic file (type png)
 
 <use Pictures/Parts/Strings.png>
-Package pdftex.def Info: Pictures/Parts/Strings.png used on input line 95.
+Package pdftex.def Info: Pictures/Parts/Strings.png used on input line 92.
 (pdftex.def)             Requested size: 208.13708pt x 107.20023pt.
 
-<Pictures/Parts/MediVisi.png, id=234, 570.2103pt x 151.5261pt>
+<Pictures/Parts/MediVisi.png, id=224, 570.2103pt x 151.5261pt>
 File: Pictures/Parts/MediVisi.png Graphic file (type png)
 
 <use Pictures/Parts/MediVisi.png>
-Package pdftex.def Info: Pictures/Parts/MediVisi.png used on input line 110.
+Package pdftex.def Info: Pictures/Parts/MediVisi.png used on input line 107.
 (pdftex.def)             Requested size: 483.69687pt x 128.53882pt.
 File: Pictures/WHAT-Logo.png Graphic file (type png)
  <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 129.
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 125.
 (pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
  [11 <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/De
 sign/Document/Pictures/Parts/Strings.png> <F:/Eigene Dateien/Jo/Studium/Informa
 tik/PSE/GitRepository/KIT-PSE-Docs/Design/Document/Pictures/Parts/MediVisi.png>
 ]
-<Pictures/Parts/Petra.png, id=240, 316.5426pt x 167.4255pt>
+<Pictures/Parts/Petra.png, id=230, 316.5426pt x 167.4255pt>
 File: Pictures/Parts/Petra.png Graphic file (type png)
 
 <use Pictures/Parts/Petra.png>
-Package pdftex.def Info: Pictures/Parts/Petra.png used on input line 134.
+Package pdftex.def Info: Pictures/Parts/Petra.png used on input line 130.
 (pdftex.def)             Requested size: 316.54182pt x 167.42508pt.
 File: Pictures/KIT-Logo.png Graphic file (type png)
  <use Pictures/KIT-Logo.png>
-Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 156.
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 152.
 (pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
  [12 <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/De
 sign/Document/Pictures/Parts/Petra.png>]
-<Pictures/Parts/ChartPara.png, id=246, 601.7682pt x 172.0026pt>
+<Pictures/Parts/ChartPara.png, id=236, 601.7682pt x 172.0026pt>
 File: Pictures/Parts/ChartPara.png Graphic file (type png)
 
 <use Pictures/Parts/ChartPara.png>
-Package pdftex.def Info: Pictures/Parts/ChartPara.png used on input line 157.
+Package pdftex.def Info: Pictures/Parts/ChartPara.png used on input line 153.
 (pdftex.def)             Requested size: 483.69687pt x 138.25577pt.
 File: Pictures/WHAT-Logo.png Graphic file (type png)
  <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 170.
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 166.
 (pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
  [13 <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/De
 sign/Document/Pictures/Parts/ChartPara.png>]
-<Pictures/Parts/ParsMedi.png, id=252, 354.123pt x 87.6876pt>
+<Pictures/Parts/ParsMedi.png, id=242, 354.123pt x 87.6876pt>
 File: Pictures/Parts/ParsMedi.png Graphic file (type png)
 
 <use Pictures/Parts/ParsMedi.png>
-Package pdftex.def Info: Pictures/Parts/ParsMedi.png used on input line 174.
+Package pdftex.def Info: Pictures/Parts/ParsMedi.png used on input line 170.
 (pdftex.def)             Requested size: 354.12212pt x 87.68738pt.
 
-<Pictures/Parts/DataEntry.png, id=253, 83.8332pt x 155.3805pt>
+<Pictures/Parts/DataEntry.png, id=243, 83.8332pt x 155.3805pt>
 File: Pictures/Parts/DataEntry.png Graphic file (type png)
 
 <use Pictures/Parts/DataEntry.png>
-Package pdftex.def Info: Pictures/Parts/DataEntry.png used on input line 190.
+Package pdftex.def Info: Pictures/Parts/DataEntry.png used on input line 186.
 (pdftex.def)             Requested size: 83.83298pt x 155.3801pt.
 File: Pictures/KIT-Logo.png Graphic file (type png)
  <use Pictures/KIT-Logo.png>
-Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 212.
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 208.
 (pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
  [14 <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/De
 sign/Document/Pictures/Parts/ParsMedi.png> <F:/Eigene Dateien/Jo/Studium/Inform
 atik/PSE/GitRepository/KIT-PSE-Docs/Design/Document/Pictures/Parts/DataEntry.pn
 g>]
-<Pictures/Parts/TaskTool.png, id=259, 451.9284pt x 193.6836pt>
+<Pictures/Parts/TaskTool.png, id=249, 451.9284pt x 193.6836pt>
 File: Pictures/Parts/TaskTool.png Graphic file (type png)
 
 <use Pictures/Parts/TaskTool.png>
-Package pdftex.def Info: Pictures/Parts/TaskTool.png used on input line 214.
+Package pdftex.def Info: Pictures/Parts/TaskTool.png used on input line 210.
 (pdftex.def)             Requested size: 483.69687pt x 207.30736pt.
 File: Pictures/WHAT-Logo.png Graphic file (type png)
  <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 240.
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 236.
 (pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
  [15 <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/De
 sign/Document/Pictures/Parts/TaskTool.png>]
-<Pictures/Parts/Data.png, id=266, 363.759pt x 163.5711pt>
+<Pictures/Parts/Data.png, id=256, 363.759pt x 163.5711pt>
 File: Pictures/Parts/Data.png Graphic file (type png)
 
 <use Pictures/Parts/Data.png>
-Package pdftex.def Info: Pictures/Parts/Data.png used on input line 244.
+Package pdftex.def Info: Pictures/Parts/Data.png used on input line 240.
 (pdftex.def)             Requested size: 363.75812pt x 163.5707pt.
 )
 File: Pictures/KIT-Logo.png Graphic file (type png)
@@ -1526,36 +1526,22 @@ Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 121.
 sign/Document/Pictures/Parts/Data.png>]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Design
 \Document\Sections/C-DataWarehouseDesign.tex"
-<Pictures/WHSchema2.png, id=272, 351.714pt x 271.9761pt>
+<Pictures/WHSchema2.png, id=262, 351.714pt x 271.9761pt>
 File: Pictures/WHSchema2.png Graphic file (type png)
 
 <use Pictures/WHSchema2.png>
 Package pdftex.def Info: Pictures/WHSchema2.png used on input line 12.
 (pdftex.def)             Requested size: 483.69687pt x 374.06165pt.
-
-Overfull \hbox (5.4544pt too wide) in paragraph at lines 22--24
-[][]\T1/fav/m/n/10.95 Other di-men-sions like database > server, type and maybe
- oth-ers, de-pend on the database
- []
-
+)
 File: Pictures/WHAT-Logo.png Graphic file (type png)
-<use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 24.
+ <use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 123.
 (pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
  [17
 
 
  <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/Design
 /Document/Pictures/WHSchema2.png>]
-LaTeX Font Info:    Try loading font information for TS1+fav on input line 30.
-LaTeX Font Info:    No file TS1fav.fd. on input line 30.
-
-
-LaTeX Font Warning: Font shape `TS1/fav/m/n' undefined
-(Font)              using `TS1/cmr/m/n' instead
-(Font)              for symbol `textbullet' on input line 30.
-
-)
 File: Pictures/KIT-Logo.png Graphic file (type png)
  <use Pictures/KIT-Logo.png>
 Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 123.
@@ -1563,81 +1549,45 @@ Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 123.
  [18]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Design
 \Document\Sections/D-Sequences.tex"
-<Pictures/Seq/SeqHTTPRequest.png, id=283, 330.7557pt x 245.718pt>
-File: Pictures/Seq/SeqHTTPRequest.png Graphic file (type png)
+<Pictures/Seq/SeqParser.png, id=271, 459.3963pt x 644.6484pt>
+File: Pictures/Seq/SeqParser.png Graphic file (type png)
 
-<use Pictures/Seq/SeqHTTPRequest.png>
-Package pdftex.def Info: Pictures/Seq/SeqHTTPRequest.png used on input line 10.
-
-(pdftex.def)             Requested size: 330.75488pt x 245.71739pt.
+<use Pictures/Seq/SeqParser.png>
+Package pdftex.def Info: Pictures/Seq/SeqParser.png used on input line 8.
+(pdftex.def)             Requested size: 386.95897pt x 543.0158pt.
+)
 File: Pictures/WHAT-Logo.png Graphic file (type png)
  <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 15.
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 125.
 (pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
  [19
 
 
  <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/Design
-/Document/Pictures/Seq/SeqHTTPRequest.png>]
-LaTeX Font Info:    Try loading font information for T1+fvm on input line 18.
-
-(C:\Users\Jonathan\AppData\Roaming\MiKTeX\2.9\tex\latex\bera\t1fvm.fd
-File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
-)
-<Pictures/Seq/SeqFacade.png, id=289, 359.4228pt x 353.4003pt>
-File: Pictures/Seq/SeqFacade.png Graphic file (type png)
-
-<use Pictures/Seq/SeqFacade.png>
-Package pdftex.def Info: Pictures/Seq/SeqFacade.png used on input line 21.
-(pdftex.def)             Requested size: 359.42192pt x 353.39941pt.
-File: Pictures/KIT-Logo.png Graphic file (type png)
- <use Pictures/KIT-Logo.png>
-Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 26.
-(pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
- [20 <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/De
-sign/Document/Pictures/Seq/SeqFacade.png>]
-<Pictures/Seq/SeqChart.png, id=295, 519.3804pt x 370.5042pt>
-File: Pictures/Seq/SeqChart.png Graphic file (type png)
-
-<use Pictures/Seq/SeqChart.png>
-Package pdftex.def Info: Pictures/Seq/SeqChart.png used on input line 31.
-(pdftex.def)             Requested size: 483.69687pt x 345.05153pt.
-File: Pictures/WHAT-Logo.png Graphic file (type png)
- <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 34.
-(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
- [21 <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/De
-sign/Document/Pictures/Seq/SeqChart.png>]
-<Pictures/Seq/SeqParser.png, id=300, 449.0376pt x 576.9555pt>
-File: Pictures/Seq/SeqParser.png Graphic file (type png)
-
-<use Pictures/Seq/SeqParser.png>
-Package pdftex.def Info: Pictures/Seq/SeqParser.png used on input line 43.
-(pdftex.def)             Requested size: 338.58632pt x 435.03972pt.
-)
-File: Pictures/KIT-Logo.png Graphic file (type png)
- <use Pictures/KIT-Logo.png>
-Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 125.
-(pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
- [22 <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/De
-sign/Document/Pictures/Seq/SeqParser.png>]
+/Document/Pictures/Seq/SeqParser.png>]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Design
 \Document\Sections/E-OtherData.tex")
-File: Pictures/WHAT-Logo.png Graphic file (type png)
- <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 127.
-(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
- [23
+File: Pictures/KIT-Logo.png Graphic file (type png)
+ <use Pictures/KIT-Logo.png>
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 127.
+(pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
+ [20
 
 
 ]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\Design
-\Document\Sections/F-Libraries.tex")
-File: Pictures/KIT-Logo.png Graphic file (type png)
- <use Pictures/KIT-Logo.png>
-Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 129.
-(pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
- [24
+\Document\Sections/F-Libraries.tex"
+LaTeX Font Info:    Try loading font information for T1+fvm on input line 9.
+
+(C:\Users\Jonathan\AppData\Roaming\MiKTeX\2.9\tex\latex\bera\t1fvm.fd
+File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
+))
+File: Pictures/WHAT-Logo.png Graphic file (type png)
+
+<use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 129.
+(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
+ [21
 
 
 ]
@@ -1665,29 +1615,24 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 133.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 133.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 133.
 Package rerunfilecheck Info: File `mainDesign.out' has not changed.
-(rerunfilecheck)             Checksum: 0627CF2DCA9E99F3438BA4E821549269;2130.
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
+(rerunfilecheck)             Checksum: BA67933DD5DD79F3904F836184951FC9;2008.
  ) 
 Here is how much of TeX's memory you used:
- 10265 strings out of 493921
- 158996 string characters out of 3140856
+ 10228 strings out of 493921
+ 158304 string characters out of 3140856
  265306 words of memory out of 3000000
- 13221 multiletter control sequences out of 15000+200000
- 36519 words of font info for 60 fonts, out of 3000000 for 9000
+ 13195 multiletter control sequences out of 15000+200000
+ 36178 words of font info for 59 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  45i,14n,47p,775b,393s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/Programmieren/Latex/MiKTeX/fonts/enc/dvips/fontname/8r.enc}
- <C:\Users\Jonathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
-\tcrm1095.pk><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/a
-rev/ArevSans-Bold.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1
-/public/arev/ArevSans-Roman.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/f
-onts/type1/bera/fvmr8a.pfb>
-Output written on mainDesign.pdf (24 pages, 2058945 bytes).
+<C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/arev/ArevSans-
+Bold.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/arev/
+ArevSans-Roman.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1/be
+ra/fvmr8a.pfb>
+Output written on mainDesign.pdf (21 pages, 1895364 bytes).
 PDF statistics:
- 348 PDF objects out of 1000 (max. 8388607)
- 59 named destinations out of 1000 (max. 500000)
- 383 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 316 PDF objects out of 1000 (max. 8388607)
+ 54 named destinations out of 1000 (max. 500000)
+ 352 words of extra memory for PDF output out of 10000 (max. 10000000)
 

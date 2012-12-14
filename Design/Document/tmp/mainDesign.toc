@@ -15,18 +15,20 @@
 \contentsline {section}{\numberline {4}Data warehouse design}{17}{section.4}
 \contentsline {subsection}{\numberline {4.1}Schema}{17}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}Dimension descriptions}{17}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Measure descriptions}{17}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Type description}{18}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.3}Measure descriptions}{18}{subsection.4.3}
 \contentsline {section}{\numberline {5}Sequences}{19}{section.5}
-\contentsline {subsection}{\numberline {5.1}Parsing}{19}{subsection.5.1}
-\contentsline {section}{\numberline {6}Data}{20}{section.6}
-\contentsline {subsection}{\numberline {6.1}Log files}{20}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Configuration files}{20}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}Visualization files}{20}{subsection.6.3}
-\contentsline {subsection}{\numberline {6.4}Language files}{20}{subsection.6.4}
-\contentsline {subsection}{\numberline {6.5}Misc}{20}{subsection.6.5}
-\contentsline {section}{\numberline {7}Libraries}{21}{section.7}
-\contentsline {subsection}{\numberline {7.1}Java play}{21}{subsection.7.1}
-\contentsline {subsection}{\numberline {7.2}D3.js}{21}{subsection.7.2}
-\contentsline {subsection}{\numberline {7.3}GeoIP}{21}{subsection.7.3}
-\contentsline {subsection}{\numberline {7.4}Oracle Data Warehouse \& OLAP software}{21}{subsection.7.4}
+\contentsline {subsection}{\numberline {5.1}HTTP request}{19}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Facade call}{20}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Chart request}{21}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Parsing}{22}{subsection.5.4}
+\contentsline {section}{\numberline {6}Data}{23}{section.6}
+\contentsline {subsection}{\numberline {6.1}Log files}{23}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Configuration files}{23}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Visualization files}{23}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}Language files}{23}{subsection.6.4}
+\contentsline {subsection}{\numberline {6.5}Misc}{23}{subsection.6.5}
+\contentsline {section}{\numberline {7}Libraries}{24}{section.7}
+\contentsline {subsection}{\numberline {7.1}Java play}{24}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}D3.js}{24}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}GeoIP}{24}{subsection.7.3}
+\contentsline {subsection}{\numberline {7.4}Oracle Data Warehouse \& OLAP software}{24}{subsection.7.4}

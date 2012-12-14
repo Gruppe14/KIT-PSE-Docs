@@ -1,0 +1,32 @@
+\contentsline {section}{\numberline {1}Architecture}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}Web browser tier}{4}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Web server tier}{4}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Application tier}{4}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Data access tier}{4}{subsection.1.4}
+\contentsline {subsection}{\numberline {1.5}Data tier}{4}{subsection.1.5}
+\contentsline {section}{\numberline {2}Web page design}{5}{section.2}
+\contentsline {section}{\numberline {3}Classes}{6}{section.3}
+\contentsline {subsection}{\numberline {3.1}Server tier class diagram}{6}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Application \& Data access tier class diagram}{7}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Facade + Configurations}{10}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Chart request operator}{11}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Parser}{14}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}Data access tier}{16}{subsection.3.6}
+\contentsline {section}{\numberline {4}Data warehouse design}{17}{section.4}
+\contentsline {subsection}{\numberline {4.1}Schema}{17}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Dimension descriptions}{17}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Measure descriptions}{17}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Type description}{18}{subsection.4.4}
+\contentsline {section}{\numberline {5}Sequences}{19}{section.5}
+\contentsline {subsection}{\numberline {5.1}Parsing}{19}{subsection.5.1}
+\contentsline {section}{\numberline {6}Data}{20}{section.6}
+\contentsline {subsection}{\numberline {6.1}Log files}{20}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Configuration files}{20}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Visualization files}{20}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}Language files}{20}{subsection.6.4}
+\contentsline {subsection}{\numberline {6.5}Misc}{20}{subsection.6.5}
+\contentsline {section}{\numberline {7}Libraries}{21}{section.7}
+\contentsline {subsection}{\numberline {7.1}Java play}{21}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}D3.js}{21}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}GeoIP}{21}{subsection.7.3}
+\contentsline {subsection}{\numberline {7.4}Oracle Data Warehouse \& OLAP software}{21}{subsection.7.4}
