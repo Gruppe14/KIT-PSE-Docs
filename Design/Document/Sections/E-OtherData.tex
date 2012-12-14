@@ -2,31 +2,38 @@
 The program along with its libraries gets compiled to an executable .jar file.
 However, it also uses a number of external data.
 
-
 \subsection{Log files}
-Log files are arguably the most important data files our program has to deal with, since it simply needs them to function properly.
+Log files are arguably the most important data files our program has to deal with, since it simply
+needs them to function properly.
 
-They have to be valid .csv files as well as be consistent with the configuration files specified. For more information on configuration files, read on.
+They have to be valid .csv files as well as be consistent with the configuration files specified. 
+For more information on configuration files, read on.
 
 \subsection{Configuration files}
-This fulfills an optional requirement.
+This fulfills optional requirements.
 
-The program may work with more database log files than just with these from the skyserver without 
+The program may work with more database log files than just with these from the SkyServer without 
 any modifications to its source code.
-However, to achieve this functionality configuration files have to be read. A configuration file needs to be written per database.
+However, to achieve this functionality configuration files have to be read. 
+A configuration file needs to be written per database.
 
-The configuration file contains, among others, the database schema, the dimensions and measures used as well as their types.
+The configuration file contains, among others, the database schema, the dimensions and 
+measures used as well as their types.
 
-Additionally, we will provide a sample configuration file for the skyserver, as well as documentation on creating one.
+Additionally, we will provide a sample configuration file for the skyserver, 
+as well as documentation on creating one.
+
 
 \subsection{Visualization files}
 The program dynamically recognizes javascript visualization files during its startup, provided
-they are created with our specifications in mind and are either placed in the appropriate directory structure, or are uploaded through the admin panel.
+they are created with our specifications in mind and are either placed in the appropriate directory structure,
+or are uploaded through the admin panel.
 That said, this allows new chart types, or different visualizations to be created by a user simply by providing
 the javascript file. Javascript files have a .js ending.
 
 \subsection{Language files}
-Our program keeps language files separate to enable a smooth translation and maintenance of the graphical user interface.
+Our program keeps language files separate to enable a smooth translation and
+maintenance of the graphical user interface.
 
 \subsection{Misc}
 Favicons, logos, thumbnails for the chart types are also used.

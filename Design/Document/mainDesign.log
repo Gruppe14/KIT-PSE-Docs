@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  14 DEC 2012 18:23
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  14 DEC 2012 17:44
 entering extended mode
 **mainDesign.tex
 
@@ -1532,26 +1532,28 @@ File: Pictures/WHSchema2.png Graphic file (type png)
 <use Pictures/WHSchema2.png>
 Package pdftex.def Info: Pictures/WHSchema2.png used on input line 12.
 (pdftex.def)             Requested size: 483.69687pt x 374.06165pt.
+
+Overfull \hbox (5.4544pt too wide) in paragraph at lines 22--24
+[][]\T1/fav/m/n/10.95 Other di-men-sions like database > server, type and maybe
+ oth-ers, de-pend on the database
+ []
+
 File: Pictures/WHAT-Logo.png Graphic file (type png)
- <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 15.
+<use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 24.
 (pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
  [17
 
 
  <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/Design
 /Document/Pictures/WHSchema2.png>]
-Overfull \hbox (5.4544pt too wide) in paragraph at lines 20--22
-[][]\T1/fav/m/n/10.95 Other di-men-sions like database > server, type and maybe
- oth-ers, de-pend on the database
- []
+LaTeX Font Info:    Try loading font information for TS1+fav on input line 30.
+LaTeX Font Info:    No file TS1fav.fd. on input line 30.
 
-LaTeX Font Info:    Try loading font information for TS1+fav on input line 28.
-LaTeX Font Info:    No file TS1fav.fd. on input line 28.
 
 LaTeX Font Warning: Font shape `TS1/fav/m/n' undefined
 (Font)              using `TS1/cmr/m/n' instead
-(Font)              for symbol `textbullet' on input line 28.
+(Font)              for symbol `textbullet' on input line 30.
 
 )
 File: Pictures/KIT-Logo.png Graphic file (type png)
@@ -1565,7 +1567,7 @@ Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 123.
 File: Pictures/Seq/SeqHTTPRequest.png Graphic file (type png)
 
 <use Pictures/Seq/SeqHTTPRequest.png>
-Package pdftex.def Info: Pictures/Seq/SeqHTTPRequest.png used on input line 11.
+Package pdftex.def Info: Pictures/Seq/SeqHTTPRequest.png used on input line 10.
 
 (pdftex.def)             Requested size: 330.75488pt x 245.71739pt.
 File: Pictures/WHAT-Logo.png Graphic file (type png)
@@ -1611,7 +1613,7 @@ File: Pictures/Seq/SeqParser.png Graphic file (type png)
 
 <use Pictures/Seq/SeqParser.png>
 Package pdftex.def Info: Pictures/Seq/SeqParser.png used on input line 43.
-(pdftex.def)             Requested size: 386.95897pt x 497.19327pt.
+(pdftex.def)             Requested size: 338.58632pt x 435.03972pt.
 )
 File: Pictures/KIT-Logo.png Graphic file (type png)
  <use Pictures/KIT-Logo.png>
@@ -1683,7 +1685,7 @@ Here is how much of TeX's memory you used:
 rev/ArevSans-Bold.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1
 /public/arev/ArevSans-Roman.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/f
 onts/type1/bera/fvmr8a.pfb>
-Output written on mainDesign.pdf (24 pages, 2058403 bytes).
+Output written on mainDesign.pdf (24 pages, 2058945 bytes).
 PDF statistics:
  348 PDF objects out of 1000 (max. 8388607)
  59 named destinations out of 1000 (max. 500000)
