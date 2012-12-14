@@ -4,14 +4,14 @@ from the web page handled in the web server tier, a call on the facade of the ap
 a parsing process and a chart request.
 
 \subsection{HTTP request}
-A HTTP request is triggered by the user on the web page. This sequence diagram shows
-the call of a
+A HTTP request is triggered by the user on the web page. This sequence diagram demonstrates
+the call of the index site.
 
 \begin{center}
 \includegraphics{Pictures/Seq/SeqHTTPRequest.png}
 \end{center}
 
-
+ 
 \newpage 
 \subsection{Facade call}
 In the following sequence diagram a call on the application tier facade is shown 
@@ -34,11 +34,14 @@ Sequence diagram of a \texttt{computeChart(..)} call, a chart request, on the Ch
 \newpage 
 
 \subsection{Parsing} 
-%This activity diagram shows the generall work flow of the parsing process of a log file. 
+This activity diagram shows the generall work flow of the parsing process. 
+\begin{center}
+\includegraphics[width=1\linewidth]{Pictures/Seq/ActiParser.png}  
+\end{center}
+
+\newpage
 This sequence diagram describes the process after a ParsingTask for one line was created and
 called with \texttt{run()}. 
-% with the point of view on class interaction.
-
 \begin{center}
 \includegraphics[width=0.8\linewidth]{Pictures/Seq/SeqParser.png}
 \end{center}
