@@ -59,7 +59,7 @@ On the next pages the class diagram of the application and data access tier are 
 The facade of the application tier and configuration files in this design show a
 optional feature. According to the database on which is operated - if there are more
 than SkyServer - just a configuration file for this specific one, has to be created and
-given to the program. This may give the application to power to manage all functions dynamically
+given to the program. This may give the application the power to manage all functions dynamically
 according to the database. Facade and ConfigDB handle this configurations.
 
 
@@ -70,17 +70,17 @@ according to the database. Facade and ConfigDB handle this configurations.
 \subsubsection*{Facade}
 The Facade is, as you might have suggested, the facade of the application tier. 
 This means the only way to communicate with this tier is via this class.
-On of its task is to get the right ConfigDB for any call. With this he forwards
+One of its tasks is to get the right ConfigDB for any call. With this it forwards
 them to the corresponding mediators or workers. So new log files are passed to
 the ParserMediator and chart requests to the ChartMediator. Some other optional
-calls, like the history of charts or the configuration of a new Warehouse are just
-adumbrated.
+calls, like the history of charts or the configuration of a new warehouse are just
+adumbrated. %nice word wtf :D no one will know it
 
 
 \subsubsection*{ConfigDB}
 The ConfigDB class provides a static factory for creating itself out of a configuration
 file, which may use caching. Objects of ConfigDB store the information about the database
-they describe and while be used by all the dynamic methods, which are hooked on specific
+they describe and will be used by all the dynamic methods, which are hooked on specific
 databases. 
 
 One thing stored in a ConfigDB is a String indicating the form of a line in the log files.
@@ -109,16 +109,17 @@ is used.
 
 \subsubsection*{ChartMediator}
 The ChartMediator is the mediator of the whole chart request process. For a incoming request it will create a new
-ChartHost firstly. Then he triggers the visits of the three visitors. 
+ChartHost firstly. Then it triggers the visits of the three visitors. 
 
 
 \subsubsection*{ChartVisitor}
-ChartVisitors work on a ChartHost. What they do depends on which specific one the visit and of course their
-one type. One visitor, the ChartDataRequester, is part of the data access tier.
+ChartVisitors work on a ChartHost. What the visitors do depends on which specific ChartHost 
+is visited and of course on their type. 
+One visitor, the ChartDataRequester, is part of the data access tier.
 
 
 \subsubsection*{DataPreparer}
-The DataPreparer is the second visitor. He prepares the raw data stored in a ChartHost, so that the JSON-Writter
+The DataPreparer is the second visitor. It prepares the raw data stored in a ChartHost, so that the JSON-Writter
 can do its work easily.
 
 
@@ -131,11 +132,11 @@ which contains all information needed by D3 to display the charts.
 \end{center}  
 
 \subsubsection*{ChartHost/Petra}
-ChartHosts are objects hosting one chart request. Initialized they store the chart parameteres requested for
+ChartHosts are objects hosting one chart request. Once initialized, they store the chart parameteres requested for
 the axes and the filter options. During the visits they first store raw data and later the .json file needed
 for the chart.
 The other name Petra for ChartHost is the intern name used for this class. As it had no official name it was
-and stills is known by Petra. So because when mentioning Petra all current members know what is meant the name
+and still is known by Petra. So because when mentioning Petra all current members know what is meant the name
 is also given in this design document.
 
 \subsubsection*{OneDimChart}
@@ -147,7 +148,7 @@ just the measure/radius needed in a bubble chart.
 More than the OneDimeChart the TwoDimChart also stores the ChartParam of a second axis.
 
 \subsubsection*{ThreeDimChart} 
-The ThreeDimChart stores ChartParam for three axes.
+The ThreeDimChart stores ChartParams for three axes.
 
 \begin{center}
 \includegraphics[width=1\linewidth]{Pictures/Parts/ChartPara.png}
@@ -155,9 +156,9 @@ The ThreeDimChart stores ChartParam for three axes.
 
 \subsubsection*{ChartParam}  
 ChartParam represent on the one hand the type of a dimension or measure, like time or number of rows, and
-on the other hand the interval or the aggregation. e.g. sum or maximum, requested or filtered. 
-With the boolean set true may be shown, that no filtering is required on this parameter, or other implemented
-they may be just left out in that case. 
+on the other hand the interval or the aggregation. e.g. sum or maximum, requested or filtered. %not clear, for me anyways :D
+With the boolean set true may be shown, that no filtering is required on this parameter, or, if implemented
+an other way, they may be just left out in that case. 
 This ChartParam stand just representative for possible chart parameter and may be implemented way more dynamically.
 
 
