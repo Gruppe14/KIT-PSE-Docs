@@ -155,10 +155,10 @@ The ThreeDimChart stores ChartParams for three axes.
 \end{center}  
 
 \subsubsection*{ChartParam}  
-ChartParam represent on the one hand the type of a dimension or measure, like time or number of rows, and
-on the other hand the interval or the aggregation. e.g. sum or maximum, requested or filtered. %not clear, for me anyways :D
-With the boolean set true may be shown, that no filtering is required on this parameter, or, if implemented
-an other way, they may be just left out in that case. 
+ChartParams represent on the one hand the type of a dimension or measure, like time or number of rows.
+On the other hand they store the requested interval or the aggregation type, e.g. sum or maximum, by which it should be filtered.
+With a boolean set to true it is indicated, that no filtering is required on this parameter, or, if implemented
+an other way, they may be just left out in that case.
 This ChartParam stand just representative for possible chart parameter and may be implemented way more dynamically.
 
 
