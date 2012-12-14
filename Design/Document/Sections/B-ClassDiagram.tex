@@ -28,16 +28,19 @@ This includes, but is not limited, to images of the web page, javascript files a
 
 \subsubsection*{Localize}
 Localize is a static helper class handling all the language related things. 
-It has a method to get localized Strings using the language files, 
-to change the language of the web page und methods determining all available languages, 
-%dieser Satz, passt der syntaktisch? Sollte es methods sein?
-so they can be integrated in the web page once they are present.
+It has a method to get localized Strings using the language files to change the language of the web page.
+It also has methods determining all available languages, allowing integration in the webpage if they are present.
+%It has a method to get localized Strings using the language files, 
+%to change the language of the web page und methods determining all available languages, 
+%%dieser Satz, passt der syntaktisch? Sollte es methods sein?
+%so they can be integrated in the web page once they are present.
 
 \subsubsection*{ChartIndex}
 ChartIndex implements the singleton pattern. On instantiation it scans which chart types are available 
 and saves them internally. This is used by the index page to dynamically display all available chart types,
 even if one is deleted or added.
 %Do we have to specify how one might add them? I mean, not here, but somewhere.
+%I added that at the data section, because I am awesome.
 
 
 %=||======================================================================>
@@ -56,10 +59,10 @@ On the next pages the class diagram of the application and data access tier are 
 
 %=||======================================================================>
 \subsection{Facade + Configurations}
-The facade of the application tier and configuration files in this design show a
+The facade of the application tier and configuration files in this design fulfill an
 optional feature. According to the database on which is operated - if there are more
 than SkyServer - just a configuration file for this specific one, has to be created and
-given to the program. This may give the application to power to manage all functions dynamically
+given to the program. This may give the application the power to manage all functions dynamically
 according to the database. Facade and ConfigDB handle this configurations.
 
 
@@ -68,19 +71,19 @@ according to the database. Facade and ConfigDB handle this configurations.
 \end{center}   
 
 \subsubsection*{Facade}
-The Facade is, as you might have suggested, the facade of the application tier. 
+The Facade is, as you might have suspected, the facade of the application tier. 
 This means the only way to communicate with this tier is via this class.
-On of its task is to get the right ConfigDB for any call. With this he forwards
+One of its tasks is to get the right ConfigDB for any call. With this it forwards
 them to the corresponding mediators or workers. So new log files are passed to
 the ParserMediator and chart requests to the ChartMediator. Some other optional
-calls, like the history of charts or the configuration of a new Warehouse are just
-adumbrated.
+calls, like the history of charts or the configuration of a new warehouse are just
+adumbrated. %nice word wtf :D no one will know it
 
 
 \subsubsection*{ConfigDB}
 The ConfigDB class provides a static factory for creating itself out of a configuration
 file, which may use caching. Objects of ConfigDB store the information about the database
-they describe and while be used by all the dynamic methods, which are hooked on specific
+they describe and will be used by all the dynamic methods, which are hooked on specific
 databases. 
 
 One thing stored in a ConfigDB is a String indicating the form of a line in the log files.
@@ -109,16 +112,17 @@ is used.
 
 \subsubsection*{ChartMediator}
 The ChartMediator is the mediator of the whole chart request process. For a incoming request it will create a new
-ChartHost firstly. Then he triggers the visits of the three visitors. 
+ChartHost firstly. Then it triggers the visits of the three visitors. 
 
 
 \subsubsection*{ChartVisitor}
-ChartVisitors work on a ChartHost. What they do depends on which specific one the visit and of course their
-one type. One visitor, the ChartDataRequester, is part of the data access tier.
+ChartVisitors work on a ChartHost. What the visitors do depends on which specific ChartHost 
+is visited and of course on their type. 
+One visitor, the ChartDataRequester, is part of the data access tier.
 
 
 \subsubsection*{DataPreparer}
-The DataPreparer is the second visitor. He prepares the raw data stored in a ChartHost, so that the JSON-Writter
+The DataPreparer is the second visitor. It prepares the raw data stored in a ChartHost, so that the JSON-Writter
 can do its work easily.
 
 
@@ -131,11 +135,11 @@ which contains all information needed by D3 to display the charts.
 \end{center}  
 
 \subsubsection*{ChartHost/Petra}
-ChartHosts are objects hosting one chart request. Initialized they store the chart parameteres requested for
+ChartHosts are objects hosting one chart request. Once initialized, they store the chart parameteres requested for
 the axes and the filter options. During the visits they first store raw data and later the .json file needed
 for the chart.
 The other name Petra for ChartHost is the intern name used for this class. As it had no official name it was
-and stills is known by Petra. So because when mentioning Petra all current members know what is meant the name
+and still is known by Petra. So because when mentioning Petra all current members know what is meant the name
 is also given in this design document.
 
 \subsubsection*{OneDimChart}
@@ -147,17 +151,17 @@ just the measure/radius needed in a bubble chart.
 More than the OneDimeChart the TwoDimChart also stores the ChartParam of a second axis.
 
 \subsubsection*{ThreeDimChart} 
-The ThreeDimChart stores ChartParam for three axes.
+The ThreeDimChart stores ChartParams for three axes.
 
 \begin{center}
 \includegraphics[width=1\linewidth]{Pictures/Parts/ChartPara.png}
 \end{center}  
 
 \subsubsection*{ChartParam}  
-ChartParam represent on the one hand the type of a dimension or measure, like time or number of rows, and
-on the other hand the interval or the aggregation. e.g. sum or maximum, requested or filtered. 
-With the boolean set true may be shown, that no filtering is required on this parameter, or other implemented
-they may be just left out in that case. 
+ChartParams represent on the one hand the type of a dimension or measure, like time or number of rows.
+On the other hand they store the requested interval or the aggregation type, e.g. sum or maximum, by which it should be filtered.
+With a boolean set to true it is indicated, that no filtering is required on this parameter, or, if implemented
+an other way, they may be just left out in that case.
 This ChartParam stand just representative for possible chart parameter and may be implemented way more dynamically.
 
 
@@ -172,13 +176,13 @@ This ChartParam stand just representative for possible chart parameter and may b
 
 \subsubsection*{ParserMediator}
 ParserMediator is the 'main'-Class of the Parser. It creates and administrates a threadpool,
- which contains several tasks, 
-%contains used twice very shortly (I was momentarily confused).Also, the sentence is huge. I see no immediate replacement
-contains the entryBuffer for finished DataEntries, the stringBuffer for strings,
-which were extracted from the log file and saves which log file and configuration file is used.
+ which contains several tasks.
+The ParserMediator also contains the entryBuffer for finished DataEntries, the stringBuffer for strings,
+which were extracted from the log file and it saves which log file and configuration file is used.
+%shorter sentences should clarify some things
 
 \subsubsection*{LogFile}
-The gateway between parser and log file - it contains the path of the logfile and an integer 
+The LogFile class is the gateway between parser and a log file - it contains the path of the logfile and an integer 
 which saves how many lines have been read from this file. It can read single lines from the
 logfile and return them to the Parser.
 
@@ -187,8 +191,8 @@ logfile and return them to the Parser.
 \end{center}  
 
 \subsubsection*{DataEntry}
-The DataEntry stores the data which will be written into the warehouse. The given attributes stand representative
-for possible for possible data. The implementation of them may be way more dynamically.
+The DataEntry stores the data which will be written into the warehouse. The given attributes are representative
+for possible data. The implementation of them may be way more dynamically.
 
 % It contains 
 % -hour, day, month, year of the request,
@@ -220,10 +224,10 @@ The SplittingTool splits the dataLine from its parsingTask and enters the splitt
 
 \subsubsection*{VerifyTool}
 The VerifyTool checks the DataEntry for its correctness. % - if it has a mistake (e.g. Month = 13 or Elapsed Time = -1),
-If mistakes are found this line will be deleted and a internal exception registrated. 
+If mistakes are found this line will be deleted and an internal exception will be thrown. 
 
 \subsubsection*{LocationTool}
-The LocationTool uses GeoIP-Libraries (\ref{geo}) to determine the city and country of the request out of the ip.
+The LocationTool utilizes GeoIP-Libraries (\ref{geo}) to determine the city and country of the request using the IP.
 
 \subsubsection*{LoadingTask}
 A LoadingTask is another possible task for the thread pool.
@@ -243,14 +247,14 @@ It takes finished DataEntries from the buffer and sends them to the data access 
 \subsubsection*{ChartDataRequester}
 
 The ChartDataRequester is the first of the three visitors of a ChartHost. Its task is to 
-create the queries to gain the data needed for the charts. It takes the information about what he
+create the queries to gain the data needed for the charts. It takes the information about what it
 has to request from the hosted ChartHost.
 
 
 \subsubsection*{OracleWHAdapter}
 
 Every query, whether loading, extracting or anything else, run against the Oracle server is made by this,
-and only by this, class. So it represents the interface out of the application to the data.
+and exclusively by this, class. So it represents the interface to the data.
 
 
 

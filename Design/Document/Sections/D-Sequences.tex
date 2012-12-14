@@ -1,16 +1,37 @@
 \section{Sequences}
+In this sections the important processes of the system are shown exemplarily. They include a request 
+from the web page handled in the web server tier, a call on the facade of the application tier,
+a parsing process and a chart request.
 
 \subsection{HTTP request}
-Vll an einem beispiel\ldots ?
+A HTTP request is triggered by the user on the web page.
+
+BILD vll genaues beispiel und dan methodenname noch in beschreibung
+
+\subsection{Facade call}
+In the following sequence diagram a call on the application tier facade is shown 
+on the example of a chart request with \texttt{computeChart(..)}.
+
+
+
+\subsection{Chart request}
+Sequence diagram of a \texttt{computeChart(..)} call, a chart request, on the ChartMediator.
+
+BILD
+
 
 \subsection{Parsing}
-TEXT
+This activity diagram shows the generall work flow of the parsing process of a log file. 
+The sequence diagram underneath describes this process with the point of view on class interaction.
+//Die parsing diagramme muessen nur noch eingebindet werden.
+%Hello, Marxism
+
+AKTIVITY-PIC
+
 \begin{center}
 \includegraphics[width=0.7\linewidth]{Pictures/Seq/SeqParser.png}
 \end{center}
 
-aktivitätsteil
 
-\subsection{Chart request}
-jaja my fault -.-
-bild und text   
+
+   
