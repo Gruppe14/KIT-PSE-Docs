@@ -1,1 +1,76 @@
 \section{Changes in Application tier}
+
+\subsection{Parser}
+
+\textit{Getters & Setters} : Added many getters and setters.
+
+\subsubsection{ParserMediator}
+
+\textit{threadPool} : Added a variable poolsize and a method \textit{setPoolsize()} to set it to another number. 
+If the poolsize is smaller than 1 there will be an error displayed. \newline\newline
+
+\textit{readyQueue , addToDatabase()} : Deleted, because the ParsingTask sends the finished dataEntry-Object directly to the DataTier.
+\newline\newline
+
+\textit{entryBuffer , extractLine()} : Deleted, because the ParsingTask requests a new line as soon as it needs it.\newline\newline
+
+\textit{configDB} : Renamed to ConfigWrap.\newline\newline
+
+\textit{parseLogFile(String str)} : Deleted configDB, because ParsingTask knows about the ParserMediator and can request it by itself.
+\newline\newline
+
+\textit{error(String str), boolean fatalError} : Added a new error() method, which sets fatalError to true, which will 
+make parseLogFile(String str) return false to the Facade.\newline\newline
+
+\textit{increaseFT(), increaseLinedel()} : Added new methods to count finished threads and deleted lines. \newline\newline
+
+\textit{createThreadPool()} : Creates a new threadPool with \textit{poolsize} threads and starts it. \newline\newline
+
+\textit{ParserMediator(ConfigWrap cw)} : Creates the parserMediator.
+
+\subsubsection{LogFile}
+
+\textit{readLine()} : readLine() had bigger problems than expected, because the SQL-statement may contain several endOfLines. it's now 
+fixed by setting a mark, reading another line, looking if it is actually a new line and if it is, resetting the mark and returning
+the complete line with the whole statement. \newline\newline
+
+\textit{Logfile(String path, ParserMediator pm)} : Checks if path is actually a valid csv-file and calls the Verification tool to check the
+correctness of the formatting in the file.
+
+\subsubsection{Task}
+
+Deleted, because there are only ParsingTasks, no LoadingTasks and so there is no need for a superclass.
+
+\subsubsection{LoadingTask}
+
+Deleted, because the parsingTask sends the DataEntry directly to the Data Tier making the LoadingTask obsolete.
+
+\subsubsection{ParsingTask}
+
+\textit{ParsingTask(ParserMediator pm)} : Creates a new ParsingTask.\newline\newline
+
+\textit{splitStr} : Added the splitted string to the attributes of the ParsingTask so that it doesn't have to be splitted by every tool.
+
+\subsubsection{DataEntry}
+
+The DataEntry was completely remade to improve the general usability and multifunctionality. It now has only an Object-Array of variable size
+which is filled due to the Config.
+
+\subsubsection{VerifyTool}
+
+Renamed to VerificationTool. \newline\newline
+
+Completely remade the Verification tool, because the verify-part is already done by the splitting tool. Instead it checks, if the 
+file is actually in the format from the config.
+
+\subsubsection{LocationTool}
+
+Renamed to GeoIpTool\newline\newline
+
+\textit{setUpIpTool(ParserMediator pm)} : Sets the GeoIPTool up and checks if the geoLiteCity.dat - file which is needed for this tool
+is at the correct position.
+
+\subsubsection{SplittingTool}
+
+Splitted \textit{split(ParsingTask pt)} in 3 parts to create smaller methods.
+
