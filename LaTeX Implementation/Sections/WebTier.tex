@@ -5,7 +5,7 @@ On the client side it relies heavily on Javascript and the jQuery library.
 As I haven't done much programming aside of the tasks given at university, which were solely in java and lately some C,
 programming in Javascript was a very enlightening experience.
 
-\subsubsection{Web page}
+\subsection{Web page}
 As for the index page, it has not changed very much on the surface since the prototype layout.
 There is now an admin login and you can actually change the languages.
 The play framework made some things, like form validation really easy and allowed us to program our application logic in java.
@@ -15,7 +15,7 @@ to access some advanced functions.
 Because the specification of the web page was very vague, as we didn't know to which extent the front end would be
 programmed in java or just plain html/javascript, I can't really state much that has changed since the specification.
 
-\subsubsection{WebpageControllers}
+\subsection{WebpageControllers}
 This is the class Website: It provides a method for every valid url of the application, which is invoked when a user sends
 a request.
 There are many more additonal methods:
@@ -25,7 +25,7 @@ It still renders the HTML views. 'Render' because play provides the possibility 
 These scala statements are evaluated at runtime when the page in question is requested.
 Play can also serve static files. For that no involvement of a user defined controller is needed.
 
-\subsubsection{Localize}
+\subsection{Localize}
 This class is still handling the localization of the webpage. in addition it localizes, other parts of the application,
 e.g. status and error messages from the parser
 the get() method was designed for the webpage. If a localized String can't be found, there is an automatic fallback to a
@@ -34,12 +34,12 @@ In the application itself that sometimes was not wanted behaviour, therefore ano
 getString, which can localize the same key words, but without the fallback mechanism.
 The changeLanguage method has been removed from this class, as the Webpage controller can handle it itself.
 
-\subsubsection{ChartIndex}
+\subsection{ChartIndex}
 This class still scans the charts directory for all available charts at instanciation.
 It is implemeted with the singleton pattern, to prevent unnecessary cpu and I/O time.
 It's methods are still the same.
 
-\subsubsection{what}
+\subsection{what}
 Some helper classes have been put in the what package although they are utilized by the WebpageController.
 AdminLogin and LogfileUpload are two helper classes which facilitate form validation through usage of
 functionality provided by Play.
