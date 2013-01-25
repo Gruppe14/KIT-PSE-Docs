@@ -7,11 +7,11 @@
 
 \subsection{Working with a config}
 At the beginning of the implementation phase, we decided to make our
-application very dynamically. To ensure this, we wanted to make nearly
+application run very dynamically. To ensure this, we wanted to make nearly
 every work be based on a given configuration file.
 
 This configuration file, written as a JSON file, should contain
-every needed information about the database for which the application shall run.
+all the information needed about the database for which the application shall run. %information is singuler
 For example it should contain the data bases name, like ``Skyserver'',  all the
 dimensions of the data warehouse schema for it and all the measures. Also it
 tells the parser, how to parse the lines in the log files.
@@ -24,16 +24,16 @@ and \textit{DataMediator} for things concerning the data access tier, all with a
 to the configuration. So the methods in the 3 main section all can make their work depending
 on the configuration. 
 
-So how thas a configuration look? 
+So how does a configuration look like? % thas --> does
 
 \subsection{The configuration package}
 
 \subsubsection{ConfigWrap} 
-The class \textit{ConfigWrap} ist the most importent class concerning the config.
+The class \textit{ConfigWrap} is the most important class concerning the config.
 It is the class which wraps all the information taken from the configuratin file.
 This contains a orderd array of \textit{DimRow}s and \textit{RowEntry}s.
  
-It provides mostly getters for all the informations, like number of dimensions,
+It provides mostly getters for all the information, like number of dimensions,
 a dimension or row at a certain index and so on.
 
 \subsubsection{DimRow}
@@ -45,8 +45,8 @@ a tree of strings for the web page to display in the selection boxes.
 
 \subsubsection{RowEntry}
 A RowEntry stores the information of on part in the parsing file. The subclasses of RowEntry
-tell the parser, whether is a int, a String or something specific like location to parse. Therefor
-they provide strategie methods.
+tell the parser, whether is a int, a String or something specific like location to parse. Therefore
+they provide strategy methods.
 
 
 \subsubsection{Addition note}
@@ -62,8 +62,8 @@ the decision was made to change the received data nearly to the warehouse into a
 and than add additional information later some way more up.
 
 The design of three diffrent types of charts, with one, two or three dimensions was detected to
-be stupid. There are no charts with 3 dimensions (on our web page). It's one dimension + measure
-oder two dimensions + measure.\\
+be stupid. There are no charts with 3 dimensions (on our web page). They either have one dimension and a measure
+or two dimensions and a measure.\\
 So \textit{DimChart} is now the parent class storing all information every chart needs, like
 the first dimension and the measure. The child class \textit{TwoDimChart} extends this with a second dimension.
 
