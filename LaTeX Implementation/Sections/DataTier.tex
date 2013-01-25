@@ -1,1 +1,33 @@
 \section{Changes in Data and Data access tier}
+
+
+The data and the data access tier provided a lot of trouble for us.
+
+When the decision was made to go with Oracle on thing was overlooked. The
+drivers aren't free to get without a license. So we had to change from
+Oracle to something other. The first idea to use Mondrian failed, as we
+weren't able to set it up.
+
+So the get anything going we decided just to run a MySQL data base and 
+run a warehouse on it. Facing problems to connect to a local MySQL server,
+creating the table to fullfill our needs, writting the right queries to
+load data in the warehouse everything got slowed down.
+
+Still facing problems to write the complex queries for chart requests with filters
+the first version will just be able to get 1 dimensional charts without filters
+just grouped by a requested thing. 
+ 
+
+\subsection{Data access classes}
+There is a \textit{DataMediator} of course which delegates the work and requests.
+
+\subsubsection{MySQLAdapter}
+The class \textit{MySQLAdapter} provides methods for any needed query against
+the warehouse, whether extracting or loading.
+
+When extracting it uses the help of \textit{DataChanger} to interpret the
+results received from the warehouse.
+
+\subsubsection{WHConnectionManager}
+This class provides methods to get a connection from a connection pool to
+the warehouse (mySQL data base).

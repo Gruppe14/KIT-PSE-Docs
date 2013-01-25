@@ -1,40 +1,147 @@
-\section{Changes in Application tier}
+\section{Changes in and comments to the Application tier}
 
-\subsection{Parser}
+
 
 %\textit{Getters & Setters} : Added many getters and setters.
 
+
+\subsection{Working with a config}
+At the beginning of the implementation phase, we decided to make our
+application very dynamically. To ensure this, we wanted to make nearly
+every work be based on a given configuration file.
+
+This configuration file, written as a JSON file, should contain
+every needed information about the database for which the application shall run.
+For example it should contain the data bases name, like ``Skyserver'',  all the
+dimensions of the data warehouse schema for it and all the measures. Also it
+tells the parser, how to parse the lines in the log files.
+
+
+Starting the application a \textit{Facade} instance will be constructed and initialized
+with the configuration file. This instance will have mediators, 
+\textit{ParserMediator} for the parsing taks, \textit{ChartMediator} for chart requests
+and \textit{DataMediator} for things concerning the data access tier, all with a reference
+to the configuration. So the methods in the 3 main section all can make their work depending
+on the configuration. 
+
+So how thas a configuration look? 
+
+\subsection{The configuration package}
+
+\subsubsection{ConfigWrap} 
+The class \textit{ConfigWrap} ist the most importent class concerning the config.
+It is the class which wraps all the information taken from the configuratin file.
+This contains a orderd array of \textit{DimRow}s and \textit{RowEntry}s.
+ 
+It provides mostly getters for all the informations, like number of dimensions,
+a dimension or row at a certain index and so on.
+
+\subsubsection{DimRow}
+A DimRow stores the information whether at this point is a dimension or just a normal row (or measure).
+For dimensions it provides methods to get information about the number of rows, a row at a index,
+name of the table in the warehouse for this information, name of a row in the warehouse, 
+a tree of strings for the web page to display in the selection boxes.
+
+
+\subsubsection{RowEntry}
+A RowEntry stores the information of on part in the parsing file. The subclasses of RowEntry
+tell the parser, whether is a int, a String or something specific like location to parse. Therefor
+they provide strategie methods.
+
+
+\subsubsection{Addition note}
+Why is everywhere written row, when it is a column in the warehouse? Yeah in the warehouse
+it is a column, but in the schema of the warehouse it is a row\ldots
+
+
+
+
+\subsection{Chart creation}
+The visitor patter for the charts got dropped. Because facing some problems with \textit{ResultSet}
+the decision was made to change the received data nearly to the warehouse into a JSONObject
+and than add additional information later some way more up.
+
+The design of three diffrent types of charts, with one, two or three dimensions was detected to
+be stupid. There are no charts with 3 dimensions (on our web page). It's one dimension + measure
+oder two dimensions + measure.\\
+So \textit{DimChart} is now the parent class storing all information every chart needs, like
+the first dimension and the measure. The child class \textit{TwoDimChart} extends this with a second dimension.
+
+\subsubsection{ChartMediator}
+The \textit{ChartMediator} is the mediator of a chart process. He creates a chart wrap
+(\textit{DimChart}) with the helper class \textit{ChartHelper}
+and mainly it delegates the requests against the data tier.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\subsection{Parser}
+
 \subsubsection{ParserMediator}
 
-\textit{threadPool} : Added a variable poolsize and a method \textit{setPoolsize()} to set it to another number. 
+\texttt{threadPool} : Added a variable poolsize and a method \texttt{setPoolsize()} to set it to another number. 
 If the poolsize is smaller than 1 there will be an error displayed. \newline\newline
 
-\textit{readyQueue , addToDatabase()} : Deleted, because the ParsingTask sends the finished dataEntry-Object directly to the DataTier.
+\texttt{readyQueue , addToDatabase()} : Deleted, because the ParsingTask sends the finished dataEntry-Object directly to the DataTier.
+\newline
+
+\texttt{entryBuffer , extractLine()} : Deleted, because the ParsingTask requests a new line as soon as it needs it.\newline
+
+\texttt{configDB} : Renamed to ConfigWrap.\newline
+
+\texttt{parseLogFile(String str)} : Deleted configDB, because ParsingTask knows about the ParserMediator and can request it by itself.
 \newline\newline
 
-\textit{entryBuffer , extractLine()} : Deleted, because the ParsingTask requests a new line as soon as it needs it.\newline\newline
+\texttt{error(String str), boolean fatalError} : Added a new error() method, which sets fatalError to true, which will 
+make parseLogFile(String str) return false to the Facade.\newline
 
-\textit{configDB} : Renamed to ConfigWrap.\newline\newline
+\texttt{increaseFT(), increaseLinedel()} : Added new methods to count finished threads and deleted lines. \newline
 
-\textit{parseLogFile(String str)} : Deleted configDB, because ParsingTask knows about the ParserMediator and can request it by itself.
-\newline\newline
+\texttt{createThreadPool()} : Creates a new threadPool with \textit{poolsize} threads and starts it. \newline
 
-\textit{error(String str), boolean fatalError} : Added a new error() method, which sets fatalError to true, which will 
-make parseLogFile(String str) return false to the Facade.\newline\newline
-
-\textit{increaseFT(), increaseLinedel()} : Added new methods to count finished threads and deleted lines. \newline\newline
-
-\textit{createThreadPool()} : Creates a new threadPool with \textit{poolsize} threads and starts it. \newline\newline
-
-\textit{ParserMediator(ConfigWrap cw)} : Creates the parserMediator.
+\texttt{ParserMediator(ConfigWrap cw)} : Creates the parserMediator.
 
 \subsubsection{LogFile} 
 
-\textit{readLine()} : readLine() had bigger problems than expected, because the SQL-statement may contain several endOfLines. it's now 
+\texttt{readLine()} : readLine() had bigger problems than expected, because the SQL-statement may contain several endOfLines. it's now 
 fixed by setting a mark, reading another line, looking if it is actually a new line and if it is, resetting the mark and returning
-the complete line with the whole statement. \newline\newline
+the complete line with the whole statement. \newline
 
-\textit{Logfile(String path, ParserMediator pm)} : Checks if path is actually a valid csv-file and calls the Verification tool to check the
+\texttt{Logfile(String path, ParserMediator pm)} : Checks if path is actually a valid csv-file and calls the Verification tool to check the
 correctness of the formatting in the file.
 
 \subsubsection{Task}
@@ -47,30 +154,30 @@ Deleted, because the parsingTask sends the DataEntry directly to the Data Tier m
 
 \subsubsection{ParsingTask}
 
-\textit{ParsingTask(ParserMediator pm)} : Creates a new ParsingTask.\newline\newline
+\texttt{ParsingTask(ParserMediator pm)} : Creates a new ParsingTask.\newline
 
-\textit{splitStr} : Added the splitted string to the attributes of the ParsingTask so that it doesn't have to be splitted by every tool.
+\texttt{splitStr} : Added the splitted string to the attributes of the ParsingTask so that it doesn't have to be splitted by every tool.
 
 \subsubsection{DataEntry}
 
 The DataEntry was completely remade to improve the general usability and multifunctionality. It now has only an Object-Array of variable size
 which is filled due to the Config.
 
-\subsubsection{VerifyTool}
+\subsubsection{VerifyTool} 
 
-Renamed to VerificationTool. \newline\newline
+Renamed to VerificationTool. \newline
 
 Completely remade the Verification tool, because the verify-part is already done by the splitting tool. Instead it checks, if the 
 file is actually in the format from the config.
 
 \subsubsection{LocationTool}
 
-Renamed to GeoIpTool\newline\newline
+Renamed to GeoIpTool\newline
 
 \textit{setUpIpTool(ParserMediator pm)} : Sets the GeoIPTool up and checks if the geoLiteCity.dat - file which is needed for this tool
 is at the correct position.
 
 \subsubsection{SplittingTool}
 
-Splitted \textit{split(ParsingTask pt)} in 3 parts to create smaller methods.
+Splitted \texttt{split(ParsingTask pt)} in 3 parts to create smaller methods.
 
