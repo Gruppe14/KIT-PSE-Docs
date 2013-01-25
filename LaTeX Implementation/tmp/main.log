@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  21 JAN 2013 18:45
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  25 JAN 2013 08:31
 entering extended mode
 **main.tex
 
@@ -1076,19 +1076,15 @@ Implementation\main.aux"
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
 Implementation\Sections/titlepage.aux")
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
-Implementation\Sections/A-Architecture.aux")
+Implementation\Sections/WebTier.aux")
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
-Implementation\Sections/W-WebPage.aux")
+Implementation\Sections/AppTier.aux")
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
-Implementation\Sections/B-ClassDiagram.aux")
+Implementation\Sections/Config.aux")
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
-Implementation\Sections/C-DataWarehouseDesign.aux")
+Implementation\Sections/DataTier.aux")
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
-Implementation\Sections/D-Sequences.aux")
-("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
-Implementation\Sections/E-OtherData.aux")
-("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
-Implementation\Sections/F-Libraries.aux"))
+Implementation\Sections/Walloftext.aux"))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 104.
 LaTeX Font Info:    ... okay on input line 104.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 104.
@@ -1275,14 +1271,14 @@ File: uzavm.fd 2006/05/30 Fontinst v1.929 font definitions for U/zavm.
 LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <9> not available
 (Font)              Font shape `T1/fav/b/n' tried instead on input line 11.
 
-<Pictures/KIT-Logo.png, id=3, 501.875pt x 250.9375pt>
+<Pictures/KIT-Logo.png, id=63, 501.875pt x 250.9375pt>
 File: Pictures/KIT-Logo.png Graphic file (type png)
 
 <use Pictures/KIT-Logo.png>
 Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 24.
 (pdftex.def)             Requested size: 128.03653pt x 64.01692pt.
 
-<Pictures/WHAT-LogoText2.png, id=5, 2293.56876pt x 1049.9225pt>
+<Pictures/WHAT-LogoText2.png, id=65, 2293.56876pt x 1049.9225pt>
 File: Pictures/WHAT-LogoText2.png Graphic file (type png)
 
 <use Pictures/WHAT-LogoText2.png>
@@ -1319,54 +1315,239 @@ Package Fancyhdr Warning: \headheight is too small (17.0pt):
 
 
 ]
-No file Sections/A-Architecture.tex.
-No file Sections/W-WebPage.tex.
-No file Sections/B-ClassDiagram.tex.
-No file Sections/C-DataWarehouseDesign.tex.
-No file Sections/D-Sequences.tex.
-No file Sections/E-OtherData.tex.
-No file Sections/F-Libraries.tex.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 133.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 133.
+("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
+Implementation\Sections/WebTier.tex")
+<Pictures/WHAT-Logo.png, id=95, 2293.56876pt x 850.17625pt>
+File: Pictures/WHAT-Logo.png Graphic file (type png)
+
+<use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 117.
+(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
+ [3
+
+ <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/LaTeX 
+Implementation/Pictures/WHAT-Logo.png>]
+("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
+Implementation\Sections/AppTier.tex"
+LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <12> not available
+(Font)              Font shape `T1/fav/b/n' tried instead on input line 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--21
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--21
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--36
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--36
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: Pictures/KIT-Logo.png Graphic file (type png)
+
+<use Pictures/KIT-Logo.png>
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 36.
+(pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
+ [4
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
+
+ []
+
+File: Pictures/WHAT-Logo.png Graphic file (type png)
+<use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 69.
+(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
+ [5])
+File: Pictures/KIT-Logo.png Graphic file (type png)
+ <use Pictures/KIT-Logo.png>
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 119.
+(pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
+ [6]
+("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
+Implementation\Sections/Config.tex")
+File: Pictures/WHAT-Logo.png Graphic file (type png)
+ <use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 121.
+(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
+ [7
+
+
+]
+("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
+Implementation\Sections/DataTier.tex")
+File: Pictures/KIT-Logo.png Graphic file (type png)
+ <use Pictures/KIT-Logo.png>
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 123.
+(pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
+ [8
+
+
+]
+("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
+Implementation\Sections/Walloftext.tex"
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+File: Pictures/WHAT-Logo.png Graphic file (type png)
+
+<use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 50.
+(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
+ [9
+
+
+])
+File: Pictures/KIT-Logo.png Graphic file (type png)
+ <use Pictures/KIT-Logo.png>
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 125.
+(pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
+ [10]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 129.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 129.
 
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
 Implementation\main.aux"
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
 Implementation\Sections/titlepage.aux")
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
-Implementation\Sections/A-Architecture.aux")
+Implementation\Sections/WebTier.aux")
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
-Implementation\Sections/W-WebPage.aux")
+Implementation\Sections/AppTier.aux")
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
-Implementation\Sections/B-ClassDiagram.aux")
+Implementation\Sections/Config.aux")
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
-Implementation\Sections/C-DataWarehouseDesign.aux")
+Implementation\Sections/DataTier.aux")
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
-Implementation\Sections/D-Sequences.aux")
-("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
-Implementation\Sections/E-OtherData.aux")
-("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
-Implementation\Sections/F-Libraries.aux"))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 133.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 133.
+Implementation\Sections/Walloftext.aux"))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 129.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 129.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+(rerunfilecheck)             Checksum: 96C18D81C4CD79FC2550A2BA9396ECF3;998.
  ) 
 Here is how much of TeX's memory you used:
- 9986 strings out of 493921
- 152421 string characters out of 3140856
- 260260 words of memory out of 3000000
- 13043 multiletter control sequences out of 15000+200000
- 33199 words of font info for 55 fonts, out of 3000000 for 9000
+ 10056 strings out of 493921
+ 153525 string characters out of 3140856
+ 262649 words of memory out of 3000000
+ 13086 multiletter control sequences out of 15000+200000
+ 37435 words of font info for 59 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  45i,14n,47p,769b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/Programmieren/Latex/MiKTeX/fonts/enc/dvips/fontname/8r.enc}
 <C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/arev/ArevSans-
 Bold.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/arev/
-ArevSans-Roman.pfb>
-Output written on main.pdf (2 pages, 268640 bytes).
+ArevSans-Oblique.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1/
+public/arev/ArevSans-Roman.pfb>
+Output written on main.pdf (10 pages, 525349 bytes).
 PDF statistics:
- 30 PDF objects out of 1000 (max. 8388607)
- 3 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 151 PDF objects out of 1000 (max. 8388607)
+ 26 named destinations out of 1000 (max. 500000)
+ 136 words of extra memory for PDF output out of 10000 (max. 10000000)
 

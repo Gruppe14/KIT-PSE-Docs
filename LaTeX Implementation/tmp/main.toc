@@ -1,0 +1,15 @@
+\contentsline {section}{\numberline {1}Changes in web tier}{3}{section.1}
+\contentsline {section}{\numberline {2}Changes in Application tier}{4}{section.2}
+\contentsline {subsection}{\numberline {2.1}Parser}{4}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}ParserMediator}{4}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}LogFile}{5}{subsubsection.2.1.2}
+\contentsline {subsubsection}{\numberline {2.1.3}Task}{5}{subsubsection.2.1.3}
+\contentsline {subsubsection}{\numberline {2.1.4}LoadingTask}{5}{subsubsection.2.1.4}
+\contentsline {subsubsection}{\numberline {2.1.5}ParsingTask}{5}{subsubsection.2.1.5}
+\contentsline {subsubsection}{\numberline {2.1.6}DataEntry}{5}{subsubsection.2.1.6}
+\contentsline {subsubsection}{\numberline {2.1.7}VerifyTool}{5}{subsubsection.2.1.7}
+\contentsline {subsubsection}{\numberline {2.1.8}LocationTool}{6}{subsubsection.2.1.8}
+\contentsline {subsubsection}{\numberline {2.1.9}SplittingTool}{6}{subsubsection.2.1.9}
+\contentsline {section}{\numberline {3}Working with a config}{7}{section.3}
+\contentsline {section}{\numberline {4}Changes in Data and Data access tier}{8}{section.4}
+\contentsline {section}{\numberline {5}Things that went wrong}{9}{section.5}

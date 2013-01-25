@@ -2,7 +2,7 @@
 
 \subsection{Parser}
 
-\textit{Getters & Setters} : Added many getters and setters.
+%\textit{Getters & Setters} : Added many getters and setters.
 
 \subsubsection{ParserMediator}
 
@@ -28,7 +28,7 @@ make parseLogFile(String str) return false to the Facade.\newline\newline
 
 \textit{ParserMediator(ConfigWrap cw)} : Creates the parserMediator.
 
-\subsubsection{LogFile}
+\subsubsection{LogFile} 
 
 \textit{readLine()} : readLine() had bigger problems than expected, because the SQL-statement may contain several endOfLines. it's now 
 fixed by setting a mark, reading another line, looking if it is actually a new line and if it is, resetting the mark and returning
