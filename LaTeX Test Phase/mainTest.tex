@@ -1,0 +1,127 @@
+%==========================================================================
+%>
+%>			  This is the main .tex for the 
+%>				     TEST PHASE
+%>					of PSE Group 10
+%>
+%=========================================================================%
+\documentclass[a4paper, twoside, svgnames]{scrartcl}
+
+% Character encoding
+\usepackage[utf8]{inputenc}
+\usepackage{arev}
+\usepackage[T1]{fontenc}   % 8-Bit-Codierung der Fonts verwenden
+  
+% Page size
+%\usepackage[a4paper,top=19mm,bottom=22mm,bindingoffset=10mm,left=10mm, right=15mm,heightrounded,headsep=15mm,includeheadfoot]{geometry} 
+\usepackage[a4paper,top=19mm,bottom=22mm,bindingoffset=0mm,left=20mm, right=20mm,heightrounded,headsep=15mm,includeheadfoot]{geometry} 
+
+% Color for texts and others
+\usepackage{color}
+\usepackage[usenames,dvipsnames, table]{xcolor}
+\usepackage{etoolbox} 
+%\definecolor{dark_gray}{rgb}{0.25,0.25,0.25}
+  
+% Customized header & footer 
+\usepackage{fancyhdr}
+\pagestyle{fancy} 
+ \fancyhf{} 	% clears all
+	\fancyhead[L]{PSE Group 10 \\ Design}		% header
+	\fancyhead[R]{\leftmark} 
+	\fancyhead[CO]{\includegraphics[width=0.13\linewidth]{Pictures/WHAT-Logo.png}}
+	\fancyhead[CE]{\includegraphics[width=0.1\linewidth]{Pictures/KIT-Logo.png}}
+	\renewcommand{\headrulewidth}{0.5pt}
+	\rhead{\nouppercase{\leftmark}}
+	\patchcmd{\headrule}{\hrule}{\color{Bittersweet}\hrule}{}{}
+	
+	\renewcommand{\footrulewidth}{0.5pt}						% footer
+	\patchcmd{\footrule}{\hrule}{\color{Bittersweet}\hrule}{}{}
+	\fancyfoot[C]{\thepage}
+	 
+% Customized headlines
+\usepackage{titlesec}
+\titleformat{\subsubsection}[hang]{\bfseries\titlerule}{\thesubsubsection\enspace}{0em}{}[\titlerule]
+ 
+\usepackage[shortlabels]{enumitem}
+% \setlist{leftmargin=*}
+% \renewcommand{\labelitemii}{$\circ$}
+% \makeatletter
+% \def\itemnumber#1{\expandafter\@itemnumber\csname c@#1\endcsname}
+% \def\@itemnumber#1{\ifnum#1<10\relax0\fi\@arabic{#1}0}
+% \makeatother
+% \AddEnumerateCounter{\itemnumber}{\@itemnumber}{000}
+
+%\setlist[1]{labelindent=\parindent}
+
+% Including pictures
+\usepackage{graphicx}
+
+% Referring to tables
+\usepackage{array}
+
+% Return after CR set 0
+\setlength{\parindent}{0pt} 
+\setlength{\parskip}{6pt}	% space after passage
+
+
+
+% For links of the chapters and out of the pdf + boxes around links deleted
+\usepackage[colorlinks=true, linkcolor=black, urlcolor=blue]{hyperref} 
+\hypersetup{
+	pdftitle={Design - WHAT WareHouse Analyzing Tool},
+	pdfauthor={Alexander Noe, Jonathan Klawitter, Anas Saber, Nikolaos Alexandros Kurt Moraitakis,Lukas Ehnle}}
+
+% Glossary 
+% \usepackage{ifthen}
+% \usepackage{xkeyval}
+% \usepackage{xfor}
+% \usepackage{amsgen}
+% \usepackage{etoolbox} 
+
+% \usepackage[makeindex]{glossaries}
+% \include{Sections/1XGlossaryEntries} 
+% \makeglossaries   
+ 
+ 
+% %Glossarverweise formatieren
+% \DeclareRobustCommand\textsfgls[1]{\textsf{\textcolor{dark_gray}{#1}}}
+% \renewcommand{\glsdisplayfirst}[4]{\textsfgls{#1}} % Farbe/Schriftart für das erste Vorkommen einer Referenz festlegen
+% \renewcommand{\glsdisplay}[4]{\textsfgls{#1}} % Farbe/Schriftart für alle anderen Referenzen festlegen
+% 
+% %Glossareinträge formatieren
+% \renewcommand{\glossaryentryfield}[5]{%
+% \item % bullet point
+% \textbf{\glstarget{#1}{#2}}% the entry name
+% \space #3% the description
+% \space [#5]% the number list in square brackets
+% }%
+%  
+%  
+
+ 
+
+%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%
+\begin{document} % BEGIN BEGIN BEGIN BEGIN BEGIN BEGIN BEGIN BEGIN BEGIN
+%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%
+
+% Including the customized title page
+\newgeometry{a4paper,top=19mm,bottom=7mm,left=15mm, right=15mm, heightrounded,headsep=15mm, includeheadfoot}
+\include{Sections/titlepage} 
+\restoregeometry
+\newpage  
+
+%\vspace*{0.1cm}
+\tableofcontents
+  
+\newpage 
+\include{Sections/Introduction}
+\include{Sections/ImplMistakes}
+\include{Sections/DesignMistakes}
+\include{Sections/Tests}
+\include{Sections/Performance}
+\include{Sections/Stability}
+
+%    
+%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%
+\end{document}  % END END END END END END END END END END END END END END 
+%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%

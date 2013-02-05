@@ -1,0 +1,13 @@
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}
+\contentsline {section}{\numberline {2}Implementation mistakes}{4}{section.2}
+\contentsline {section}{\numberline {3}Design mistakes}{5}{section.3}
+\contentsline {section}{\numberline {4}Tests}{6}{section.4}
+\contentsline {subsection}{\numberline {4.1}Automic tests}{6}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Test scenario}{6}{subsection.4.2}
+\contentsline {section}{\numberline {5}Performance}{7}{section.5}
+\contentsline {subsection}{\numberline {5.1}Starting}{7}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Loading}{7}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Extracting}{7}{subsection.5.3}
+\contentsline {section}{\numberline {6}Stability}{8}{section.6}
+\contentsline {subsection}{\numberline {6.1}Nonfunctional requirements}{8}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Stress testing}{8}{subsection.6.2}
