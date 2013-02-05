@@ -1,68 +1,75 @@
 \section{Things that went wrong}
 A biased and last minute perspective on the problems we faced and the things we learned during the implementation phase
 
-Since everybody else is busy bringing the program to run, I wrote this. //It's still a part of teamwork, right?
-//Please edit and censor and change
-The things we learned and the problems we faced can be grouped into technical, and not technical. I will mainly focus on the non technical, because it turns out they were actually more important in the end.
+Since everybody else is busy bringing the program to run, I wrote this. %It's still a part of teamwork, right?
+%Please edit and censor and change
+The things we learned and the problems we faced can be grouped into technical,
+and not technical. I will mainly focus on the non technical, because it turns out
+they were actually more important in the end.
 This is shocking, and I did not expect this when I chose to study computer science.
   
-Technical
--git.
-    We learned to use git, more or less, although it still ocassionaly annoys us. It is not unusual that someone still complains in the internal skype chat once a day.
--libraries
-    Since we split the areas of responsibility quite early on, everyone more or less used a different library or framework and also had to learn different things, among them minor quirks and annoyances.
-    Most are not really worth mentioning. //Do we have any worth mentioning?
-    //Do we have any nice perls of wisdom, or (my)sql riddles? 
+\subsection{Technical}
+    This section mentions some common technical issues we faced. They are further elaborated in the
+    appropriate sections above.
+\subsubsection{git}
+    We learned to use git, more or less, although it still ocassionaly annoys us.
+    It is not unusual that someone still complains in the internal skype chat once a day.
+\subsubsection{libraries}
+    Since we split the areas of responsibility quite early on, everyone more or less used
+    a different library or framework and had to learn different things, among them minor quirks and annoyances.
+    Most are not really worth mentioning. %Do we have any worth mentioning?
+    %Do we have any nice perls of wisdom, or (my)sql riddles? 
     
-Non technical
+\subsection{Non technical}
 
-automation
-    We lost so much time trying to get software to install. (We still didn't manage to install some of it, hello, mondrian!)
-    Automated dependency management sounds like a dream. The building process, however, and the configuration of gradle took us a significant amount of time.
-    It probably gets better with experience with the tools and more time spent using them, but for us it was hard, as it often was the first time.
+\subsubsection{automation}
+    We lost so much time trying to get software to install. (We still 
+    didn't manage to install some of it, hello, mondrian!)
+    Automated dependency management and installation sounds like a dream. 
+    The building process, however, and the configuration of gradle took us a significant amount of time.
+    It probably gets better with experience with the tools and more time spent using them,
+    but for us it was hard, as it often was the first time we used them.
     
-Broken builds
+\subsubsection{Broken builds}
     Don't you hate it when people commit code to the central repository that doesn't compile?
-    We did that too. I think we treated the central repository as some sort of magical backup device. I don't think we do it anymore.
+    We did that too. I think we treated the central repository as some sort of magical backup device.
+    I don't think we do it anymore.
     
-Splitting the program into parts
+\subsubsection{Splitting the program into parts}
     This deserves a mention. When your code relies on other people's code to run, their code relies on other people's code to run and so on and so forth for some recursion depth, and their code hasn't been written yet, then, oops,
     writing and testing your code becomes a lot harder. What do you do? Do you wait for the other people to write their code first? Do you commit it to the repository without, ehm, compiling?
     (The answer probaby involves mock objects and junit, but we didn't really use that yet. Hopefully the next phase will enlighten us.)
      
-    Our program had a tiered architecture, and this especially applied to us. We didn't run it from start to finish until today, 25/01/2013, despite many parts working on their own before.
+    Our program had a tiered architecture, and this especially applied to us. 
+%    It took us a while to run the complete program.
+    We didn't run it from start to finish until today, 25/01/2013, despite many parts working on their own before.
 
-Licenses.
-    We didn't quite know much about the details and the limitations of the different open source licenses, as well as their compatibility with closed source software like oracle's.
-     It turns out the formal, legal language the software licenses are written in does not make fun bedtime reading.
-     This hurt us, as mentioned below.
+\subsubsection{Licenses}
+    We didn't quite know much about the details and the limitations of the different open source licenses,
+    as well as their compatibility with closed source software like oracle's.
+    It turns out the formal, legal language the software licenses are written in does not make fun bedtime reading.
+    This hurt us, as mentioned avobe.
 
-Things change
+\subsubsection{Dealing with change}
     Admittedly, we probably were a bit optimistic and started a bit late. However, it turns out planning perfectly is hard (yes, we were also bad at it). Here is an example.
-    
-    We registered the program at ohloh.net. It's an open source analysis program, that analyzes things like lines of code, contributors and programming languages used in open source projects.
-    Then it gives estimates of project maturity, cost, etc.
-    It uses the COCOMO Model we were taught at the software engineering lecture.
-    The verdict? Our program took 4 person-years to create.
-%    https://www.ohloh.net/p/KIT-PSE/estimated_cost
- %   //<<<<<Nice screenshot here? :P
-  %  
     
     Can you always rely on everything going according to schedule? What happens if unexpected events still happen? We even had a tight specification,
     no indecisive clients that might change their minds or lose interest (or even many potential clients whose intentions we would have had to guess indirectly through market surveys).
     Is the waterfall model partially to blame?
     
-    In any case, we had to deal with unexpected changes, like the use of mysql instead of oracle for the database, the writing of sql queries instead of a warehouse and other changes mentioned above.
+    In any case, we had to deal with unexpected changes.They are further explained in another section above. %like the use of mysql instead of oracle for the database, the writing of sql queries instead of a warehouse and other changes mentioned above.
     
 
-What if only one person understands some code and something happens to them?
+\subsubsection{What if only one person understands some code and something happens to them?}
     Thankfully, this didn't happen to us but was a disaster waiting to happen. We were but a crisis away.
     
-Crises
-    What happens at unexpected negative events in a group project that is, well, more or less egalitarian and doesn't have a person in charge? What are possible reactions of team members?
+\subsubsection{Crises}
+    What happens at unexpected negative events in a group project that is, well,
+    more or less egalitarian and doesn't have a person in charge? What are possible reactions of team members?
     Do they help where needed, or do they react negatively?
-    Thankfully most of us weren't like me and the program will be functioning this evening.
+%    Thankfully most of us weren't like me and the program will be functioning this evening.
 
-Communication
-    Lastly, it turns out is really important. Better communication and understanding between us would have meant that we wouldn't have had to rewrite some things, spend less time arguing, explaining and reexplaining things and more time
-    actually programming.
+\subsubsection{Communication}
+    Lastly, it turns out is really important. Better communication and understanding between us
+    would have meant that we wouldn't have had to rewrite some things, spend less time arguing,
+    explaining and reexplaining things and more time actually programming.

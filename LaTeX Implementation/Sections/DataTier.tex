@@ -3,12 +3,13 @@
 
 The data and the data access tier provided a lot of trouble for us.
 
-When the decision was made to go with Oracle on thing was overlooked. The
-drivers aren't free to get without a license. So we had to change from
-Oracle to something other. The first idea to use Mondrian failed, as we
-weren't able to set it up.
+When the decision was made to go with Oracle one thing was overlooked. The
+OLAP drivers aren't free to get without a license.They also weren't compatible
+with the other open source technologies used in our program. So we had to 
+change from Oracle to something else. The first idea to use Mondrian failed,
+as we weren't able to set it up.
 
-So the get anything going we decided just to run a MySQL data base and 
+So to get the program running we decided to just run a MySQL database and 
 run a warehouse on it. Facing problems to connect to a local MySQL server,
 creating the table to fullfill our needs, writting the right queries to
 load data in the warehouse everything got slowed down.
