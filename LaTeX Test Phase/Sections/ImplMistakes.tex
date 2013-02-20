@@ -1,6 +1,10 @@
 \section{Implementation mistakes}
 
-Task determination problem
+\subsubsection{Task determination}
+When having too many threads (10+), sometimes a thread stopped working. This caused the counter for finished tasks
+to be stuck under the number of threads and the program not to get finished.
+So we implemented a watchdogtimer which replaces a thread by a new one, if said thread doesn't finish a line for a 
+predefinied amount of time. (standard = 2 seconds)
 
 \subsubsection{Negative or too high poolsize}
 The parser works with a pool of threads, which are created when parsing. In the ParserMediator there is
