@@ -2,7 +2,24 @@
 
 \subsection{Automic tests}
 % für alle!
+\subsubsection{Parsing}
 
+\begin{itemize}
+
+\item smallParseTestStandardSize - parse 10 lines, standard (5) poolsize
+\item smallParseTestSize10 - parse 10 lines, poolsize 10
+\item smallParseTestTooBig - parse 10 lines, poolsize 100 -> Error #2: ParserMediator.poolsizeParsing is bigger than 50.
+\item negativePoolsize - parse 10 lines, poolsize -2 -> Error #1: ParserMediator.poolsizeParsing is smaller than 1.
+\item nonexistentFile - try to parse nonexistent file -> Error #5: The path is wrong.
+\item wrongFile - try to parse from an empty .txt file -> Error #5: The path is wrong.
+\item flawedFile - try to parse from a file with a typo in "type" -> Error #11: The configuration file got a different format.
+\item mediumParseTestStandardSize - parse 1000 lines, standard (5) poolsize
+\item mediumParseTestSize50 - parse 1000 lines, poolsize 50
+\item bigParseTestStandardSize - parse ~30k lines, standard (5) poolsize
+\item veryBigParseTestStandardSize (IGNORED) - parse a whole month, standard (5) poolsize, ignored because it may take hours 
+to finish.
+
+\end{itemize}
 
 \subsection{Test scenario}
 % old
