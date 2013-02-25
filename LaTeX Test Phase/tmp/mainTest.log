@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  5 FEB 2013 22:31
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  21 FEB 2013 19:24
 entering extended mode
 **mainTest.tex
 
@@ -1273,14 +1273,14 @@ File: uzavm.fd 2006/05/30 Fontinst v1.929 font definitions for U/zavm.
 LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <9> not available
 (Font)              Font shape `T1/fav/b/n' tried instead on input line 11.
 
-<Pictures/KIT-Logo.png, id=55, 501.875pt x 250.9375pt>
+<Pictures/KIT-Logo.png, id=83, 501.875pt x 250.9375pt>
 File: Pictures/KIT-Logo.png Graphic file (type png)
 
 <use Pictures/KIT-Logo.png>
 Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 24.
 (pdftex.def)             Requested size: 128.03653pt x 64.01692pt.
 
-<Pictures/WHAT-LogoText2.png, id=57, 2293.56876pt x 1049.9225pt>
+<Pictures/WHAT-LogoText2.png, id=85, 2293.56876pt x 1049.9225pt>
 File: Pictures/WHAT-LogoText2.png Graphic file (type png)
 
 <use Pictures/WHAT-LogoText2.png>
@@ -1319,7 +1319,7 @@ Package Fancyhdr Warning: \headheight is too small (17.0pt):
 ]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
 Test Phase\Sections/Introduction.tex")
-<Pictures/WHAT-Logo.png, id=85, 2293.56876pt x 850.17625pt>
+<Pictures/WHAT-Logo.png, id=120, 2293.56876pt x 850.17625pt>
 File: Pictures/WHAT-Logo.png Graphic file (type png)
 
 <use Pictures/WHAT-Logo.png>
@@ -1330,7 +1330,45 @@ Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 117.
  <F:/Eigene Dateien/Jo/Studium/Informatik/PSE/GitRepository/KIT-PSE-Docs/LaTeX 
 Test Phase/Pictures/WHAT-Logo.png>]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
-Test Phase\Sections/ImplMistakes.tex")
+Test Phase\Sections/ImplMistakes.tex"
+LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <12> not available
+(Font)              Font shape `T1/fav/b/n' tried instead on input line 12.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.26 sp_
+        parser.Logfile had a check, if the file which is given to it is actu...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.28 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (8.91774pt too wide) in paragraph at lines 26--28
+[]\T1/fav/m/n/10.95 sp$[]\OML/zavm/m/it/10.95 arser:Logfilehadacheck; ifthefile
+whichisgiventoitisactuallyexistent:Itusedthefile \OMS/zavm/m/n/10.95  
+ []
+
+
+Overfull \hbox (217.4786pt too wide) in paragraph at lines 26--28
+\OML/zavm/m/it/10.95 classfromjavaandgotaNullPointerException; whichwascaughtan
+dusedasanindicator; thatthereisnofileforthecorrectname:$ 
+ []
+
+
+Overfull \hbox (7.3772pt too wide) in paragraph at lines 35--37
+\T1/fav/m/n/10.95 This was fixed by adding the .trim()-command in StringRow.spl
+it() and StringMapRow.split() 
+ []
+
+)
 File: Pictures/KIT-Logo.png Graphic file (type png)
  <use Pictures/KIT-Logo.png>
 Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 118.
@@ -1351,8 +1389,26 @@ Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 119.
 ]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
 Test Phase\Sections/Tests.tex"
-LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <12> not available
-(Font)              Font shape `T1/fav/b/n' tried instead on input line 3.
+LaTeX Font Info:    Try loading font information for TS1+fav on input line 9.
+LaTeX Font Info:    No file TS1fav.fd. on input line 9.
+
+
+LaTeX Font Warning: Font shape `TS1/fav/m/n' undefined
+(Font)              using `TS1/cmr/m/n' instead
+(Font)              for symbol `textbullet' on input line 9.
+
+
+Overfull \hbox (59.44664pt too wide) in paragraph at lines 11--12
+[][]\T1/fav/m/n/10.95 smallParseTestTooBig - parse 10 lines, pool-size 100 -> E
+r-ror #2: Parser-Me-di-a-tor.poolsizeParsing
+ []
+
+
+Overfull \hbox (25.03084pt too wide) in paragraph at lines 12--13
+[][]\T1/fav/m/n/10.95 negativePoolsize - parse 10 lines, pool-size -2 -> Er-ror
+ #1: Parser-Me-di-a-tor.poolsizeParsing
+ []
+
 )
 File: Pictures/KIT-Logo.png Graphic file (type png)
  <use Pictures/KIT-Logo.png>
@@ -1404,23 +1460,31 @@ Test Phase\Sections/Stability.aux"))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 126.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 126.
 Package rerunfilecheck Info: File `mainTest.out' has not changed.
-(rerunfilecheck)             Checksum: AE31682288F9C4559440FF77749CA49C;736.
+(rerunfilecheck)             Checksum: 449F194DEE90D7A6A9894DE7C6543DBE;1294.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
  ) 
 Here is how much of TeX's memory you used:
- 10054 strings out of 493921
- 154063 string characters out of 3140856
- 260955 words of memory out of 3000000
- 13083 multiletter control sequences out of 15000+200000
- 35558 words of font info for 57 fonts, out of 3000000 for 9000
+ 10105 strings out of 493921
+ 154792 string characters out of 3140856
+ 261955 words of memory out of 3000000
+ 13113 multiletter control sequences out of 15000+200000
+ 37343 words of font info for 63 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  45i,14n,47p,773b,359s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/Programmieren/Latex/MiKTeX/fonts/enc/dvips/fontname/8r.enc}
-<C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/arev/ArevSans-
-Bold.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/arev/
-ArevSans-Roman.pfb>
-Output written on mainTest.pdf (8 pages, 499841 bytes).
+ <C:\Users\Jonathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi6
+00\tcrm1095.pk>{C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/ar
+ev/arevoml.enc}{C:/Program Files/Programmieren/Latex/MiKTeX/fonts/enc/dvips/fon
+tname/8r.enc}<C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/a
+rev/ArevSans-Bold.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1
+/public/arev/ArevSans-Oblique.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9
+/fonts/type1/public/arev/ArevSans-Roman.pfb><C:/Users/Jonathan/AppData/Roaming/
+MiKTeX/2.9/fonts/type1/mathdesign/mdbch/md-chb7y.pfb>
+Output written on mainTest.pdf (8 pages, 526544 bytes).
 PDF statistics:
- 128 PDF objects out of 1000 (max. 8388607)
- 22 named destinations out of 1000 (max. 500000)
- 120 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 185 PDF objects out of 1000 (max. 8388607)
+ 35 named destinations out of 1000 (max. 500000)
+ 176 words of extra memory for PDF output out of 10000 (max. 10000000)
 

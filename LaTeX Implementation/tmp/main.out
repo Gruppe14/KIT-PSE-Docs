@@ -1,9 +1,9 @@
 \BOOKMARK [1][-]{section.1}{Changes in web tier}{}% 1
-\BOOKMARK [2][-]{subsubsection.1.0.1}{Web page}{section.1}% 2
-\BOOKMARK [3][-]{subsubsection.1.0.2}{WebpageControllers}{subsubsection.1.0.1}% 3
-\BOOKMARK [3][-]{subsubsection.1.0.3}{Localize}{subsubsection.1.0.1}% 4
-\BOOKMARK [3][-]{subsubsection.1.0.4}{ChartIndex}{subsubsection.1.0.1}% 5
-\BOOKMARK [3][-]{subsubsection.1.0.5}{what}{subsubsection.1.0.1}% 6
+\BOOKMARK [2][-]{subsection.1.1}{Web page}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{WebpageControllers}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{Localize}{section.1}% 4
+\BOOKMARK [2][-]{subsection.1.4}{ChartIndex}{section.1}% 5
+\BOOKMARK [2][-]{subsection.1.5}{what}{section.1}% 6
 \BOOKMARK [1][-]{section.2}{Changes in and comments to the Application tier}{}% 7
 \BOOKMARK [2][-]{subsection.2.1}{Working with a config}{section.2}% 8
 \BOOKMARK [2][-]{subsection.2.2}{The configuration package}{section.2}% 9
@@ -28,3 +28,15 @@
 \BOOKMARK [3][-]{subsubsection.3.1.1}{MySQLAdapter}{subsection.3.1}% 28
 \BOOKMARK [3][-]{subsubsection.3.1.2}{WHConnectionManager}{subsection.3.1}% 29
 \BOOKMARK [1][-]{section.4}{Things that went wrong}{}% 30
+\BOOKMARK [2][-]{subsection.4.1}{Technical}{section.4}% 31
+\BOOKMARK [3][-]{subsubsection.4.1.1}{git}{subsection.4.1}% 32
+\BOOKMARK [3][-]{subsubsection.4.1.2}{libraries}{subsection.4.1}% 33
+\BOOKMARK [2][-]{subsection.4.2}{Non technical}{section.4}% 34
+\BOOKMARK [3][-]{subsubsection.4.2.1}{automation}{subsection.4.2}% 35
+\BOOKMARK [3][-]{subsubsection.4.2.2}{Broken builds}{subsection.4.2}% 36
+\BOOKMARK [3][-]{subsubsection.4.2.3}{Splitting the program into parts}{subsection.4.2}% 37
+\BOOKMARK [3][-]{subsubsection.4.2.4}{Licenses}{subsection.4.2}% 38
+\BOOKMARK [3][-]{subsubsection.4.2.5}{Dealing with change}{subsection.4.2}% 39
+\BOOKMARK [3][-]{subsubsection.4.2.6}{What if only one person understands some code and something happens to them?}{subsection.4.2}% 40
+\BOOKMARK [3][-]{subsubsection.4.2.7}{Crises}{subsection.4.2}% 41
+\BOOKMARK [3][-]{subsubsection.4.2.8}{Communication}{subsection.4.2}% 42

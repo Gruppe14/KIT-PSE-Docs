@@ -1,6 +1,16 @@
 \section{Implementation mistakes}
 
-\subsubsection{Task determination}
+
+
+
+
+
+
+
+
+
+\subsection{Parsing} 
+\subsubsection{Task determination} 
 When having too many threads (10+), sometimes a thread stopped working. This caused the counter for finished tasks
 to be stuck under the number of threads and the program not to get finished.
 So we implemented a watchdogtimer which replaces a thread by a new one, if said thread doesn't finish a line for a 
@@ -9,7 +19,7 @@ predefinied amount of time. (standard = 2 seconds)
 \subsubsection{Negative or too high poolsize}
 The parser works with a pool of threads, which are created when parsing. In the ParserMediator there is
 a variable poolsize, which is the used poolsize for parsing.
-When using a negative or a really high number (tried Integer.MAX_VALUE), the program crashes.
+When using a negative or a really high number (tried Integer.MAX\_VALUE), the program crashes. 
 So we implemented a check for the poolsize, which looks if it is between 1 and 50 and stops parsing if it isn't.
 
 \subsubsection{NullPointerExceptions when correct file doesn't exist}
@@ -30,4 +40,4 @@ Sometimes the city- and country-name of an IP returned Anynomous Proxy, which is
 the other undefined countries and cities.
 
 
-\ldots
+\ldots 
