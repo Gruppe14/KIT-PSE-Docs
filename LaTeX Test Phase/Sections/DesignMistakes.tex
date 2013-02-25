@@ -2,4 +2,15 @@
 
 This section is about the part of the system reading the configuration file
 
+\subsection{Check for missing/empty parts}
+The parser now checks if a part of the line which is parsed is missing or empty. If it is, the line is deleted and 
+linesDeleted gets incremented.
+
+\subsection{Only accept when enough lines submitted}
+Added "final static double CORRECT", a double between 0 and 100, which indicates how many percent of the lines need to be
+submitted correctly for the ParserMediator to return true to the facade.
+
+\subsection{Reset}
+The parser now resets after he finished parsing a logfile, so that another file can be parsed.
+
 O\_o
