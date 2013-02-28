@@ -71,34 +71,7 @@
 	pdftitle={Design - WHAT WareHouse Analyzing Tool},
 	pdfauthor={Alexander Noe, Jonathan Klawitter, Anas Saber, Nikolaos Alexandros Kurt Moraitakis,Lukas Ehnle}}
 
-% Glossary 
-% \usepackage{ifthen}
-% \usepackage{xkeyval}
-% \usepackage{xfor}
-% \usepackage{amsgen}
-% \usepackage{etoolbox} 
 
-% \usepackage[makeindex]{glossaries}
-% \include{Sections/1XGlossaryEntries} 
-% \makeglossaries   
- 
- 
-% %Glossarverweise formatieren
-% \DeclareRobustCommand\textsfgls[1]{\textsf{\textcolor{dark_gray}{#1}}}
-% \renewcommand{\glsdisplayfirst}[4]{\textsfgls{#1}} % Farbe/Schriftart für das erste Vorkommen einer Referenz festlegen
-% \renewcommand{\glsdisplay}[4]{\textsfgls{#1}} % Farbe/Schriftart für alle anderen Referenzen festlegen
-% 
-% %Glossareinträge formatieren
-% \renewcommand{\glossaryentryfield}[5]{%
-% \item % bullet point
-% \textbf{\glstarget{#1}{#2}}% the entry name
-% \space #3% the description
-% \space [#5]% the number list in square brackets
-% }%
-%  
-%  
-
- 
 
 %!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%
 \begin{document} % BEGIN BEGIN BEGIN BEGIN BEGIN BEGIN BEGIN BEGIN BEGIN
@@ -110,17 +83,29 @@
 \restoregeometry
 \newpage  
 
+
 %\vspace*{0.1cm}
+\include{Sections/0Introduction}
 \tableofcontents
   
 \newpage 
-\include{Sections/Introduction}
-\include{Sections/ImplMistakes}
-\include{Sections/DesignMistakes}
-\include{Sections/Tests}
-\include{Sections/Performance}
-\include{Sections/Stability}
 
+
+\include{Sections/1General}
+
+\include{Sections/2OrganisationAndHelper}
+\include{Sections/3Configuration}
+\include{Sections/4Parser}
+\include{Sections/5ChartRequest}
+\include{Sections/6DataAccess}
+
+\include{Sections/7Web}
+
+\include{Sections/8Charts}
+
+\include{Sections/9Performance} % may get to the last point
+
+\include{Sections/ARequirements}
 %    
 %!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%
 \end{document}  % END END END END END END END END END END END END END END 
