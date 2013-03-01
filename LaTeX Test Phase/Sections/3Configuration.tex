@@ -1,5 +1,71 @@
 \section{Configuration file}
+This section is about the part of the system reading the configuration file
+and handling its information.
 
-This section is about the part of the system reading the configuration file.
+\subsection{Requirements}
+We decided that every configuration file and the order of the 
+rows have to follow this requirements:
+\begin{itemize}
+  \item starts with time
+  \item has an IP row which follows time
+  \item any other rows, which must be dimension (level > 0) if they are not of
+  type integer or double
+  \item rows of one dimensions follow each other with rising level
+  \item integer or double rows are automatically measures
+  \item statement is at the last position
+\end{itemize} 
 
-TODO
+For configurations following this requirements the system should run
+successfully now.
+
+\subsection{Creation}
+The reading of the configuration file was made easier with the
+\textit{JSONReader} (\ref{reader}). Because of this the easy creation
+of the \textit{ConfigWrap} was placed in the \textit{ConfigWrap} itself as
+static factory without the need of any helper class.
+
+\paragraph{Change detail}
+\begin{itemize}
+  \item Static factory machine for \textit{ConfigWrap} without special helper class
+\end{itemize}
+
+\subsection{StringRow}
+The \textit{StringRow} had unneeded functions. The idea was
+to store all possible Strings of a row in it. But not really knowing what
+could be content of the log files, the Strings are read directly from 
+the log files and stored in the warehouse. So the old functions got unneeded.
+
+\paragraph{Change detail}
+\begin{itemize}
+  \item Kill unneeded functions of \textit{StringRow}
+\end{itemize}
+
+\subsection{Dimension content trees}
+The actual existing content of a String dimension is requested from
+the warehouse and stored. This was made with a construct
+of \textit{HashMap}s and \textit{TreeSet}s of String containing itself or not. It was
+a bad approach to build a tree.
+
+This was changed with a new class \textit{DimKnot} which forms tree structures. 
+Instances of it also contain information about the level they are,
+which makes it much more easy to build MySQL queries dynamically from them.
+\paragraph{Change detail}
+\begin{itemize}
+  \item \textit{DimKnot} tree structure instead of bad \textit{HashMap} + \textit{TreeSet} approach
+\end{itemize}
+
+\subsection{Space in names}
+It was not possible to have spaces in names of rows, dimensions or a configurations. This
+produced incorrect table and column names in the database.
+\paragraph{Change detail}
+\begin{itemize}
+  \item Allow row, dimension and configuration names with space
+\end{itemize}
+
+\subsection{Testing}
+
+\paragraph{Test details}
+\begin{itemize}
+  \item \ldots
+\end{itemize}
+

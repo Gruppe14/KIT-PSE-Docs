@@ -1,30 +1,44 @@
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 1
 \BOOKMARK [1][-]{section.2}{General}{}% 2
-\BOOKMARK [2][-]{subsection.2.1}{JavaDoc}{section.2}% 3
-\BOOKMARK [2][-]{subsection.2.2}{CheckStyle}{section.2}% 4
-\BOOKMARK [2][-]{subsection.2.3}{Coding style}{section.2}% 5
-\BOOKMARK [1][-]{section.3}{Facade, Helper}{}% 6
-\BOOKMARK [1][-]{section.4}{Configuration file}{}% 7
-\BOOKMARK [1][-]{section.5}{Parser}{}% 8
-\BOOKMARK [2][-]{subsection.5.1}{Parsing}{section.5}% 9
-\BOOKMARK [3][-]{subsubsection.5.1.1}{Task determination}{subsection.5.1}% 10
-\BOOKMARK [3][-]{subsubsection.5.1.2}{Negative or too high poolsize}{subsection.5.1}% 11
-\BOOKMARK [3][-]{subsubsection.5.1.3}{NullPointerExceptions when correct file doesn't exist}{subsection.5.1}% 12
-\BOOKMARK [3][-]{subsubsection.5.1.4}{.trim\(\)}{subsection.5.1}% 13
-\BOOKMARK [3][-]{subsubsection.5.1.5}{Anonymous Proxy}{subsection.5.1}% 14
-\BOOKMARK [2][-]{subsection.5.2}{Check for missing/empty parts}{section.5}% 15
-\BOOKMARK [2][-]{subsection.5.3}{Only accept when enough lines submitted}{section.5}% 16
-\BOOKMARK [2][-]{subsection.5.4}{Reset}{section.5}% 17
-\BOOKMARK [2][-]{subsection.5.5}{Automic tests}{section.5}% 18
-\BOOKMARK [3][-]{subsubsection.5.5.1}{Parsing}{subsection.5.5}% 19
-\BOOKMARK [2][-]{subsection.5.6}{Test scenario}{section.5}% 20
-\BOOKMARK [1][-]{section.6}{Chart requests}{}% 21
-\BOOKMARK [1][-]{section.7}{Data access}{}% 22
-\BOOKMARK [2][-]{subsection.7.1}{Connection pool}{section.7}% 23
-\BOOKMARK [2][-]{subsection.7.2}{TODO}{section.7}% 24
-\BOOKMARK [1][-]{section.8}{Web}{}% 25
-\BOOKMARK [1][-]{section.9}{Charts}{}% 26
-\BOOKMARK [1][-]{section.10}{Performance}{}% 27
-\BOOKMARK [2][-]{subsection.10.1}{Loading}{section.10}% 28
-\BOOKMARK [2][-]{subsection.10.2}{Extracting}{section.10}% 29
-\BOOKMARK [1][-]{section.11}{Requirements}{}% 30
+\BOOKMARK [2][-]{subsection.2.1}{Coding style}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Structure}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{JavaDoc}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.4}{CheckStyle}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.5}{Error messages}{section.2}% 7
+\BOOKMARK [1][-]{section.3}{Facade, Helper}{}% 8
+\BOOKMARK [2][-]{subsection.3.1}{Utility classes}{section.3}% 9
+\BOOKMARK [3][-]{subsubsection.3.1.1}{FileHelper}{subsection.3.1}% 10
+\BOOKMARK [3][-]{subsubsection.3.1.2}{JSONReader}{subsection.3.1}% 11
+\BOOKMARK [3][-]{subsubsection.3.1.3}{Printer}{subsection.3.1}% 12
+\BOOKMARK [2][-]{subsection.3.2}{Facade}{section.3}% 13
+\BOOKMARK [2][-]{subsection.3.3}{Testing}{section.3}% 14
+\BOOKMARK [1][-]{section.4}{Configuration file}{}% 15
+\BOOKMARK [2][-]{subsection.4.1}{Requirements}{section.4}% 16
+\BOOKMARK [2][-]{subsection.4.2}{Creation}{section.4}% 17
+\BOOKMARK [2][-]{subsection.4.3}{StringRow}{section.4}% 18
+\BOOKMARK [2][-]{subsection.4.4}{Dimension content trees}{section.4}% 19
+\BOOKMARK [2][-]{subsection.4.5}{Space in names}{section.4}% 20
+\BOOKMARK [2][-]{subsection.4.6}{Testing}{section.4}% 21
+\BOOKMARK [1][-]{section.5}{Parser}{}% 22
+\BOOKMARK [2][-]{subsection.5.1}{Parsing}{section.5}% 23
+\BOOKMARK [3][-]{subsubsection.5.1.1}{Task determination}{subsection.5.1}% 24
+\BOOKMARK [3][-]{subsubsection.5.1.2}{Negative or too high poolsize}{subsection.5.1}% 25
+\BOOKMARK [3][-]{subsubsection.5.1.3}{NullPointerExceptions when correct file doesn't exist}{subsection.5.1}% 26
+\BOOKMARK [3][-]{subsubsection.5.1.4}{.trim\(\)}{subsection.5.1}% 27
+\BOOKMARK [3][-]{subsubsection.5.1.5}{Anonymous Proxy}{subsection.5.1}% 28
+\BOOKMARK [2][-]{subsection.5.2}{Check for missing/empty parts}{section.5}% 29
+\BOOKMARK [2][-]{subsection.5.3}{Only accept when enough lines submitted}{section.5}% 30
+\BOOKMARK [2][-]{subsection.5.4}{Reset}{section.5}% 31
+\BOOKMARK [2][-]{subsection.5.5}{Automic tests}{section.5}% 32
+\BOOKMARK [3][-]{subsubsection.5.5.1}{Parsing}{subsection.5.5}% 33
+\BOOKMARK [2][-]{subsection.5.6}{Test scenario}{section.5}% 34
+\BOOKMARK [1][-]{section.6}{Chart requests}{}% 35
+\BOOKMARK [1][-]{section.7}{Data access}{}% 36
+\BOOKMARK [2][-]{subsection.7.1}{Connection pool}{section.7}% 37
+\BOOKMARK [2][-]{subsection.7.2}{TODO}{section.7}% 38
+\BOOKMARK [1][-]{section.8}{Web}{}% 39
+\BOOKMARK [1][-]{section.9}{Charts}{}% 40
+\BOOKMARK [1][-]{section.10}{Performance}{}% 41
+\BOOKMARK [2][-]{subsection.10.1}{Loading}{section.10}% 42
+\BOOKMARK [2][-]{subsection.10.2}{Extracting}{section.10}% 43
+\BOOKMARK [1][-]{section.11}{Requirements}{}% 44

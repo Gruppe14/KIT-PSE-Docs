@@ -1,3 +1,66 @@
 \section{Facade, Helper}
+In the highest package of the application tier the
+Facade and utility classes are placed.
+
+\subsection{Utility classes}\label{utility}
+To bundle some functions needed in more than one package some utility
+classes were created. They also made error handling and 
+testing easier. 
+
+\paragraph{Change detail}
+\begin{itemize}
+  \item New utility classes created
+\end{itemize}
+
+This classes are described below.
+
+\subsubsection{FileHelper}
+Reading configuration files and log files both need some methods to get the file,
+check its existence, rights and file extension. This functions
+where collected in the class \textit{FileHelper}.
+
+\subsubsection{JSONReader}\label{reader}
+The configuration and parts of the communication between web tier
+and data tier is accomplished with JSON objects. Also reading and
+extracting from them is bound with possible exceptions and try-catch blocks.
+To reduce duplicate code and provide easier access the \textit{JSONReader} class
+was created.
+
+\subsubsection{Printer}
+The class \textit{Printer} was created to unify error, failure, problem, test
+and success messages.
+
+
+\subsection{Facade}
+The facade's main functions are initializing everything and then direct incoming requests to
+the specific mediators. 
+
+One problem found was that the creation of tables for the database caused serveral problems
+for testing and when they changed. So the creation of them was solved dynamically, so
+that you just had to drop the old tables and when starting the system, it would
+create them.
+
+\paragraph{Change detail}
+\begin{itemize}
+  \item Automatic check if tables exist and creation of them
+\end{itemize}
+
+
+\subsection{Testing}
+The facade is tested via its use. If it wouldn't work or show any problems
+nothing between web tier and application tier would work.
+
+The Printer works fine.
+
+The other classes have a JUnit test class.
+\paragraph{Test details}
+\begin{itemize}
+  \item test FileHelper with wrong file and nonexisting files
+  \item test whether needed Files for the system exist via FileHelper
+  \item test all methods of JSONReader with correct keys
+  \item test all methods of JSONReader with incorrect keys
+\end{itemize}
+
+
 
 

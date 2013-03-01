@@ -1,9 +1,70 @@
 \section{General}
-
-\subsection{JavaDoc}
-
-\subsection{CheckStyle}
+This section is about things concerning the whole system.
 
 \subsection{Coding style}
-hardcoded strings, task separation, reuse of code, \ldots
+In general value on good coding style was set. This is mostly the aspect
+of task division to classes and methods. To implement this some classes were totally redesigned
+and lot's of new classes created. This also helped another important aspect, object oriented programming.
+So for example a chart host storing all tables, names and filters as Strings and sets, developed to
+a class containing only one String per axis, Filter objects, which wrap dimension and other objects, and a Measure
+object, to hold all information, needed for MySQL queries for this chart.
+
+Another aspect was the reuse of code. Reviewing the code, showed that some packages need the same
+functions, e.g. for reading from JSON object. To bundle this functions and
+decrease duplicate code some utility classes (\ref{utility}) were created.
+
+See the sections of the packages for details.
+
+\subsection{Structure}
+We noticed that packages and folders in the application folder app from the play framework 
+the application and the web tier weren't seperated. This separation was arranged. 
+The data access tier was considerd to be a sub-tier of the application tier. 
+
+\paragraph{Change detail}
+\begin{itemize}
+  \item Restructure folders and packages to fulfill tier separation
+\end{itemize}
+
+\subsection{JavaDoc}
+JavaDoc wasn't written strictly for all packages, classes, methods, attributes and constants. 
+But with the help of CheckStyle (\ref{cs}) all of the laziness was found and the JavaDoc written.
+The quality of JavaDoc is always a matter of opinion, but in the view of the
+writers it's adequate to it's need.
+
+\paragraph{Change detail}
+\begin{itemize}
+  \item Missing JavaDoc written
+\end{itemize}
+
+\subsection{CheckStyle}\label{cs}
+When starting CheckStyle first with the standard checks there were about 7290 warnings.
+Searching where this all came from, we found out, that the library of GeoIP from MaxMind, 
+which was included as a package to make some adjustments, produced 6060 of them. So there seemed to be about
+1230.
+
+Adjusting the CheckStyle configuration to checks we thought were useful left only 535 warnings.
+Those were mostly handled. Only the warning that there should be no hard coded Strings, where
+ignored, where HTML code was build.
+
+\paragraph{Change detail}
+\begin{itemize}
+  \item CheckStyle warnings fixed
+\end{itemize}
+%TODO
+TODO: entscheiden was man damit machen will\ldots
+data : 82
+config: 57
+chart: 85
+what: 29
+web: 130
+controllers: 60 
+parser: rest
+
+\subsection{Error messages}
+Where not really needed stack traces were replaced and meaningful error messages printed.
+\paragraph{Change detail}
+\begin{itemize}
+  \item Replace stack traces with error messages
+\end{itemize}
+
  
