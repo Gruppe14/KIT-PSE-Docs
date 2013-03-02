@@ -1,0 +1,16 @@
+\Section{Security}
+
+While our program does not store user data,
+we still took precautions to secure it against potential attackers by examining 
+potential attack vectors, and took action to prevent them.
+
+\subsection{User Input}
+There is no free form text user input, and it never gets displayed back.
+In addition, because of the tiered architecture, the data from the tier above gets checked multiple times for validity.
+This happens both at the web server level, and at the database access level.
+@joklawitter @ocjojo details?
+
+\subsection{Authentication}
+We use the java play authentication mechanisms.
+The user session has a cookie named PLAY_SESSION, which is a long hash, different between computers.
+
