@@ -1,2 +1,98 @@
 \section{Chart requests}
-Behandelt das paket chart requests
+
+% integrity
+
+% create query by themself
+
+
+\subsection{Object oriented programming}
+The origin design for this package was dropped in the implementation phase.
+There was neither a visitor pattern nor classes to wrap the informations
+needed efficient. This decision was withdrawn.
+
+\subsubsection{Chart request workflow}
+The parameter lists in the methods got longer 
+and longer when implementing the missing filter features
+and the charts with two dimensions.
+
+Something we didn't want to do first, solved the problem. The problem 
+with the \textit{ResultSet} closing, when closing the statement, made it
+necessary to write the \textit{JSONObject} of the charts in the
+data access tier. So the decision was made to send the whole chart instance
+down to the data access tier. 
+
+\paragraph{Change detail}
+\begin{itemize}
+  \item Chart itself is parameter of chart requests
+\end{itemize}
+
+Instead of requesting all the information now from the chart
+and create the MySQL queries, this got changed to a more  elegant way.
+The chart itself returns query parts for the things like 'select', 'join' or other.
+
+\paragraph{Change detail}
+\begin{itemize}
+  \item Creating of query parts in the chart
+\end{itemize}
+
+But it remained a bulge of information stored improperly. This was
+solved with some classes described below.
+
+\subsubsection{Filter class}
+Instead of requesting all query parts from the config, like table names and keys,
+a filter stores the dimension on which it is based. First just the lowest
+level of the filter values was stored, but this was detected to be incorrect.
+A database may be child of more than one server and a city with the name 'x'
+may be city in more than one country. For correct filtering, referring
+to the things selected on the web page, trees where made for this values 
+to build correct filter query parts.
+
+\paragraph{Change detail}
+\begin{itemize}
+  \item \textit{Filter} class to wrap information of a filter
+  \item trees of filter values instead of sets without parents
+\end{itemize}
+
+
+\subsubsection{Measure class}
+The approach to store just a string for the measure was neither good style
+nor made it possible to have other aggregations than \texttt{count(*)}.
+This was solved by the new class \textit{Measure}. It made it also possible
+to write more information in the JSON sended back to the web page about what
+the returned chart is.
+
+\paragraph{Change detail}
+\begin{itemize}
+  \item \textit{Measure} class to wrap information of a measure
+\end{itemize}
+
+\subsection{SQL injection}
+It could have been possible to run SQL injections against the database
+by using filter values as injection holes. Comparing the values of filters
+parsed from a char request JSON with the actual values in the warehouse
+should have closed this hole.
+
+\paragraph{Change detail}
+\begin{itemize}
+  \item Protection against SQL injection
+\end{itemize}
+
+
+\subsection{Two axis of same dimension}
+By playing with the chart we detected that queries for
+charts with x- and y-axis of the same dimension incorrect
+queries where created, resulting in not getting a chart.
+\paragraph{Change detail}
+\begin{itemize}
+  \item Make it possible to create charts with x and y of same dimension
+\end{itemize}
+
+
+
+\subsection{Testing}
+
+Correct reading of the JSON-Objects was tested by explicte use of filters, axis and measures, 
+then printing the requests and compare with the resulting MySQL queries. We couldn't see
+the usage for any automatic tests there.
+
+Creating the queries from the chart host was tested in the same way. 

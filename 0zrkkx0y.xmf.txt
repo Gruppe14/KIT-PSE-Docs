@@ -1,0 +1,39 @@
+﻿section 1-4,5
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# You are currently rebasing.
+#   (all conflicts fixed: run "git rebase --continue")
+#
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	modified:   LaTeX Test Phase/Sections/0Introduction.tex
+#	modified:   LaTeX Test Phase/Sections/1General.tex
+#	modified:   LaTeX Test Phase/Sections/2OrganisationAndHelper.tex
+#	modified:   LaTeX Test Phase/Sections/3Configuration.tex
+#	modified:   LaTeX Test Phase/TestPhase.pdf
+#	modified:   LaTeX Test Phase/TestPhase.synctex.gz
+#	modified:   LaTeX Test Phase/mainTest.tex
+#	modified:   LaTeX Test Phase/tmp/Sections/1General.aux
+#	modified:   LaTeX Test Phase/tmp/Sections/2OrganisationAndHelper.aux
+#	modified:   LaTeX Test Phase/tmp/Sections/3Configuration.aux
+#	modified:   LaTeX Test Phase/tmp/Sections/4Parser.aux
+#	modified:   LaTeX Test Phase/tmp/Sections/5ChartRequest.aux
+#	modified:   LaTeX Test Phase/tmp/Sections/6DataAccess.aux
+#	modified:   LaTeX Test Phase/tmp/Sections/7Web.aux
+#	modified:   LaTeX Test Phase/tmp/Sections/8Charts.aux
+#	modified:   LaTeX Test Phase/tmp/Sections/9Performance.aux
+#	modified:   LaTeX Test Phase/tmp/Sections/ARequirements.aux
+#	deleted:    LaTeX Test Phase/tmp/Sections/DesignMistakes.aux
+#	deleted:    LaTeX Test Phase/tmp/Sections/ImplMistakes.aux
+#	deleted:    LaTeX Test Phase/tmp/Sections/Introduction.aux
+#	deleted:    LaTeX Test Phase/tmp/Sections/Parser.aux
+#	deleted:    LaTeX Test Phase/tmp/Sections/Performance.aux
+#	deleted:    LaTeX Test Phase/tmp/Sections/Stability.aux
+#	deleted:    LaTeX Test Phase/tmp/Sections/Tests.aux
+#	modified:   LaTeX Test Phase/tmp/mainTest.log
+#	modified:   LaTeX Test Phase/tmp/mainTest.out
+#	modified:   LaTeX Test Phase/tmp/mainTest.toc
+#
+

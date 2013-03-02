@@ -6,17 +6,24 @@ and handling its information.
 We decided that every configuration file and the order of the 
 rows have to follow this requirements:
 \begin{itemize}
-  \item starts with time
+  \item starts with time and time rows contain the String 'time'
   \item has an IP row which follows time
   \item any other rows, which must be dimension (level > 0) if they are not of
   type integer or double
   \item rows of one dimensions follow each other with rising level
   \item integer or double rows are automatically measures
+  \item at least 1 measure
   \item statement is at the last position
 \end{itemize} 
 
 For configurations following this requirements the system should run
-successfully now.
+successfully now. Some of the things are checked, some would cause a crash
+of the build anyway.
+
+\paragraph{Change detail}
+\begin{itemize}
+  \item Check the requirements to a configuration file
+\end{itemize}
 
 \subsection{Creation}
 The reading of the configuration file was made easier with the
@@ -27,6 +34,23 @@ static factory without the need of any helper class.
 \paragraph{Change detail}
 \begin{itemize}
   \item Static factory machine for \textit{ConfigWrap} without special helper class
+\end{itemize}
+
+\subsubsection{Unneeded attributes}
+There were unneeded and senseless attributes for all rows in the configuration.
+They got deleted and replaced by 'N/A' in the reading process.
+
+\paragraph{Change detail}
+\begin{itemize}
+  \item Set deleted and unneeded row attributes to 'N/A'
+\end{itemize}
+
+\subsubsection{Space in names}
+It was not possible to have spaces in names of rows, dimensions or a configurations. This
+produced incorrect table and column names in the database.
+\paragraph{Change detail}
+\begin{itemize}
+  \item Allow row, dimension and configuration names with space
 \end{itemize}
 
 \subsection{StringRow}
@@ -54,18 +78,31 @@ which makes it much more easy to build MySQL queries dynamically from them.
   \item \textit{DimKnot} tree structure instead of bad \textit{HashMap} + \textit{TreeSet} approach
 \end{itemize}
 
-\subsection{Space in names}
-It was not possible to have spaces in names of rows, dimensions or a configurations. This
-produced incorrect table and column names in the database.
+
+
+\subsection{Child dimensions}
+All \textit{DimRow}s had a field for trees and time interval. To make this more
+efficient and object oriented it was changed
+by adding to child classes of \textit{DimRow}.
 \paragraph{Change detail}
 \begin{itemize}
-  \item Allow row, dimension and configuration names with space
+  \item Child classes \textit{TimeDimension} and \textit{StringDim} for \textit{DimRow}
 \end{itemize}
 
 \subsection{Testing}
 
+The configuration file and the test configurations where parsed and printed. 
+This seems test enough that it is read correct. 
+
+The trees of the \textit{DimKnot}s where tested by checking what values are actually in the
+database and if they all appear on the web page.
+
 \paragraph{Test details}
 \begin{itemize}
-  \item \ldots
+  \item Two new test configurations
+  \item Parsing with 2 valid test configurations
+  \item Look at web page after parsing if everythin fits too
+  \item Parsing with invalid test configurations
 \end{itemize}
+
 

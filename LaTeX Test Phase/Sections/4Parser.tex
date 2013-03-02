@@ -3,9 +3,8 @@
 \subsection{Task determination} 
 When having too many threads (10+), sometimes a thread stopped working. This caused the counter for finished tasks
 to be stuck under the number of threads and the program not to get finished.
-So we implemented a watchdogtimer which replaces a thread by a new one, if said thread doesn't finish a line for a 
+So a watchdogtimer was implemented which replaces a thread by a new one, if said thread doesn't finish a line for a 
 predefinied amount of time. (standard = 2 seconds)
-
 
 \paragraph{Change detail}
 \begin{itemize}
@@ -18,7 +17,6 @@ a variable poolsize, which is the used poolsize for parsing.
 When using a negative or a really high number (tried Integer.MAX\_VALUE), the program crashes. 
 So we implemented a check for the poolsize, which looks if it is between 1 and 50 and stops parsing if it isn't.
 
-
 \paragraph{Change detail}
 \begin{itemize}
   \item Check for invalid poolsize before parsing.
@@ -26,52 +24,50 @@ So we implemented a check for the poolsize, which looks if it is between 1 and 5
 
 \subsection{NullPointerExceptions when correct file doesn't exist}
 sp\_parser.Logfile had a check, if the file which is given to it is actually existent. It used the file-class from java
-and got a NullPointerException, which was caught and used as an indicator, that there is no file for the correct name.
+and got a \texttt{NullPointerException}, which was caught and used as an indicator, that there is no file for the correct name.
 
-This worked, but to improve our program, we used a class called FileHelper, which creates the file-object one time and
-returns it when needed, because other parts of the program need the file too. It didn't return a NullPointerException when 
-the file doesn't exist, so this check got overrun and the parser "thought" that there is a correct file which wasn't.
-This caused the program to crash. Fixed by checking for null instead of catching a NullPointerException
-
+This worked, but to improve our program, we used a class called \textit{FileHelper} (\ref{FileHelper}). 
+It didn't return a \texttt{NullPointerException} when the file doesn't exist, 
+so this check got overrun and the parser 'thought' that there is a correct file, which was not the case.
+This caused the program to crash. 
 
 \paragraph{Change detail}
 \begin{itemize}
-  \item Implemented a check for null for the filename.
+  \item Use and correct use of \textit{FileHelper}
 \end{itemize}
 
-\subsubsection{.trim()}
+\subsection{Whitespace in entries}
 Some log files contain unneeded whitespace, which produce incorrect data. 
 This was fixed by adding the \texttt{trim}-command in StringRow.split() and StringMapRow.split()
-
 
 \paragraph{Change detail}
 \begin{itemize}
   \item Trim the strings before sending them to the database.
 \end{itemize}
 
-\subsubsection{Anonymous Proxy}
-Sometimes the city- and country-name of an IP returned Anynomous Proxy, which is now replaced by "other" to fit in with 
-the other undefined countries and cities.
+\subsection{Anonymous Proxy}
+GeoIp sometimes returned 'Anynomous Proxy' instead of nothing for cities or countries it didn't found.
+This gets replaced by 'other' to fit in with the other undefined countries and cities.
 
 
 \paragraph{Change detail}
 \begin{itemize}
-  \item Check for proxy.
+  \item Check for anynomous proxy
 \end{itemize}
 
-\subsection{Check for missing/empty parts}
-The parser now checks if a part of the line which is parsed is missing or empty. If it is, the line is deleted and 
-linesDeleted gets incremented.
+\subsection{Check for missing or empty parts}
+The parser now checks whether a part of the line parsed is missing or empty. In this case the line is ignored and 
+the count for incorrect lines gets incremented.
 
 \paragraph{Change detail}
 \begin{itemize}
-  \item Check for missing / empty part in every line.
-  \item Flawed lines are not accepted.
+  \item Check for missing or empty part in every line
+  \item Flawed lines are not accepted
 \end{itemize}
 
 \subsection{Only accept when enough lines submitted}
-Added "final static double CORRECT", a double between 0 and 100, which indicates how many percent of the lines need to be
-submitted correctly for the ParserMediator to return true to the facade.
+Added \texttt{final static double CORRECT}, a double between 0 and 100, which indicates how many percent of the lines need to be
+submitted correctly for the ParserMediator to return true, singaling parsing was successful.
 
 \paragraph{Change detail}
 \begin{itemize}
@@ -86,11 +82,16 @@ The parser now resets after he finished parsing a logfile, so that another file 
   \item added a reset-method in the ParserMediator
 \end{itemize}
 
-\ldots 
-\subsection{Automic tests}
 
-\subsubsection{Parsing}
+\subsection{Testing}
 
+Besides the JUnit tests, described below, there were same test by hand. Parsing log files with
+just a few lines into a empty database. Then compare the content by hand.
+
+\paragraph{Test details}
+TODO group them, like the comment in the JUnit class
+TODO not newest version!!
+%TODO
 \begin{itemize}
 
 \item smallParseTestStandardSize - parse 10 lines, standard (5) poolsize
@@ -103,8 +104,8 @@ The parser now resets after he finished parsing a logfile, so that another file 
 \item mediumParseTestStandardSize - parse 1000 lines, standard (5) poolsize
 \item mediumParseTestSize50 - parse 1000 lines, poolsize 50
 \item bigParseTestStandardSize - parse ~30k lines, standard (5) poolsize
-\item veryBigParseTestStandardSize (IGNORED) - parse a whole month, standard (5) poolsize, ignored because it may take hours 
-to finish.
+%\item veryBigParseTestStandardSize (IGNORED) - parse a whole month, standard (5) poolsize, ignored because it may take hours 
+%to finish.
 \item smallParseTestEmptyLine - parse 10 lines with an empty line in between
 \item testIntegerMistake - parse 10 lines with year "2013apples" instead of "2013"
 \item testMissingPart - parse 10 lines with one line with a missing statement
@@ -112,9 +113,3 @@ to finish.
 \item doubleParsing - parse 1000 lines twice from seperate files
 
 \end{itemize}
-
-\subsection{Test scenario}
-TODO : Do we need this? Everything tested in the automatic tests.
-% old
-% new
-% result
