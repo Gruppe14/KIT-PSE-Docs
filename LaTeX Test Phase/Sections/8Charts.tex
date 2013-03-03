@@ -1,24 +1,68 @@
 \section{Charts}
-The charts saw a fair amount of bug fixes as well.
+The charts saw a fair amount of bug fixes and improvements as well.
 
-\subsection{Bubblechart}
-A one dimensional bubblechart, where the items are sorted according to one dimension was implemented.
+%\subsection{Bubblechart}
+%A one dimensional bubblechart, where the items are sorted according to one dimension was implemented.
 %TODO: War es schon immer da? :-)
 
 \subsection{Bug fixes}
   \subsubsection{Type of data}
-  The skyserver contained a significant amount of categorical data. However, their representation on the axes
+  The SkyServer contained a significant amount of categorical data. However, their representation on the axes
   used to cause problems. The charts are now more robust and work with both numerical and categorical data.
-  \subsubsection{Errorpicture}
-  An errorpicture is thrown to differentiate between the chart with no data, and the chart with an error,
-  or incorrect data (which the user will hopefully never experience)
+  
+ \paragraph{Change detail}
+\begin{itemize}
+  \item Make charts robust against varying data
+\end{itemize}
+  
+ \subsubsection{Error}
+  Errors are now thrown to differentiate between the chart with no data, and the chart with an error,
+  or incorrect data (which the user will hopefully never experience). This was a expecially a problem
+  at the Bubblechart, where no axis are printed.
+  
+   \paragraph{Change detail}
+\begin{itemize}
+  \item Show error pictures to diverge them from empty data
+\end{itemize}
+  
   \subsubsection{Boring bugs}
   Boring bugs, such as the text on the data was off by a few pixels were fixed too.
   
+\subsection{Aesthetics}
+The charts were made prettier.
+  
+\paragraph{Change detail}
+\begin{itemize}
+  \item Tooltips, or text that appears once the mouse hovers over a data point was added to every chart
+  \item Consistent font use
+  \item The text now gets rotated on a number of cases to fit more datapoints. It also makes the charts prettier
+  \item Change the css % sollte das vll wo anders hin?
+\end{itemize}
 
 
-\subsection{Rotation of text}
-  Text was rotated where needed, now more datapoints fit and it looks better.
+\subsection{Special cases}
+%TODO
+TODO wie zB nicht viele einträge in barchart
+TODO kleine bubble charts, nur buchstaben anzeigen
+falls dir noch was einfällt
 
-\subsection{Tooltips}
-  Tooltips, or text that appears once the mouse hovers over a data point was added to every chart.
+\paragraph{Change detail}
+\begin{itemize}
+  \item Show a few amount of bars correct in barchart
+  \item Just show sinle or no letters for small bubbles in bubblechart
+\end{itemize}
+  
+\subsection{Testing}
+ We tested by hand. Something that made testing in this section easier is that it is possible to know
+ how a chart is suppose to look when correct, as well as the charts consisting of different more or less discrete
+ parts - for example, it is easy to tell when just an axis is broken.
+ Also, it is nice to return to a chart to see how nice someone made the css this time. 
+ 
+ We also let some project extern person test and use the charts.
+
+\paragraph{Test details}
+\begin{itemize}
+  \item Test by selecting axis, measure and filter combination
+  \item Let project extern people use charts
+\end{itemize}
+

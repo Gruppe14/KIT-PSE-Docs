@@ -1,27 +1,43 @@
 \section{Data access}
 
 \subsection{Tables}
+<<<<<<< HEAD
+Instead of creating tables by hand for every configuration file, functions
+were added to make it possible creating tables dynamically from
+a configuration. This automatically needed another feature,
+storing for which configurations the tables were already created.
+=======
 Instead of creating tables by hand for every config file, functions
 were added to make it possible to create tables dynamically from
-a configuration. This automatically needed another feature,
-storing for which configs the tables were already created.
+a configuration. This depended on another feature,
+storing the configsfor which the tables had already been created.
+>>>>>>> 031fc978cfa837912d51702ed274b07180fd9ff1
 
 \paragraph{Change detail}
 \begin{itemize}
   \item Add feature to create tables dynamically
-  \itme Add feature to store and check if tables for configuration are already created
+  \item Add feature to store and check if tables for configuration are already created
 \end{itemize}
 
 There showed up problems with the time and location table
-which are always the same. Therefor the created query
+<<<<<<< HEAD
+which are always the same. Therefor the creating query
+=======
+which are always the same. Therefore the created query
+>>>>>>> 031fc978cfa837912d51702ed274b07180fd9ff1
 was changed to \texttt{CREATE IF NOT EXITS}.
+
+Below are the creation queries for the SkyServer tables.
+TODO codebeispiel
+%TODO
 
 \paragraph{Change detail}
 \begin{itemize}
-  \item Change table creation query to allow same tables for more config
+  \item Change table creation query to allow same tables for more configuration
 \end{itemize}
 
-If dimensions of differnt configurations have the same name - except time and location -
+%todo, look at
+If dimensions of different configurations have the same name - except time and location -
 will cause incorrect work. The table names are created from the dimension names.
 It was decided to give the dimensions always a new name. If this is
 not wanted, it could be changed by concatenating
@@ -31,8 +47,9 @@ to create the table name.
 \subsection{Uploading}
 \subsubsection{Query trunks}
 With every new request uploading a \textit{DataEntry} the queries 
-for fact table and dimension tables were computed completly. Avoiding
-this unnecessary work the trunks of the queries get precomputed.
+for fact and dimension tables were computed completely. To avoid
+this unnecessary work, the trunks of the queries now get precomputed.
+
 
 \paragraph{Change detail}
 \begin{itemize}
@@ -54,38 +71,82 @@ and the fact table.
 \end{itemize}
 
 
-\subsubsection{No autocommitting}
+\subsubsection{No auto committing}
 Every dimension and the fact table rows were committed one by one. Decreasing
-the overhead the statement was set to no autocomitting. This made it possible
+the overhead the statement was set to no auto committing. This made it possible
 to collect all the upload queries in the statement and send them to the database
 all at once.
 
 \paragraph{Change detail} 
 \begin{itemize}
-  \item Use no autocomitting statements for upload
+  \item Use no auto committing statements for upload
   \item Execute all upload queries of on \textit{DataEntry} at once
 \end{itemize}
 
-First, every connection needed with no autocommitting was changed from a normal
-and when giving the connection back to the pool enable the autocommiting again.
-This was improved by a second connection pool which only contains
-connections with the autocommitting disabled.
-
-\paragraph{Change detail}
-\begin{itemize}
-  \item Second connection pool for no autocomitting connections
-\end{itemize}
+There was a try to use a second connection pool for the no auto committing connections.
+They got set to no auto committing once. But this didn't work out, because it seemed,
+that they didn't store this behavior. So it was changed back to the old strategy
+changing every used no auto committing connection directly before the use.
 
 \subsection{Extracting}
+\texttt{(SELECT * FROM tablename WHERE \ldots) AS nickname} was used first to filter the dimensions.
+This was changed to the more easy to build and, as it seemed, faster version with
+\texttt{JOIN tablenames ON \ldots}. Making queries got easier because you just have to
+list the table names, the key filters to the fact table and the conditions of the dimensions.
 
+\paragraph{Change detail} 
+\begin{itemize}
+  \item Use \texttt{JOIN} instead of \texttt{SELECT *}
+\end{itemize}
 
-\subsection{Storing}
+As mentioned before (\ref{chart}) the new approach with the chart host being a parameter
+of a chart request and the creating of query parts directly in the chart host
+made it more easy to build the complex queries. Below is a possible query.
+
+%TODO
+TODO codebeispiel
 
 \subsection{Closing}
+There showed up problems, when the system was started often without starting the MySQL server new.
+The number of connections getting from a MySQL server is limited. With every creation of a \textit{Facade}
+with a configuration file there are also created all the mediators, including the \textit{DataMediator}.
+This triggers the creation of a connection pool. So when the system is started to often
+MySQL will run out of connections and the connection pool won't be created.
+
+Starting the play server to often will face this problem. But this shouldn't happen in a normal
+operation mode.
+
+In the JUnit tests the \textit{Facade} is reset with nearly every test. So the problem could be
+solved by releasing all connections when resetting the \textit{Facade}. 
+
+\paragraph{Change detail} 
+\begin{itemize}
+  \item Release connections when resetting \textit{Facade}
+\end{itemize}
 
 
+\subsection{MySQL queries + Testing}
+The queries were produced in all conscience. This means it was tested in the 
+MySQL workbench how the queries have to look and what would work. Knowing this
+the code producing this queries was implemented.
 
-% select  subtable  to join
+To test whether correct queries are produced they were printed for several requests
+and checked by hand if they are of the wanted format.
+
+After uploads of small log files the tables were examined whether they contain all
+and the correct data. It was also checked whether the filter options on the web page
+contain all the possible data in the tables. For a small amount it was checked
+whether the requested data of charts was reasonable. Or for filters for which no 
+data exists, whether the data returned is really empty.
+
+
+\paragraph{Test details}
+\begin{itemize}
+  \item Print all queries and compare to wanted queries
+  \item Compare data in tables to parsed log files
+  \item Compare String on web page filters to data in tables 
+  \item Compare chart data with requests and tables
+\end{itemize}
 
 
 

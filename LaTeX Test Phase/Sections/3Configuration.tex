@@ -6,7 +6,12 @@ and handling its information.
 We decided that every configuration file and the order of the 
 rows have to follow these requirements:
 \begin{itemize}
-  \item starts with 6 time rows and time rows contain the String 'time'
+  \item starts with time rows
+  \begin{itemize}
+    \item rows contain the String 'time'
+    \item 6 time rows
+    \item order: year, month, day, hour, minute, second 
+  \end{itemize}
   \item has an IP row which follows time
   \item any other rows, which must be dimension (level > 0) if they are not of
   type integer or double
