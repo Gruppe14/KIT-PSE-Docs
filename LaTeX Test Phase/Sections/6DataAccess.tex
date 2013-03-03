@@ -3,8 +3,8 @@
 \subsection{Tables}
 Instead of creating tables by hand for every config file, functions
 were added to make it possible to create tables dynamically from
-a configuration. This automatically needed another feature,
-storing for which configs the tables were already created.
+a configuration. This depended on another feature,
+storing the configsfor which the tables had already been created.
 
 \paragraph{Change detail}
 \begin{itemize}
@@ -13,7 +13,7 @@ storing for which configs the tables were already created.
 \end{itemize}
 
 There showed up problems with the time and location table
-which are always the same. Therefor the created query
+which are always the same. Therefore the created query
 was changed to \texttt{CREATE IF NOT EXITS}.
 
 \paragraph{Change detail}
@@ -21,7 +21,8 @@ was changed to \texttt{CREATE IF NOT EXITS}.
   \item Change table creation query to allow same tables for more config
 \end{itemize}
 
-If dimensions of differnt configurations have the same name - except time and location -
+%todo, look at
+If dimensions of different configurations have the same name - except time and location -
 will cause incorrect work. The table names are created from the dimension names.
 It was decided to give the dimensions always a new name. If this is
 not wanted, it could be changed by concatenating
@@ -31,8 +32,8 @@ to create the table name.
 \subsection{Uploading}
 \subsubsection{Query trunks}
 With every new request uploading a \textit{DataEntry} the queries 
-for fact table and dimension tables were computed completly. Avoiding
-this unnecessary work the trunks of the queries get precomputed.
+for fact and dimension tables were computed completely. To avoid
+this unnecessary work, the trunks of the queries now get precomputed.
 
 \paragraph{Change detail}
 \begin{itemize}
