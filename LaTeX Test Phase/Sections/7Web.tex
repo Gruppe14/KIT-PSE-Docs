@@ -23,7 +23,7 @@ If the user requests a history, the requested history number will be looked up f
 A chart consists of an thumbnail for the index page, a configuration file, which saves how many dimensions can be displayed by this chart type,
 a javascript file, which contains the d3js code to visualize the data and an optional stylesheet file to style the chart elements.
 To add new charts, you only have to add these files.
-But to ensure that no chart types are displayed, which do not have all this files, their existance is now checked on application start.
+But to ensure that no chart types are displayed, which do not have all this files, their existence is now checked on application start.
 For this purpose some methods were added and changed. There are methods to get all valid charts, to get the thumbnail name of a chart,
 to get the number of dimensions a chart can display and to check if a chart has a stylesheet file or not.
 
@@ -34,7 +34,7 @@ to get the number of dimensions a chart can display and to check if a chart has 
 
 \subsection{Reuse code in charts}
 The code of different charts has to be independent, to ensure that additional charts can be added dynamically.
-But Niko wanted to reuse the code from bubblechart&scatterplot in the scatterplot, because it is identically except for the bubble radius. 
+But then we wanted to reuse the code from bubblechart&scatterplot in the scatterplot, because they are identical except for the bubble radius. 
 The solution was, that the javascript from scatterplot adds the javascript and stylesheet files from bubblechart&scatterplot dynamically itself. 
 No serverside hardcoding involved. While this is no perfect solution, e.g. if the bubblechart&scatterplot is removed,
 it fulfills it's purpose and allows the webserver to still handle all chart types and its files the same way.
@@ -53,7 +53,7 @@ as extracted from the user's session.
 \end{itemize}
 
 \subsection{languages}
-The playframe work itself supports UTF-8 encoded strings, so different languages shouldn't have been a problem. 
+The playframe work itself supports UTF-8 encoded strings, so different languages shouldn't had been a problem. 
 But as we had to notice the localisation didn't work for languages that don't use the latin alphabet.
 This was a problem with the java property files and PropertyResourceBundle, where the localized strings are saved and which natively only
 supports ISO-8859-1 encoding.
