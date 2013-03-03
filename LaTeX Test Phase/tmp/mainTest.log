@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  3 MAR 2013 15:24
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  3 MAR 2013 22:07
 entering extended mode
 **mainTest.tex
 
@@ -1096,6 +1096,8 @@ Test Phase\Sections/8Charts.aux")
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
 Test Phase\Sections/9Performance.aux")
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
+Test Phase\Sections/12Security.aux")
+("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
 Test Phase\Sections/ARequirements.aux"))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
 LaTeX Font Info:    ... okay on input line 79.
@@ -1281,14 +1283,14 @@ File: uzavm.fd 2006/05/30 Fontinst v1.929 font definitions for U/zavm.
 LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <9> not available
 (Font)              Font shape `T1/fav/b/n' tried instead on input line 11.
 
-<Pictures/KIT-Logo.png, id=255, 501.875pt x 250.9375pt>
+<Pictures/KIT-Logo.png, id=263, 501.875pt x 250.9375pt>
 File: Pictures/KIT-Logo.png Graphic file (type png)
 
 <use Pictures/KIT-Logo.png>
 Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 24.
 (pdftex.def)             Requested size: 128.03653pt x 64.01692pt.
 
-<Pictures/WHAT-LogoText2.png, id=257, 2293.56876pt x 1049.9225pt>
+<Pictures/WHAT-LogoText2.png, id=265, 2293.56876pt x 1049.9225pt>
 File: Pictures/WHAT-LogoText2.png Graphic file (type png)
 
 <use Pictures/WHAT-LogoText2.png>
@@ -1327,7 +1329,7 @@ Package Fancyhdr Warning: \headheight is too small (17.0pt):
 ]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
 Test Phase\mainTest.toc"
-<Pictures/WHAT-Logo.png, id=313, 2293.56876pt x 850.17625pt>
+<Pictures/WHAT-Logo.png, id=321, 2293.56876pt x 850.17625pt>
 File: Pictures/WHAT-Logo.png Graphic file (type png)
 
 <use Pictures/WHAT-Logo.png>
@@ -1390,8 +1392,11 @@ Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 98.
  [8]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
 Test Phase\Sections/3Configuration.tex"
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 File: Pictures/WHAT-Logo.png Graphic file (type png)
- <use Pictures/WHAT-Logo.png>
+
+<use Pictures/WHAT-Logo.png>
 Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 48.
 (pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
  [9
@@ -1399,13 +1404,13 @@ Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 48.
 
 ]
 File: Pictures/KIT-Logo.png Graphic file (type png)
-
-<use Pictures/KIT-Logo.png>
-Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 99.
+ <use Pictures/KIT-Logo.png>
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 95.
 (pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
  [10])
 File: Pictures/WHAT-Logo.png Graphic file (type png)
- <use Pictures/WHAT-Logo.png>
+
+<use Pictures/WHAT-Logo.png>
 Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 99.
 (pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
  [11]
@@ -1470,55 +1475,88 @@ Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 101.
  [16]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
 Test Phase\Sections/6DataAccess.tex"
-! Undefined control sequence.
-l.12   \itme
-             Add feature to store and check if tables for configuration are ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 File: Pictures/WHAT-Logo.png Graphic file (type png)
-<use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 54.
+ <use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 55.
 (pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
  [17
 
 
-])
+]
 File: Pictures/KIT-Logo.png Graphic file (type png)
- <use Pictures/KIT-Logo.png>
-Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 102.
+
+<use Pictures/KIT-Logo.png>
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 105.
 (pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
- [18]
-("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
-Test Phase\Sections/7Web.tex")
+ [18])
 File: Pictures/WHAT-Logo.png Graphic file (type png)
  <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 104.
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 102.
 (pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
- [19
-
-
-]
+ [19]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
-Test Phase\Sections/8Charts.tex")
+Test Phase\Sections/7Web.tex")
 File: Pictures/KIT-Logo.png Graphic file (type png)
  <use Pictures/KIT-Logo.png>
-Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 106.
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 104.
 (pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
  [20
 
 
 ]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
-Test Phase\Sections/9Performance.tex")
+Test Phase\Sections/8Charts.tex")
 File: Pictures/WHAT-Logo.png Graphic file (type png)
  <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 108.
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 106.
 (pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
  [21
+
+
+]
+("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
+Test Phase\Sections/9Performance.tex")
+File: Pictures/KIT-Logo.png Graphic file (type png)
+ <use Pictures/KIT-Logo.png>
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 108.
+(pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
+ [22
+
+
+]
+("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
+Test Phase\Sections/12Security.tex"
+! Undefined control sequence.
+l.1 \Section
+            {Security}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.15 The user session has a cookie named PLAY_
+                                              SESSION, which is a long hash,...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.16 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+)
+File: Pictures/WHAT-Logo.png Graphic file (type png)
+ <use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 109.
+(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
+ [23
 
 
 ]
@@ -1526,14 +1564,14 @@ Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 108.
 Test Phase\Sections/ARequirements.tex")
 File: Pictures/KIT-Logo.png Graphic file (type png)
  <use Pictures/KIT-Logo.png>
-Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 110.
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 111.
 (pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
- [22
+ [24
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 113.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 113.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 114.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 114.
 
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
 Test Phase\mainTest.aux"
@@ -1560,11 +1598,13 @@ Test Phase\Sections/8Charts.aux")
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
 Test Phase\Sections/9Performance.aux")
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
+Test Phase\Sections/12Security.aux")
+("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
 Test Phase\Sections/ARequirements.aux"))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 113.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 113.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 114.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 114.
 Package rerunfilecheck Info: File `mainTest.out' has not changed.
-(rerunfilecheck)             Checksum: 42A6F396A3304142877560792B0608EE;4060.
+(rerunfilecheck)             Checksum: 9A685AD792FD33FA4ABCA090418F6C83;4207.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1574,23 +1614,24 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 10332 strings out of 493921
- 161285 string characters out of 3140856
- 267647 words of memory out of 3000000
- 13210 multiletter control sequences out of 15000+200000
- 38396 words of font info for 62 fonts, out of 3000000 for 9000
+ 10359 strings out of 493921
+ 162254 string characters out of 3140856
+ 268018 words of memory out of 3000000
+ 13219 multiletter control sequences out of 15000+200000
+ 39542 words of font info for 66 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 45i,15n,47p,773b,433s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/Programmieren/Latex/MiKTeX/fonts/enc/dvips/fontname/8r.enc}
+ 45i,15n,47p,773b,435s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/arev/arevoml.en
+c}{C:/Program Files/Programmieren/Latex/MiKTeX/fonts/enc/dvips/fontname/8r.enc}
  <C:\Users\Jonathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
 \tcrm1095.pk><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/a
 rev/ArevSans-Bold.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1
 /public/arev/ArevSans-Oblique.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9
 /fonts/type1/public/arev/ArevSans-Roman.pfb><C:/Users/Jonathan/AppData/Roaming/
 MiKTeX/2.9/fonts/type1/bera/fvmr8a.pfb>
-Output written on mainTest.pdf (22 pages, 590256 bytes).
+Output written on mainTest.pdf (24 pages, 600230 bytes).
 PDF statistics:
- 517 PDF objects out of 1000 (max. 8388607)
- 128 named destinations out of 1000 (max. 500000)
- 520 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 543 PDF objects out of 1000 (max. 8388607)
+ 135 named destinations out of 1000 (max. 500000)
+ 536 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,24 +1,41 @@
 \section{Charts}
 The charts saw a fair amount of bug fixes as well.
 
-\subsection{Bubblechart}
-A one dimensional bubblechart, where the items are sorted according to one dimension was implemented.
+%\subsection{Bubblechart}
+%A one dimensional bubblechart, where the items are sorted according to one dimension was implemented.
 %TODO: War es schon immer da? :-)
 
 \subsection{Bug fixes}
   \subsubsection{Type of data}
-  The skyserver contained a significant amount of categorical data. However, their representation on the axes
+  The SkyServer contained a significant amount of categorical data. However, their representation on the axes
   used to cause problems. The charts are now more robust and work with both numerical and categorical data.
+  
   \subsubsection{Errorpicture}
   An errorpicture is thrown to differentiate between the chart with no data, and the chart with an error,
-  or incorrect data (which the user will hopefully never experience)
+  or incorrect data (which the user will hopefully never experience). This was a expecially a problem
+  at the Bubblechart, where no axis are printed.
+  
   \subsubsection{Boring bugs}
   Boring bugs, such as the text on the data was off by a few pixels were fixed too.
   
 
+\subsection{Special cases}
+TODO wie zB nicht viele einträge in barchart
 
 \subsection{Rotation of text}
   Text was rotated where needed, now more datapoints fit and it looks better.
 
 \subsection{Tooltips}
-  Tooltips, or text that appears once the mouse hovers over a data point was added to every chart.
+Tooltips, or text that appears once the mouse hovers over a data point was added to every chart.
+
+  
+\subsection{Testing}
+The charts were tested via web page, of course with and without filters, for all available
+combinations of axis and measure selection. We also let some project extern person test the
+charts.
+
+\paragraph{Test details}
+\begin{itemize}
+  \item Test by selecting axis, measure and filter combination
+  \item Let project extern people use charts
+\end{itemize}

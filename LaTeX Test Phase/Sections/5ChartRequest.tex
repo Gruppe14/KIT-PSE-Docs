@@ -10,7 +10,7 @@ The origin design for this package was dropped in the implementation phase.
 There was neither a visitor pattern nor classes to wrap the informations
 needed efficient. This decision was withdrawn.
 
-\subsubsection{Chart request workflow}
+\subsubsection{Chart request workflow} \label{chart}
 The parameter lists in the methods got longer 
 and longer when implementing the missing filter features
 and the charts with two dimensions.
@@ -28,7 +28,7 @@ down to the data access tier.
 
 Instead of requesting all the information now from the chart
 and create the MySQL queries, this got changed to a more  elegant way.
-The chart itself returns query parts for the things like 'select', 'join' or other.
+The chart itself returns query parts for the things like \texttt{SELECT, JOIN} or other.
 
 \paragraph{Change detail}
 \begin{itemize}
@@ -38,7 +38,7 @@ The chart itself returns query parts for the things like 'select', 'join' or oth
 But it remained a bulge of information stored improperly. This was
 solved with some classes described below.
 
-\subsubsection{Filter class}
+\subsubsection{Filter class} 
 Instead of requesting all query parts from the config, like table names and keys,
 a filter stores the dimension on which it is based. First just the lowest
 level of the filter values was stored, but this was detected to be incorrect.
@@ -96,3 +96,9 @@ then printing the requests and compare with the resulting MySQL queries. We coul
 the usage for any automatic tests there.
 
 Creating the queries from the chart host was tested in the same way. 
+
+\paragraph{Test details}
+\begin{itemize}
+  \item Print read data and check for correctness corresponding to web page request
+  \item Print queries and check correctness
+\end{itemize}

@@ -24,8 +24,8 @@
 \contentsline {paragraph}{Change detail}{9}{paragraph*.8}
 \contentsline {subsection}{\numberline {4.2}Creation}{9}{subsection.4.2}
 \contentsline {paragraph}{Change detail}{9}{paragraph*.9}
-\contentsline {subsubsection}{\numberline {4.2.1}Unneeded attributes}{9}{subsubsection.4.2.1}
-\contentsline {paragraph}{Change detail}{9}{paragraph*.10}
+\contentsline {subsubsection}{\numberline {4.2.1}Unneeded attributes}{10}{subsubsection.4.2.1}
+\contentsline {paragraph}{Change detail}{10}{paragraph*.10}
 \contentsline {subsubsection}{\numberline {4.2.2}Space in names}{10}{subsubsection.4.2.2}
 \contentsline {paragraph}{Change detail}{10}{paragraph*.11}
 \contentsline {subsection}{\numberline {4.3}StringRow}{10}{subsection.4.3}
@@ -33,8 +33,8 @@
 \contentsline {subsection}{\numberline {4.4}Dimension content trees}{10}{subsection.4.4}
 \contentsline {paragraph}{Change detail}{10}{paragraph*.13}
 \contentsline {subsection}{\numberline {4.5}Child dimensions}{10}{subsection.4.5}
-\contentsline {paragraph}{Change detail}{10}{paragraph*.14}
-\contentsline {subsection}{\numberline {4.6}Testing}{10}{subsection.4.6}
+\contentsline {paragraph}{Change detail}{11}{paragraph*.14}
+\contentsline {subsection}{\numberline {4.6}Testing}{11}{subsection.4.6}
 \contentsline {paragraph}{Test details}{11}{paragraph*.15}
 \contentsline {section}{\numberline {5}Parser}{12}{section.5}
 \contentsline {subsection}{\numberline {5.1}Task determination}{12}{subsection.5.1}
@@ -69,31 +69,36 @@
 \contentsline {subsection}{\numberline {6.3}Two axis of same dimension}{16}{subsection.6.3}
 \contentsline {paragraph}{Change detail}{16}{paragraph*.30}
 \contentsline {subsection}{\numberline {6.4}Testing}{16}{subsection.6.4}
+\contentsline {paragraph}{Test details}{16}{paragraph*.31}
 \contentsline {section}{\numberline {7}Data access}{17}{section.7}
 \contentsline {subsection}{\numberline {7.1}Tables}{17}{subsection.7.1}
-\contentsline {paragraph}{Change detail}{17}{paragraph*.31}
 \contentsline {paragraph}{Change detail}{17}{paragraph*.32}
+\contentsline {paragraph}{Change detail}{17}{paragraph*.33}
 \contentsline {subsection}{\numberline {7.2}Uploading}{17}{subsection.7.2}
 \contentsline {subsubsection}{\numberline {7.2.1}Query trunks}{17}{subsubsection.7.2.1}
-\contentsline {paragraph}{Change detail}{17}{paragraph*.33}
+\contentsline {paragraph}{Change detail}{17}{paragraph*.34}
 \contentsline {subsubsection}{\numberline {7.2.2}Generating keys with HashBuilder}{17}{subsubsection.7.2.2}
-\contentsline {paragraph}{Change detail}{18}{paragraph*.34}
-\contentsline {subsubsection}{\numberline {7.2.3}No autocommitting}{18}{subsubsection.7.2.3}
 \contentsline {paragraph}{Change detail}{18}{paragraph*.35}
+\contentsline {subsubsection}{\numberline {7.2.3}No auto committing}{18}{subsubsection.7.2.3}
 \contentsline {paragraph}{Change detail}{18}{paragraph*.36}
 \contentsline {subsection}{\numberline {7.3}Extracting}{18}{subsection.7.3}
-\contentsline {subsection}{\numberline {7.4}Storing}{18}{subsection.7.4}
-\contentsline {subsection}{\numberline {7.5}Closing}{18}{subsection.7.5}
-\contentsline {section}{\numberline {8}Web}{19}{section.8}
-\contentsline {section}{\numberline {9}Charts}{20}{section.9}
-\contentsline {subsection}{\numberline {9.1}Bubblechart}{20}{subsection.9.1}
-\contentsline {subsection}{\numberline {9.2}Bug fixes}{20}{subsection.9.2}
-\contentsline {subsubsection}{\numberline {9.2.1}Type of data}{20}{subsubsection.9.2.1}
-\contentsline {subsubsection}{\numberline {9.2.2}Errorpicture}{20}{subsubsection.9.2.2}
-\contentsline {subsubsection}{\numberline {9.2.3}Boring bugs}{20}{subsubsection.9.2.3}
-\contentsline {subsection}{\numberline {9.3}Rotation of text}{20}{subsection.9.3}
-\contentsline {subsection}{\numberline {9.4}Tooltips}{20}{subsection.9.4}
-\contentsline {section}{\numberline {10}Performance}{21}{section.10}
-\contentsline {subsection}{\numberline {10.1}Loading}{21}{subsection.10.1}
-\contentsline {subsection}{\numberline {10.2}Extracting}{21}{subsection.10.2}
-\contentsline {section}{\numberline {11}Requirements}{22}{section.11}
+\contentsline {paragraph}{Change detail}{18}{paragraph*.37}
+\contentsline {subsection}{\numberline {7.4}Closing}{18}{subsection.7.4}
+\contentsline {paragraph}{Change detail}{19}{paragraph*.38}
+\contentsline {subsection}{\numberline {7.5}MySQL queries + Testing}{19}{subsection.7.5}
+\contentsline {paragraph}{Test details}{19}{paragraph*.39}
+\contentsline {section}{\numberline {8}Web}{20}{section.8}
+\contentsline {section}{\numberline {9}Charts}{21}{section.9}
+\contentsline {subsection}{\numberline {9.1}Bubblechart}{21}{subsection.9.1}
+\contentsline {subsection}{\numberline {9.2}Bug fixes}{21}{subsection.9.2}
+\contentsline {subsubsection}{\numberline {9.2.1}Type of data}{21}{subsubsection.9.2.1}
+\contentsline {subsubsection}{\numberline {9.2.2}Errorpicture}{21}{subsubsection.9.2.2}
+\contentsline {subsubsection}{\numberline {9.2.3}Boring bugs}{21}{subsubsection.9.2.3}
+\contentsline {subsection}{\numberline {9.3}Rotation of text}{21}{subsection.9.3}
+\contentsline {subsection}{\numberline {9.4}Tooltips}{21}{subsection.9.4}
+\contentsline {section}{\numberline {10}Performance}{22}{section.10}
+\contentsline {subsection}{\numberline {10.1}Loading}{22}{subsection.10.1}
+\contentsline {subsection}{\numberline {10.2}Extracting}{22}{subsection.10.2}
+\contentsline {subsection}{\numberline {10.3}User Input}{23}{subsection.10.3}
+\contentsline {subsection}{\numberline {10.4}Authentication}{23}{subsection.10.4}
+\contentsline {section}{\numberline {11}Requirements}{24}{section.11}

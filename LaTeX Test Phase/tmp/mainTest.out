@@ -44,10 +44,10 @@
 \BOOKMARK [2][-]{subsection.7.2}{Uploading}{section.7}% 44
 \BOOKMARK [3][-]{subsubsection.7.2.1}{Query trunks}{subsection.7.2}% 45
 \BOOKMARK [3][-]{subsubsection.7.2.2}{Generating keys with HashBuilder}{subsection.7.2}% 46
-\BOOKMARK [3][-]{subsubsection.7.2.3}{No autocommitting}{subsection.7.2}% 47
+\BOOKMARK [3][-]{subsubsection.7.2.3}{No auto committing}{subsection.7.2}% 47
 \BOOKMARK [2][-]{subsection.7.3}{Extracting}{section.7}% 48
-\BOOKMARK [2][-]{subsection.7.4}{Storing}{section.7}% 49
-\BOOKMARK [2][-]{subsection.7.5}{Closing}{section.7}% 50
+\BOOKMARK [2][-]{subsection.7.4}{Closing}{section.7}% 49
+\BOOKMARK [2][-]{subsection.7.5}{MySQL queries + Testing}{section.7}% 50
 \BOOKMARK [1][-]{section.8}{Web}{}% 51
 \BOOKMARK [1][-]{section.9}{Charts}{}% 52
 \BOOKMARK [2][-]{subsection.9.1}{Bubblechart}{section.9}% 53
@@ -60,4 +60,6 @@
 \BOOKMARK [1][-]{section.10}{Performance}{}% 60
 \BOOKMARK [2][-]{subsection.10.1}{Loading}{section.10}% 61
 \BOOKMARK [2][-]{subsection.10.2}{Extracting}{section.10}% 62
-\BOOKMARK [1][-]{section.11}{Requirements}{}% 63
+\BOOKMARK [2][-]{subsection.10.3}{User Input}{section.10}% 63
+\BOOKMARK [2][-]{subsection.10.4}{Authentication}{section.10}% 64
+\BOOKMARK [1][-]{section.11}{Requirements}{}% 65
