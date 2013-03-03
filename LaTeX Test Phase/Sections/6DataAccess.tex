@@ -2,9 +2,9 @@
 
 \subsection{Tables}
 Instead of creating tables by hand for every config file, functions
-were added to make it possible creating tables dynamically from
+were added to make it possible to create tables dynamically from
 a configuration. This automatically needed another feature,
-storing for which configs the tables were allready created.
+storing for which configs the tables were already created.
 
 \paragraph{Change detail}
 \begin{itemize}
@@ -13,7 +13,7 @@ storing for which configs the tables were allready created.
 \end{itemize}
 
 There showed up problems with the time and location table
-which are allways the same. Therefor the creating query
+which are always the same. Therefor the created query
 was changed to \texttt{CREATE IF NOT EXITS}.
 
 \paragraph{Change detail}
@@ -21,10 +21,10 @@ was changed to \texttt{CREATE IF NOT EXITS}.
   \item Change table creation query to allow same tables for more config
 \end{itemize}
 
-If dimensions of differnt configurations have the same name - expect time and location -
+If dimensions of differnt configurations have the same name - except time and location -
 will cause incorrect work. The table names are created from the dimension names.
 It was decided to give the dimensions always a new name. If this is
-not wanted, it could be changed by concatinating
+not wanted, it could be changed by concatenating
 the configuration name with dimension name and the dimension table short
 to create the table name.
 
@@ -73,7 +73,7 @@ connections with the autocommitting disabled.
 
 \paragraph{Change detail}
 \begin{itemize}
-  \item Second connnection pool for no autocomitting connections
+  \item Second connection pool for no autocomitting connections
 \end{itemize}
 
 \subsection{Extracting}

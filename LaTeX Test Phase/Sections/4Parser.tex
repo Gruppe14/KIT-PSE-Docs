@@ -2,7 +2,7 @@
 
 \subsection{Task determination} 
 When having too many threads (10+), sometimes a thread stopped working. This caused the counter for finished tasks
-to be stuck under the number of threads and the program not to get finished.
+to be stuck below the number of threads and the program not to get finished.
 So a watchdogtimer was implemented which replaces a thread by a new one, if said thread doesn't finish a line for a 
 predefinied amount of time. (standard = 2 seconds)
 
@@ -46,7 +46,7 @@ This was fixed by adding the \texttt{trim}-command in StringRow.split() and Stri
 \end{itemize}
 
 \subsection{Anonymous Proxy}
-GeoIp sometimes returned 'Anynomous Proxy' instead of nothing for cities or countries it didn't found.
+GeoIp sometimes returned 'Anynomous Proxy' instead of nothing for cities or countries it didn't find.
 This gets replaced by 'other' to fit in with the other undefined countries and cities.
 
 
@@ -75,7 +75,7 @@ submitted correctly for the ParserMediator to return true, singaling parsing was
 \end{itemize}
 
 \subsection{Reset}
-The parser now resets after he finished parsing a logfile, so that another file can be parsed.
+The parser now resets after it finished parsing a logfile, so that another file can be parsed.
 
 \paragraph{Change detail}
 \begin{itemize}
@@ -85,8 +85,8 @@ The parser now resets after he finished parsing a logfile, so that another file 
 
 \subsection{Testing}
 
-Besides the JUnit tests, described below, there were same test by hand. Parsing log files with
-just a few lines into a empty database. Then compare the content by hand.
+Besides the JUnit tests, described below, there were some test by hand. Parsing log files with
+just a few lines into an empty database. Then compare the content by hand.
 
 \paragraph{Test details}
 TODO group them, like the comment in the JUnit class
