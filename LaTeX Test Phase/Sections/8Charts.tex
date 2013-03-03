@@ -17,39 +17,41 @@ The charts saw a fair amount of bug fixes and improvements as well.
   
  \subsubsection{Error}
   Errors are now thrown to differentiate between the chart with no data, and the chart with an error,
-  or incorrect data (which the user will hopefully never experience). This was a expecially a problem
-  at the Bubblechart, where no axis are printed.
+  or incorrect data (which the user will hopefully never experience). 
+  %This was a expecially a problem   at the Bubblechart, where no axis are printed.
   
    \paragraph{Change detail}
 \begin{itemize}
-  \item Show error pictures to diverge them from empty data
+  \item Show error messages on the chart pages.
 \end{itemize}
   
   \subsubsection{Boring bugs}
   Boring bugs, such as the text on the data was off by a few pixels were fixed too.
+  Other bugs include 
+  \begin{itemize}
+  	\item Barcharts not working correctly with only few datapoints.
+  	\item There not being enough space for all text labels of all sizes, especially on bubble and piecharts.
+  \end{itemize}
   
+  \paragraph{Change detail}
+  \begin{itemize}
+  	\item Barcharts with few bars are shown correctly. 
+  	\item The small labels aren't shown on piecharts (they are shown on mouseovers)
+  	\item Only as much of the label that fits in each bubble is shown on bubblecharts.
+\end{itemize}
+  
+
+
 \subsection{Aesthetics}
 The charts were made prettier.
   
 \paragraph{Change detail}
 \begin{itemize}
   \item Tooltips, or text that appears once the mouse hovers over a data point was added to every chart
-  \item Consistent font use
+  \item The same fonts were used consistently.
+  \item The css was made more elaborate.
   \item The text now gets rotated on a number of cases to fit more datapoints. It also makes the charts prettier
-  \item Change the css % sollte das vll wo anders hin?
-\end{itemize}
 
-
-\subsection{Special cases}
-%TODO
-TODO wie zB nicht viele einträge in barchart
-TODO kleine bubble charts, nur buchstaben anzeigen
-falls dir noch was einfällt
-
-\paragraph{Change detail}
-\begin{itemize}
-  \item Show a few amount of bars correct in barchart
-  \item Just show sinle or no letters for small bubbles in bubblechart
 \end{itemize}
   
 \subsection{Testing}
