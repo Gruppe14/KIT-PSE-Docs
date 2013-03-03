@@ -1,13 +1,13 @@
 \section{Introduction}
 
 This document is about the testing and quality assurance phase of the program WHAT WareHouse Analyzing Tool.
-It contains descriptions of what was tested and how, which results tests produced and 
-what bugs or problems were found with them.
+It contains descriptions of the components of the program tested, the individual tests,
+the produced results as well as the bugs and problems uncovered in the process. 
 There are also some comments about the programming and code style in general. 
 
-The tests are grouped by tasks of the program, which mostly were also separate packages. 
+The tests are grouped by tasks of the program, which also mostly were in separate packages. 
 The sections of this document follow this structure and complete it with the 
-general sections concerning the whole program.
+general sections concerning the whole program. %wat
 
 The functions which have to show the correct web pages or produce correct SQL query where tested by hand. 
 This means that for a configuration and data we tested, 
@@ -15,9 +15,13 @@ if correct looking MySQL queries where produced and correct web pages or charts 
 But more about this in the specific sections.
 
 %TODO
-TODO: Travis and such stuff @niko
+We will also describe how we made use of the testing capabilities of the build managers, 
+and the travis continuous integration service.
 
-The last section (\ref{spec}) is about complying with the requirements made in the functional specifications.
+Finally, we mention our steps taken to secure the program.
+
+
+The last section (\ref{spec}) is about the compliance with the requirements made in the functional specifications.
 
 
 
