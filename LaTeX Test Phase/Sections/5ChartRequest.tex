@@ -6,16 +6,16 @@
 
 
 \subsection{Object oriented programming}
-The origin design for this package was dropped in the implementation phase.
-There was neither a visitor pattern nor classes to wrap the informations
-needed efficient. This decision was withdrawn.
+The original design for this package was dropped in the implementation phase.
+There was neither a visitor pattern nor classes to wrap the information
+needed efficiently. This decision was withdrawn.
 
 \subsubsection{Chart request workflow} \label{chart}
 The parameter lists in the methods got longer 
 and longer when implementing the missing filter features
 and the charts with two dimensions.
 
-Something we didn't want to do first, solved the problem. The problem 
+Something we didn't want to do at first, solved the problem. The problem 
 with the \textit{ResultSet} closing, when closing the statement, made it
 necessary to write the \textit{JSONObject} of the charts in the
 data access tier. So the decision was made to send the whole chart instance
@@ -44,7 +44,7 @@ a filter stores the dimension on which it is based. First just the lowest
 level of the filter values was stored, but this was detected to be incorrect.
 A database may be child of more than one server and a city with the name 'x'
 may be city in more than one country. For correct filtering, referring
-to the things selected on the web page, trees where made for this values 
+to the things selected on the web page, trees were made for this values 
 to build correct filter query parts.
 
 \paragraph{Change detail}
@@ -56,9 +56,9 @@ to build correct filter query parts.
 
 \subsubsection{Measure class}
 The approach to store just a string for the measure was neither good style
-nor made it possible to have other aggregations than \texttt{count(*)}.
+nor was it possible to have other aggregations than \texttt{count(*)}.
 This was solved by the new class \textit{Measure}. It made it also possible
-to write more information in the JSON sended back to the web page about what
+to write more information in the JSON sent back to the web page about what
 the returned chart is.
 
 \paragraph{Change detail}
@@ -81,7 +81,7 @@ should have closed this hole.
 \subsection{Two axis of same dimension}
 By playing with the chart we detected that queries for
 charts with x- and y-axis of the same dimension incorrect
-queries where created, resulting in not getting a chart.
+queries were created, resulting in not getting a chart.
 \paragraph{Change detail}
 \begin{itemize}
   \item Make it possible to create charts with x and y of same dimension
@@ -92,7 +92,7 @@ queries where created, resulting in not getting a chart.
 \subsection{Testing}
 
 Correct reading of the JSON-Objects was tested by explicte use of filters, axis and measures, 
-then printing the requests and compare with the resulting MySQL queries. We couldn't see
+then printing the requests and comparing with the resulting MySQL queries. We couldn't see
 the usage for any automatic tests there.
 
 Creating the queries from the chart host was tested in the same way. 

@@ -50,13 +50,13 @@
 \BOOKMARK [2][-]{subsection.7.5}{MySQL queries + Testing}{section.7}% 50
 \BOOKMARK [1][-]{section.8}{Web}{}% 51
 \BOOKMARK [1][-]{section.9}{Charts}{}% 52
-\BOOKMARK [2][-]{subsection.9.1}{Bubblechart}{section.9}% 53
-\BOOKMARK [2][-]{subsection.9.2}{Bug fixes}{section.9}% 54
-\BOOKMARK [3][-]{subsubsection.9.2.1}{Type of data}{subsection.9.2}% 55
-\BOOKMARK [3][-]{subsubsection.9.2.2}{Errorpicture}{subsection.9.2}% 56
-\BOOKMARK [3][-]{subsubsection.9.2.3}{Boring bugs}{subsection.9.2}% 57
-\BOOKMARK [2][-]{subsection.9.3}{Rotation of text}{section.9}% 58
-\BOOKMARK [2][-]{subsection.9.4}{Tooltips}{section.9}% 59
+\BOOKMARK [2][-]{subsection.9.1}{Bug fixes}{section.9}% 53
+\BOOKMARK [3][-]{subsubsection.9.1.1}{Type of data}{subsection.9.1}% 54
+\BOOKMARK [3][-]{subsubsection.9.1.2}{Error}{subsection.9.1}% 55
+\BOOKMARK [3][-]{subsubsection.9.1.3}{Boring bugs}{subsection.9.1}% 56
+\BOOKMARK [2][-]{subsection.9.2}{Aesthetics}{section.9}% 57
+\BOOKMARK [2][-]{subsection.9.3}{Special cases}{section.9}% 58
+\BOOKMARK [2][-]{subsection.9.4}{Testing}{section.9}% 59
 \BOOKMARK [1][-]{section.10}{Performance}{}% 60
 \BOOKMARK [2][-]{subsection.10.1}{Loading}{section.10}% 61
 \BOOKMARK [2][-]{subsection.10.2}{Extracting}{section.10}% 62

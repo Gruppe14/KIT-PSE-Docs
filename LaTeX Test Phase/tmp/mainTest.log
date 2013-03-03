@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  3 MAR 2013 22:07
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  3 MAR 2013 22:48
 entering extended mode
 **mainTest.tex
 
@@ -1283,14 +1283,14 @@ File: uzavm.fd 2006/05/30 Fontinst v1.929 font definitions for U/zavm.
 LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <9> not available
 (Font)              Font shape `T1/fav/b/n' tried instead on input line 11.
 
-<Pictures/KIT-Logo.png, id=263, 501.875pt x 250.9375pt>
+<Pictures/KIT-Logo.png, id=271, 501.875pt x 250.9375pt>
 File: Pictures/KIT-Logo.png Graphic file (type png)
 
 <use Pictures/KIT-Logo.png>
 Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 24.
 (pdftex.def)             Requested size: 128.03653pt x 64.01692pt.
 
-<Pictures/WHAT-LogoText2.png, id=265, 2293.56876pt x 1049.9225pt>
+<Pictures/WHAT-LogoText2.png, id=273, 2293.56876pt x 1049.9225pt>
 File: Pictures/WHAT-LogoText2.png Graphic file (type png)
 
 <use Pictures/WHAT-LogoText2.png>
@@ -1329,7 +1329,7 @@ Package Fancyhdr Warning: \headheight is too small (17.0pt):
 ]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
 Test Phase\mainTest.toc"
-<Pictures/WHAT-Logo.png, id=321, 2293.56876pt x 850.17625pt>
+<Pictures/WHAT-Logo.png, id=329, 2293.56876pt x 850.17625pt>
 File: Pictures/WHAT-Logo.png Graphic file (type png)
 
 <use Pictures/WHAT-Logo.png>
@@ -1432,7 +1432,7 @@ Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 46.
 
 
 ]
-Underfull \vbox (badness 1028) has occurred while \output is active []
+Underfull \vbox (badness 2142) has occurred while \output is active []
 
 File: Pictures/WHAT-Logo.png Graphic file (type png)
 
@@ -1440,13 +1440,7 @@ File: Pictures/WHAT-Logo.png Graphic file (type png)
 Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 91.
 (pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
  [13]
-Overfull \hbox (59.44664pt too wide) in paragraph at lines 99--100
-[][]\T1/fav/m/sc/10.95 smallParseTestTooBig - parse 10 lines, pool-size 100 -> 
-Er-ror #2: Parser-Me-di-a-tor.poolsizeParsing
- []
-
-
-Overfull \hbox (25.03084pt too wide) in paragraph at lines 100--101
+Overfull \hbox (49.12086pt too wide) in paragraph at lines 110--111
 [][]\T1/fav/m/sc/10.95 negativePoolsize - parse 10 lines, pool-size -2 -> Er-ro
 r #1: Parser-Me-di-a-tor.poolsizeParsing
  []
@@ -1475,18 +1469,23 @@ Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 101.
  [16]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
 Test Phase\Sections/6DataAccess.tex"
+Underfull \vbox (badness 1622) has occurred while \output is active []
+
 File: Pictures/WHAT-Logo.png Graphic file (type png)
- <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 55.
+
+<use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 67.
 (pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
  [17
 
 
 ]
+Underfull \vbox (badness 3189) has occurred while \output is active []
+
 File: Pictures/KIT-Logo.png Graphic file (type png)
 
 <use Pictures/KIT-Logo.png>
-Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 105.
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 115.
 (pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
  [18])
 File: Pictures/WHAT-Logo.png Graphic file (type png)
@@ -1505,22 +1504,53 @@ Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 104.
 
 ]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
-Test Phase\Sections/8Charts.tex")
+Test Phase\Sections/8Charts.tex"
+
+! Package inputenc Error: Unicode char \u8:äge not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 TODO wie zB nicht viele einträge
+                                      in barchart
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char \u8:äll not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 falls dir noch was einfäll
+                               t
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 File: Pictures/WHAT-Logo.png Graphic file (type png)
- <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 106.
+<use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 49.
 (pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
  [21
 
 
-]
-("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
-Test Phase\Sections/9Performance.tex")
+])
 File: Pictures/KIT-Logo.png Graphic file (type png)
  <use Pictures/KIT-Logo.png>
-Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 108.
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 106.
 (pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
- [22
+ [22]
+("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
+Test Phase\Sections/9Performance.tex")
+File: Pictures/WHAT-Logo.png Graphic file (type png)
+ <use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 108.
+(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
+ [23
 
 
 ]
@@ -1535,38 +1565,22 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.15 The user session has a cookie named PLAY_
-                                              SESSION, which is a long hash,...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.16 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
 )
-File: Pictures/WHAT-Logo.png Graphic file (type png)
- <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 109.
-(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
- [23
+File: Pictures/KIT-Logo.png Graphic file (type png)
+ <use Pictures/KIT-Logo.png>
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 109.
+(pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
+ [24
 
 
 ]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
 Test Phase\Sections/ARequirements.tex")
-File: Pictures/KIT-Logo.png Graphic file (type png)
- <use Pictures/KIT-Logo.png>
-Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 111.
-(pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
- [24
+File: Pictures/WHAT-Logo.png Graphic file (type png)
+ <use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 111.
+(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
+ [25
 
 
 ]
@@ -1603,9 +1617,15 @@ Test Phase\Sections/12Security.aux")
 Test Phase\Sections/ARequirements.aux"))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 114.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 114.
-Package rerunfilecheck Info: File `mainTest.out' has not changed.
-(rerunfilecheck)             Checksum: 9A685AD792FD33FA4ABCA090418F6C83;4207.
 
+
+Package rerunfilecheck Warning: File `mainTest.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `mainTest.out':
+(rerunfilecheck)             Before: 44B1466FEB6A2158DC558A2CCF69CE2B;4321
+(rerunfilecheck)             After:  9ACCCDF83EDBC12F4ABE7BCDA134F329;4195.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1614,24 +1634,29 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 10359 strings out of 493921
- 162254 string characters out of 3140856
+ 10367 strings out of 493921
+ 162366 string characters out of 3140856
  268018 words of memory out of 3000000
- 13219 multiletter control sequences out of 15000+200000
- 39542 words of font info for 66 fonts, out of 3000000 for 9000
+ 13223 multiletter control sequences out of 15000+200000
+ 38396 words of font info for 62 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  45i,15n,47p,773b,435s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/enc/dvips/arev/arevoml.en
-c}{C:/Program Files/Programmieren/Latex/MiKTeX/fonts/enc/dvips/fontname/8r.enc}
- <C:\Users\Jonathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
-\tcrm1095.pk><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/a
-rev/ArevSans-Bold.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1
-/public/arev/ArevSans-Oblique.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9
-/fonts/type1/public/arev/ArevSans-Roman.pfb><C:/Users/Jonathan/AppData/Roaming/
-MiKTeX/2.9/fonts/type1/bera/fvmr8a.pfb>
-Output written on mainTest.pdf (24 pages, 600230 bytes).
+pdfTeX warning (dest): name{subsection.9.6} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.9.5} has been referenced but does not ex
+ist, replaced by a fixed one
+
+{C:/Program Files/Programmieren/Latex/MiKTeX/fonts/enc/dvips/fontname/8r.enc} <
+C:\Users\Jonathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\t
+crm1095.pk><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/are
+v/ArevSans-Bold.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1/p
+ublic/arev/ArevSans-Oblique.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/f
+onts/type1/public/arev/ArevSans-Roman.pfb><C:/Users/Jonathan/AppData/Roaming/Mi
+KTeX/2.9/fonts/type1/bera/fvmr8a.pfb>
+Output written on mainTest.pdf (25 pages, 602277 bytes).
 PDF statistics:
- 543 PDF objects out of 1000 (max. 8388607)
- 135 named destinations out of 1000 (max. 500000)
- 536 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 561 PDF objects out of 1000 (max. 8388607)
+ 143 named destinations out of 1000 (max. 500000)
+ 552 words of extra memory for PDF output out of 10000 (max. 10000000)
 

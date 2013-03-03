@@ -77,28 +77,33 @@
 \contentsline {subsection}{\numberline {7.2}Uploading}{17}{subsection.7.2}
 \contentsline {subsubsection}{\numberline {7.2.1}Query trunks}{17}{subsubsection.7.2.1}
 \contentsline {paragraph}{Change detail}{17}{paragraph*.34}
-\contentsline {subsubsection}{\numberline {7.2.2}Generating keys with HashBuilder}{17}{subsubsection.7.2.2}
+\contentsline {subsubsection}{\numberline {7.2.2}Generating keys with HashBuilder}{18}{subsubsection.7.2.2}
 \contentsline {paragraph}{Change detail}{18}{paragraph*.35}
 \contentsline {subsubsection}{\numberline {7.2.3}No auto committing}{18}{subsubsection.7.2.3}
 \contentsline {paragraph}{Change detail}{18}{paragraph*.36}
 \contentsline {subsection}{\numberline {7.3}Extracting}{18}{subsection.7.3}
 \contentsline {paragraph}{Change detail}{18}{paragraph*.37}
-\contentsline {subsection}{\numberline {7.4}Closing}{18}{subsection.7.4}
+\contentsline {subsection}{\numberline {7.4}Closing}{19}{subsection.7.4}
 \contentsline {paragraph}{Change detail}{19}{paragraph*.38}
 \contentsline {subsection}{\numberline {7.5}MySQL queries + Testing}{19}{subsection.7.5}
 \contentsline {paragraph}{Test details}{19}{paragraph*.39}
 \contentsline {section}{\numberline {8}Web}{20}{section.8}
 \contentsline {section}{\numberline {9}Charts}{21}{section.9}
-\contentsline {subsection}{\numberline {9.1}Bubblechart}{21}{subsection.9.1}
-\contentsline {subsection}{\numberline {9.2}Bug fixes}{21}{subsection.9.2}
-\contentsline {subsubsection}{\numberline {9.2.1}Type of data}{21}{subsubsection.9.2.1}
-\contentsline {subsubsection}{\numberline {9.2.2}Errorpicture}{21}{subsubsection.9.2.2}
-\contentsline {subsubsection}{\numberline {9.2.3}Boring bugs}{21}{subsubsection.9.2.3}
-\contentsline {subsection}{\numberline {9.3}Rotation of text}{21}{subsection.9.3}
-\contentsline {subsection}{\numberline {9.4}Tooltips}{21}{subsection.9.4}
-\contentsline {section}{\numberline {10}Performance}{22}{section.10}
-\contentsline {subsection}{\numberline {10.1}Loading}{22}{subsection.10.1}
-\contentsline {subsection}{\numberline {10.2}Extracting}{22}{subsection.10.2}
-\contentsline {subsection}{\numberline {10.3}User Input}{23}{subsection.10.3}
-\contentsline {subsection}{\numberline {10.4}Authentication}{23}{subsection.10.4}
-\contentsline {section}{\numberline {11}Requirements}{24}{section.11}
+\contentsline {subsection}{\numberline {9.1}Bug fixes}{21}{subsection.9.1}
+\contentsline {subsubsection}{\numberline {9.1.1}Type of data}{21}{subsubsection.9.1.1}
+\contentsline {paragraph}{Change detail}{21}{paragraph*.40}
+\contentsline {subsubsection}{\numberline {9.1.2}Error}{21}{subsubsection.9.1.2}
+\contentsline {paragraph}{Change detail}{21}{paragraph*.41}
+\contentsline {subsubsection}{\numberline {9.1.3}Boring bugs}{21}{subsubsection.9.1.3}
+\contentsline {subsection}{\numberline {9.2}Aesthetics}{21}{subsection.9.2}
+\contentsline {paragraph}{Change detail}{21}{paragraph*.42}
+\contentsline {subsection}{\numberline {9.3}Special cases}{22}{subsection.9.3}
+\contentsline {paragraph}{Change detail}{22}{paragraph*.43}
+\contentsline {subsection}{\numberline {9.4}Testing}{22}{subsection.9.4}
+\contentsline {paragraph}{Test details}{22}{paragraph*.44}
+\contentsline {section}{\numberline {10}Performance}{23}{section.10}
+\contentsline {subsection}{\numberline {10.1}Loading}{23}{subsection.10.1}
+\contentsline {subsection}{\numberline {10.2}Extracting}{23}{subsection.10.2}
+\contentsline {subsection}{\numberline {10.3}User Input}{24}{subsection.10.3}
+\contentsline {subsection}{\numberline {10.4}Authentication}{24}{subsection.10.4}
+\contentsline {section}{\numberline {11}Requirements}{25}{section.11}

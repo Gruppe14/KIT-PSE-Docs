@@ -1,10 +1,17 @@
 \section{Data access}
 
 \subsection{Tables}
+<<<<<<< HEAD
 Instead of creating tables by hand for every configuration file, functions
 were added to make it possible creating tables dynamically from
 a configuration. This automatically needed another feature,
 storing for which configurations the tables were already created.
+=======
+Instead of creating tables by hand for every config file, functions
+were added to make it possible to create tables dynamically from
+a configuration. This depended on another feature,
+storing the configsfor which the tables had already been created.
+>>>>>>> 031fc978cfa837912d51702ed274b07180fd9ff1
 
 \paragraph{Change detail}
 \begin{itemize}
@@ -13,7 +20,11 @@ storing for which configurations the tables were already created.
 \end{itemize}
 
 There showed up problems with the time and location table
+<<<<<<< HEAD
 which are always the same. Therefor the creating query
+=======
+which are always the same. Therefore the created query
+>>>>>>> 031fc978cfa837912d51702ed274b07180fd9ff1
 was changed to \texttt{CREATE IF NOT EXITS}.
 
 Below are the creation queries for the SkyServer tables.
@@ -25,7 +36,8 @@ TODO codebeispiel
   \item Change table creation query to allow same tables for more configuration
 \end{itemize}
 
-If dimensions of different  configurations have the same name - expect time and location -
+%todo, look at
+If dimensions of different configurations have the same name - except time and location -
 will cause incorrect work. The table names are created from the dimension names.
 It was decided to give the dimensions always a new name. If this is
 not wanted, it could be changed by concatenating
@@ -35,8 +47,9 @@ to create the table name.
 \subsection{Uploading}
 \subsubsection{Query trunks}
 With every new request uploading a \textit{DataEntry} the queries 
-for fact table and dimension tables were computed completely. Avoiding
-this unnecessary work the trunks of the queries get precomputed.
+for fact and dimension tables were computed completely. To avoid
+this unnecessary work, the trunks of the queries now get precomputed.
+
 
 \paragraph{Change detail}
 \begin{itemize}

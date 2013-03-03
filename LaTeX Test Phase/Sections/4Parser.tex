@@ -2,7 +2,7 @@
 
 \subsection{Task determination} 
 When having too many threads (10+), sometimes a thread stopped working. This caused the counter for finished tasks
-to be stuck under the number of threads and the program not to get finished.
+to be stuck below the number of threads and the program not to get finished.
 So a watchdogtimer was implemented which replaces a thread by a new one, if said thread doesn't finish a line for a 
 predefinied amount of time. (standard = 2 seconds)
 
@@ -46,7 +46,7 @@ This was fixed by adding the \texttt{trim}-command in StringRow.split() and Stri
 \end{itemize}
 
 \subsection{Anonymous Proxy}
-GeoIp sometimes returned 'Anynomous Proxy' instead of nothing for cities or countries it didn't found.
+GeoIp sometimes returned 'Anynomous Proxy' instead of nothing for cities or countries it didn't find.
 This gets replaced by 'other' to fit in with the other undefined countries and cities.
 
 
@@ -75,7 +75,7 @@ submitted correctly for the ParserMediator to return true, singaling parsing was
 \end{itemize}
 
 \subsection{Reset}
-The parser now resets after he finished parsing a logfile, so that another file can be parsed.
+The parser now resets after it finished parsing a logfile, so that another file can be parsed.
 
 \paragraph{Change detail}
 \begin{itemize}
@@ -85,8 +85,8 @@ The parser now resets after he finished parsing a logfile, so that another file 
 
 \subsection{Testing}
 
-Besides the JUnit tests, described below, there were same test by hand. Parsing log files with
-just a few lines into a empty database. Then compare the content by hand.
+Besides the JUnit tests, described below, there were some test by hand. Parsing log files with
+just a few lines into an empty database. Then compare the content by hand.
 
 \paragraph{Test details}
 TODO group them, like the comment in the JUnit class
@@ -94,22 +94,35 @@ TODO not newest version!!
 %TODO
 \begin{itemize}
 
-\item smallParseTestStandardSize - parse 10 lines, standard (5) poolsize
-\item smallParseTestSize10 - parse 10 lines, poolsize 10
-\item smallParseTestTooBig - parse 10 lines, poolsize 100 -> Error \#2: ParserMediator.poolsizeParsing is bigger than 50.
-\item negativePoolsize - parse 10 lines, poolsize -2 -> Error \#1: ParserMediator.poolsizeParsing is smaller than 1.
-\item nonexistentFile - try to parse nonexistent file -> Error \#5: The path is wrong.
-\item wrongFile - try to parse from an empty .txt file -> Error \#5: The path is wrong.
-\item flawedFile - try to parse from a file with a typo in "type" -> Error \#11: The configuration file got a different format.
-\item mediumParseTestStandardSize - parse 1000 lines, standard (5) poolsize
-\item mediumParseTestSize50 - parse 1000 lines, poolsize 50
-\item bigParseTestStandardSize - parse ~30k lines, standard (5) poolsize
-%\item veryBigParseTestStandardSize (IGNORED) - parse a whole month, standard (5) poolsize, ignored because it may take hours 
-%to finish.
-\item smallParseTestEmptyLine - parse 10 lines with an empty line in between
+\item Mistakes 
+\begin{itemize}
 \item testIntegerMistake - parse 10 lines with year "2013apples" instead of "2013"
 \item testMissingPart - parse 10 lines with one line with a missing statement
 \item testEmptyPart - parse 10 lines with one empty statement and one empty year
+\item smallParseTestEmptyLine - parse 10 lines with an empty line in between
+\item flawedFile - try to parse from a file with a typo in "type" -> Error \#11: The configuration file got a different format.
+\end{itemize}
+
+\item Poolsize
+\begin{itemize}
+\item smallParseTestSize10 - parse 10 lines, poolsize 10
+\item smallParseTestTooBig - parse 10 lines, poolsize 100 -> Error \#2: ParserMediator.poolsizeParsing is bigger than 10.
+\item negativePoolsize - parse 10 lines, poolsize -2 -> Error \#1: ParserMediator.poolsizeParsing is smaller than 1.
+\item mediumParseTestSize50 - parse 1000 lines, poolsize 10
+\end{itemize}
+
+\item Just parsing
+\begin{itemize}
+\item smallParseTestStandardSize - parse 10 lines, standard (5) poolsize
+\item mediumParseTestStandardSize - parse 1000 lines, standard (5) poolsize
+\item bigParseTestStandardSize - parse ~30k lines, standard (5) poolsize
 \item doubleParsing - parse 1000 lines twice from seperate files
+\end{itemize}
+
+\item Ignored
+\begin{itemize}
+\item veryBigParseTestStandardSize (IGNORED) - parse a whole month, standard (5) poolsize, ignored because it may take hours 
+to finish.
+\end{itemize}
 
 \end{itemize}
