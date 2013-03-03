@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  2 MAR 2013 22:32
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  3 MAR 2013 15:24
 entering extended mode
 **mainTest.tex
 
@@ -1281,14 +1281,14 @@ File: uzavm.fd 2006/05/30 Fontinst v1.929 font definitions for U/zavm.
 LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <9> not available
 (Font)              Font shape `T1/fav/b/n' tried instead on input line 11.
 
-<Pictures/KIT-Logo.png, id=195, 501.875pt x 250.9375pt>
+<Pictures/KIT-Logo.png, id=255, 501.875pt x 250.9375pt>
 File: Pictures/KIT-Logo.png Graphic file (type png)
 
 <use Pictures/KIT-Logo.png>
 Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 24.
 (pdftex.def)             Requested size: 128.03653pt x 64.01692pt.
 
-<Pictures/WHAT-LogoText2.png, id=197, 2293.56876pt x 1049.9225pt>
+<Pictures/WHAT-LogoText2.png, id=257, 2293.56876pt x 1049.9225pt>
 File: Pictures/WHAT-LogoText2.png Graphic file (type png)
 
 <use Pictures/WHAT-LogoText2.png>
@@ -1327,7 +1327,7 @@ Package Fancyhdr Warning: \headheight is too small (17.0pt):
 ]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
 Test Phase\mainTest.toc"
-<Pictures/WHAT-Logo.png, id=254, 2293.56876pt x 850.17625pt>
+<Pictures/WHAT-Logo.png, id=313, 2293.56876pt x 850.17625pt>
 File: Pictures/WHAT-Logo.png Graphic file (type png)
 
 <use Pictures/WHAT-Logo.png>
@@ -1351,18 +1351,18 @@ LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <12> not available
 
 
 LaTeX Font Warning: Font shape `T1/fav/m/sc' undefined
-(Font)              using `T1/fav/m/n' instead on input line 23.
+(Font)              using `T1/fav/m/n' instead on input line 25.
 
-LaTeX Font Info:    Try loading font information for TS1+fav on input line 25.
-LaTeX Font Info:    No file TS1fav.fd. on input line 25.
+LaTeX Font Info:    Try loading font information for TS1+fav on input line 27.
+LaTeX Font Info:    No file TS1fav.fd. on input line 27.
 
 LaTeX Font Warning: Font shape `TS1/fav/m/n' undefined
 (Font)              using `TS1/cmr/m/n' instead
-(Font)              for symbol `textbullet' on input line 25.
+(Font)              for symbol `textbullet' on input line 27.
 
 File: Pictures/WHAT-Logo.png Graphic file (type png)
 <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 44.
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 46.
 (pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
  [5
 
@@ -1401,7 +1401,7 @@ Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 48.
 File: Pictures/KIT-Logo.png Graphic file (type png)
 
 <use Pictures/KIT-Logo.png>
-Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 93.
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 99.
 (pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
  [10])
 File: Pictures/WHAT-Logo.png Graphic file (type png)
@@ -1416,8 +1416,10 @@ LaTeX Font Info:    Try loading font information for T1+fvm on input line 27.
 (C:\Users\Jonathan\AppData\Roaming\MiKTeX\2.9\tex\latex\bera\t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
-File: Pictures/KIT-Logo.png Graphic file (type png)
 
+LaTeX Warning: Reference `FileHelper' on page 12 undefined on input line 29.
+
+File: Pictures/KIT-Logo.png Graphic file (type png)
 <use Pictures/KIT-Logo.png>
 Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 46.
 (pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
@@ -1467,52 +1469,66 @@ Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 101.
 (pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
  [16]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
-Test Phase\Sections/6DataAccess.tex")
+Test Phase\Sections/6DataAccess.tex"
+! Undefined control sequence.
+l.12   \itme
+             Add feature to store and check if tables for configuration are ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 File: Pictures/WHAT-Logo.png Graphic file (type png)
- <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 102.
+<use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 54.
 (pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
  [17
 
 
-]
-("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
-Test Phase\Sections/7Web.tex")
+])
 File: Pictures/KIT-Logo.png Graphic file (type png)
  <use Pictures/KIT-Logo.png>
-Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 104.
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 102.
 (pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
- [18
-
-
-]
+ [18]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
-Test Phase\Sections/8Charts.tex")
+Test Phase\Sections/7Web.tex")
 File: Pictures/WHAT-Logo.png Graphic file (type png)
  <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 106.
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 104.
 (pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
  [19
 
 
 ]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
-Test Phase\Sections/9Performance.tex")
+Test Phase\Sections/8Charts.tex")
 File: Pictures/KIT-Logo.png Graphic file (type png)
  <use Pictures/KIT-Logo.png>
-Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 108.
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 106.
 (pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
  [20
 
 
 ]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
-Test Phase\Sections/ARequirements.tex")
+Test Phase\Sections/9Performance.tex")
 File: Pictures/WHAT-Logo.png Graphic file (type png)
  <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 110.
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 108.
 (pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
  [21
+
+
+]
+("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
+Test Phase\Sections/ARequirements.tex")
+File: Pictures/KIT-Logo.png Graphic file (type png)
+ <use Pictures/KIT-Logo.png>
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 110.
+(pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
+ [22
 
 
 ]
@@ -1548,17 +1564,20 @@ Test Phase\Sections/ARequirements.aux"))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 113.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 113.
 Package rerunfilecheck Info: File `mainTest.out' has not changed.
-(rerunfilecheck)             Checksum: 860BAB2AC3B269E0BBA5C13507B9C100;3010.
+(rerunfilecheck)             Checksum: 42A6F396A3304142877560792B0608EE;4060.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were undefined references.
+
  ) 
 Here is how much of TeX's memory you used:
- 10293 strings out of 493921
- 160644 string characters out of 3140856
- 268694 words of memory out of 3000000
- 13195 multiletter control sequences out of 15000+200000
+ 10332 strings out of 493921
+ 161285 string characters out of 3140856
+ 267647 words of memory out of 3000000
+ 13210 multiletter control sequences out of 15000+200000
  38396 words of font info for 62 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  45i,15n,47p,773b,433s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1569,9 +1588,9 @@ rev/ArevSans-Bold.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1
 /public/arev/ArevSans-Oblique.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9
 /fonts/type1/public/arev/ArevSans-Roman.pfb><C:/Users/Jonathan/AppData/Roaming/
 MiKTeX/2.9/fonts/type1/bera/fvmr8a.pfb>
-Output written on mainTest.pdf (21 pages, 573619 bytes).
+Output written on mainTest.pdf (22 pages, 590256 bytes).
 PDF statistics:
- 426 PDF objects out of 1000 (max. 8388607)
- 104 named destinations out of 1000 (max. 500000)
- 400 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 517 PDF objects out of 1000 (max. 8388607)
+ 128 named destinations out of 1000 (max. 500000)
+ 520 words of extra memory for PDF output out of 10000 (max. 10000000)
 

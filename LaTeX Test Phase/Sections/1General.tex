@@ -2,12 +2,14 @@
 This section is about things concerning the whole system.
 
 \subsection{Coding style}
+%this needs a rewrite I think
 In general value on good coding style was set. This is mostly the aspect
 of task division to classes and methods. To implement this some classes were totally redesigned
-and lot's of new classes created. This also helped another important aspect, object oriented programming.
+and lots of new classes were created. This also helped another important aspect, object oriented programming.
 So for example a chart host storing all tables, names and filters as Strings and sets, developed to
 a class containing only one String per axis, Filter objects, which wrap dimension and other objects, and a Measure
 object, to hold all information, needed for MySQL queries for this chart.
+%tl;dr: we changed code
 
 Another aspect was the reuse of code. Reviewing the code, showed that some packages need the same
 functions, e.g. for reading from JSON object. To bundle this functions and
@@ -18,27 +20,27 @@ See the sections of the packages for details.
 \subsection{Structure}
 We noticed that packages and folders in the application folder app from the play framework 
 the application and the web tier weren't seperated. This separation was arranged. 
-The data access tier was considerd to be a sub-tier of the application tier. 
+The data access tier was considered to be a sub-tier of the application tier. 
 
 \paragraph{Change detail}
 \begin{itemize}
   \item Restructure folders and packages to fulfill tier separation
 \end{itemize}
 
-\subsection{JavaDoc}
+\subsection{JavaDoc} %A++ would present
 JavaDoc wasn't written strictly for all packages, classes, methods, attributes and constants. 
-But with the help of CheckStyle (\ref{cs}) all of the laziness was found and the JavaDoc written.
+But with the help of CheckStyle (\ref{cs}) all of the laziness was uncovered and the JavaDoc written.
 The quality of JavaDoc is always a matter of opinion, but in the view of the
-writers it's adequate to it's need.
+writers it's adequate to its needs.
 
 \paragraph{Change detail}
 \begin{itemize}
   \item Missing JavaDoc written
 \end{itemize}
 
-\subsection{CheckStyle}\label{cs}
+\subsection{CheckStyle}\label{cs} %lang
 When starting CheckStyle first with the standard checks there were about 7290 warnings.
-Searching where this all came from, we found out, that the library of GeoIP from MaxMind, 
+Searching where they came from, we found out, that the library of GeoIP from MaxMind, 
 which was included as a package to make some adjustments, produced 6060 of them. So there seemed to be about
 1230.
 
@@ -59,9 +61,12 @@ what: 29
 web: 130
 controllers: 60 
 parser: rest
+%TODO: Jslint
 
 \subsection{Error messages}
-Where not really needed stack traces were replaced and meaningful error messages printed.
+Stack traces were replaced with meaningful error messages where needed.
+%Das verstehe ich nicht, gibt es noch stacktraces?
+%Where not really needed stack traces were replaced and meaningful error messages printed.
 \paragraph{Change detail}
 \begin{itemize}
   \item Replace stack traces with error messages

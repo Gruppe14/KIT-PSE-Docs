@@ -1,19 +1,92 @@
 \section{Data access}
 
+\subsection{Tables}
+Instead of creating tables by hand for every config file, functions
+were added to make it possible creating tables dynamically from
+a configuration. This automatically needed another feature,
+storing for which configs the tables were allready created.
 
-% trunks
+\paragraph{Change detail}
+\begin{itemize}
+  \item Add feature to create tables dynamically
+  \itme Add feature to store and check if tables for configuration are already created
+\end{itemize}
 
-% hashbuilder
+There showed up problems with the time and location table
+which are allways the same. Therefor the creating query
+was changed to \texttt{CREATE IF NOT EXITS}.
 
-% reconfigure statements
+\paragraph{Change detail}
+\begin{itemize}
+  \item Change table creation query to allow same tables for more config
+\end{itemize}
 
-% new connection pool
+If dimensions of differnt configurations have the same name - expect time and location -
+will cause incorrect work. The table names are created from the dimension names.
+It was decided to give the dimensions always a new name. If this is
+not wanted, it could be changed by concatinating
+the configuration name with dimension name and the dimension table short
+to create the table name.
+
+\subsection{Uploading}
+\subsubsection{Query trunks}
+With every new request uploading a \textit{DataEntry} the queries 
+for fact table and dimension tables were computed completly. Avoiding
+this unnecessary work the trunks of the queries get precomputed.
+
+\paragraph{Change detail}
+\begin{itemize}
+  \item Precompute trunks of upload queries
+\end{itemize}
+
+
+\subsubsection{Generating keys with HashBuilder}
+For every dimension the key of a row is needed in the fact table.
+Instead of trying to upload the dimension data and get a auto generated key if possible,
+otherwise requesting the key by hand, the keys are generated with a
+\textit{HashBuilder} now. The builder gets all items of a row and
+returns a hashed key, which is used for the upload of the dimension data
+and the fact table.
+
+\paragraph{Change detail}
+\begin{itemize}
+  \item Generating keys with \textit{HashBuilder}
+\end{itemize}
+
+
+\subsubsection{No autocommitting}
+Every dimension and the fact table rows were committed one by one. Decreasing
+the overhead the statement was set to no autocomitting. This made it possible
+to collect all the upload queries in the statement and send them to the database
+all at once.
+
+\paragraph{Change detail} 
+\begin{itemize}
+  \item Use no autocomitting statements for upload
+  \item Execute all upload queries of on \textit{DataEntry} at once
+\end{itemize}
+
+First, every connection needed with no autocommitting was changed from a normal
+and when giving the connection back to the pool enable the autocommiting again.
+This was improved by a second connection pool which only contains
+connections with the autocommitting disabled.
+
+\paragraph{Change detail}
+\begin{itemize}
+  \item Second connnection pool for no autocomitting connections
+\end{itemize}
+
+\subsection{Extracting}
+
+
+\subsection{Storing}
+
+\subsection{Closing}
+
+
 
 % select  subtable  to join
 
-% creating tables
-
-% create if not exists/ using more than one config on one database
 
 
 %\subsection{Connection pool}

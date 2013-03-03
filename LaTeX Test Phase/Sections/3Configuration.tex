@@ -4,9 +4,9 @@ and handling its information.
 
 \subsection{Requirements}
 We decided that every configuration file and the order of the 
-rows have to follow this requirements:
+rows have to follow these requirements:
 \begin{itemize}
-  \item starts with time and time rows contain the String 'time'
+  \item starts with 6 time rows and time rows contain the String 'time'
   \item has an IP row which follows time
   \item any other rows, which must be dimension (level > 0) if they are not of
   type integer or double
@@ -29,7 +29,7 @@ of the build anyway.
 The reading of the configuration file was made easier with the
 \textit{JSONReader} (\ref{reader}). Because of this the easy creation
 of the \textit{ConfigWrap} was placed in the \textit{ConfigWrap} itself as
-static factory without the need of any helper class.
+a static factory without the need of any helper class.
 
 \paragraph{Change detail}
 \begin{itemize}
@@ -54,14 +54,14 @@ produced incorrect table and column names in the database.
 \end{itemize}
 
 \subsection{StringRow}
-The \textit{StringRow} had unneeded functions. The idea was
+The \textit{StringRow} had uneeded functions. The idea was
 to store all possible Strings of a row in it. But not really knowing what
 could be content of the log files, the Strings are read directly from 
-the log files and stored in the warehouse. So the old functions got unneeded.
+the log files and stored in the warehouse. So the old functions got obsolete.
 
 \paragraph{Change detail}
 \begin{itemize}
-  \item Kill unneeded functions of \textit{StringRow}
+  \item Remove uneeded functions of \textit{StringRow} %ich habe kill erstetzt
 \end{itemize}
 
 \subsection{Dimension content trees}
@@ -71,7 +71,7 @@ of \textit{HashMap}s and \textit{TreeSet}s of String containing itself or not. I
 a bad approach to build a tree.
 
 This was changed with a new class \textit{DimKnot} which forms tree structures. 
-Instances of it also contain information about the level they are,
+Instances of it also contain information about the level they are on,
 which makes it much more easy to build MySQL queries dynamically from them.
 \paragraph{Change detail}
 \begin{itemize}

@@ -1,11 +1,10 @@
 \section{Facade, Helper}
-In the highest package of the application tier the
-Facade and utility classes are placed.
+The Facade and utility classes are placed in the highest package of the application tier.
 
 \subsection{Utility classes}\label{utility}
 To bundle some functions needed in more than one package some utility
 classes were created. They also made error handling and 
-testing easier. 
+testing easier.
 
 \paragraph{Change detail}
 \begin{itemize}
@@ -14,10 +13,12 @@ testing easier.
 
 This classes are described below.
 
-\subsubsection{FileHelper}\label{FileHelper}
-Reading configuration files and log files both need some methods to get the file,
-check its existence, rights and file extension. This functions
-where collected in the class \textit{FileHelper}.
+\subsubsection{FileHelper}
+Reading configuration files and reading log files share methods.
+This includes getting the file,checking its existence,
+rights and file extension. These functions
+were collected in the class \textit{FileHelper}.
+
 
 \subsubsection{JSONReader}\label{reader}
 The configuration and parts of the communication between web tier
@@ -33,16 +34,15 @@ and success messages.
 
 \subsection{Facade}
 The facade's main functions are initializing everything and then direct incoming requests to
-the specific mediators. 
+the specific mediators.
 
 One problem found was that the creation of tables for the database caused serveral problems
-for testing and when they changed. So the creation of them was solved dynamically, so
-that you just had to drop the old tables and when starting the system, it would
-create them.
+for testing and when they changed. The creation of them was solved dynamically- so
+that one just had to drop the old tables and when the system started, they would be created automatically.
 
 \paragraph{Change detail}
 \begin{itemize}
-  \item Automatic check if tables exist and creation of them
+  \item Automatic check of the table existence and their creation.
 \end{itemize}
 
 
