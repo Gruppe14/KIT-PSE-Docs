@@ -1,5 +1,60 @@
 \section{Requirements}\label{spec}
 
-TODO: wie gut wir die sachen erfuellt oder nicht erfuellt haben, was es mehr gibt oder fehlt und so zeugs
-%TODO
 
+\subsection{Test cases}
+It showed that the test cases specified in the functional specification
+don't really guarantee proper work of the system. They just show
+that the core criteria are fulfilled. 
+
+So we made new and more specific tests as described in the
+corresponding sections. With them the whole system should be covered by tests.
+
+\subsection{Functional requirements}
+It can be said that nearly all functional requirements are fulfilled.
+
+One exclusion is the following. With the decision to make all work 
+based on configurations this got obsolete. Also the names of dimensions
+and measures are explaining itself enough.
+\begin{itemize}
+  \item /F110/ Show information about selectable variables
+\end{itemize}
+
+\subsection{Nonfunctional requirements}
+\subsubsection{Usability}
+The requirements for usability were the following. 
+\begin{itemize}
+  \item /N10/ Minimalistic GUI design
+  \item /N20/ Responsive GUI
+  \item /N30/ GUI that is easy to get used to
+\end{itemize}
+They are hard to test and subjective, but we think they are fulfilled
+and the web page looks great. From a navigational aspect, it doesn't look much
+different than a normal website.
+
+
+\subsubsection{Swiftness}
+Not using OLAP cubes the chart requests get slower and slower
+with more data in the warehouse.
+
+Changing the loading of \textit{DataEntry}s (\ref{noAu}) increased
+the speed of parsing a lot. See the number of lines and the time in milliseconds
+for the old and the new way.
+
+\begin{tabular}{l|c|c}
+\# of rows & old & no auto commit \\
+\hline
+10000& 14 017 & 13 016\\
+10000&11 007 &9 014\\
+10000&12 005&10 008\\
+10000&11 007&9 012\\
+10000&12 017&9 007\\
+100000&105 009 &92 012\\
+100000&106 009 &78 010\\
+\end{tabular}
+
+This shows a decrease of about 18\%.
+
+Parsing a bigger file with 1146315 lines showed
+that it takes about 11.23ms per line. (On a system with no music, web browser,
+Eclipse and other programs running this may be faster.)
+%I don't think we should mention that. It just shows that we failed to make a good test
