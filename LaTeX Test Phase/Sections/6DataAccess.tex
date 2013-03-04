@@ -14,11 +14,10 @@ storing the configuration files for which the tables had already been created.
 \end{itemize}
 
 There showed up problems with the time and location table
-<<<<<<< HEAD
 which are always the same. Therefore the creating query
 was changed to \texttt{CREATE IF NOT EXITS}.
 
-Below are the creation queries for the SkyServer tables.
+Below are the queries that create the SkyServer tables.
 TODO codebeispiel
 %TODO
 
@@ -41,7 +40,6 @@ With every new request uploading a \textit{DataEntry} the queries
 for fact and dimension tables were computed completely. To avoid
 this unnecessary work, the trunks of the queries now get precomputed.
 
-
 \paragraph{Change detail}
 \begin{itemize}
   \item Precompute trunks of upload queries
@@ -63,6 +61,7 @@ and the fact table.
 
 
 \subsubsection{No auto committing}
+%what is auto committing?
 Every dimension and the fact table rows were committed one by one. Decreasing
 the overhead the statement was set to no auto committing. This made it possible
 to collect all the upload queries in the statement and send them to the database
@@ -74,9 +73,9 @@ all at once.
   \item Execute all upload queries of on \textit{DataEntry} at once
 \end{itemize}
 
-There was a try to use a second connection pool for the no auto committing connections.
-They got set to no auto committing once. But this didn't work out, because it seemed,
-that they didn't store this behavior. So it was changed back to the old strategy
+There was an attempt to use a second connection pool for the no auto committing connections.
+They got set to no auto committing once. But this didn't work out because it seemed
+that they didn't store this behaviour. So it was changed back to the old strategy
 changing every used no auto committing connection directly before the use.
 
 \subsection{Extracting}
@@ -98,10 +97,10 @@ made it more easy to build the complex queries. Below is a possible query.
 TODO codebeispiel
 
 \subsection{Closing}
-There showed up problems, when the system was started often without starting the MySQL server new.
+There were some problems when the system was started often without restarting the MySQL server.
 The number of connections getting from a MySQL server is limited. With every creation of a \textit{Facade}
-with a configuration file there are also created all the mediators, including the \textit{DataMediator}.
-This triggers the creation of a connection pool. So when the system is started to often
+with a configuration file, all the mediators are also created, including the \textit{DataMediator}.
+This triggers the creation of a connection pool. So when the system is started too often
 MySQL will run out of connections and the connection pool won't be created.
 
 Starting the play server to often will face this problem. But this shouldn't happen in a normal
@@ -117,7 +116,7 @@ solved by releasing all connections when resetting the \textit{Facade}.
 
 
 \subsection{MySQL queries + Testing}
-The queries were produced in all conscience. This means it was tested in the 
+The queries were produced in good conscience. This means it was tested in the 
 MySQL workbench how the queries have to look and what would work. Knowing this
 the code producing this queries was implemented.
 

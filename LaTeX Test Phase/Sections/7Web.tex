@@ -22,7 +22,7 @@ If the user requests a history, the requested history number will be looked up f
 A chart consists of an thumbnail for the index page, a configuration file, which saves how many dimensions can be displayed by this chart type,
 a javascript file, which contains the d3.js code to visualize the data and an optional stylesheet file to style the chart elements.
 To add new charts, you only have to add these files.
-But to ensure that no chart types are displayed, which do not have all this files, their existence is now checked on application start.
+But to ensure that no chart types which do not have all these files are displayed, their existence is now checked on application start.
 For this purpose some methods were added and changed. There are methods to get all valid charts, to get the thumbnail name of a chart,
 to get the number of dimensions a chart can display and to check if a chart has a stylesheet file or not.
 
@@ -40,7 +40,7 @@ While this is by no means a perfect solution, e.g. if the bubble chart&scatterpl
 it fulfills it's purpose and allows the web server to still handle all chart types and files the same way.
 
 \subsection{ChartHelper class}
-Although the play framework template engine can call java functions, it was not dynamic enough to design our chart pages solely with its functions.
+Although the play framework template engine can call Java functions, it was not dynamic enough to design our chart pages solely with its functions.
 So the ChartHelper class was added, which creates the selection boxes for all charts in every supported language, 
 with all selectable options, which are contained in the warehouse.
 These are then saved as Html objects, so they don't have to be created on each call to a chart page.
@@ -55,7 +55,7 @@ as extracted from the user's session.
 \subsection{languages}
 The play framework itself supports UTF-8 encoded strings, so using multiple languages shouldn't have been a problem. 
 But as we had to notice the localisation didn't work for languages that don't use the latin alphabet.
-This was a problem with the java property files and PropertyResourceBundle, where the localized strings are saved and which natively only
+This was a problem with the Java property files and PropertyResourceBundle, where the localized strings are saved and which natively only
 supports ISO-8859-1 encoding.
 To solve this problem the class UTF8Control was added.
 
@@ -65,8 +65,6 @@ To solve this problem the class UTF8Control was added.
 \end{itemize}
 
 \subsection{Testing}
-The testing of the webpage was done by hand as it made no sense to us, to test a webpage, 
-the purpose of which is to display things graphically, in a nongraphical, automatic way.
+The testing of the webpage was done by hand as the website itself does little besides displaying things graphically.
 Additionally this decision was enhanced by the fact that there are relatively few functions on the webpage to test.
-The webpage has been tested in Chrome and Firefox, but additionally at least the main functions should also be available in Chromium,
-Internet Explorer 10 and even on some mobile devices.
+The webpage has been tested in Chrome, Firefox, Chromium but has also ran successfully on Internet Explorer 10 and even some mobile devices.

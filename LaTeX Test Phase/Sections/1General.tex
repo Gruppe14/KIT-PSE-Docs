@@ -40,14 +40,14 @@ writers it's adequate to its needs.
 \end{itemize}
 
 \subsection{CheckStyle}\label{cs} %lang
-When starting CheckStyle first with the standard checks there were about 7290 warnings.
-Searching where they came from we found out that the library of GeoIP from MaxMind, 
-which was included as a package to make some adjustments, produced 6060 of them. So there seemed to be about
+When starting CheckStyle, at first there were about 7290 warnings with the standard checks.
+Searching where they came from we found out that the MaxMind GeoIP library, 
+which was included as a package to make some adjustments to it, produced 6060 of them. So there seemed to be about
 1230.
 
 Adjusting the CheckStyle configuration to checks we thought were useful left only 535 warnings.
-Those were mostly handled. Only the warning that there should be no hard coded Strings, where
-ignored, where HTML code was build.
+Those were mostly handled. The only warnings that were ignored where those that claimed that there should be no hardcoded Strings.
+However, we use hardcoded strings at the views of the play framework, to produce HTML code.
 
 \paragraph{Change detail}
 \begin{itemize}
@@ -62,8 +62,8 @@ web: 130
 controllers: 60 
 parser: rest
 
-Additionally, there were found 28 javascript warnings, 21 of whom in the charts.
-This relatively low number can be attributed to the usage of jshint instead of jslint.
+Additionally, 28 Javascript warnings were found, 21 of whom in the code that creates the charts.
+This relatively low number can be partially attributed to the usage of jshint instead of jslint.
 
 \subsection{Error messages}
 Stack traces were replaced with meaningful error messages where needed.

@@ -6,8 +6,8 @@ the 'play test' command  (which just ends up executing 'sbt test').
 \subsection{Travis}
 The continuous integration service travis was set up and heavily utilised. 
 Each time a new commit was made to the repository on github, a computer from travis 
-tried to successfully compile our program. This includes downloading the repository from github,
-downloading the dependencies (such as java play),
+tried to successfully compile our program. This includes cloning the repository from github,
+downloading the dependencies (such as Java play),
 creating the database and users needed for the warehouse, as well as building the program.
 
-It then executed 'play test' as part of its building process, thus run our tests and notified us if they passed. As a bonus, travis builds on linux computers, and since many of us used windows during the development process this helped with cross-platform testing.
+It then executed 'play test' as part of its building process, thus run our tests and notified us if they passed. As a bonus, travis builds on Linux computers, and since many of us used windows during the development process this helped with cross-platform testing.
