@@ -154,8 +154,8 @@ with a configuration file there are also created all the mediators, including th
 This triggers the creation of a connection pool. So when the system is started to often
 MySQL will run out of connections and the connection pool won't be created.
 
-Starting the play server to often will face this problem. But this shouldn't happen in a normal
-operation mode.
+Starting the play server to often will face this problem. This was solved by adding a closing function
+executed before the system stops, which releases the \textit{Facade}.
 
 In the JUnit tests the \textit{Facade} is reset with nearly every test. So the problem could be
 solved by releasing all connections when resetting the \textit{Facade}. 
@@ -163,6 +163,7 @@ solved by releasing all connections when resetting the \textit{Facade}.
 \paragraph{Change detail} 
 \begin{itemize}
   \item Release connections when resetting \textit{Facade}
+   \item Release and reset \textit{Facade} when stoping system
 \end{itemize}
 
 

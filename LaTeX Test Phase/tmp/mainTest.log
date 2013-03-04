@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  4 MAR 2013 01:23
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  4 MAR 2013 01:39
 entering extended mode
 **mainTest.tex
 
@@ -1118,8 +1118,6 @@ Test Phase\Sections/7Web.aux")
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
 Test Phase\Sections/8Charts.aux")
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
-Test Phase\Sections/9Performance.aux")
-("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
 Test Phase\Sections/12Security.aux")
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
 Test Phase\Sections/ARequirements.aux"))
@@ -1562,8 +1560,6 @@ File: Pictures/KIT-Logo.png Graphic file (type png)
 Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 108.
 (pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
  [24]
-No file Sections/9Performance.tex.
-
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
 Test Phase\Sections/12Security.tex")
 File: Pictures/WHAT-Logo.png Graphic file (type png)
@@ -1571,8 +1567,6 @@ File: Pictures/WHAT-Logo.png Graphic file (type png)
 Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 111.
 (pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
  [25
-
-
 
 
 ]
@@ -1620,8 +1614,6 @@ Test Phase\Sections/7Web.aux")
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
 Test Phase\Sections/8Charts.aux")
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
-Test Phase\Sections/9Performance.aux")
-("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
 Test Phase\Sections/12Security.aux")
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
 Test Phase\Sections/ARequirements.aux"))
@@ -1638,10 +1630,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 12019 strings out of 493921
- 184119 string characters out of 3140856
- 310473 words of memory out of 3000000
- 14807 multiletter control sequences out of 15000+200000
+ 12012 strings out of 493921
+ 183599 string characters out of 3140856
+ 310129 words of memory out of 3000000
+ 14805 multiletter control sequences out of 15000+200000
  38396 words of font info for 62 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  45i,15n,47p,773b,993s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1652,7 +1644,7 @@ rev/ArevSans-Bold.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1
 /public/arev/ArevSans-Oblique.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9
 /fonts/type1/public/arev/ArevSans-Roman.pfb><C:/Users/Jonathan/AppData/Roaming/
 MiKTeX/2.9/fonts/type1/bera/fvmr8a.pfb>
-Output written on mainTest.pdf (27 pages, 622129 bytes).
+Output written on mainTest.pdf (27 pages, 622215 bytes).
 PDF statistics:
  668 PDF objects out of 1000 (max. 8388607)
  201 named destinations out of 1000 (max. 500000)
