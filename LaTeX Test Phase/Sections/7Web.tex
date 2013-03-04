@@ -1,6 +1,7 @@
 \section{Web}
 \subsection{web package}
-The package web was created and the packages controllers and views have been moved there to seperate everything that is involved with the webpage and the frontend from the application logic in the what package.
+The package web was created and the packages controllers and views have been moved there 
+to seperate everything that is involved with the webpage and the frontend from the application logic in the what package.
 
 \paragraph{Change detail}
 \begin{itemize}
@@ -12,7 +13,7 @@ One problem in displaying the history of the last requests, was to ensure that i
  that this chart history was still saved on the server side, even though there may have been new chart requests in the mean time.
 To solve this problem the class ChartHelper was added. It generates an overview of the last chart requests, 
 if a user requests it. In the process it saves the json Objects together with a unique user id (uuid). 
-If the user requests a history, the requested history number will be looked up for his uuid and returned.
+If the user requests a history, the history number will be looked up for his uuid and returned.
 
 \paragraph{Change detail}
 \begin{itemize}
@@ -32,12 +33,15 @@ to get the number of dimensions a chart can display and to check if a chart has 
   \item changed and added methods.
 \end{itemize}
 
+\pagebreak[4]
 \subsection{Reuse code in charts}
 The code of different charts has to be independent, to ensure that additional charts can be added dynamically.
-But Niko wanted to reuse the code from bubblechart&scatterplot in the scatterplot, because it is identically except for the bubble radius. 
-The solution was, that the javascript from scatterplot adds the javascript and stylesheet files from bubblechart&scatterplot dynamically itself. 
-No serverside hardcoding involved. While this is no perfect solution, e.g. if the bubblechart&scatterplot is removed,
-it fulfills it's purpose and allows the webserver to still handle all chart types and its files the same way.
+But Niko wanted to reuse the code from bubblechart\&scatterplot in the scatterplot,
+ because it is identically except for the bubble radius. 
+The solution was, that the javascript from scatterplot adds the javascript and stylesheet files 
+from bubblechart\&scatterplot dynamically itself. 
+No serverside hardcoding involved. While this is no perfect solution, e.g. if the bubblechart\&scatterplot is removed,
+it fulfills it's purpose and allows the webserver to still handle all chart types and files the same way.
 
 \subsection{ChartHelper class}
 Although the play framework template engine can call java functions, it was not dynamic enough to design our chart pages solely with its functions.
