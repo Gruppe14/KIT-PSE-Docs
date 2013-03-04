@@ -100,7 +100,7 @@ just a few lines into an empty database, and then comparing the result.
 
 \paragraph{Test details}
 \begin{itemize}
-
+ 
 \item Mistakes 
 \begin{itemize}
 \item testIntegerMistake - year "2013apples" instead of "2013"
@@ -113,8 +113,9 @@ just a few lines into an empty database, and then comparing the result.
 \item Poolsize
 \begin{itemize}
 \item smallParseTestSize10 - parse 10 lines, poolsize 10
-\item smallParseTestTooBig - parse 10 lines, poolsize 100 %-> Error \#2: ParserMediator.poolsizeParsing is bigger than 10.
-\item negativePoolsize - parse 10 lines, poolsize -2 %-> Error \#1: ParserMediator.poolsizeParsing is smaller than 1.
+\item smallParseTestSize10 - parse 10 lines, poolsize 1
+%\item smallParseTestTooBig - parse 10 lines, poolsize 100 %-> Error \#2: ParserMediator.poolsizeParsing is bigger than 10.
+%\item negativePoolsize - parse 10 lines, poolsize -2 %-> Error \#1: ParserMediator.poolsizeParsing is smaller than 1.
 \item mediumParseTestSize50 - parse 1000 lines, poolsize 10
 \end{itemize}
 
