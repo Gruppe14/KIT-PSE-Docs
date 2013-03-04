@@ -5,70 +5,72 @@
 \BOOKMARK [2][-]{subsection.2.3}{JavaDoc}{section.2}% 5
 \BOOKMARK [2][-]{subsection.2.4}{CheckStyle}{section.2}% 6
 \BOOKMARK [2][-]{subsection.2.5}{Error messages}{section.2}% 7
-\BOOKMARK [1][-]{section.3}{Facade, Helper}{}% 8
-\BOOKMARK [2][-]{subsection.3.1}{Utility classes}{section.3}% 9
-\BOOKMARK [3][-]{subsubsection.3.1.1}{FileHelper}{subsection.3.1}% 10
-\BOOKMARK [3][-]{subsubsection.3.1.2}{JSONReader}{subsection.3.1}% 11
-\BOOKMARK [3][-]{subsubsection.3.1.3}{Printer}{subsection.3.1}% 12
-\BOOKMARK [2][-]{subsection.3.2}{Facade}{section.3}% 13
-\BOOKMARK [2][-]{subsection.3.3}{Testing}{section.3}% 14
-\BOOKMARK [1][-]{section.4}{Configuration file}{}% 15
-\BOOKMARK [2][-]{subsection.4.1}{Requirements}{section.4}% 16
-\BOOKMARK [2][-]{subsection.4.2}{Creation}{section.4}% 17
-\BOOKMARK [3][-]{subsubsection.4.2.1}{Unneeded attributes}{subsection.4.2}% 18
-\BOOKMARK [3][-]{subsubsection.4.2.2}{Space in names}{subsection.4.2}% 19
-\BOOKMARK [2][-]{subsection.4.3}{StringRow}{section.4}% 20
-\BOOKMARK [2][-]{subsection.4.4}{Dimension content trees}{section.4}% 21
-\BOOKMARK [2][-]{subsection.4.5}{Child dimensions}{section.4}% 22
-\BOOKMARK [2][-]{subsection.4.6}{Testing}{section.4}% 23
-\BOOKMARK [1][-]{section.5}{Parser}{}% 24
-\BOOKMARK [2][-]{subsection.5.1}{Task determination}{section.5}% 25
-\BOOKMARK [2][-]{subsection.5.2}{Negative or too high poolsize}{section.5}% 26
-\BOOKMARK [2][-]{subsection.5.3}{NullPointerExceptions when correct file doesn't exist}{section.5}% 27
-\BOOKMARK [2][-]{subsection.5.4}{Whitespace in entries}{section.5}% 28
-\BOOKMARK [2][-]{subsection.5.5}{Anonymous Proxy}{section.5}% 29
-\BOOKMARK [2][-]{subsection.5.6}{Check for missing or empty parts}{section.5}% 30
-\BOOKMARK [2][-]{subsection.5.7}{Only accept when enough lines submitted}{section.5}% 31
-\BOOKMARK [2][-]{subsection.5.8}{Reset}{section.5}% 32
-\BOOKMARK [2][-]{subsection.5.9}{Testing}{section.5}% 33
-\BOOKMARK [1][-]{section.6}{Chart requests}{}% 34
-\BOOKMARK [2][-]{subsection.6.1}{Object oriented programming}{section.6}% 35
-\BOOKMARK [3][-]{subsubsection.6.1.1}{Chart request workflow}{subsection.6.1}% 36
-\BOOKMARK [3][-]{subsubsection.6.1.2}{Filter class}{subsection.6.1}% 37
-\BOOKMARK [3][-]{subsubsection.6.1.3}{Measure class}{subsection.6.1}% 38
-\BOOKMARK [2][-]{subsection.6.2}{SQL injection}{section.6}% 39
-\BOOKMARK [2][-]{subsection.6.3}{Two axis of same dimension}{section.6}% 40
-\BOOKMARK [2][-]{subsection.6.4}{Testing}{section.6}% 41
-\BOOKMARK [1][-]{section.7}{Data access}{}% 42
-\BOOKMARK [2][-]{subsection.7.1}{Tables}{section.7}% 43
-\BOOKMARK [2][-]{subsection.7.2}{Uploading}{section.7}% 44
-\BOOKMARK [3][-]{subsubsection.7.2.1}{Query trunks}{subsection.7.2}% 45
-\BOOKMARK [3][-]{subsubsection.7.2.2}{Generating keys with HashBuilder}{subsection.7.2}% 46
-\BOOKMARK [3][-]{subsubsection.7.2.3}{No auto committing}{subsection.7.2}% 47
-\BOOKMARK [2][-]{subsection.7.3}{Extracting}{section.7}% 48
-\BOOKMARK [2][-]{subsection.7.4}{Closing}{section.7}% 49
-\BOOKMARK [2][-]{subsection.7.5}{MySQL queries + Testing}{section.7}% 50
-\BOOKMARK [1][-]{section.8}{Web}{}% 51
-\BOOKMARK [2][-]{subsection.8.1}{web package}{section.8}% 52
-\BOOKMARK [2][-]{subsection.8.2}{Chart history}{section.8}% 53
-\BOOKMARK [2][-]{subsection.8.3}{Possibility to add new chart types}{section.8}% 54
-\BOOKMARK [2][-]{subsection.8.4}{Reuse code in charts}{section.8}% 55
-\BOOKMARK [2][-]{subsection.8.5}{ChartHelper class}{section.8}% 56
-\BOOKMARK [2][-]{subsection.8.6}{languages}{section.8}% 57
-\BOOKMARK [2][-]{subsection.8.7}{Testing}{section.8}% 58
-\BOOKMARK [1][-]{section.9}{Charts}{}% 59
-\BOOKMARK [2][-]{subsection.9.1}{Bug fixes}{section.9}% 60
-\BOOKMARK [3][-]{subsubsection.9.1.1}{Type of data}{subsection.9.1}% 61
-\BOOKMARK [3][-]{subsubsection.9.1.2}{Errors}{subsection.9.1}% 62
-\BOOKMARK [3][-]{subsubsection.9.1.3}{Boring bugs}{subsection.9.1}% 63
-\BOOKMARK [2][-]{subsection.9.2}{Aesthetics}{section.9}% 64
-\BOOKMARK [2][-]{subsection.9.3}{Testing}{section.9}% 65
-\BOOKMARK [1][-]{section.10}{Security}{}% 66
-\BOOKMARK [2][-]{subsection.10.1}{User Input}{section.10}% 67
-\BOOKMARK [2][-]{subsection.10.2}{Authentication}{section.10}% 68
-\BOOKMARK [1][-]{section.11}{Requirements}{}% 69
-\BOOKMARK [2][-]{subsection.11.1}{Test cases}{section.11}% 70
-\BOOKMARK [2][-]{subsection.11.2}{Functional requirements}{section.11}% 71
-\BOOKMARK [2][-]{subsection.11.3}{Nonfunctional requirements}{section.11}% 72
-\BOOKMARK [3][-]{subsubsection.11.3.1}{Usability}{subsection.11.3}% 73
-\BOOKMARK [3][-]{subsubsection.11.3.2}{Swiftness}{subsection.11.3}% 74
+\BOOKMARK [1][-]{section.3}{Tooling and workflow}{}% 8
+\BOOKMARK [2][-]{subsection.3.1}{Travis}{section.3}% 9
+\BOOKMARK [1][-]{section.4}{Facade, Helper}{}% 10
+\BOOKMARK [2][-]{subsection.4.1}{Utility classes}{section.4}% 11
+\BOOKMARK [3][-]{subsubsection.4.1.1}{FileHelper}{subsection.4.1}% 12
+\BOOKMARK [3][-]{subsubsection.4.1.2}{JSONReader}{subsection.4.1}% 13
+\BOOKMARK [3][-]{subsubsection.4.1.3}{Printer}{subsection.4.1}% 14
+\BOOKMARK [2][-]{subsection.4.2}{Facade}{section.4}% 15
+\BOOKMARK [2][-]{subsection.4.3}{Testing}{section.4}% 16
+\BOOKMARK [1][-]{section.5}{Configuration file}{}% 17
+\BOOKMARK [2][-]{subsection.5.1}{Requirements}{section.5}% 18
+\BOOKMARK [2][-]{subsection.5.2}{Creation}{section.5}% 19
+\BOOKMARK [3][-]{subsubsection.5.2.1}{Unneeded attributes}{subsection.5.2}% 20
+\BOOKMARK [3][-]{subsubsection.5.2.2}{Space in names}{subsection.5.2}% 21
+\BOOKMARK [2][-]{subsection.5.3}{StringRow}{section.5}% 22
+\BOOKMARK [2][-]{subsection.5.4}{Dimension content trees}{section.5}% 23
+\BOOKMARK [2][-]{subsection.5.5}{Child dimensions}{section.5}% 24
+\BOOKMARK [2][-]{subsection.5.6}{Testing}{section.5}% 25
+\BOOKMARK [1][-]{section.6}{Parser}{}% 26
+\BOOKMARK [2][-]{subsection.6.1}{Task determination}{section.6}% 27
+\BOOKMARK [2][-]{subsection.6.2}{Negative or too high poolsize}{section.6}% 28
+\BOOKMARK [2][-]{subsection.6.3}{NullPointerExceptions when correct file doesn't exist}{section.6}% 29
+\BOOKMARK [2][-]{subsection.6.4}{Whitespace in entries}{section.6}% 30
+\BOOKMARK [2][-]{subsection.6.5}{Anonymous Proxy}{section.6}% 31
+\BOOKMARK [2][-]{subsection.6.6}{Check for missing or empty parts}{section.6}% 32
+\BOOKMARK [2][-]{subsection.6.7}{Only accept when enough lines submitted}{section.6}% 33
+\BOOKMARK [2][-]{subsection.6.8}{Reset}{section.6}% 34
+\BOOKMARK [2][-]{subsection.6.9}{Testing}{section.6}% 35
+\BOOKMARK [1][-]{section.7}{Chart requests}{}% 36
+\BOOKMARK [2][-]{subsection.7.1}{Object oriented programming}{section.7}% 37
+\BOOKMARK [3][-]{subsubsection.7.1.1}{Chart request workflow}{subsection.7.1}% 38
+\BOOKMARK [3][-]{subsubsection.7.1.2}{Filter class}{subsection.7.1}% 39
+\BOOKMARK [3][-]{subsubsection.7.1.3}{Measure class}{subsection.7.1}% 40
+\BOOKMARK [2][-]{subsection.7.2}{SQL injection}{section.7}% 41
+\BOOKMARK [2][-]{subsection.7.3}{Two axis of same dimension}{section.7}% 42
+\BOOKMARK [2][-]{subsection.7.4}{Testing}{section.7}% 43
+\BOOKMARK [1][-]{section.8}{Data access}{}% 44
+\BOOKMARK [2][-]{subsection.8.1}{Tables}{section.8}% 45
+\BOOKMARK [2][-]{subsection.8.2}{Uploading}{section.8}% 46
+\BOOKMARK [3][-]{subsubsection.8.2.1}{Query trunks}{subsection.8.2}% 47
+\BOOKMARK [3][-]{subsubsection.8.2.2}{Generating keys with HashBuilder}{subsection.8.2}% 48
+\BOOKMARK [3][-]{subsubsection.8.2.3}{No auto committing}{subsection.8.2}% 49
+\BOOKMARK [2][-]{subsection.8.3}{Extracting}{section.8}% 50
+\BOOKMARK [2][-]{subsection.8.4}{Closing}{section.8}% 51
+\BOOKMARK [2][-]{subsection.8.5}{MySQL queries + Testing}{section.8}% 52
+\BOOKMARK [1][-]{section.9}{Web}{}% 53
+\BOOKMARK [2][-]{subsection.9.1}{web package}{section.9}% 54
+\BOOKMARK [2][-]{subsection.9.2}{Chart history}{section.9}% 55
+\BOOKMARK [2][-]{subsection.9.3}{Possibility to add new chart types}{section.9}% 56
+\BOOKMARK [2][-]{subsection.9.4}{Reuse code in charts}{section.9}% 57
+\BOOKMARK [2][-]{subsection.9.5}{ChartHelper class}{section.9}% 58
+\BOOKMARK [2][-]{subsection.9.6}{languages}{section.9}% 59
+\BOOKMARK [2][-]{subsection.9.7}{Testing}{section.9}% 60
+\BOOKMARK [1][-]{section.10}{Charts}{}% 61
+\BOOKMARK [2][-]{subsection.10.1}{Bug fixes}{section.10}% 62
+\BOOKMARK [3][-]{subsubsection.10.1.1}{Type of data}{subsection.10.1}% 63
+\BOOKMARK [3][-]{subsubsection.10.1.2}{Errors}{subsection.10.1}% 64
+\BOOKMARK [3][-]{subsubsection.10.1.3}{Boring bugs}{subsection.10.1}% 65
+\BOOKMARK [2][-]{subsection.10.2}{Aesthetics}{section.10}% 66
+\BOOKMARK [2][-]{subsection.10.3}{Testing}{section.10}% 67
+\BOOKMARK [1][-]{section.11}{Security}{}% 68
+\BOOKMARK [2][-]{subsection.11.1}{User Input}{section.11}% 69
+\BOOKMARK [2][-]{subsection.11.2}{Authentication}{section.11}% 70
+\BOOKMARK [1][-]{section.12}{Requirements}{}% 71
+\BOOKMARK [2][-]{subsection.12.1}{Test cases}{section.12}% 72
+\BOOKMARK [2][-]{subsection.12.2}{Functional requirements}{section.12}% 73
+\BOOKMARK [2][-]{subsection.12.3}{Nonfunctional requirements}{section.12}% 74
+\BOOKMARK [3][-]{subsubsection.12.3.1}{Usability}{subsection.12.3}% 75
+\BOOKMARK [3][-]{subsubsection.12.3.2}{Swiftness}{subsection.12.3}% 76
