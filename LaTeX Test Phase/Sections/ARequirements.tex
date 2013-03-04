@@ -3,18 +3,19 @@
 
 \subsection{Test cases}
 It showed that the test cases specified in the functional specification
-don't really gurantee proper work of the system. They just show
-that the core criteria are fullfilled. 
+don't really guarantee proper work of the system. They just show
+that the core criteria are fulfilled. 
 
-So we made new and more specific tests as desribed in the
+So we made new and more specific tests as described in the
 corresponding sections. With them the whole system should be covered by tests.
 
 \subsection{Functional requirements}
-It can be said that nearly all functional requirements are fullfilled.
+It can be said that nearly all functional requirements are fulfilled.
 
-One exclusion is the following. With the decision to make all work 
-based on configurations this got obsolet. Also the names of dimensions
-and measures are explaining itself enough.
+The exclusion being the following: /F110/ Show information about selectable variables
+With the decision to make all work based on configuration files this got obsolete.%Did it? We can just write the descriptions in the configuration file
+On the other hand, from a pragmatical standpoint, the names of the dimensions
+and measures are pretty expressive and self explanatory. % and are all used in the same way.
 \begin{itemize}
   \item /F110/ Show information about selectable variables
 \end{itemize}
@@ -27,13 +28,19 @@ The requirements for usability were the following.
   \item /N20/ Responsive GUI
   \item /N30/ GUI that is easy to get used to
 \end{itemize}
-They are hard to test and subjective, but we think they are fullfilled
-and the web page looks great.
+These are hard to quantify and are to some extend subjective, 
+our highly biased opinion being that the webpage looks great and that they are fulfilled.
+
+However
+\begin{itemize}
+	\item The website has barely not functionality except the needed one.
+	\item From a navigational aspect, it isn't any different than a normal website. (Thus if a user can use a normal website they can use our program, too.)
+\end{itemize}
+
 
 \pagebreak[4]
 \subsubsection{Swiftness}
-Not using OLAP cubes the chart requests get slower and slower
-with more data in the warehouse.
+Not using OLAP cubes the chart requests get slower with more data in the warehouse. %Really?
 
 Changing the loading of \textit{DataEntry}s (\ref{noAu}) increased
 the speed of parsing a lot. See the number of lines and the time in milliseconds
@@ -51,8 +58,9 @@ for the old and the new way.
 100000&106 009 &78 010\\
 \end{tabular}
 
-This showes a decrease of about 18\%.
+This shows a decrease of about 18\%.
 
 Parsing a bigger file with 1146315 lines showed
-that it takes about 11.23ms per line. (On a system with no music, webbrowser,
+that it takes about 11.23ms per line. (On a system with no music, web browser,
 Eclipse and other programs running this may be faster.)
+%I don't think we should mention that. It just shows that we failed to make a good test

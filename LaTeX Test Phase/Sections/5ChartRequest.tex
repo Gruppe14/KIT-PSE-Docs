@@ -15,7 +15,7 @@ The parameter lists in the methods got longer
 and longer when implementing the missing filter features
 and the charts with two dimensions.
 
-Something we didn't want to do at first, solved the problem. The problem 
+Something we didn't want to do at first solved the problem. The problem 
 with the \textit{ResultSet} closing, when closing the statement, made it
 necessary to write the \textit{JSONObject} of the charts in the
 data access tier. So the decision was made to send the whole chart instance
@@ -27,7 +27,7 @@ down to the data access tier.
 \end{itemize}
 
 Instead of requesting all the information now from the chart
-and create the MySQL queries, this got changed to a more  elegant way.
+and creating the MySQL queries, this got changed to a more elegant way.
 The chart itself returns query parts for the things like \texttt{SELECT, JOIN} or other.
 
 \paragraph{Change detail}
@@ -66,7 +66,7 @@ the returned chart is.
   \item \textit{Measure} class to wrap information of a measure
 \end{itemize}
 
-\subsection{SQL injection}\label{inj}
+\subsection{SQL injection}
 It could have been possible to run SQL injections against the database
 by using filter values as injection holes. Comparing the values of filters
 parsed from a char request JSON with the actual values in the warehouse

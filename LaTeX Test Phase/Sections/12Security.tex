@@ -1,6 +1,6 @@
-\section{Security}
+\Section{Security}
 
-While our program does not store user data,
+While our program does not store any user data,
 we still took precautions to secure it against potential attackers by examining 
 potential attack vectors, and took action to prevent them.
 
@@ -9,10 +9,7 @@ There is no free form text user input, and it never gets displayed back.
 In addition, because of the tiered architecture, the data from the tier above gets checked multiple times for validity.
 This happens both at the web server level, and at the database access level.
 
-See \ref{inj} to see a protection against SQL injections.
-
-
 \subsection{Authentication}
-We use the java play authentication mechanisms.
+We use the Java play authentication mechanisms.
 The user session has a cookie named PLAY\_SESSION, which is a long hash, different between computers.
 

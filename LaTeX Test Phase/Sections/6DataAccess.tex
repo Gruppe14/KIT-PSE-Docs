@@ -1,11 +1,11 @@
 \section{Data access}
 
 \subsection{Tables}
+
 Instead of creating tables by hand for every configuration file, functions
 were added to make it possible to create tables dynamically from
 a configuration. This depended on another feature,
-storing the configsfor which the tables had already been created.
-
+storing the configuration files for which the tables had already been created.
 
 \paragraph{Change detail}
 \begin{itemize}
@@ -14,30 +14,12 @@ storing the configsfor which the tables had already been created.
 \end{itemize}
 
 There showed up problems with the time and location table
-
-which are always the same. Therefor the creating query
-
+which are always the same. Therefore the creating query
 was changed to \texttt{CREATE IF NOT EXITS}.
 
-Below are the creation queries for the SkyServer tables.
-\begin{lstlisting}
-CREATE TABLE IF NOT EXISTS fact_SkyServer 
-	(time_key INT(5), location_key INT(5), server_db_key INT(5),
-	 row_elapsed FLOAT,  row_busy FLOAT,
-	 row_rows INT(3), type_key INT(5));
-CREATE TABLE IF NOT EXISTS dim_time 
-	(row_year INT(3), row_month INT(3), row_day INT(3),
-	 row_hour INT(3), row_minute INT(3),
-	 row_second INT(3), time_key INT(5) UNIQUE);
-CREATE TABLE IF NOT EXISTS dim_location 
-	(row_country VARCHAR(40), row_city VARCHAR(40),
-	 location_key INT(5) UNIQUE);
-CREATE TABLE IF NOT EXISTS dim_server_db 
-	(row_server VARCHAR(40), row_database VARCHAR(40),
-	 server_db_key INT(5) UNIQUE);
-CREATE TABLE IF NOT EXISTS dim_type 
-	(row_type VARCHAR(40), type_key INT(5) UNIQUE);
-\end{lstlisting}
+Below are the queries that create the SkyServer tables.
+TODO codebeispiel
+%TODO
 
 \paragraph{Change detail}
 \begin{itemize}
@@ -45,8 +27,8 @@ CREATE TABLE IF NOT EXISTS dim_type
 \end{itemize}
 
 %todo, look at
-If dimensions of different configurations have the same name - except time and location -
-will cause incorrect work. The table names are created from the dimension names.
+If dimensions of different configurations have the same name - except time and location - 
+incorrect work will be caused. The table names are created from the dimension names.
 It was decided to give the dimensions always a new name. If this is
 not wanted, it could be changed by concatenating
 the configuration name with dimension name and the dimension table short
@@ -57,7 +39,6 @@ to create the table name.
 With every new request uploading a \textit{DataEntry} the queries 
 for fact and dimension tables were computed completely. To avoid
 this unnecessary work, the trunks of the queries now get precomputed.
-
 
 \paragraph{Change detail}
 \begin{itemize}
@@ -79,7 +60,8 @@ and the fact table.
 \end{itemize}
 
 
-\subsubsection{No auto committing}\label{noAu}
+\subsubsection{No auto committing}
+%what is auto committing?
 Every dimension and the fact table rows were committed one by one. Decreasing
 the overhead the statement was set to no auto committing. This made it possible
 to collect all the upload queries in the statement and send them to the database
@@ -91,12 +73,11 @@ all at once.
   \item Execute all upload queries of on \textit{DataEntry} at once
 \end{itemize}
 
-There was a try to use a second connection pool for the no auto committing connections.
-They got set to no auto committing once. But this didn't work out, because it seemed,
-that they didn't store this behavior. So it was changed back to the old strategy
+There was an attempt to use a second connection pool for the no auto committing connections.
+They got set to no auto committing once. But this didn't work out because it seemed
+that they didn't store this behaviour. So it was changed back to the old strategy
 changing every used no auto committing connection directly before the use.
 
-\pagebreak[4]
 \subsection{Extracting}
 \texttt{(SELECT * FROM tablename WHERE \ldots) AS nickname} was used first to filter the dimensions.
 This was changed to the more easy to build and, as it seemed, faster version with
@@ -112,46 +93,14 @@ As mentioned before (\ref{chart}) the new approach with the chart host being a p
 of a chart request and the creating of query parts directly in the chart host
 made it more easy to build the complex queries. Below is a possible query.
 
-\begin{lstlisting}
-SELECT count(*),  row_server 
-FROM fact_SkyServer AS  FT  
-JOIN  ( dim_server_db AS dim_server_dbID,  
-	dim_location AS dim_locationID,  
-	dim_type AS dim_typeID )
-ON FT.server_db_key = dim_server_dbID.server_db_key
-  AND FT.location_key = dim_locationID.location_key
-  AND FT.type_key = dim_typeID.type_key
-  AND ((dim_server_dbID.row_server = 'DR1_LONG' AND
-         ((dim_server_dbID.row_database = 'BESTDR1' ))) 
-     OR (dim_server_dbID.row_server = 'DR2_LONG' )
-     OR (dim_server_dbID.row_server = 'ROSAT_QUICK' ))
-  AND ((dim_locationID.row_country = 'Argentina' AND
-         ((dim_locationID.row_city = 'Buenos Aires' )
-         OR (dim_locationID.row_city = 'Cordoba' )))   
-     OR (dim_locationID.row_country = 'Canada' AND
-         ((dim_locationID.row_city = 'Montreal' )
-         OR (dim_locationID.row_city = 'Ottawa' )
-         OR (dim_locationID.row_city = 'Vancouver' ))))  
-  AND ((dim_typeID.row_type = 'OTHER' )  
-     OR (dim_typeID.row_type = 'PHOTO' )  
-     OR (dim_typeID.row_type = 'QSO' ))  
-  AND STR_TO_DATE(CONCAT(CONCAT(CONCAT(CONCAT(
-     CONCAT(CAST(row_year AS CHAR),','),
-     CONCAT(CAST(row_month AS CHAR),',') ),
-     CONCAT(CAST(row_day AS CHAR),',') ),
-     CONCAT(CAST(row_hour AS CHAR),',') ),
-     CONCAT(CAST(row_minute AS CHAR),',00') ) ,'%Y,%m,%d,%H,%i,%s')  
-   BETWEEN STR_TO_DATE('2012,4,7,12,14,00','%Y,%m,%d,%H,%i,%s')  
-   AND STR_TO_DATE('2013,2,11,18,19,00','%Y,%m,%d,%H,%i,%s')
-GROUP BY row_server
-\end{lstlisting}
-
+%TODO
+TODO codebeispiel
 
 \subsection{Closing}
-There showed up problems, when the system was started often without starting the MySQL server new.
+There were some problems when the system was started often without restarting the MySQL server.
 The number of connections getting from a MySQL server is limited. With every creation of a \textit{Facade}
-with a configuration file there are also created all the mediators, including the \textit{DataMediator}.
-This triggers the creation of a connection pool. So when the system is started to often
+with a configuration file, all the mediators are also created, including the \textit{DataMediator}.
+This triggers the creation of a connection pool. So when the system is started too often
 MySQL will run out of connections and the connection pool won't be created.
 
 Starting the play server to often will face this problem. This was solved by adding a closing function
@@ -168,7 +117,7 @@ solved by releasing all connections when resetting the \textit{Facade}.
 
 
 \subsection{MySQL queries + Testing}
-The queries were produced in all conscience. This means it was tested in the 
+The queries were produced in good conscience. This means it was tested in the 
 MySQL workbench how the queries have to look and what would work. Knowing this
 the code producing this queries was implemented.
 

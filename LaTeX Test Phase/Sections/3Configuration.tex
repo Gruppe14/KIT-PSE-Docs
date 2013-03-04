@@ -23,7 +23,7 @@ rows have to follow these requirements:
 
 For configurations following this requirements the system should run
 successfully now. Some of the things are checked, some would cause a crash
-of the build anyway.
+of the build anyway. %Holy ...
 
 \paragraph{Change detail}
 \begin{itemize}
@@ -42,7 +42,7 @@ a static factory without the need of any helper class.
 \end{itemize}
 
 \subsubsection{Unneeded attributes}
-There were unneeded and senseless attributes for all rows in the configuration.
+There were some unneeded and/ or senseless attributes for all rows in the configuration.
 They got deleted and replaced by 'N/A' in the reading process.
 
 \paragraph{Change detail}
@@ -59,7 +59,7 @@ produced incorrect table and column names in the database.
 \end{itemize}
 
 \subsection{StringRow}
-The \textit{StringRow} had uneeded functions. The idea was
+The \textit{StringRow} had unneeded functions. The idea was
 to store all possible Strings of a row in it. But not really knowing what
 could be content of the log files, the Strings are read directly from 
 the log files and stored in the warehouse. So the old functions got obsolete.
@@ -100,7 +100,7 @@ The configuration file and the test configurations where parsed and printed.
 This seems test enough that it is read correctly. 
 
 The trees of the \textit{DimKnot}s where tested by checking what values are actually in the
-database and if they all appear on the web page.
+database and whether they all appear on the web page.
 
 \paragraph{Test details}
 \begin{itemize}

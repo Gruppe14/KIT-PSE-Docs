@@ -1,7 +1,6 @@
 \section{Web}
 \subsection{web package}
-The package web was created and the packages controllers and views have been moved there 
-to separate everything that is involved with the webpage and the frontend from the application logic in the what package.
+The package web was created and the packages controllers and views have been moved there to separate everything that is involved with the webpage and the frontend from the application logic in the what package.
 
 \paragraph{Change detail}
 \begin{itemize}
@@ -9,11 +8,10 @@ to separate everything that is involved with the webpage and the frontend from t
 \end{itemize}
 
 \subsection{Chart history}
-One problem in displaying the history of the last requests, was to ensure that if an overview was sent to the user and he decided to check one out,
- that this chart history was still saved on the server side, even though there may have been new chart requests in the mean time.
+One problem in displaying the history of the last requests, was to ensure that if an overview was sent to the user and he decided to check one out, that this chart history was still saved on the server side, even though there may have been new chart requests in the mean time.
 To solve this problem the class ChartHelper was added. It generates an overview of the last chart requests, 
-if a user requests it. In the process it saves the json Objects together with a unique user id (uuid). 
-If the user requests a history, the history number will be looked up for his uuid and returned.
+if a user requests it. In the process it saves the JSON Objects together with a unique user id (uuid). 
+If the user requests a history, the requested history number will be looked up for his uuid and returned.
 
 \paragraph{Change detail}
 \begin{itemize}
@@ -22,9 +20,9 @@ If the user requests a history, the history number will be looked up for his uui
 
 \subsection{Possibility to add new chart types}
 A chart consists of an thumbnail for the index page, a configuration file, which saves how many dimensions can be displayed by this chart type,
-a javascript file, which contains the d3js code to visualize the data and an optional stylesheet file to style the chart elements.
+a javascript file, which contains the d3.js code to visualize the data and an optional stylesheet file to style the chart elements.
 To add new charts, you only have to add these files.
-But to ensure that no chart types are displayed, which do not have all this files, their existence is now checked on application start.
+But to ensure that no chart types which do not have all these files are displayed, their existence is now checked on application start.
 For this purpose some methods were added and changed. There are methods to get all valid charts, to get the thumbnail name of a chart,
 to get the number of dimensions a chart can display and to check if a chart has a stylesheet file or not.
 
@@ -33,19 +31,16 @@ to get the number of dimensions a chart can display and to check if a chart has 
   \item changed and added methods.
 \end{itemize}
 
-\pagebreak[4]
 \subsection{Reuse code in charts}
 The code of different charts has to be independent, to ensure that additional charts can be added dynamically.
-But then we wanted to reuse the code from bubblechart\&scatterplot in the scatterplot,
- because they are identical except for the bubble radius. 
-The solution was, that the javascript from scatterplot adds the javascript and stylesheet files 
-from bubblechart\&scatterplot dynamically itself. 
-No server-side hardcoding involved. While this is no perfect solution, e.g. if the bubblechart\&scatterplot is removed,
-it fulfills it's purpose and allows the webserver to still handle all chart types and files the same way.
-
+But then we wanted to reuse the code from the bubble chart&scatterplot chart in the scatterplot, because they are identical except for the bubble radius. 
+The solution was, that the javascript from scatterplot adds the javascript and stylesheet files from bubble chart&scatterplot dynamically itself, without any hardcoding on the side of the server. 
+%Look 
+While this is by no means a perfect solution, e.g. if the bubble chart&scatterplot is removed, then the scatterplot stops working,
+it fulfills it's purpose and allows the web server to still handle all chart types and files the same way.
 
 \subsection{ChartHelper class}
-Although the play framework template engine can call java functions, it was not dynamic enough to design our chart pages solely with its functions.
+Although the play framework template engine can call Java functions, it was not dynamic enough to design our chart pages solely with its functions.
 So the ChartHelper class was added, which creates the selection boxes for all charts in every supported language, 
 with all selectable options, which are contained in the warehouse.
 These are then saved as Html objects, so they don't have to be created on each call to a chart page.
@@ -58,9 +53,9 @@ as extracted from the user's session.
 \end{itemize}
 
 \subsection{languages}
-The play framework itself supports UTF-8 encoded strings, so different languages shouldn't had been a problem. 
-But as we had to notice the localization didn't work for languages that don't use the latin alphabet.
-This was a problem with the java property files and PropertyResourceBundle, where the localized strings are saved and which natively only
+The play framework itself supports UTF-8 encoded strings, so using multiple languages shouldn't have been a problem. 
+But as we had to notice the localisation didn't work for languages that don't use the latin alphabet.
+This was a problem with the Java property files and PropertyResourceBundle, where the localized strings are saved and which natively only
 supports ISO-8859-1 encoding.
 To solve this problem the class UTF8Control was added.
 
@@ -70,8 +65,6 @@ To solve this problem the class UTF8Control was added.
 \end{itemize}
 
 \subsection{Testing}
-The testing of the webpage was done by hand as it made no sense to us, to test a webpage, 
-the purpose of which is to display things graphically, in a non graphical, automatic way.
+The testing of the webpage was done by hand as the website itself does little besides displaying things graphically.
 Additionally this decision was enhanced by the fact that there are relatively few functions on the webpage to test.
-The webpage has been tested in Chrome and Firefox, but additionally at least the main functions should also be available in Chromium,
-Internet Explorer 10 and even on some mobile devices.
+The webpage has been tested in Chrome, Firefox, Chromium but has also ran successfully on Internet Explorer 10 and even some mobile devices.

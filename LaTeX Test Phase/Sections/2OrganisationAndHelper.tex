@@ -11,11 +11,12 @@ testing easier.
   \item New utility classes created
 \end{itemize}
 
-This classes are described below.
+These classes are described below.
 
 \subsubsection{FileHelper}
 Reading configuration files and reading log files share methods.
-This includes getting the file,checking its existence,
+
+This includes getting the file,checking for its existence,
 rights and file extension. These functions
 were collected in the class \textit{FileHelper}.
 
@@ -36,9 +37,8 @@ and success messages.
 The facade's main functions are initializing everything and then direct incoming requests to
 the specific mediators.
 
-One problem found was that the creation of tables for the database caused serveral problems
-for testing and when they changed. The creation of them was solved dynamically- so
-that one just had to drop the old tables and when the system started, they would be created automatically.
+One problem found was that the creation and change of database tables caused several problems
+for testing. Their creation was solved dynamically - one just has to drop the old tables and when the program starts, they get created automatically.
 
 \paragraph{Change detail}
 \begin{itemize}
@@ -55,7 +55,7 @@ The Printer works fine.
 The other classes have a JUnit test class.
 \paragraph{Test details}
 \begin{itemize}
-  \item test FileHelper with wrong file and nonexisting files
+  \item test FileHelper with wrong file and non-existing files
   \item test whether needed Files for the system exist via FileHelper
   \item test all methods of JSONReader with correct keys
   \item test all methods of JSONReader with incorrect keys
