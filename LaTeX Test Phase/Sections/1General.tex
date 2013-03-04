@@ -11,8 +11,8 @@ a class containing only one String per axis, Filter objects, which wrap dimensio
 object, to hold all information, needed for MySQL queries for this chart.
 %tl;dr: we changed code
 
-Another aspect was the reuse of code. Reviewing the code, showed that some packages need the same
-functions, e.g. for reading from JSON object. To bundle this functions and
+Another aspect was the reuse of code. Reviewing the code showed that some packages needed the same
+functions, e.g. for reading from JSON objects. To bundle this functions and
 decrease duplicate code some utility classes (\ref{utility}) were created.
 
 See the sections of the packages for details.
@@ -40,7 +40,7 @@ writers it's adequate to its needs.
 
 \subsection{CheckStyle}\label{cs} %lang
 When starting CheckStyle first with the standard checks there were about 7290 warnings.
-Searching where they came from, we found out, that the library of GeoIP from MaxMind, 
+Searching where they came from we found out that the library of GeoIP from MaxMind, 
 which was included as a package to make some adjustments, produced 6060 of them. So there seemed to be about
 1230.
 

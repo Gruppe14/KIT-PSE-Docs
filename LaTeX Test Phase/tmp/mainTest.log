@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  4 MAR 2013 01:11
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  4 MAR 2013 01:23
 entering extended mode
 **mainTest.tex
 
@@ -1308,14 +1308,14 @@ File: uzavm.fd 2006/05/30 Fontinst v1.929 font definitions for U/zavm.
 LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <9> not available
 (Font)              Font shape `T1/fav/b/n' tried instead on input line 11.
 
-<Pictures/KIT-Logo.png, id=303, 501.875pt x 250.9375pt>
+<Pictures/KIT-Logo.png, id=299, 501.875pt x 250.9375pt>
 File: Pictures/KIT-Logo.png Graphic file (type png)
 
 <use Pictures/KIT-Logo.png>
 Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 24.
 (pdftex.def)             Requested size: 128.03653pt x 64.01692pt.
 
-<Pictures/WHAT-LogoText2.png, id=305, 2293.56876pt x 1049.9225pt>
+<Pictures/WHAT-LogoText2.png, id=301, 2293.56876pt x 1049.9225pt>
 File: Pictures/WHAT-LogoText2.png Graphic file (type png)
 
 <use Pictures/WHAT-LogoText2.png>
@@ -1354,7 +1354,7 @@ Package Fancyhdr Warning: \headheight is too small (17.0pt):
 ]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
 Test Phase\mainTest.toc"
-<Pictures/WHAT-Logo.png, id=361, 2293.56876pt x 850.17625pt>
+<Pictures/WHAT-Logo.png, id=357, 2293.56876pt x 850.17625pt>
 File: Pictures/WHAT-Logo.png Graphic file (type png)
 
 <use Pictures/WHAT-Logo.png>
@@ -1529,9 +1529,15 @@ Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 36.
 
 
 ]
-Overfull \hbox (8.23355pt too wide) in paragraph at lines 60--65
-[]\T1/fav/m/sc/10.95 The playframe work it-self sup-ports UTF-8 en-coded string
-s, so dif-fer-ent lan-guages shouldn't
+Overfull \hbox (9.87013pt too wide) in paragraph at lines 38--45
+\T1/fav/m/sc/10.95 be added dy-nam-i-cally. But then we wanted to reuse the cod
+e from bub-blechart&scatterplot
+ []
+
+
+Overfull \hbox (8.23355pt too wide) in paragraph at lines 61--66
+[]\T1/fav/m/sc/10.95 The play frame-work it-self sup-ports UTF-8 en-coded strin
+gs, so dif-fer-ent lan-guages shouldn't
  []
 
 )
@@ -1544,7 +1550,7 @@ Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 106.
 Test Phase\Sections/8Charts.tex"
 File: Pictures/WHAT-Logo.png Graphic file (type png)
  <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 49.
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 51.
 (pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
  [23
 
@@ -1622,7 +1628,7 @@ Test Phase\Sections/ARequirements.aux"))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 116.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 116.
 Package rerunfilecheck Info: File `mainTest.out' has not changed.
-(rerunfilecheck)             Checksum: 61AB5383CCE499D748B801C31A56296E;4900.
+(rerunfilecheck)             Checksum: A2046EFBAE42F4C3E1745FF218C52054;4836.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1632,10 +1638,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 12021 strings out of 493921
- 184149 string characters out of 3140856
+ 12019 strings out of 493921
+ 184119 string characters out of 3140856
  310473 words of memory out of 3000000
- 14808 multiletter control sequences out of 15000+200000
+ 14807 multiletter control sequences out of 15000+200000
  38396 words of font info for 62 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  45i,15n,47p,773b,993s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1646,9 +1652,9 @@ rev/ArevSans-Bold.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1
 /public/arev/ArevSans-Oblique.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9
 /fonts/type1/public/arev/ArevSans-Roman.pfb><C:/Users/Jonathan/AppData/Roaming/
 MiKTeX/2.9/fonts/type1/bera/fvmr8a.pfb>
-Output written on mainTest.pdf (27 pages, 622627 bytes).
+Output written on mainTest.pdf (27 pages, 622129 bytes).
 PDF statistics:
- 673 PDF objects out of 1000 (max. 8388607)
- 202 named destinations out of 1000 (max. 500000)
- 616 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 668 PDF objects out of 1000 (max. 8388607)
+ 201 named destinations out of 1000 (max. 500000)
+ 608 words of extra memory for PDF output out of 10000 (max. 10000000)
 

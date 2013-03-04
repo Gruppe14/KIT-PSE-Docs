@@ -17,40 +17,42 @@ The charts saw a fair amount of bug fixes and improvements as well.
   
  \subsubsection{Errors}
   Errors are now thrown to differentiate between the chart with no data, and the chart with an error,
-  or incorrect data (which the user will hopefully never experience). This was a expecially a problem
-  at the Bubblechart, where no axis are printed.
+  or incorrect data (which the user will hopefully never experience). 
+  %This was a expecially a problem   at the Bubblechart, where no axis are printed.
   
    \paragraph{Change detail}
 \begin{itemize}
-  \item Show error pictures to diverge them from empty data
+  \item Show error messages on the chart pages.
 \end{itemize}
   
   \subsubsection{Boring bugs}
   Boring bugs, such as the text on the data was off by a few pixels were fixed too.
+  Other bugs include 
+  \begin{itemize}
+  	\item Bar charts not working correctly with only few datapoints.
+  	\item There not being enough space for all text labels of all sizes, especially on bubble and pie charts.
+  \end{itemize}
   
+  \paragraph{Change detail}
+  \begin{itemize}
+  	\item Bar charts with few bars are shown correctly. 
+  	\item The small labels aren't shown on pie charts (they are shown on mouseovers)
+  	\item Only as much of the label that fits in each bubble is shown on bubble charts.
+\end{itemize}
+  
+
+
 \subsection{Aesthetics}
 The charts were made prettier.
   
 \paragraph{Change detail}
 \begin{itemize}
   \item Tooltips, or text that appears once the mouse hovers over a data point was added to every chart
-  \item Consistent font use
-  \item The text now gets rotated on a number of cases to fit more datapoints. It also makes the charts prettier
-  \item Change the css % sollte das vll wo anders hin?
+  \item The same fonts were used consistently.
+  \item The css was made more elaborate.
+  \item The text now gets rotated on a number of cases to fit more data points. It also makes the charts prettier
 \end{itemize}
 
-
-\subsection{Special cases}
-%TODO
-TODO wie zB nicht viele eintraege in barchart
-TODO kleine bubble charts, nur buchstaben anzeigen
-falls dir noch was einfaellt
-
-\paragraph{Change detail}
-\begin{itemize}
-  \item Show a few amount of bars correct in barchart
-  \item Just show sinle or no letters for small bubbles in bubblechart
-\end{itemize}
   
 \subsection{Testing}
  We tested by hand. Something that made testing in this section easier is that it is possible to know

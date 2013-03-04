@@ -108,11 +108,10 @@
 \contentsline {subsubsection}{\numberline {9.1.2}Errors}{23}{subsubsection.9.1.2}
 \contentsline {paragraph}{Change detail}{23}{paragraph*.47}
 \contentsline {subsubsection}{\numberline {9.1.3}Boring bugs}{23}{subsubsection.9.1.3}
-\contentsline {subsection}{\numberline {9.2}Aesthetics}{23}{subsection.9.2}
 \contentsline {paragraph}{Change detail}{23}{paragraph*.48}
-\contentsline {subsection}{\numberline {9.3}Special cases}{24}{subsection.9.3}
+\contentsline {subsection}{\numberline {9.2}Aesthetics}{23}{subsection.9.2}
 \contentsline {paragraph}{Change detail}{24}{paragraph*.49}
-\contentsline {subsection}{\numberline {9.4}Testing}{24}{subsection.9.4}
+\contentsline {subsection}{\numberline {9.3}Testing}{24}{subsection.9.3}
 \contentsline {paragraph}{Test details}{24}{paragraph*.50}
 \contentsline {section}{\numberline {10}Security}{25}{section.10}
 \contentsline {subsection}{\numberline {10.1}User Input}{25}{subsection.10.1}

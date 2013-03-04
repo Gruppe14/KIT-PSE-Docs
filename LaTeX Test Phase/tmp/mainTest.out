@@ -62,14 +62,13 @@
 \BOOKMARK [3][-]{subsubsection.9.1.2}{Errors}{subsection.9.1}% 62
 \BOOKMARK [3][-]{subsubsection.9.1.3}{Boring bugs}{subsection.9.1}% 63
 \BOOKMARK [2][-]{subsection.9.2}{Aesthetics}{section.9}% 64
-\BOOKMARK [2][-]{subsection.9.3}{Special cases}{section.9}% 65
-\BOOKMARK [2][-]{subsection.9.4}{Testing}{section.9}% 66
-\BOOKMARK [1][-]{section.10}{Security}{}% 67
-\BOOKMARK [2][-]{subsection.10.1}{User Input}{section.10}% 68
-\BOOKMARK [2][-]{subsection.10.2}{Authentication}{section.10}% 69
-\BOOKMARK [1][-]{section.11}{Requirements}{}% 70
-\BOOKMARK [2][-]{subsection.11.1}{Test cases}{section.11}% 71
-\BOOKMARK [2][-]{subsection.11.2}{Functional requirements}{section.11}% 72
-\BOOKMARK [2][-]{subsection.11.3}{Nonfunctional requirements}{section.11}% 73
-\BOOKMARK [3][-]{subsubsection.11.3.1}{Usability}{subsection.11.3}% 74
-\BOOKMARK [3][-]{subsubsection.11.3.2}{Swiftness}{subsection.11.3}% 75
+\BOOKMARK [2][-]{subsection.9.3}{Testing}{section.9}% 65
+\BOOKMARK [1][-]{section.10}{Security}{}% 66
+\BOOKMARK [2][-]{subsection.10.1}{User Input}{section.10}% 67
+\BOOKMARK [2][-]{subsection.10.2}{Authentication}{section.10}% 68
+\BOOKMARK [1][-]{section.11}{Requirements}{}% 69
+\BOOKMARK [2][-]{subsection.11.1}{Test cases}{section.11}% 70
+\BOOKMARK [2][-]{subsection.11.2}{Functional requirements}{section.11}% 71
+\BOOKMARK [2][-]{subsection.11.3}{Nonfunctional requirements}{section.11}% 72
+\BOOKMARK [3][-]{subsubsection.11.3.1}{Usability}{subsection.11.3}% 73
+\BOOKMARK [3][-]{subsubsection.11.3.2}{Swiftness}{subsection.11.3}% 74
