@@ -102,25 +102,25 @@
 \contentsline {paragraph}{Change detail}{23}{paragraph*.44}
 \contentsline {subsection}{\numberline {9.6}languages}{23}{subsection.9.6}
 \contentsline {paragraph}{Change detail}{23}{paragraph*.45}
-\contentsline {subsection}{\numberline {9.7}Testing}{23}{subsection.9.7}
-\contentsline {section}{\numberline {10}Charts}{24}{section.10}
-\contentsline {subsection}{\numberline {10.1}Bug fixes}{24}{subsection.10.1}
-\contentsline {subsubsection}{\numberline {10.1.1}Type of data}{24}{subsubsection.10.1.1}
-\contentsline {paragraph}{Change detail}{24}{paragraph*.46}
-\contentsline {subsubsection}{\numberline {10.1.2}Errors}{24}{subsubsection.10.1.2}
-\contentsline {paragraph}{Change detail}{24}{paragraph*.47}
-\contentsline {subsubsection}{\numberline {10.1.3}Boring bugs}{24}{subsubsection.10.1.3}
-\contentsline {paragraph}{Change detail}{24}{paragraph*.48}
-\contentsline {subsection}{\numberline {10.2}Aesthetics}{25}{subsection.10.2}
-\contentsline {paragraph}{Change detail}{25}{paragraph*.49}
-\contentsline {subsection}{\numberline {10.3}Testing}{25}{subsection.10.3}
-\contentsline {paragraph}{Test details}{25}{paragraph*.50}
-\contentsline {section}{\numberline {11}Security}{26}{section.11}
-\contentsline {subsection}{\numberline {11.1}User Input}{26}{subsection.11.1}
-\contentsline {subsection}{\numberline {11.2}Authentication}{26}{subsection.11.2}
-\contentsline {section}{\numberline {12}Requirements}{27}{section.12}
-\contentsline {subsection}{\numberline {12.1}Test cases}{27}{subsection.12.1}
-\contentsline {subsection}{\numberline {12.2}Functional requirements}{27}{subsection.12.2}
-\contentsline {subsection}{\numberline {12.3}Nonfunctional requirements}{27}{subsection.12.3}
-\contentsline {subsubsection}{\numberline {12.3.1}Usability}{27}{subsubsection.12.3.1}
-\contentsline {subsubsection}{\numberline {12.3.2}Swiftness}{28}{subsubsection.12.3.2}
+\contentsline {subsection}{\numberline {9.7}Testing}{24}{subsection.9.7}
+\contentsline {section}{\numberline {10}Charts}{25}{section.10}
+\contentsline {subsection}{\numberline {10.1}Bug fixes}{25}{subsection.10.1}
+\contentsline {subsubsection}{\numberline {10.1.1}Type of data}{25}{subsubsection.10.1.1}
+\contentsline {paragraph}{Change detail}{25}{paragraph*.46}
+\contentsline {subsubsection}{\numberline {10.1.2}Error}{25}{subsubsection.10.1.2}
+\contentsline {paragraph}{Change detail}{25}{paragraph*.47}
+\contentsline {subsubsection}{\numberline {10.1.3}Boring bugs}{25}{subsubsection.10.1.3}
+\contentsline {paragraph}{Change detail}{25}{paragraph*.48}
+\contentsline {subsection}{\numberline {10.2}Aesthetics}{26}{subsection.10.2}
+\contentsline {paragraph}{Change detail}{26}{paragraph*.49}
+\contentsline {subsection}{\numberline {10.3}Testing}{26}{subsection.10.3}
+\contentsline {paragraph}{Test details}{26}{paragraph*.50}
+\contentsline {section}{\numberline {11}Security}{27}{section.11}
+\contentsline {subsection}{\numberline {11.1}User Input}{27}{subsection.11.1}
+\contentsline {subsection}{\numberline {11.2}Authentication}{27}{subsection.11.2}
+\contentsline {section}{\numberline {12}Requirements}{28}{section.12}
+\contentsline {subsection}{\numberline {12.1}Test cases}{28}{subsection.12.1}
+\contentsline {subsection}{\numberline {12.2}Functional requirements}{28}{subsection.12.2}
+\contentsline {subsection}{\numberline {12.3}Nonfunctional requirements}{28}{subsection.12.3}
+\contentsline {subsubsection}{\numberline {12.3.1}Usability}{28}{subsubsection.12.3.1}
+\contentsline {subsubsection}{\numberline {12.3.2}Swiftness}{29}{subsubsection.12.3.2}

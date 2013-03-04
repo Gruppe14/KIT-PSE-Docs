@@ -18,8 +18,25 @@ which are always the same. Therefore the creating query
 was changed to \texttt{CREATE IF NOT EXITS}.
 
 Below are the queries that create the SkyServer tables.
-TODO codebeispiel
-%TODO
+\begin{lstlisting}
+CREATE TABLE IF NOT EXISTS fact_SkyServer 
+	(time_key INT(5), location_key INT(5), server_db_key INT(5),
+	 row_elapsed FLOAT,  row_busy FLOAT,
+	 row_rows INT(3), type_key INT(5));
+CREATE TABLE IF NOT EXISTS dim_time 
+	(row_year INT(3), row_month INT(3), row_day INT(3),
+	 row_hour INT(3), row_minute INT(3),
+	 row_second INT(3), time_key INT(5) UNIQUE);
+CREATE TABLE IF NOT EXISTS dim_location 
+	(row_country VARCHAR(40), row_city VARCHAR(40),
+	 location_key INT(5) UNIQUE);
+CREATE TABLE IF NOT EXISTS dim_server_db 
+	(row_server VARCHAR(40), row_database VARCHAR(40),
+	 server_db_key INT(5) UNIQUE);
+CREATE TABLE IF NOT EXISTS dim_type 
+	(row_type VARCHAR(40), type_key INT(5) UNIQUE);
+\end{lstlisting}
+
 
 \paragraph{Change detail}
 \begin{itemize}
@@ -60,8 +77,7 @@ and the fact table.
 \end{itemize}
 
 
-\subsubsection{No auto committing}
-%what is auto committing?
+\subsubsection{No auto committing}\label{noAu}
 Every dimension and the fact table rows were committed one by one. Decreasing
 the overhead the statement was set to no auto committing. This made it possible
 to collect all the upload queries in the statement and send them to the database
@@ -78,6 +94,7 @@ They got set to no auto committing once. But this didn't work out because it see
 that they didn't store this behaviour. So it was changed back to the old strategy
 changing every used no auto committing connection directly before the use.
 
+\pagebreak[4]
 \subsection{Extracting}
 \texttt{(SELECT * FROM tablename WHERE \ldots) AS nickname} was used first to filter the dimensions.
 This was changed to the more easy to build and, as it seemed, faster version with
@@ -93,8 +110,40 @@ As mentioned before (\ref{chart}) the new approach with the chart host being a p
 of a chart request and the creating of query parts directly in the chart host
 made it more easy to build the complex queries. Below is a possible query.
 
-%TODO
-TODO codebeispiel
+\begin{lstlisting}
+SELECT count(*),  row_server 
+FROM fact_SkyServer AS  FT  
+JOIN  ( dim_server_db AS dim_server_dbID,  
+	dim_location AS dim_locationID,  
+	dim_type AS dim_typeID )
+ON FT.server_db_key = dim_server_dbID.server_db_key
+  AND FT.location_key = dim_locationID.location_key
+  AND FT.type_key = dim_typeID.type_key
+  AND ((dim_server_dbID.row_server = 'DR1_LONG' AND
+         ((dim_server_dbID.row_database = 'BESTDR1' ))) 
+     OR (dim_server_dbID.row_server = 'DR2_LONG' )
+     OR (dim_server_dbID.row_server = 'ROSAT_QUICK' ))
+  AND ((dim_locationID.row_country = 'Argentina' AND
+         ((dim_locationID.row_city = 'Buenos Aires' )
+         OR (dim_locationID.row_city = 'Cordoba' )))   
+     OR (dim_locationID.row_country = 'Canada' AND
+         ((dim_locationID.row_city = 'Montreal' )
+         OR (dim_locationID.row_city = 'Ottawa' )
+         OR (dim_locationID.row_city = 'Vancouver' ))))  
+  AND ((dim_typeID.row_type = 'OTHER' )  
+     OR (dim_typeID.row_type = 'PHOTO' )  
+     OR (dim_typeID.row_type = 'QSO' ))  
+  AND STR_TO_DATE(CONCAT(CONCAT(CONCAT(CONCAT(
+     CONCAT(CAST(row_year AS CHAR),','),
+     CONCAT(CAST(row_month AS CHAR),',') ),
+     CONCAT(CAST(row_day AS CHAR),',') ),
+     CONCAT(CAST(row_hour AS CHAR),',') ),
+     CONCAT(CAST(row_minute AS CHAR),',00') ) ,'%Y,%m,%d,%H,%i,%s')  
+   BETWEEN STR_TO_DATE('2012,4,7,12,14,00','%Y,%m,%d,%H,%i,%s')  
+   AND STR_TO_DATE('2013,2,11,18,19,00','%Y,%m,%d,%H,%i,%s')
+GROUP BY row_server
+\end{lstlisting}
+
 
 \subsection{Closing}
 There were some problems when the system was started often without restarting the MySQL server.

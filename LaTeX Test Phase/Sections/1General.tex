@@ -2,15 +2,13 @@
 This section is about things concerning the whole system.
 
 \subsection{Coding style}
-%this needs a rewrite I think
 In general value on good coding style was set. This mostly concerns the aspect
 of task division to classes and methods. To implement this some classes were totally redesigned
 and a fair number of new classes was created. This also helped facilitate another important aspect, object oriented programming.
-%not sure if serious
-So for example a chart host storing all tables, names and filters as Strings and sets, was developed to
-a class containing only one String per axis, Filter objects, which wrap dimension and other objects, and a Measure
-object, to hold all information needed for MySQL queries on this chart.
-%tl;dr: we changed code
+So for example a chart host storing all tables, names and filters as Strings and sets, was changed to
+a class containing only one String per axis, Filter objects, wrapping dimension and other objects, plus a Measure
+class, to hold all information needed for MySQL queries on this chart.
+
 
 Another aspect was the reuse of code. Reviewing the code showed that some packages needed the same
 functions, e.g. for reading from JSON objects. To bundle these functions and
@@ -19,7 +17,7 @@ decrease duplicate code some utility classes (\ref{utility}) were created.
 See the sections of the packages for details.
 
 \subsection{Structure}
-We noticed that packages and folders in the application folder app%TODO: WHAT?
+We noticed that packages and folders in the application folder app
 from the play framework the application and the web tier weren't separated. This separation was arranged. 
 The data access tier was considered to be a sub-tier of the application tier. 
 
@@ -28,7 +26,7 @@ The data access tier was considered to be a sub-tier of the application tier.
   \item Restructure folders and packages to fulfill tier separation
 \end{itemize}
 
-\subsection{JavaDoc} %A++ would present
+\subsection{JavaDoc} 
 JavaDoc wasn't written strictly for all packages, classes, methods, attributes and constants. 
 But with the help of CheckStyle (\ref{cs}) all of the laziness was uncovered and the JavaDoc written.
 The quality of JavaDoc is always a matter of opinion, but in the view of the
@@ -40,7 +38,7 @@ writers it's adequate to its needs.
 \end{itemize}
 
 \pagebreak[4]
-\subsection{CheckStyle}\label{cs} %lang
+\subsection{CheckStyle}\label{cs} 
 When starting CheckStyle, at first there were about 7290 warnings with the standard checks.
 Searching where they came from we found out that the MaxMind GeoIP library, 
 which was included as a package to make some adjustments to it, produced 6060 of them. So there seemed to be about
@@ -54,22 +52,13 @@ However, we use hardcoded strings at the views of the play framework, to produce
 \begin{itemize}
   \item CheckStyle warnings fixed
 \end{itemize}
-%TODO: entscheiden was man damit machen will\ldots
-data : 82
-config: 57
-chart: 85
-what: 29
-web: 130
-controllers: 60 
-parser: rest
 
 Additionally, 28 Javascript warnings were found, 21 of whom in the code that creates the charts.
 This relatively low number can be partially attributed to the usage of jshint instead of jslint.
 
 \subsection{Error messages}
 Stack traces were replaced with meaningful error messages where needed.
-%Das verstehe ich nicht, gibt es noch stacktraces?
-%Where not really needed stack traces were replaced and meaningful error messages printed.
+
 \paragraph{Change detail}
 \begin{itemize}
   \item Replace stack traces with error messages
