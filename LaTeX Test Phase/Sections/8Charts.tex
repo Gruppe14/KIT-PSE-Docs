@@ -12,7 +12,7 @@ The charts saw a fair amount of bug fixes and improvements as well.
   
  \paragraph{Change detail}
 \begin{itemize}
-  \item Make charts robust against varying data
+  \item Make charts robust against various data
 \end{itemize}
   
  \subsubsection{Error}
@@ -29,15 +29,18 @@ The charts saw a fair amount of bug fixes and improvements as well.
   Boring bugs, such as the text on the data was off by a few pixels were fixed too.
   Other bugs include 
   \begin{itemize}
-  	\item Barcharts not working correctly with only few datapoints.
-  	\item There not being enough space for all text labels of all sizes, especially on bubble and piecharts.
+  	\item Bar charts not working correctly with only few data points.
+  	\item There wasn't enough space for all text labels on bubble charts.
+  	\item There wasn't enough space for all the text labels on pie charts.
+  	\item There wasn't enough space for the text labels on the axes of scatterplots.
+  	\item And so on.
   \end{itemize}
   
   \paragraph{Change detail}
   \begin{itemize}
-  	\item Barcharts with few bars are shown correctly. 
-  	\item The small labels aren't shown on piecharts (they are shown on mouseovers)
-  	\item Only as much of the label that fits in each bubble is shown on bubblecharts.
+  	\item Bar charts with few bars are shown correctly. 
+  	\item The small labels aren't shown on pie charts (they are shown on mouseovers)
+  	\item Only as much of the label that fits in each bubble is shown on bubble charts.
 \end{itemize}
   
 
@@ -49,8 +52,8 @@ The charts were made prettier.
 \begin{itemize}
   \item Tooltips, or text that appears once the mouse hovers over a data point was added to every chart
   \item The same fonts were used consistently.
-  \item The css was made more elaborate.
-  \item The text now gets rotated on a number of cases to fit more datapoints. It also makes the charts prettier
+  \item The CSS were made more elaborate.
+  \item The text now gets rotated on a number of cases to fit more data points. It also makes the charts prettier
 
 \end{itemize}
   
@@ -58,13 +61,13 @@ The charts were made prettier.
  We tested by hand. Something that made testing in this section easier is that it is possible to know
  how a chart is suppose to look when correct, as well as the charts consisting of different more or less discrete
  parts - for example, it is easy to tell when just an axis is broken.
- Also, it is nice to return to a chart to see how nice someone made the css this time. 
+ Also, it was always nice returning to a chart to see how nicely someone improved the CSS this time. 
  
- We also let some project extern person test and use the charts.
+ We also let a person external to the project test and use the charts.
 
 \paragraph{Test details}
 \begin{itemize}
-  \item Test by selecting axis, measure and filter combination
-  \item Let project extern people use charts
+  \item Test by selecting many different axis, measure and filter combinations
+  \item Let project external people use charts
 \end{itemize}
 
