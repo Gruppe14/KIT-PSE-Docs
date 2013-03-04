@@ -3,23 +3,24 @@ This section is about things concerning the whole system.
 
 \subsection{Coding style}
 %this needs a rewrite I think
-In general value on good coding style was set. This is mostly the aspect
+In general value on good coding style was set. This mostly concerns the aspect
 of task division to classes and methods. To implement this some classes were totally redesigned
-and lots of new classes were created. This also helped another important aspect, object oriented programming.
-So for example a chart host storing all tables, names and filters as Strings and sets, developed to
+and a fair number of new classes was created. This also helped facilitate another important aspect, object oriented programming.
+%not sure if serious
+So for example a chart host storing all tables, names and filters as Strings and sets, was developed to
 a class containing only one String per axis, Filter objects, which wrap dimension and other objects, and a Measure
-object, to hold all information, needed for MySQL queries for this chart.
+object, to hold all information needed for MySQL queries on this chart.
 %tl;dr: we changed code
 
 Another aspect was the reuse of code. Reviewing the code showed that some packages needed the same
-functions, e.g. for reading from JSON objects. To bundle this functions and
+functions, e.g. for reading from JSON objects. To bundle these functions and
 decrease duplicate code some utility classes (\ref{utility}) were created.
 
 See the sections of the packages for details.
 
 \subsection{Structure}
-We noticed that packages and folders in the application folder app from the play framework 
-the application and the web tier weren't seperated. This separation was arranged. 
+We noticed that packages and folders in the application folder app%TODO: WHAT?
+from the play framework the application and the web tier weren't separated. This separation was arranged. 
 The data access tier was considered to be a sub-tier of the application tier. 
 
 \paragraph{Change detail}

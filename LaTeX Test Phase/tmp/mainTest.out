@@ -49,17 +49,26 @@
 \BOOKMARK [2][-]{subsection.7.4}{Closing}{section.7}% 49
 \BOOKMARK [2][-]{subsection.7.5}{MySQL queries + Testing}{section.7}% 50
 \BOOKMARK [1][-]{section.8}{Web}{}% 51
-\BOOKMARK [1][-]{section.9}{Charts}{}% 52
-\BOOKMARK [2][-]{subsection.9.1}{Bug fixes}{section.9}% 53
-\BOOKMARK [3][-]{subsubsection.9.1.1}{Type of data}{subsection.9.1}% 54
-\BOOKMARK [3][-]{subsubsection.9.1.2}{Error}{subsection.9.1}% 55
-\BOOKMARK [3][-]{subsubsection.9.1.3}{Boring bugs}{subsection.9.1}% 56
-\BOOKMARK [2][-]{subsection.9.2}{Aesthetics}{section.9}% 57
-\BOOKMARK [2][-]{subsection.9.3}{Special cases}{section.9}% 58
-\BOOKMARK [2][-]{subsection.9.4}{Testing}{section.9}% 59
-\BOOKMARK [1][-]{section.10}{Performance}{}% 60
-\BOOKMARK [2][-]{subsection.10.1}{Loading}{section.10}% 61
-\BOOKMARK [2][-]{subsection.10.2}{Extracting}{section.10}% 62
-\BOOKMARK [2][-]{subsection.10.3}{User Input}{section.10}% 63
-\BOOKMARK [2][-]{subsection.10.4}{Authentication}{section.10}% 64
-\BOOKMARK [1][-]{section.11}{Requirements}{}% 65
+\BOOKMARK [2][-]{subsection.8.1}{web package}{section.8}% 52
+\BOOKMARK [2][-]{subsection.8.2}{Chart history}{section.8}% 53
+\BOOKMARK [2][-]{subsection.8.3}{Possibility to add new chart types}{section.8}% 54
+\BOOKMARK [2][-]{subsection.8.4}{Reuse code in charts}{section.8}% 55
+\BOOKMARK [2][-]{subsection.8.5}{ChartHelper class}{section.8}% 56
+\BOOKMARK [2][-]{subsection.8.6}{languages}{section.8}% 57
+\BOOKMARK [2][-]{subsection.8.7}{Testing}{section.8}% 58
+\BOOKMARK [1][-]{section.9}{Charts}{}% 59
+\BOOKMARK [2][-]{subsection.9.1}{Bug fixes}{section.9}% 60
+\BOOKMARK [3][-]{subsubsection.9.1.1}{Type of data}{subsection.9.1}% 61
+\BOOKMARK [3][-]{subsubsection.9.1.2}{Errors}{subsection.9.1}% 62
+\BOOKMARK [3][-]{subsubsection.9.1.3}{Boring bugs}{subsection.9.1}% 63
+\BOOKMARK [2][-]{subsection.9.2}{Aesthetics}{section.9}% 64
+\BOOKMARK [2][-]{subsection.9.3}{Testing}{section.9}% 65
+\BOOKMARK [1][-]{section.10}{Security}{}% 66
+\BOOKMARK [2][-]{subsection.10.1}{User Input}{section.10}% 67
+\BOOKMARK [2][-]{subsection.10.2}{Authentication}{section.10}% 68
+\BOOKMARK [1][-]{section.11}{Requirements}{}% 69
+\BOOKMARK [2][-]{subsection.11.1}{Test cases}{section.11}% 70
+\BOOKMARK [2][-]{subsection.11.2}{Functional requirements}{section.11}% 71
+\BOOKMARK [2][-]{subsection.11.3}{Nonfunctional requirements}{section.11}% 72
+\BOOKMARK [3][-]{subsubsection.11.3.1}{Usability}{subsection.11.3}% 73
+\BOOKMARK [3][-]{subsubsection.11.3.2}{Swiftness}{subsection.11.3}% 74

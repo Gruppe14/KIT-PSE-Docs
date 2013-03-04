@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  3 MAR 2013 22:48
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2012.10.22)  4 MAR 2013 01:23
 entering extended mode
 **mainTest.tex
 
@@ -911,6 +911,30 @@ Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
 )
 \etb@tempcnta=\count94
 )
+(C:\Users\Jonathan\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
+\lst@mode=\count95
+\lst@gtempboxa=\box27
+\lst@token=\toks21
+\lst@length=\count96
+\lst@currlwidth=\dimen113
+\lst@column=\count97
+\lst@pos=\count98
+\lst@lostspace=\dimen114
+\lst@width=\dimen115
+\lst@newlines=\count99
+\lst@lineno=\count100
+\lst@maxwidth=\dimen116
+
+(C:\Users\Jonathan\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count101
+\lst@skipnumbers=\count102
+\lst@framebox=\box28
+)
+(C:\Users\Jonathan\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg
+File: listings.cfg 2007/02/22 1.4 listings configuration
+))
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
 (C:\Users\Jonathan\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty
 \fancy@headwidth=\skip50
 \f@ncyO@elh=\skip51
@@ -924,23 +948,23 @@ Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
 )
 (C:\Users\Jonathan\AppData\Roaming\MiKTeX\2.9\tex\latex\titlesec\titlesec.sty
 Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
-\ttl@box=\box27
+\ttl@box=\box29
 \beforetitleunit=\skip59
 \aftertitleunit=\skip60
-\ttl@plus=\dimen113
-\ttl@minus=\dimen114
-\ttl@toksa=\toks21
-\titlewidth=\dimen115
-\titlewidthlast=\dimen116
-\titlewidthfirst=\dimen117
+\ttl@plus=\dimen117
+\ttl@minus=\dimen118
+\ttl@toksa=\toks22
+\titlewidth=\dimen119
+\titlewidthlast=\dimen120
+\titlewidthfirst=\dimen121
 )
 (C:\Users\Jonathan\AppData\Roaming\MiKTeX\2.9\tex\latex\enumitem\enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip61
-\enit@outerparindent=\dimen118
-\enit@toks=\toks22
-\enit@inbox=\box28
-\enitdp@description=\count95
+\enit@outerparindent=\dimen122
+\enit@toks=\toks23
+\enit@inbox=\box30
+\enitdp@description=\count103
 )
 ("C:\Program Files\Programmieren\Latex\MiKTeX\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
@@ -956,8 +980,8 @@ File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 )
-\Gin@req@height=\dimen119
-\Gin@req@width=\dimen120
+\Gin@req@height=\dimen123
+\Gin@req@width=\dimen124
 ) ("C:\Program Files\Programmieren\Latex\MiKTeX\tex\latex\hyperref\hyperref.sty
 "
 Package: hyperref 2012/10/15 v6.83k Hypertext links for LaTeX
@@ -1012,15 +1036,15 @@ Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 ("C:\Program Files\Programmieren\Latex\MiKTeX\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
-\@linkdim=\dimen121
-\Hy@linkcounter=\count96
-\Hy@pagecounter=\count97
+\@linkdim=\dimen125
+\Hy@linkcounter=\count104
+\Hy@pagecounter=\count105
  ("C:\Program Files\Programmieren\Latex\MiKTeX\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2012/10/15 v6.83k Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count98
+\Hy@SavedSpaceFactor=\count106
 ("C:\Program Files\Programmieren\Latex\MiKTeX\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
@@ -1032,16 +1056,16 @@ Package hyperref Info: Plain pages OFF on input line 4337.
 Package hyperref Info: Backreferencing OFF on input line 4342.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4567.
-\c@Hy@tempcnt=\count99
+\c@Hy@tempcnt=\count107
 ("C:\Program Files\Programmieren\Latex\MiKTeX\tex\latex\ltxmisc\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4920.
-\XeTeXLinkMargin=\dimen122
-\Fld@menulength=\count100
-\Field@Width=\dimen123
-\Fld@charsize=\dimen124
+\XeTeXLinkMargin=\dimen126
+\Fld@menulength=\count108
+\Field@Width=\dimen127
+\Fld@charsize=\dimen128
 Package hyperref Info: Hyper figures OFF on input line 6174.
 Package hyperref Info: Link nesting OFF on input line 6179.
 Package hyperref Info: Hyper index ON on input line 6182.
@@ -1051,17 +1075,17 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6199.
 Package hyperref Info: PDF/A mode OFF on input line 6204.
 LaTeX Info: Redefining \ref on input line 6244.
 LaTeX Info: Redefining \pageref on input line 6248.
-\Hy@abspage=\count101
-\c@Item=\count102
-\c@Hfootnote=\count103
+\Hy@abspage=\count109
+\c@Item=\count110
+\c@Hfootnote=\count111
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 ("C:\Program Files\Programmieren\Latex\MiKTeX\tex\latex\hyperref\hpdftex.def"
 File: hpdftex.def 2012/10/15 v6.83k Hyperref driver for pdfTeX
-\Fld@listcount=\count104
-\c@bookmark@seq@number=\count105
+\Fld@listcount=\count112
+\c@bookmark@seq@number=\count113
 
 ("C:\Program Files\Programmieren\Latex\MiKTeX\tex\latex\oberdiek\rerunfilecheck
 .sty"
@@ -1099,35 +1123,35 @@ Test Phase\Sections/9Performance.aux")
 Test Phase\Sections/12Security.aux")
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
 Test Phase\Sections/ARequirements.aux"))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 79.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 79.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 81.
 
 ("C:\Program Files\Programmieren\Latex\MiKTeX\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 79.
-LaTeX Font Info:    Try loading font information for MDA+cmr on input line 79.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 81.
+LaTeX Font Info:    Try loading font information for MDA+cmr on input line 81.
 
 (C:\Users\Jonathan\AppData\Roaming\MiKTeX\2.9\tex\latex\mathdesign\mdacmr.fd
 File: mdacmr.fd 
 )
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Try loading font information for T1+fav on input line 79.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Try loading font information for T1+fav on input line 81.
 
 (C:\Users\Jonathan\AppData\Roaming\MiKTeX\2.9\tex\latex\arev\t1fav.fd
 File: t1fav.fd 2006/05/30 Fontinst v1.929 font definitions for T1/fav.
@@ -1168,20 +1192,21 @@ File: t1fav.fd 2006/05/30 Fontinst v1.929 font definitions for T1/fav.
 
 (C:\Users\Jonathan\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count106
-\scratchdimen=\dimen125
-\scratchbox=\box29
-\nofMPsegments=\count107
-\nofMParguments=\count108
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count109
-\MPscratchDim=\dimen126
-\MPnumerator=\count110
-\makeMPintoPDFobject=\count111
-\everyMPtoPDFconversion=\toks24
+\scratchcounter=\count114
+\scratchdimen=\dimen129
+\scratchbox=\box31
+\nofMPsegments=\count115
+\nofMParguments=\count116
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count117
+\MPscratchDim=\dimen130
+\MPnumerator=\count118
+\makeMPintoPDFobject=\count119
+\everyMPtoPDFconversion=\toks25
 )
-\AtBeginShipoutBox=\box30
-Package hyperref Info: Link coloring ON on input line 79.
+\c@lstlisting=\count120
+\AtBeginShipoutBox=\box32
+Package hyperref Info: Link coloring ON on input line 81.
  ("C:\Program Files\Programmieren\Latex\MiKTeX\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/07/31 v2.42 Cross-referencing by name of section
 
@@ -1189,11 +1214,11 @@ Package: nameref 2012/07/31 v2.42 Cross-referencing by name of section
 ng.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count112
+\c@section@level=\count121
 )
-LaTeX Info: Redefining \ref on input line 79.
-LaTeX Info: Redefining \pageref on input line 79.
-LaTeX Info: Redefining \nameref on input line 79.
+LaTeX Info: Redefining \ref on input line 81.
+LaTeX Info: Redefining \pageref on input line 81.
+LaTeX Info: Redefining \nameref on input line 81.
 
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
 Test Phase\mainTest.out")
@@ -1283,14 +1308,14 @@ File: uzavm.fd 2006/05/30 Fontinst v1.929 font definitions for U/zavm.
 LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <9> not available
 (Font)              Font shape `T1/fav/b/n' tried instead on input line 11.
 
-<Pictures/KIT-Logo.png, id=271, 501.875pt x 250.9375pt>
+<Pictures/KIT-Logo.png, id=299, 501.875pt x 250.9375pt>
 File: Pictures/KIT-Logo.png Graphic file (type png)
 
 <use Pictures/KIT-Logo.png>
 Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 24.
 (pdftex.def)             Requested size: 128.03653pt x 64.01692pt.
 
-<Pictures/WHAT-LogoText2.png, id=273, 2293.56876pt x 1049.9225pt>
+<Pictures/WHAT-LogoText2.png, id=301, 2293.56876pt x 1049.9225pt>
 File: Pictures/WHAT-LogoText2.png Graphic file (type png)
 
 <use Pictures/WHAT-LogoText2.png>
@@ -1313,7 +1338,7 @@ LaTeX Font Info:    Font shape `T1/fav/bx/n' in size <14.4> not available
 )
 File: Pictures/KIT-Logo.png Graphic file (type png)
  <use Pictures/KIT-Logo.png>
-Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 90.
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 92.
 (pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
 
 
@@ -1329,11 +1354,11 @@ Package Fancyhdr Warning: \headheight is too small (17.0pt):
 ]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
 Test Phase\mainTest.toc"
-<Pictures/WHAT-Logo.png, id=329, 2293.56876pt x 850.17625pt>
+<Pictures/WHAT-Logo.png, id=357, 2293.56876pt x 850.17625pt>
 File: Pictures/WHAT-Logo.png Graphic file (type png)
 
 <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 71.
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 72.
 (pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
  [3
 
@@ -1343,7 +1368,7 @@ Test Phase/Pictures/WHAT-Logo.png>])
 File: Pictures/KIT-Logo.png Graphic file (type png)
 
 <use Pictures/KIT-Logo.png>
-Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 93.
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 95.
 (pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
  [4]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
@@ -1371,7 +1396,7 @@ Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 46.
 ])
 File: Pictures/KIT-Logo.png Graphic file (type png)
  <use Pictures/KIT-Logo.png>
-Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 96.
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 98.
 (pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
  [6]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
@@ -1387,7 +1412,7 @@ Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 53.
 ])
 File: Pictures/KIT-Logo.png Graphic file (type png)
  <use Pictures/KIT-Logo.png>
-Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 98.
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 100.
 (pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
  [8]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
@@ -1411,44 +1436,36 @@ Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 95.
 File: Pictures/WHAT-Logo.png Graphic file (type png)
 
 <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 99.
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 101.
 (pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
  [11]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
 Test Phase\Sections/4Parser.tex"
-LaTeX Font Info:    Try loading font information for T1+fvm on input line 27.
+LaTeX Font Info:    Try loading font information for T1+fvm on input line 37.
 
 (C:\Users\Jonathan\AppData\Roaming\MiKTeX\2.9\tex\latex\bera\t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
 
-LaTeX Warning: Reference `FileHelper' on page 12 undefined on input line 29.
+LaTeX Warning: Reference `FileHelper' on page 12 undefined on input line 39.
 
 File: Pictures/KIT-Logo.png Graphic file (type png)
 <use Pictures/KIT-Logo.png>
-Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 46.
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 49.
 (pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
  [12
 
 
 ]
-Underfull \vbox (badness 2142) has occurred while \output is active []
-
 File: Pictures/WHAT-Logo.png Graphic file (type png)
-
-<use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 91.
+ <use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 101.
 (pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
- [13]
-Overfull \hbox (49.12086pt too wide) in paragraph at lines 110--111
-[][]\T1/fav/m/sc/10.95 negativePoolsize - parse 10 lines, pool-size -2 -> Er-ro
-r #1: Parser-Me-di-a-tor.poolsizeParsing
- []
-
-)
+ [13])
 File: Pictures/KIT-Logo.png Graphic file (type png)
- <use Pictures/KIT-Logo.png>
-Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 100.
+
+<use Pictures/KIT-Logo.png>
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 102.
 (pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
  [14]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
@@ -1464,118 +1481,91 @@ Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 63.
 File: Pictures/KIT-Logo.png Graphic file (type png)
 
 <use Pictures/KIT-Logo.png>
-Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 101.
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 103.
 (pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
  [16]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
 Test Phase\Sections/6DataAccess.tex"
-Underfull \vbox (badness 1622) has occurred while \output is active []
+Underfull \vbox (badness 1221) has occurred while \output is active []
 
 File: Pictures/WHAT-Logo.png Graphic file (type png)
 
 <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 67.
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 60.
 (pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
  [17
 
 
 ]
-Underfull \vbox (badness 3189) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: Pictures/KIT-Logo.png Graphic file (type png)
 
 <use Pictures/KIT-Logo.png>
-Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 115.
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 99.
 (pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
- [18])
+ [18]
 File: Pictures/WHAT-Logo.png Graphic file (type png)
  <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 102.
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 156.
 (pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
- [19]
-("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
-Test Phase\Sections/7Web.tex")
+ [19])
 File: Pictures/KIT-Logo.png Graphic file (type png)
- <use Pictures/KIT-Logo.png>
+
+<use Pictures/KIT-Logo.png>
 Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 104.
 (pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
- [20
-
-
-]
+ [20]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
-Test Phase\Sections/8Charts.tex"
-
-! Package inputenc Error: Unicode char \u8:äge not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.45 TODO wie zB nicht viele einträge
-                                      in barchart
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char \u8:äll not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.47 falls dir noch was einfäll
-                               t
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+Test Phase\Sections/7Web.tex"
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: Pictures/WHAT-Logo.png Graphic file (type png)
+
 <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 49.
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 36.
 (pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
  [21
 
 
-])
+]
+Overfull \hbox (9.87013pt too wide) in paragraph at lines 38--45
+\T1/fav/m/sc/10.95 be added dy-nam-i-cally. But then we wanted to reuse the cod
+e from bub-blechart&scatterplot
+ []
+
+
+Overfull \hbox (8.23355pt too wide) in paragraph at lines 61--66
+[]\T1/fav/m/sc/10.95 The play frame-work it-self sup-ports UTF-8 en-coded strin
+gs, so dif-fer-ent lan-guages shouldn't
+ []
+
+)
 File: Pictures/KIT-Logo.png Graphic file (type png)
  <use Pictures/KIT-Logo.png>
 Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 106.
 (pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
  [22]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
-Test Phase\Sections/9Performance.tex")
+Test Phase\Sections/8Charts.tex"
 File: Pictures/WHAT-Logo.png Graphic file (type png)
  <use Pictures/WHAT-Logo.png>
-Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 108.
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 51.
 (pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
  [23
 
 
-]
-("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
-Test Phase\Sections/12Security.tex"
-! Undefined control sequence.
-l.1 \Section
-            {Security}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-)
+])
 File: Pictures/KIT-Logo.png Graphic file (type png)
- <use Pictures/KIT-Logo.png>
-Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 109.
+
+<use Pictures/KIT-Logo.png>
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 108.
 (pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
- [24
+ [24]
+No file Sections/9Performance.tex.
 
-
-]
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
-Test Phase\Sections/ARequirements.tex")
+Test Phase\Sections/12Security.tex")
 File: Pictures/WHAT-Logo.png Graphic file (type png)
  <use Pictures/WHAT-Logo.png>
 Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 111.
@@ -1583,9 +1573,29 @@ Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 111.
  [25
 
 
+
+
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 114.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 114.
+("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
+Test Phase\Sections/ARequirements.tex"
+Underfull \vbox (badness 8000) has occurred while \output is active []
+
+File: Pictures/KIT-Logo.png Graphic file (type png)
+
+<use Pictures/KIT-Logo.png>
+Package pdftex.def Info: Pictures/KIT-Logo.png used on input line 54.
+(pdftex.def)             Requested size: 48.37263pt x 24.18391pt.
+ [26
+
+
+])
+File: Pictures/WHAT-Logo.png Graphic file (type png)
+ <use Pictures/WHAT-Logo.png>
+Package pdftex.def Info: Pictures/WHAT-Logo.png used on input line 113.
+(pdftex.def)             Requested size: 62.88295pt x 23.29883pt.
+ [27]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 116.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 116.
 
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
 Test Phase\mainTest.aux"
@@ -1615,17 +1625,11 @@ Test Phase\Sections/9Performance.aux")
 Test Phase\Sections/12Security.aux")
 ("F:\Eigene Dateien\Jo\Studium\Informatik\PSE\GitRepository\KIT-PSE-Docs\LaTeX 
 Test Phase\Sections/ARequirements.aux"))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 114.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 114.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 116.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 116.
+Package rerunfilecheck Info: File `mainTest.out' has not changed.
+(rerunfilecheck)             Checksum: A2046EFBAE42F4C3E1745FF218C52054;4836.
 
-
-Package rerunfilecheck Warning: File `mainTest.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `mainTest.out':
-(rerunfilecheck)             Before: 44B1466FEB6A2158DC558A2CCF69CE2B;4321
-(rerunfilecheck)             After:  9ACCCDF83EDBC12F4ABE7BCDA134F329;4195.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -1634,29 +1638,23 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 10367 strings out of 493921
- 162366 string characters out of 3140856
- 268018 words of memory out of 3000000
- 13223 multiletter control sequences out of 15000+200000
+ 12019 strings out of 493921
+ 184119 string characters out of 3140856
+ 310473 words of memory out of 3000000
+ 14807 multiletter control sequences out of 15000+200000
  38396 words of font info for 62 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 45i,15n,47p,773b,435s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{subsection.9.6} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.9.5} has been referenced but does not ex
-ist, replaced by a fixed one
-
-{C:/Program Files/Programmieren/Latex/MiKTeX/fonts/enc/dvips/fontname/8r.enc} <
-C:\Users\Jonathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\t
-crm1095.pk><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/are
-v/ArevSans-Bold.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1/p
-ublic/arev/ArevSans-Oblique.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/f
-onts/type1/public/arev/ArevSans-Roman.pfb><C:/Users/Jonathan/AppData/Roaming/Mi
-KTeX/2.9/fonts/type1/bera/fvmr8a.pfb>
-Output written on mainTest.pdf (25 pages, 602277 bytes).
+ 45i,15n,47p,773b,993s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/Programmieren/Latex/MiKTeX/fonts/enc/dvips/fontname/8r.enc}
+ <C:\Users\Jonathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
+\tcrm1095.pk><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1/public/a
+rev/ArevSans-Bold.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9/fonts/type1
+/public/arev/ArevSans-Oblique.pfb><C:/Users/Jonathan/AppData/Roaming/MiKTeX/2.9
+/fonts/type1/public/arev/ArevSans-Roman.pfb><C:/Users/Jonathan/AppData/Roaming/
+MiKTeX/2.9/fonts/type1/bera/fvmr8a.pfb>
+Output written on mainTest.pdf (27 pages, 622129 bytes).
 PDF statistics:
- 561 PDF objects out of 1000 (max. 8388607)
- 143 named destinations out of 1000 (max. 500000)
- 552 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 668 PDF objects out of 1000 (max. 8388607)
+ 201 named destinations out of 1000 (max. 500000)
+ 608 words of extra memory for PDF output out of 10000 (max. 10000000)
 
