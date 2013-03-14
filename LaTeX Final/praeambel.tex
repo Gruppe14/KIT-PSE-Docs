@@ -1,0 +1,55 @@
+\mode<presentation> {
+  \usetheme{Rochester}
+  \usecolortheme[named=Dandelion]{structure}
+  \setbeamercovered{dynamic}
+}
+
+% Sprache und Zeichnsatz
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+ 
+% font definitions, try \usepackage{ae} instead of the following
+% three lines if you don't like this look
+\usepackage[scaled=.90]{helvet}
+\usepackage{courier}
+
+% Definitionen fÃ¼r den Mathe-Modus
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsthm}
+
+\usepackage{pifont}
+
+\usepackage[T1]{fontenc}
+
+% Titelseiteninformationen
+
+\title{\Huge{Design phase}}
+\subtitle{\Large{Presentation}}
+\author[Jo Klawitter]{Jonathan, Lukas, Alex, Niko, Anas}
+%\institute{KIT, Fakultät für Informatik}
+\date{\today}
+
+ 
+% This is only inserted into the PDF information catalog. 
+\subject{Design phase - Presentation}
+
+% Logo rechts unten einbinden
+\pgfdeclareimage[height=0.6cm]{university-logo}{Pictures/WHAT-Logo.png}
+\logo{\pgfuseimage{university-logo}}
+
+
+% Farbe des Beispielblocks Ã¤ndern
+\setbeamercolor{example text}{fg=RedOrange}
+\setbeamercolor{block title}{fg=white, bg=Dandelion}
+
+ 
+% Abschalten der unteren Symbolleiste:
+\beamertemplatenavigationsymbolsempty
+
+% If you wish to uncover everything in a step-wise fashion, uncomment
+% the following command:
+%\beamerdefaultoverlayspecification{<+->}
+
+% Including pictures
+\usepackage{graphicx}
